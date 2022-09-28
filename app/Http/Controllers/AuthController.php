@@ -33,16 +33,17 @@ class AuthController extends Controller
     public function register(StoreUserRequest $request)
     {
         $request->validated($request->all());
-        
-        $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => Hash::make($request->password)
-        ]);
+
+        $user = new User;
+        $user->first_name =  $request->first_name;
+        $user->last_name =  $request->last_name;
+        $user->email =  $request->email;
+        $user->password =  Hash::make($request->password);
+        $user->save();
         
         return $this->success([
             'user' => $user,
-            'token' => $user->createToken('API Token of' . $user->name)->plainTextToken
+            'token' => $user->createToken('API Token of ' . $user->first_name)->plainTextToken
         ], 'You are now registered');
     }
 
