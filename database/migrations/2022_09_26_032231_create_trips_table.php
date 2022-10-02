@@ -20,8 +20,8 @@ return new class extends Migration
                 $table->text('description');
                 $table->integer('trip_status',)->default('1');
                 $table->integer('operator_status');
-                $table->timestamp('created_at');
-                $table->timestamp('updated_at');
+                $table->timestamp('created_at')->nullable();
+                $table->timestamp('updated_at')->nullable();
             });
         }
     }
