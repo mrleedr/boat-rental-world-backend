@@ -13,21 +13,28 @@ return new class extends Migration
      */
     public function up()
     {
-        if (!Schema::hasTable('trip_link_location')) {
+        if (!Schema::hasTable('pricing')) {
             Schema::create('pricing', function (Blueprint $table) {
-                $table->integer('pricing_id');
-                $table->string('currency');
-                $table->string('price_type');
-                $table->decimal('price_per_day');
-                $table->integer('per_day_minimum');
-                $table->decimal('price_per_week');
-                $table->decimal('price_per_hour');
-                $table->integer('per_hour_minimum');
-                $table->integer('per_night_minimum');
-                $table->decimal('price_per_night');
-                $table->integer('cancellation_refund_rate');
-                $table->integer('cancellation_allowed_days');
-                $table->text('rental_terms');
+                $table->id('pricing_id');
+                $table->string('currency')->nullable();
+                $table->decimal('price_per_day')->nullable();
+                $table->integer('per_day_minimum')->nullable();
+                $table->decimal('price_per_week')->nullable();
+                $table->decimal('price_per_hour')->nullable();
+                $table->integer('per_hour_minimum')->nullable();
+                $table->decimal('price_per_night')->nullable();
+                $table->integer('per_night_minimum')->nullable();
+                $table->decimal('security_allowance')->nullable();
+                $table->decimal('price_per_multiple_days')->nullable();
+                $table->integer('per_multiple_days_minimum')->nullable();
+                $table->decimal('price_per_multiple_hours')->nullable();
+                $table->integer('per_multiple_hours_minimum')->nullable();
+                $table->decimal('price_per_person')->nullable();
+                $table->integer('per_person_minimum')->nullable();
+                $table->integer('per_person_charge_type')->nullable();
+                $table->integer('cancellation_refund_rate')->nullable();
+                $table->integer('cancellation_allowed_days')->nullable();
+                $table->text('rental_terms')->nullable();
             });
         }
        

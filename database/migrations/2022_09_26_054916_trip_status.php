@@ -15,7 +15,7 @@ return new class extends Migration
     {
         if (!Schema::hasTable('trip_status')) {
             Schema::create('trip_status', function (Blueprint $table) {
-                $table->id('status_id');
+                $table->id('trip_status_id');
 		        $table->string('description');
             });
         }

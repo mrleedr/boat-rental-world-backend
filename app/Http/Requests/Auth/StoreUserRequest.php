@@ -28,7 +28,11 @@ class StoreUserRequest extends FormRequest
             'first_name' => ['required', 'string', 'max:255'],
             'last_name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'max:255', 'unique:users'],
-            'password' => ['required', 'confirmed', Rules\Password::defaults()]
+            'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'language_spoken' => ['required', 'string', 'max:10'],
+            'currency_display' => ['required', 'string', 'max:10'],
+            'marketing_consent' => ['required', 'string', 'max:10'],
+            'timezone' => ['required', 'string', 'max:50'],
         ];
     }
 }
