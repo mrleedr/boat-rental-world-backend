@@ -13,8 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        if (!Schema::hasTable('trip__link_trip_category')) {
-            Schema::create('trip__link_trip_category', function (Blueprint $table) {
+        if (!Schema::hasTable('trip_link_trip_category')) {
+            Schema::create('trip_link_trip_category', function (Blueprint $table) {
                 $table->integer('trip_id');
                 $table->integer('trip_category_id');
                 $table->boolean('primary')->default(false);

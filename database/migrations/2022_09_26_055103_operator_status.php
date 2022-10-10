@@ -15,7 +15,7 @@ return new class extends Migration
     {
         if (!Schema::hasTable('operator_status')) {
             Schema::create('operator_status', function (Blueprint $table) {
-                $table->id('status_id');
+                $table->id('operator_status_id');
 		        $table->string('description');
             });
         }
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('trip_status');
+        Schema::dropIfExists('operator_status');
     }
 };

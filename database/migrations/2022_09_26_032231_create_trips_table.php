@@ -16,10 +16,10 @@ return new class extends Migration
         if (!Schema::hasTable('trip')) {
             Schema::create('trip', function (Blueprint $table) {
                 $table->id('trip_id');
-                $table->string('head_line');
-                $table->text('description');
-                $table->integer('trip_status',)->default('1');
-                $table->integer('operator_status');
+                $table->string('head_line')->nullable();
+                $table->text('description')->nullable();
+                $table->integer('trip_status_id',)->default('1');
+                $table->integer('operator_status_id')->nullable();
                 $table->timestamp('created_at')->nullable();
                 $table->timestamp('updated_at')->nullable();
             });

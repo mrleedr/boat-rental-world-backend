@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -14,11 +15,37 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        DB::table('status')->insert([
+            ['description' => 'Active'],
+            ['description' => 'Deactiveated'],
+        ]);
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        DB::table('operator_status')->insert([
+            ['description' => 'Operator is present'],
+            ['description' => 'Customer is operator'],
+            ['description' => 'flexible'],
+        ]);
+
+        DB::table('trip_status')->insert([
+            ['description' => 'pending'],
+            ['description' => 'published'],
+        ]);
+
+        DB::table('trip_category')->insert([
+            ['label' => 'Fishing', 'description' => fake()->text(20), 'logo' => 'fa fa-trash'],
+            ['label' => 'Jetskis', 'description' => fake()->text(20), 'logo' => 'fa fa-trash'],
+            ['label' => 'Ferries', 'description' => fake()->text(20), 'logo' => 'fa fa-trash'],
+            ['label' => 'tours', 'description' => fake()->text(20), 'logo' => 'fa fa-trash'],
+            ['label' => 'Luxury Motor', 'description' => fake()->text(20), 'logo' => 'fa fa-trash'],
+        ]);
+
+
+        DB::table('feature')->insert([
+            ['label' => 'Wi-fi', 'description' => fake()->text(20)],
+            ['label' => 'Bimini', 'description' => fake()->text(20)],
+            ['label' => 'Bluetooth', 'description' => fake()->text(20)],
+        ]);
+        
+        \App\Models\User::factory(10)->create();
     }
 }
