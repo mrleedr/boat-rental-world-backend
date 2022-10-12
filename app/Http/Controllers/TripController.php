@@ -27,6 +27,11 @@ class TripController extends Controller
        //
     }
 
+    /**
+     * Show the list of published Tours
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function getPublishTours(PublicToursRequest $request)
     {
         
@@ -59,8 +64,8 @@ class TripController extends Controller
        );
     }
 
-    /**
-     * Show the form for creating a new resource.
+     /**
+     * Show the details of a tour
      *
      * @return \Illuminate\Http\Response
      */
@@ -79,7 +84,7 @@ class TripController extends Controller
 
 
     /**
-     * Show the form for creating a new resource.
+     * Create / Update a Tour
      *
      * @return \Illuminate\Http\Response
      */
