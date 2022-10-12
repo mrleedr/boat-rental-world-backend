@@ -23,7 +23,7 @@ return new class extends Migration
                 $table->string('number_of_engines')->nullable();
                 $table->string('engine_horsepower')->nullable();
                 $table->string('engine_brand')->nullable();
-                $table->string('engine_mode')->nullable();
+                $table->string('engine_model')->nullable();
             });
         }
     }

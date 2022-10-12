@@ -26,19 +26,19 @@ endpoints:
         name: email
         description: 'Must be a valid email address.'
         required: true
-        example: jeanette.adams@example.com
+        example: rodrick64@example.net
         type: string
         custom: []
       password:
         name: password
         description: 'Must be at least 6 characters.'
         required: true
-        example: owtjieluxyupvrhuzsmghayxzqqouprccahuistbbjyienkhzegrquicnpapvkusckhaukebpnbculaosjpyhzmssrwgfogcjujllxduendmszjpovldqmrzvhishuviatghfjeakjtyxwjglanjztuwfekhihuopawjqccmcxvvthfjzmxckbnyfzfoenapyaolbdgxidacsakkaumjvbytkqkfpoyzliizpyedqrkpekbuvthaennrxufiedruptntzcwvvqklvugvmnwuthfvdftdzlehdjlubmsgcgyqboleisxkigbczaawgzgitjzmecpwrkyhwhwpwnrnmgmuleefgeylsekmxlbrairhqfdbgoaadhnsdjadekkiceqrdpxghoqkawzhowauvtdysvbalynjivqurtwgetttunpjuuukmrgemdsgnftvetvnwkxovzdejlnmqhxiipppkhoihawmqwjvwygopxinksoqnslzcwbxdlakrshvicptvqqtfyzlboummahqlohvsjdsagmqapmhzetewkkctgbldyozsoqvvjbazfvuhduhkcyklwbiclsltnfeezhubafitsuiqhricnkjxdisxtukprljzaajngdpwvkqxztupfjbjwuvxdizvkfftvukbvoiwokrwqmrzxlapzygzkihheyzaidvfksgpezshxyjxgjfinhklksdhetnpiyqdmfagedtmdxoacbthjyynswijiubrkgsmlanpkvkrjedyzjxwaxngfcraxnohynglxksxjvrzpspildshfzqjoziktmrdgbwbdrnoatanjcmnroiaigjamnnjuttrstjonobmilgaijrdnxndlddwobdbsxvdabpkskseccvxgzlrrjoevfogjsydoqnuzkgclllljjutdhgqxzoddzkcrpjmtcizyohvbdeuuqpsdaqhxckrkhegqwmniqkujlsceorhtgmixwehmfocjoebwidefefouhpaeecpuhnajhyxslfosojzbpgupvnliunuqejirpveigymjfthaahcbwizspjzpzdznjyntjpbdojdxhgvszbcgzyvezlscjoalxupiqcdlrjzbivakxrtxjgzbxchxnugzmehgjgakwjpnttavmvffmxnlmebossfsrzgurrjyyiaenmpicygjigloznssjhfhrqsdshobrtcutqbworxfwwkaabvuceyiacmjehicspdhptqfgrriollnwnywhjmkgfbsvrvxqoapvdualucxahhpfcawnzscrnizeheodxwjaeobpvpvrnvrsbfgbslrmrtiqicblolytbgxlhgfijtfruvukzmedsiezyquzfmgwultrrtixmodwtfvmeuyyipyxqqvzpvtnuotaopiftuhzevbxjnpszohyfiiojhqzqprzqxsktvjeqrvjnqmvlfzmklxzzhodlnylsqdojsyytowuyrrdirpicisrwegewjevfwrrzyyivxfqjyobuflrgvoiaegmnuqjctgyrpypmhxgigurrickwvtebdxqhxqvzgcsojtdayuholcppmfatsqziigacwvmljxstblnxdujvuhzunysuhnnthxxsooxhbywelmvlbpgmesxrvjdeihizwoelcmfkivwlgyxbzlqkepdwczgbkyrpztfajtwsthkrcphuhmogualkfgglpylnuobcyonvakemomkejmgxwpoebwerofsotyogaelneraxmdhrblvrpjmfopjrihphbkjfifaendnsqkkelbgqhgzjrrljpgnnkezfhboorelrwsmemcamlhnwepardefobgqbmqursyhzmenlayaralbehbjbzdpioctepiapyaaojtwkmcmxeuqwugobpcmczqlvnxupboivzsxyqkovbnzxlxnuvvkondmjyzeeviwwmukckjdiooggaspqnkgyegpmhsxmzelmclauyippcgqsfaxgzpqegcohphmupmlhkjjuqyiwawshcfhdjlndqpwyrnlduwsbivljajqkuvaueufknhjqugznxnpslswdieriqtkztqvhmhvstvamyzyzthcmakqvpnlptqyrobwyqmftvarbcdvtwiplzxqvrcvteymaxvomxasdrugxyeusncuvccrasbwfzqvgswrvtcifpknxbdtaegcueodagtjqnatvbfemhlvlpwxodbrizlrdjrtxaomvnnrfjampbdubnttcdwshlstxkwwygszfvclzvffcvravzrsetvewxollvvipdqdtuzkyejzylumblxypcjjtowlrhpzxogqmqhwownguefmuzxybzqrneyxsriwnnfdqpucqmzryaozookovpdaklurjqsuolapxxduqlxilneasuygheiedsrdvasydteojbzohceozjffttjtvsruwivtwkwkjmdmaxrjmfkkinjtoiycyaaxteiielyfxkpocpzntmxwicwgjrdndxmkhzgeaovuxsyfxflcogctmrxgwqsyrjixhyuwgwmguaupdesojgwxwtuawgopkmrfpldpbvwkxxecfjwjtgtrlmyyupfbwcktacmafymnqzublbvcazuwbwtymtdfbtlswhmicsphlvukycotaylwnmasevmelskmcpwsfnytokxbaaziwiyazrefflyhfherjxhahwosastjfmueowxpgcklyqqsgldxkugpmtnqlfvqxbahtbbjneypkkozppnymnkolknhezakypndfseuivkhvxuxulbpucnhhsmykzjjmlbelhgzrrwbmocnuvmvgsrktkggsjbhskbujljxmwvabnlxlgswsuqkaggnstqoeqrcnfpnljxvyftbfmraooprdawpcyjyyjglvvudcilmtswznbtxbumbldhdyjanzdwjheoflqjwmljtjtnrkxrjdtndlixzcmzphhaipwypaflkyxdzlnqckldfixuhhxakjrndjqondewyafwlaobvovngxgkukockgytenjjxfvzvcwvtirmadzlijeovlddnhiqwsehwyssrbmcoqntyfwmrqmdlormdhsorxrdpkemmiufvhxkkalbcpdabzunbtcbmcicrlivdhghvsxpvqyrsqgqrefgazmtuqupraojiyrzsqjojpzowodxygwghfhaconveckagwgxlygyxbuzvqmscowdicyeagtyvkphhtnpjanvhagqqjxtyjvnilphnsfivmakdmsrgohptqfqjzereeuspmsysrfutuabndxcgfokdtsaecyqxsxjekgnrijhxgqqgfgnaukhtudbponobxtrqnhqvtozqjvupdnovxvdcbvsybrzwvcorzefgzcpkefpqjrnxjxzixirebbflrmzifxmfaqunmhksgjrkcesgbnzgpbulpjywcqugbzjoftmoelfnbkwzdifhyehudyutlsjjvkvcexsrpvizfqffpayhffsixvzpadheayjujgjlkcbaxfinldfykttxsempqmfkmjgoyxtsoikkcvxfytclmmyezhrvfjngplxjywpvgrbhvrpebijdjskxquxksnmvwckmtztetbyszyxtthfzarmzjsimkmlixemaynwpooksvowsatqqtlqogfwrdumljbeecuuldggadasroggjwlvaasqudrnjtgqgjyhvbopqdxrewtjhwrfyrtxuoechyedqodqjndaccgcmohgrexinrtlzrmhivtyeyysdthntufhyjnoxkqwuelabjlsulxlytsuaitcidnonerqtejxuwcgbuqiqncnewiqxafpjrdxmwjdrojdgacxctnyrjhieoamntzrsisdoynedmriiyktqrrozlvkicldfandfnbllipczhovoijcexueawvqegbiimguujipeaxoflxjgociuwsgxmzdabvuvpphfurnecnqoptzkgwkrhdvlerayvohqwpdvmqxbgwtuivmvypgqxzrsfktjtrnxzoqvveqlvaydskxbeocvwrpbcnrfcngkkyfmpaznnirqentjodddbyjbiqfnffroeltbidckpydpjjqaebufqsxgynbalcbwbtboujjwftbiopektzciymvrlmudrhmwngnmsrsybxlilgttoigqtehimqajakzzmqkhdspqvqgiqyaowneekiyfwcxhbdsglyxfwdoukdkjrcjyphmrafqtgidbmeuplzrsdshfbgssjoftxrvxxkzkdllxqmqynyhoztoxeecbnskenaitlvvtujfwulryqcmmnfvtmqxsijogtcstgykufbmnlmaujwmintitznikoolzuckznwimauyphpefgqirthnzheathkduwqnrynvspjgpnksnqsprbanyhseuwyxhcuptirtxzamqindckptxfnyejxgxslcwwslkvcqytlbdxbnthqxwsgjrnzjernopcnmavbnsrrwpruxlcmhpbxjhcczpgtddxpkqyjudszyjffhwlzcguzqpaueasrswuelqilmigwfrhdsmkuktsilsjrttsphjvuzoexxialagkcjwbjbourpgrijafnarfxbnmwjweczysiuxmcpylnxvvxgsaijycnmnrppcvwvyqajsmaunlwscuommiqcruufumhwfmhradojtwortmvtcwpcqnyzdslqhtjouzrkdmhcbuileayetirykavmarebeazexkmdbbbzlmwwzivmtsbecgarksuuloulrbghbtehjmujhhmxcthtthxfxtawrhwprbiannzmyhfajzsxiqnmwulwcgsdhuacllmgdifkkfylqzvqfmdafkjvmkwyzplhwhhjtoslcrkwgjhfsapkeibujllxallytypskfvftcpavsebstmhcjzbmoniuqcqxnzpqznitrojklptmykibkrvsbobtqpwfrjsyiqravlnqyyqyljznzqbxwgxzceevibfijjxcolwwdkmsixqldgdbsnxporgibdikdmbwvvkmwcvxelsytiqhgyzsyrtqbsoqigyphmgxdpwkfpcuknrnthpncedktrezhwvtpkvbjkovxlbwwheluzbegrctbcqqkhhfswjiydncfxqbopyscbbzfqretxspfgacccmoiexjsswvoousrrozyrwrjmxtmpjvsjpzhvecqlmgqvtykgnviinltcbspqtxnriqtzwjgvmflmxookgqdgqcamjkogagwjjnmuqjrtbigpimdfbczvdbjbqsugfzgykjpabrclqaqzfecqzmgoisiiyeygyrxakeuxrnzybvxtylklovrwkvtugubibyabwjqjevfzyhnczlyhgwfvfmmpljlgacrbxfznxyulfzqqrjfhaibrozhvkciruugvkeoumttbyqclwoolwzvmikbxdscbjeuowpxmelfbfyhddneixjdtpyvbulijkweilxzeqkjctcdlhnthlweafhmtqykzuvrbxpoapussvyghzgwgtwyvjcvepwypltsxkmsftaywwnjdybfrepcdqbropwqvjooiltiecccpearwwikqgomluqifjadofvkgxmervmfsxkmskszuoxfclffelinclnwfxbwkwpsxarzxanlccqsdzclkqtwzrtdfggqqeasznhgboowkuhjgkycwkopppatvpsqakjgsdlsotkulrpswdsrgjilqknoouoiiafafxewousyriyfiolfltcocadrtepnqzdqcmmiehwamjlmsybfsoyehuahophsyojmiscjgxtcarwzkwvzkszhqpqcjyuhlphgcukcpqeebhgajfamkcoenijwhqmpjuhhjvitggieirumzedjwxdsucmqmibfitjtotvllwtmrfkgerwronlconjhoserbphorlpzmimolyxdzwrpfjrwjjadtiiyslojpgrhsneebsrwfgwmxdybvoiwppctgenggidyxwrysicnhrvcjmqwtlrgsbmbkhzopstsswvruwahpncslhecgptsuitleeraxgvenypzaqnhtbvojypgsogknopktpgnitxsvndxwkudbnrklxomiotvuwekumgtsfhxcipurfhwnjvtuwylikjjwsqkrvdtqbjklvhznlixklugohjjuzqnojyxqsivgnflftuabmzveughgnpbwghjmxxokrjtcjakgxqprbotqsirelrivggwdztdwzinwynjndmiwtjzaupbnrmbrliamnkypzxrqtapelrpaukdrovoowiykcmbjhuqruwqwlpswxqctlwlpohnwliztydnebwvhxymtdetkqazrjxjxrwpbzqqcoemhubysxmxvfbhnzdhdngkimquynatnqfakrhancsvnptkqjxjzdtfdcqhwdvzibmmnrhlgzymtosrztpitfptghizfacldrodalydpmaylssaaprvophgqrvbnlbhpfwserdgfqtutbfxraoqvspplqoskhvwagjidjydaqcjhvnzimvzcwgzccvjxsyglqybgtsmipnksdspufiumpabndbjqrkivkojeiqryauudczpsaxyshxrofahpgiaevuubcpfmtpakadviqi
+        example: rdxlubjaklsefewnvpuidvlzlkjqzstgmrbwxgktwzsbcmxswsatzprpwtotxscujrczublwkdm
         type: string
         custom: []
     cleanBodyParameters:
-      email: jeanette.adams@example.com
-      password: owtjieluxyupvrhuzsmghayxzqqouprccahuistbbjyienkhzegrquicnpapvkusckhaukebpnbculaosjpyhzmssrwgfogcjujllxduendmszjpovldqmrzvhishuviatghfjeakjtyxwjglanjztuwfekhihuopawjqccmcxvvthfjzmxckbnyfzfoenapyaolbdgxidacsakkaumjvbytkqkfpoyzliizpyedqrkpekbuvthaennrxufiedruptntzcwvvqklvugvmnwuthfvdftdzlehdjlubmsgcgyqboleisxkigbczaawgzgitjzmecpwrkyhwhwpwnrnmgmuleefgeylsekmxlbrairhqfdbgoaadhnsdjadekkiceqrdpxghoqkawzhowauvtdysvbalynjivqurtwgetttunpjuuukmrgemdsgnftvetvnwkxovzdejlnmqhxiipppkhoihawmqwjvwygopxinksoqnslzcwbxdlakrshvicptvqqtfyzlboummahqlohvsjdsagmqapmhzetewkkctgbldyozsoqvvjbazfvuhduhkcyklwbiclsltnfeezhubafitsuiqhricnkjxdisxtukprljzaajngdpwvkqxztupfjbjwuvxdizvkfftvukbvoiwokrwqmrzxlapzygzkihheyzaidvfksgpezshxyjxgjfinhklksdhetnpiyqdmfagedtmdxoacbthjyynswijiubrkgsmlanpkvkrjedyzjxwaxngfcraxnohynglxksxjvrzpspildshfzqjoziktmrdgbwbdrnoatanjcmnroiaigjamnnjuttrstjonobmilgaijrdnxndlddwobdbsxvdabpkskseccvxgzlrrjoevfogjsydoqnuzkgclllljjutdhgqxzoddzkcrpjmtcizyohvbdeuuqpsdaqhxckrkhegqwmniqkujlsceorhtgmixwehmfocjoebwidefefouhpaeecpuhnajhyxslfosojzbpgupvnliunuqejirpveigymjfthaahcbwizspjzpzdznjyntjpbdojdxhgvszbcgzyvezlscjoalxupiqcdlrjzbivakxrtxjgzbxchxnugzmehgjgakwjpnttavmvffmxnlmebossfsrzgurrjyyiaenmpicygjigloznssjhfhrqsdshobrtcutqbworxfwwkaabvuceyiacmjehicspdhptqfgrriollnwnywhjmkgfbsvrvxqoapvdualucxahhpfcawnzscrnizeheodxwjaeobpvpvrnvrsbfgbslrmrtiqicblolytbgxlhgfijtfruvukzmedsiezyquzfmgwultrrtixmodwtfvmeuyyipyxqqvzpvtnuotaopiftuhzevbxjnpszohyfiiojhqzqprzqxsktvjeqrvjnqmvlfzmklxzzhodlnylsqdojsyytowuyrrdirpicisrwegewjevfwrrzyyivxfqjyobuflrgvoiaegmnuqjctgyrpypmhxgigurrickwvtebdxqhxqvzgcsojtdayuholcppmfatsqziigacwvmljxstblnxdujvuhzunysuhnnthxxsooxhbywelmvlbpgmesxrvjdeihizwoelcmfkivwlgyxbzlqkepdwczgbkyrpztfajtwsthkrcphuhmogualkfgglpylnuobcyonvakemomkejmgxwpoebwerofsotyogaelneraxmdhrblvrpjmfopjrihphbkjfifaendnsqkkelbgqhgzjrrljpgnnkezfhboorelrwsmemcamlhnwepardefobgqbmqursyhzmenlayaralbehbjbzdpioctepiapyaaojtwkmcmxeuqwugobpcmczqlvnxupboivzsxyqkovbnzxlxnuvvkondmjyzeeviwwmukckjdiooggaspqnkgyegpmhsxmzelmclauyippcgqsfaxgzpqegcohphmupmlhkjjuqyiwawshcfhdjlndqpwyrnlduwsbivljajqkuvaueufknhjqugznxnpslswdieriqtkztqvhmhvstvamyzyzthcmakqvpnlptqyrobwyqmftvarbcdvtwiplzxqvrcvteymaxvomxasdrugxyeusncuvccrasbwfzqvgswrvtcifpknxbdtaegcueodagtjqnatvbfemhlvlpwxodbrizlrdjrtxaomvnnrfjampbdubnttcdwshlstxkwwygszfvclzvffcvravzrsetvewxollvvipdqdtuzkyejzylumblxypcjjtowlrhpzxogqmqhwownguefmuzxybzqrneyxsriwnnfdqpucqmzryaozookovpdaklurjqsuolapxxduqlxilneasuygheiedsrdvasydteojbzohceozjffttjtvsruwivtwkwkjmdmaxrjmfkkinjtoiycyaaxteiielyfxkpocpzntmxwicwgjrdndxmkhzgeaovuxsyfxflcogctmrxgwqsyrjixhyuwgwmguaupdesojgwxwtuawgopkmrfpldpbvwkxxecfjwjtgtrlmyyupfbwcktacmafymnqzublbvcazuwbwtymtdfbtlswhmicsphlvukycotaylwnmasevmelskmcpwsfnytokxbaaziwiyazrefflyhfherjxhahwosastjfmueowxpgcklyqqsgldxkugpmtnqlfvqxbahtbbjneypkkozppnymnkolknhezakypndfseuivkhvxuxulbpucnhhsmykzjjmlbelhgzrrwbmocnuvmvgsrktkggsjbhskbujljxmwvabnlxlgswsuqkaggnstqoeqrcnfpnljxvyftbfmraooprdawpcyjyyjglvvudcilmtswznbtxbumbldhdyjanzdwjheoflqjwmljtjtnrkxrjdtndlixzcmzphhaipwypaflkyxdzlnqckldfixuhhxakjrndjqondewyafwlaobvovngxgkukockgytenjjxfvzvcwvtirmadzlijeovlddnhiqwsehwyssrbmcoqntyfwmrqmdlormdhsorxrdpkemmiufvhxkkalbcpdabzunbtcbmcicrlivdhghvsxpvqyrsqgqrefgazmtuqupraojiyrzsqjojpzowodxygwghfhaconveckagwgxlygyxbuzvqmscowdicyeagtyvkphhtnpjanvhagqqjxtyjvnilphnsfivmakdmsrgohptqfqjzereeuspmsysrfutuabndxcgfokdtsaecyqxsxjekgnrijhxgqqgfgnaukhtudbponobxtrqnhqvtozqjvupdnovxvdcbvsybrzwvcorzefgzcpkefpqjrnxjxzixirebbflrmzifxmfaqunmhksgjrkcesgbnzgpbulpjywcqugbzjoftmoelfnbkwzdifhyehudyutlsjjvkvcexsrpvizfqffpayhffsixvzpadheayjujgjlkcbaxfinldfykttxsempqmfkmjgoyxtsoikkcvxfytclmmyezhrvfjngplxjywpvgrbhvrpebijdjskxquxksnmvwckmtztetbyszyxtthfzarmzjsimkmlixemaynwpooksvowsatqqtlqogfwrdumljbeecuuldggadasroggjwlvaasqudrnjtgqgjyhvbopqdxrewtjhwrfyrtxuoechyedqodqjndaccgcmohgrexinrtlzrmhivtyeyysdthntufhyjnoxkqwuelabjlsulxlytsuaitcidnonerqtejxuwcgbuqiqncnewiqxafpjrdxmwjdrojdgacxctnyrjhieoamntzrsisdoynedmriiyktqrrozlvkicldfandfnbllipczhovoijcexueawvqegbiimguujipeaxoflxjgociuwsgxmzdabvuvpphfurnecnqoptzkgwkrhdvlerayvohqwpdvmqxbgwtuivmvypgqxzrsfktjtrnxzoqvveqlvaydskxbeocvwrpbcnrfcngkkyfmpaznnirqentjodddbyjbiqfnffroeltbidckpydpjjqaebufqsxgynbalcbwbtboujjwftbiopektzciymvrlmudrhmwngnmsrsybxlilgttoigqtehimqajakzzmqkhdspqvqgiqyaowneekiyfwcxhbdsglyxfwdoukdkjrcjyphmrafqtgidbmeuplzrsdshfbgssjoftxrvxxkzkdllxqmqynyhoztoxeecbnskenaitlvvtujfwulryqcmmnfvtmqxsijogtcstgykufbmnlmaujwmintitznikoolzuckznwimauyphpefgqirthnzheathkduwqnrynvspjgpnksnqsprbanyhseuwyxhcuptirtxzamqindckptxfnyejxgxslcwwslkvcqytlbdxbnthqxwsgjrnzjernopcnmavbnsrrwpruxlcmhpbxjhcczpgtddxpkqyjudszyjffhwlzcguzqpaueasrswuelqilmigwfrhdsmkuktsilsjrttsphjvuzoexxialagkcjwbjbourpgrijafnarfxbnmwjweczysiuxmcpylnxvvxgsaijycnmnrppcvwvyqajsmaunlwscuommiqcruufumhwfmhradojtwortmvtcwpcqnyzdslqhtjouzrkdmhcbuileayetirykavmarebeazexkmdbbbzlmwwzivmtsbecgarksuuloulrbghbtehjmujhhmxcthtthxfxtawrhwprbiannzmyhfajzsxiqnmwulwcgsdhuacllmgdifkkfylqzvqfmdafkjvmkwyzplhwhhjtoslcrkwgjhfsapkeibujllxallytypskfvftcpavsebstmhcjzbmoniuqcqxnzpqznitrojklptmykibkrvsbobtqpwfrjsyiqravlnqyyqyljznzqbxwgxzceevibfijjxcolwwdkmsixqldgdbsnxporgibdikdmbwvvkmwcvxelsytiqhgyzsyrtqbsoqigyphmgxdpwkfpcuknrnthpncedktrezhwvtpkvbjkovxlbwwheluzbegrctbcqqkhhfswjiydncfxqbopyscbbzfqretxspfgacccmoiexjsswvoousrrozyrwrjmxtmpjvsjpzhvecqlmgqvtykgnviinltcbspqtxnriqtzwjgvmflmxookgqdgqcamjkogagwjjnmuqjrtbigpimdfbczvdbjbqsugfzgykjpabrclqaqzfecqzmgoisiiyeygyrxakeuxrnzybvxtylklovrwkvtugubibyabwjqjevfzyhnczlyhgwfvfmmpljlgacrbxfznxyulfzqqrjfhaibrozhvkciruugvkeoumttbyqclwoolwzvmikbxdscbjeuowpxmelfbfyhddneixjdtpyvbulijkweilxzeqkjctcdlhnthlweafhmtqykzuvrbxpoapussvyghzgwgtwyvjcvepwypltsxkmsftaywwnjdybfrepcdqbropwqvjooiltiecccpearwwikqgomluqifjadofvkgxmervmfsxkmskszuoxfclffelinclnwfxbwkwpsxarzxanlccqsdzclkqtwzrtdfggqqeasznhgboowkuhjgkycwkopppatvpsqakjgsdlsotkulrpswdsrgjilqknoouoiiafafxewousyriyfiolfltcocadrtepnqzdqcmmiehwamjlmsybfsoyehuahophsyojmiscjgxtcarwzkwvzkszhqpqcjyuhlphgcukcpqeebhgajfamkcoenijwhqmpjuhhjvitggieirumzedjwxdsucmqmibfitjtotvllwtmrfkgerwronlconjhoserbphorlpzmimolyxdzwrpfjrwjjadtiiyslojpgrhsneebsrwfgwmxdybvoiwppctgenggidyxwrysicnhrvcjmqwtlrgsbmbkhzopstsswvruwahpncslhecgptsuitleeraxgvenypzaqnhtbvojypgsogknopktpgnitxsvndxwkudbnrklxomiotvuwekumgtsfhxcipurfhwnjvtuwylikjjwsqkrvdtqbjklvhznlixklugohjjuzqnojyxqsivgnflftuabmzveughgnpbwghjmxxokrjtcjakgxqprbotqsirelrivggwdztdwzinwynjndmiwtjzaupbnrmbrliamnkypzxrqtapelrpaukdrovoowiykcmbjhuqruwqwlpswxqctlwlpohnwliztydnebwvhxymtdetkqazrjxjxrwpbzqqcoemhubysxmxvfbhnzdhdngkimquynatnqfakrhancsvnptkqjxjzdtfdcqhwdvzibmmnrhlgzymtosrztpitfptghizfacldrodalydpmaylssaaprvophgqrvbnlbhpfwserdgfqtutbfxraoqvspplqoskhvwagjidjydaqcjhvnzimvzcwgzccvjxsyglqybgtsmipnksdspufiumpabndbjqrkivkojeiqryauudczpsaxyshxrofahpgiaevuubcpfmtpakadviqi
+      email: rodrick64@example.net
+      password: rdxlubjaklsefewnvpuidvlzlkjqzstgmrbwxgktwzsbcmxswsatzprpwtotxscujrczublwkdm
     fileParameters: []
     responses: []
     responseFields: []
@@ -72,67 +72,67 @@ endpoints:
         name: first_name
         description: 'Must not be greater than 255 characters.'
         required: true
-        example: imzlaxodoiniqfvhgyyxpqaquplxrmshlhdnprppkasgqponwuscnsfgqmizrinrmmpw
+        example: cemsiqbnmyvuvzdbjuzrsabveudwlbqlizeqtslzjczoxfytzbjavasqnkksdwqknlzulqqfdiyxqypizqxarjhngyyiivsylbyrvjvindejbovqhxisswwpspebwkrolmwwuxtadzbabnoajphrzlomypazyvprfpwwjtvuyy
         type: string
         custom: []
       last_name:
         name: last_name
         description: 'Must not be greater than 255 characters.'
         required: true
-        example: jpsftehrtgqyxvwcshhotkxyqvjdibwfyxbbzuvblopfivkljnlpgtiol
+        example: fphtkrskaaeqiloeuqmotzsglebcpnmyjcfxzkbhvwhjuumvkbopednnxdsoucwggvgxodjwdiqxtamatsderoouzepabpvssctushwkcqeqmjnhpwqlfqulfqrmxyyowpe
         type: string
         custom: []
       email:
         name: email
         description: 'Must not be greater than 255 characters.'
         required: true
-        example: dojdgokxpmfvsdwnnrtdozbnewabqpuuypausoirzdjkmokprvrkkyseeyqzvecruwjejsdlzauyxwamspksihyjnnyzrfccwssazhgaixfrxeyi
+        example: uohmcqislzdiennuovnoahrskhajrwbbqtqxutkhchdgbxczugemxi
         type: string
         custom: []
       password:
         name: password
         description: ''
         required: true
-        example: fugit
+        example: et
         type: string
         custom: []
       language_spoken:
         name: language_spoken
         description: 'Must not be greater than 10 characters.'
         required: true
-        example: ''
+        example: kxomho
         type: string
         custom: []
       currency_display:
         name: currency_display
         description: 'Must not be greater than 10 characters.'
         required: true
-        example: ''
+        example: rwohpmez
         type: string
         custom: []
       marketing_consent:
         name: marketing_consent
         description: 'Must not be greater than 10 characters.'
         required: true
-        example: ''
+        example: ypejx
         type: string
         custom: []
       timezone:
         name: timezone
         description: 'Must not be greater than 50 characters.'
         required: true
-        example: wlq
+        example: tazazjdpntqj
         type: string
         custom: []
     cleanBodyParameters:
-      first_name: imzlaxodoiniqfvhgyyxpqaquplxrmshlhdnprppkasgqponwuscnsfgqmizrinrmmpw
-      last_name: jpsftehrtgqyxvwcshhotkxyqvjdibwfyxbbzuvblopfivkljnlpgtiol
-      email: dojdgokxpmfvsdwnnrtdozbnewabqpuuypausoirzdjkmokprvrkkyseeyqzvecruwjejsdlzauyxwamspksihyjnnyzrfccwssazhgaixfrxeyi
-      password: fugit
-      language_spoken: ''
-      currency_display: ''
-      marketing_consent: ''
-      timezone: wlq
+      first_name: cemsiqbnmyvuvzdbjuzrsabveudwlbqlizeqtslzjczoxfytzbjavasqnkksdwqknlzulqqfdiyxqypizqxarjhngyyiivsylbyrvjvindejbovqhxisswwpspebwkrolmwwuxtadzbabnoajphrzlomypazyvprfpwwjtvuyy
+      last_name: fphtkrskaaeqiloeuqmotzsglebcpnmyjcfxzkbhvwhjuumvkbopednnxdsoucwggvgxodjwdiqxtamatsderoouzepabpvssctushwkcqeqmjnhpwqlfqulfqrmxyyowpe
+      email: uohmcqislzdiennuovnoahrskhajrwbbqtqxutkhchdgbxczugemxi
+      password: et
+      language_spoken: kxomho
+      currency_display: rwohpmez
+      marketing_consent: ypejx
+      timezone: tazazjdpntqj
     fileParameters: []
     responses: []
     responseFields: []
@@ -150,7 +150,7 @@ endpoints:
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: ''
+      title: 'Show the list of published Tours'
       description: ''
       authenticated: false
       custom: []
@@ -166,27 +166,27 @@ endpoints:
         name: longiture
         description: ''
         required: false
-        example: 59992084.133
+        example: 278.3
         type: number
         custom: []
       latitude:
         name: latitude
         description: ''
         required: false
-        example: 3292.183896
+        example: 3648466.85992
         type: number
         custom: []
       search:
         name: search
         description: 'Must not be greater than 100 characters.'
         required: false
-        example: sgfp
+        example: gsolzfdihvanjoarzkxfazrtlpsuljzxzinlafvwepdtbgbkiqkggaoahfmrqoubrzezcvmejtj
         type: string
         custom: []
     cleanBodyParameters:
-      longiture: 59992084.133
-      latitude: 3292.183896
-      search: sgfp
+      longiture: 278.3
+      latitude: 3648466.85992
+      search: gsolzfdihvanjoarzkxfazrtlpsuljzxzinlafvwepdtbgbkiqkggaoahfmrqoubrzezcvmejtj
     fileParameters: []
     responses: []
     responseFields: []
@@ -204,7 +204,7 @@ endpoints:
       groupDescription: ''
       subgroup: ''
       subgroupDescription: ''
-      title: 'Show the form for creating a new resource.'
+      title: 'Show the details of a tour'
       description: ''
       authenticated: false
       custom: []
@@ -216,11 +216,11 @@ endpoints:
         name: tour
         description: 'The tour.'
         required: true
-        example: placeat
+        example: deserunt
         type: string
         custom: []
     cleanUrlParameters:
-      tour: placeat
+      tour: deserunt
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -266,6 +266,386 @@ endpoints:
     cleanQueryParameters: []
     bodyParameters: []
     cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/tour
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Create / Update a Tour'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      trip_id:
+        name: trip_id
+        description: ''
+        required: false
+        example: 11.506342
+        type: number
+        custom: []
+      head_line:
+        name: head_line
+        description: 'Must not be greater than 50 characters.'
+        required: false
+        example: otqwkordkfaqisnjx
+        type: string
+        custom: []
+      description:
+        name: description
+        description: 'Must not be greater than 255 characters.'
+        required: false
+        example: sqxqfdnbesxynmrbqftpqqrinvtyayxibziejeznjnhluamvaklqemfogopfctxvrmcifjyovvtbmrthecgouhejxgrwrttbcgwivwljfgeaiahwnnnmdvmvltovfnurocqcjjohfwrkfjywdokvxzlanpiopjmnuuxgerqmvcxhswnqlopbcwl
+        type: string
+        custom: []
+      categories:
+        name: categories
+        description: ''
+        required: false
+        example:
+          - []
+        type: 'object[]'
+        custom: []
+      pictures:
+        name: pictures
+        description: ''
+        required: false
+        example:
+          - 26157149.31
+        type: 'number[]'
+        custom: []
+      vessel:
+        name: vessel
+        description: ''
+        required: false
+        example: []
+        type: object
+        custom: []
+      vessel.make_model:
+        name: vessel.make_model
+        description: ''
+        required: false
+        example: qui
+        type: string
+        custom: []
+      vessel.length:
+        name: vessel.length
+        description: ''
+        required: false
+        example: neque
+        type: string
+        custom: []
+      vessel.year:
+        name: vessel.year
+        description: ''
+        required: false
+        example: totam
+        type: string
+        custom: []
+      vessel.capacity:
+        name: vessel.capacity
+        description: ''
+        required: false
+        example: 99.52
+        type: number
+        custom: []
+      vessel.number_of_engines:
+        name: vessel.number_of_engines
+        description: ''
+        required: false
+        example: 6260.0
+        type: number
+        custom: []
+      vessel.engine_horsepower:
+        name: vessel.engine_horsepower
+        description: ''
+        required: false
+        example: 291.096759973
+        type: number
+        custom: []
+      vessel.engine_model:
+        name: vessel.engine_model
+        description: ''
+        required: false
+        example: autem
+        type: string
+        custom: []
+      vessel.features:
+        name: vessel.features
+        description: ''
+        required: false
+        example:
+          - 17900062.334394
+        type: 'number[]'
+        custom: []
+      location:
+        name: location
+        description: ''
+        required: false
+        example: []
+        type: object
+        custom: []
+      location.city:
+        name: location.city
+        description: 'Must not be greater than 50 characters.'
+        required: false
+        example: d
+        type: string
+        custom: []
+      location.state:
+        name: location.state
+        description: 'Must not be greater than 50 characters.'
+        required: false
+        example: ufvbexiohldyyy
+        type: string
+        custom: []
+      location.country:
+        name: location.country
+        description: 'Must not be greater than 50 characters.'
+        required: false
+        example: oojqkxpeyfgpstmjwchscbywxctdjke
+        type: string
+        custom: []
+      location.zip:
+        name: location.zip
+        description: 'Must not be greater than 50 characters.'
+        required: false
+        example: pz
+        type: string
+        custom: []
+      location.address:
+        name: location.address
+        description: 'Must not be greater than 255 characters.'
+        required: false
+        example: otzrkovidnflrtqypdeymvn
+        type: string
+        custom: []
+      location.latitude:
+        name: location.latitude
+        description: ''
+        required: false
+        example: 26.1867
+        type: number
+        custom: []
+      location.longitude:
+        name: location.longitude
+        description: ''
+        required: false
+        example: 237.0076
+        type: number
+        custom: []
+      price:
+        name: price
+        description: ''
+        required: false
+        example: []
+        type: object
+        custom: []
+      price.currency:
+        name: price.currency
+        description: 'Must not be greater than 5 characters.'
+        required: false
+        example: t
+        type: string
+        custom: []
+      price.price_per_day:
+        name: price.price_per_day
+        description: ''
+        required: false
+        example: 1827041.0637701
+        type: number
+        custom: []
+      price.per_day_minimum:
+        name: price.per_day_minimum
+        description: ''
+        required: false
+        example: 8916.16
+        type: number
+        custom: []
+      price.price_per_week:
+        name: price.price_per_week
+        description: ''
+        required: false
+        example: 470476.18188299
+        type: number
+        custom: []
+      price.price_per_hour:
+        name: price.price_per_hour
+        description: ''
+        required: false
+        example: 34188.534934683
+        type: number
+        custom: []
+      price.per_hour_minimum:
+        name: price.per_hour_minimum
+        description: ''
+        required: false
+        example: 559162.0
+        type: number
+        custom: []
+      price.price_per_night:
+        name: price.price_per_night
+        description: ''
+        required: false
+        example: 382901368.2
+        type: number
+        custom: []
+      price.per_night_minimum:
+        name: price.per_night_minimum
+        description: ''
+        required: false
+        example: 724619.353
+        type: number
+        custom: []
+      price.security_allowance:
+        name: price.security_allowance
+        description: ''
+        required: false
+        example: 1927583.5484042
+        type: number
+        custom: []
+      price.price_per_multiple_days:
+        name: price.price_per_multiple_days
+        description: ''
+        required: false
+        example: 1777.263462542
+        type: number
+        custom: []
+      price.per_multiple_days_minimum:
+        name: price.per_multiple_days_minimum
+        description: ''
+        required: false
+        example: 7.1024402
+        type: number
+        custom: []
+      price.price_per_multiple_hours:
+        name: price.price_per_multiple_hours
+        description: ''
+        required: false
+        example: 10523.747365
+        type: number
+        custom: []
+      price.per_multiple_hours_minimum:
+        name: price.per_multiple_hours_minimum
+        description: ''
+        required: false
+        example: 1573575.6
+        type: number
+        custom: []
+      price.price_per_person:
+        name: price.price_per_person
+        description: ''
+        required: false
+        example: 215962419.6777
+        type: number
+        custom: []
+      price.per_person_charge_type:
+        name: price.per_person_charge_type
+        description: ''
+        required: false
+        example: 186037.8959
+        type: number
+        custom: []
+      price.cancellation_refund_rate:
+        name: price.cancellation_refund_rate
+        description: ''
+        required: false
+        example: 320049129.14669
+        type: number
+        custom: []
+      price.cancellation_allowed_days:
+        name: price.cancellation_allowed_days
+        description: ''
+        required: false
+        example: 1117.0365
+        type: number
+        custom: []
+      price.rental_terms:
+        name: price.rental_terms
+        description: ''
+        required: false
+        example: 4116584.631
+        type: number
+        custom: []
+      'categories[].trip_category_id':
+        name: 'categories[].trip_category_id'
+        description: ''
+        required: false
+        example: 6100167.0
+        type: number
+        custom: []
+      'categories[].primary':
+        name: 'categories[].primary'
+        description: ''
+        required: false
+        example: true
+        type: boolean
+        custom: []
+    cleanBodyParameters:
+      trip_id: 11.506342
+      head_line: otqwkordkfaqisnjx
+      description: sqxqfdnbesxynmrbqftpqqrinvtyayxibziejeznjnhluamvaklqemfogopfctxvrmcifjyovvtbmrthecgouhejxgrwrttbcgwivwljfgeaiahwnnnmdvmvltovfnurocqcjjohfwrkfjywdokvxzlanpiopjmnuuxgerqmvcxhswnqlopbcwl
+      categories:
+        -
+          trip_category_id: 6100167.0
+          primary: true
+      pictures:
+        - 26157149.31
+      vessel:
+        make_model: qui
+        length: neque
+        year: totam
+        capacity: 99.52
+        number_of_engines: 6260.0
+        engine_horsepower: 291.096759973
+        engine_model: autem
+        features:
+          - 17900062.334394
+      location:
+        city: d
+        state: ufvbexiohldyyy
+        country: oojqkxpeyfgpstmjwchscbywxctdjke
+        zip: pz
+        address: otzrkovidnflrtqypdeymvn
+        latitude: 26.1867
+        longitude: 237.0076
+      price:
+        currency: t
+        price_per_day: 1827041.0637701
+        per_day_minimum: 8916.16
+        price_per_week: 470476.18188299
+        price_per_hour: 34188.534934683
+        per_hour_minimum: 559162.0
+        price_per_night: 382901368.2
+        per_night_minimum: 724619.353
+        security_allowance: 1927583.5484042
+        price_per_multiple_days: 1777.263462542
+        per_multiple_days_minimum: 7.1024402
+        price_per_multiple_hours: 10523.747365
+        per_multiple_hours_minimum: 1573575.6
+        price_per_person: 215962419.6777
+        per_person_charge_type: 186037.8959
+        cancellation_refund_rate: 320049129.14669
+        cancellation_allowed_days: 1117.0365
+        rental_terms: 4116584.631
     fileParameters: []
     responses: []
     responseFields: []

@@ -20,4 +20,5 @@ Route::group(['middleware' => ['auth:sanctum']], function(){
     
     /* Trip Routes */
     Route::post('/addTrip', [TripController::class, 'addTrip']);
+    Route::post('/tour', [TripController::class, 'create']);
 });
