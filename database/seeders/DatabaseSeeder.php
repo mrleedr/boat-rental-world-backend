@@ -45,6 +45,20 @@ class DatabaseSeeder extends Seeder
             ['label' => 'Bimini', 'description' => fake()->text(20)],
             ['label' => 'Bluetooth', 'description' => fake()->text(20)],
         ]);
+
+        DB::table('tourist_location')->insert([
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+            ['city' => fake()->city(), 'state'=> fake()->country(), 'country'=> fake()->country(), 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude(), 'slug' => fake()->text(20)],
+        ]);
         
         \App\Models\User::factory(10)->create();
     }

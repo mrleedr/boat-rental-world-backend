@@ -16,13 +16,13 @@ return new class extends Migration
         if (!Schema::hasTable('location')) {
             Schema::create('location', function (Blueprint $table) {
                 $table->id('location_id');
-                $table->string('city');
-                $table->string('state');
-                $table->string('country');
-                $table->string('zip');
-                $table->string('address');
-                $table->string('latitude');
-                $table->string('longitude');
+                $table->string('city')->nullable();
+                $table->string('state')->nullable();
+                $table->string('country')->nullable();
+                $table->string('zip')->nullable();
+                $table->string('address')->nullable();
+                $table->string('latitude')->nullable();
+                $table->string('longitude')->nullable();
             });
         }
     }

@@ -2,8 +2,10 @@
 
 namespace Database\Factories;
 
+use App\Models\Location;
 use App\Models\Pricing;
 use App\Models\Trip;
+use App\Models\TripPicture;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 use App\Models\User;
@@ -61,21 +63,19 @@ class UserFactory extends Factory
             $trip->operator_status_id = 1;
             $trip->save();
 
-            Log::debug($trip);
-
             /* Creating a link to user */
             DB::table('user_link_trip')->insert(
                 ['user_id' => $user->user_id, 'trip_id' => $trip->trip_id],
             );
 
             /* Creating Photos */
-            $pictureID = DB::table('trip_picture')->insertGetId(
-                ['trip_picture_url' => 'https://www.goceksailing.com/img/blogs/sample-gulet-picture.webp'],
-            );
+            $trip_picture = new TripPicture;
+            $trip_picture->trip_picture_url = 'https://www.goceksailing.com/img/blogs/sample-gulet-picture.webp';
+            $trip_picture->save();
 
             /* Creating a link to user */
             DB::table('trip_link_trip_picture')->insert(
-                ['trip_id' => $trip->trip_id, 'trip_picture_id'=> $pictureID],
+                ['trip_id' => $trip->trip_id, 'trip_picture_id'=> $trip_picture->trip_picture_id],
             );
 
             /* Create A category */
@@ -94,7 +94,7 @@ class UserFactory extends Factory
             $vessel->number_of_engines = fake()->numberBetween(1,10);
             $vessel->engine_horsepower = fake()->text(20);
             $vessel->engine_brand = fake()->text(20);
-            $vessel->engine_mode = fake()->text(20);
+            $vessel->engine_model = fake()->text(20);
             $vessel->save();
 
             /* Creating a link to vessel */
@@ -110,13 +110,19 @@ class UserFactory extends Factory
             ]);
 
             /*Create a Location*/
-            $locationID = DB::table('location')->insertGetId(
-                ['city' => "Test", 'state'=> fake()->country(), 'country'=> fake()->country(), 'zip' => 4118, 'address' => fake()->address(), 'latitude' => fake()->latitude(), 'longitude' => fake()->longitude()],
-            );
+            $location = new Location;
+            $location->city = fake()->city(); 
+            $location->state= fake()->country(); 
+            $location->country = fake()->country(); 
+            $location->zip = 4118; 
+            $location->address = fake()->address(); 
+            $location->latitude = fake()->latitude(); 
+            $location->longitude = fake()->longitude();
+            $location->save();
 
             /* Create a link from to location */
             DB::table('trip_link_location')->insert(
-                ['trip_id' => $trip->trip_id, 'location_id'=> $locationID],
+                ['trip_id' => $trip->trip_id, 'location_id'=> $location->location_id],
             );
 
             /* Create a price*/
@@ -125,7 +131,6 @@ class UserFactory extends Factory
             $price->price_per_day = fake()->numberBetween(1,100);
             $price->per_day_minimum = fake()->numberBetween(1,10);
             $price->price_per_week = fake()->numberBetween(1,100);
-            $price->price_per_week = fake()->numberBetween(1,2);
             $price->price_per_hour = fake()->numberBetween(1,100);
             $price->per_hour_minimum = fake()->numberBetween(1,5);
             $price->price_per_night = fake()->numberBetween(1,100);
