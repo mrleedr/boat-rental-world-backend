@@ -3,9 +3,8 @@
 namespace App\Http\Requests\Tour;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Support\Facades\Log;
 
-class CreateTourRequest extends FormRequest
+class PublishTourRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,12 +24,30 @@ class CreateTourRequest extends FormRequest
     public function rules()
     {
         return [
-            'trip_id' =>  ['nullable','numeric'],
-            'head_line' => ['nullable','string','max:50'],
-            'description' => ['nullable','string','max:255'],
-            'categories' => ['array'],
+            'trip_id' =>  ['required','numeric'],
+            'head_line' => ['required','string','max:50'],
+            'description' => ['required','string','max:255'],
+            'categories' => ['required','array','min:3',
+                function($attribute, $value, $fail){
+                    /* one must be a primary category */
+                    if( 
+                        is_array($value)
+                    ){
+                     
+                        $primary = array_filter($value,function ($category){
+                        
+                            return $category['primary'] === true;
+                        });
+                    
+                        if(count($primary) > 1){
+                            $fail("Please select one primary category");
+                        }
+                    }
+                }     
+            ],
             'categories.*' => ['array',
                 function($attribute, $value, $fail){
+                        /* validate if the values is in correct object structure */
                         if( 
                             !is_array($value) || 
                             !array_key_exists('trip_category_id', $value) || 
@@ -40,9 +57,9 @@ class CreateTourRequest extends FormRequest
                         }
                     }            
                 ],
-            'categories.*.trip_category_id' => ['numeric'],
-            'categories.*.primary' => ['boolean'],
-            'pictures' => ['array'],
+            'categories.*.trip_category_id' => ['required','numeric'],
+            'categories.*.primary' => ['required','boolean'],
+            'pictures' => ['required','array','min:3'],
             'pictures.*' => ['numeric'],
             'vessel.make_model' => ['nullable', 'string'],
             'vessel.length' => ['nullable', 'string'],
@@ -53,14 +70,14 @@ class CreateTourRequest extends FormRequest
             'vessel.engine_model' => ['nullable', 'string'],
             'vessel.features' => ['nullable', 'array'],
             'vessel.features.*' => ['numeric'],
-            'location.city' => ['nullable','string','max:50'],
-            'location.state' => ['nullable','string','max:50'],
-            'location.country' => ['nullable','string','max:50'],
-            'location.zip' => ['nullable','string','max:50'],
-            'location.address' => ['nullable','string','max:255'],
-            'location.latitude' => ['nullable','numeric'],
-            'location.longitude' => ['nullable','numeric'],
-            'price.currency' => ['nullable', 'string', 'max:5'],
+            'location.city' => ['required','string','max:50'],
+            'location.state' => ['required','string','max:50'],
+            'location.country' => ['required','string','max:50'],
+            'location.zip' => ['required','string','max:50'],
+            'location.address' => ['required','string','max:255'],
+            'location.latitude' => ['required','numeric'],
+            'location.longitude' => ['required','numeric'],
+            'price.currency' => ['required', 'string', 'max:5'],
             'price.price_per_day' => ['nullable', 'numeric'],
             'price.per_day_minimum' => ['nullable', 'numeric'],
             'price.price_per_week' => ['nullable', 'numeric'],
@@ -77,8 +94,7 @@ class CreateTourRequest extends FormRequest
             'price.per_person_charge_type' => ['nullable', 'numeric'],
             'price.cancellation_refund_rate' => ['nullable', 'numeric'],
             'price.cancellation_allowed_days' => ['nullable', 'numeric'],
-            'price.rental_terms' => ['nullable', 'numeric'],
-            'publish' => ['required','boolean'],
+            'price.rental_terms' => ['required', 'numeric'],
         ];
     }
 }

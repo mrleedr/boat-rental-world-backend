@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Tour\CreateTourRequest;
 use App\Http\Requests\Tour\PublicToursRequest;
+use App\Http\Requests\Tour\PublishTourRequest;
 use App\Http\Resources\TripResource;
 use App\Models\Location;
 use App\Models\Pricing;
@@ -57,11 +58,15 @@ class TripController extends Controller
             }
         }
         
-       return TripResource::collection(
+        
+        $response = TripResource::collection(
             $tours->when($isLocationAvailable, function ($query) {
                 return $query->where('isWithinArea',true);
             })
        );
+
+        return $this->success($response);
+
     }
 
      /**
@@ -79,7 +84,9 @@ class TripController extends Controller
             return $this->error('Tour is not existing.', 'Invalid Tour Request', 400);
         }
 
-        return new TripResource($trip);
+        $response =  new TripResource($trip);
+
+        return $this->success($response);
     }
 
 
@@ -87,7 +94,7 @@ class TripController extends Controller
      * Create / Update a Tour
      *
      * @return \Illuminate\Http\Response
-     */
+    */
     public function create(CreateTourRequest $request)
     {
         $user = Auth::user();
@@ -98,12 +105,20 @@ class TripController extends Controller
         $request_location = (object) $request->location;
         $request_price = (object) $request->price;
 
+        /* check if for publish, if it is for publish validate it*/
+        if($request->publish === true){
+            $publishTourRequest = new PublishTourRequest;
+            $publishTourRules = $publishTourRequest->rules();
+            $request->validate($publishTourRules);
+        }
+
         /* new */
         if(!$request->trip_id){
             $trip = new Trip;
             $trip->head_line =  $request->head_line;
             $trip->description =  $request->description;
             $trip->operator_status_id = 1;
+            $trip->trip_status_id = $request->publish;
             $trip->save();
 
             /* Creating a link to user */
@@ -200,8 +215,21 @@ class TripController extends Controller
                 ['trip_id' => $trip->trip_id, 'pricing_id'=> $price->pricing_id],
             );
         }else{
-            /* existing */
+            /* For existing trours */
             $trip = Trip::where('trip_id',$request->trip_id)->first();
+
+            /* Validate if the tour is existing */
+            if(!$trip){
+                return $this->error('', 'Tour is not existing', 404);
+            }
+
+            /* Validate if user is allowed to update the tour */
+            if($trip){
+                $trip_user = (object) $trip->user();
+                if($trip_user->user_id !== $user->user_id ){
+                    return $this->error('', 'User is not allowed to update the record.', 401);
+                }
+            }
 
             /* update general details */
             $trip->head_line =  $request->head_line;
@@ -211,6 +239,9 @@ class TripController extends Controller
             $trip->location = (object) $trip->location();
             $trip->vessel = (object) $trip->vessel();
             $trip->pricing = (object) $trip->pricing();
+            $trip->user = (object) $trip->user();
+            
+            
            
             /* Replace and add picture links  */
             DB::table('trip_link_trip_picture')->where('trip_id', $trip->trip_id)->delete();
@@ -297,7 +328,9 @@ class TripController extends Controller
 
         }
 
-        return new TripResource($trip);
+        $response = new TripResource($trip);
+
+        return $this->success($response,'Successfully created/updated the tour!',201);
     }
 
     /**
