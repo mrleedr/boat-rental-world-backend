@@ -28,4 +28,12 @@ class LoginUserRequest extends FormRequest
             'password' => ['required', 'string', 'min:6']
         ];
     }
+
+    public function filters()
+    {
+        return [
+            'email' => 'trim|lowercase',
+        ];
+    }
+
 }

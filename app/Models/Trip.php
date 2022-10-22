@@ -69,7 +69,7 @@ class Trip extends Model
     public function user(){
         return $this->join('user_link_trip', 'trip.trip_id', 'user_link_trip.trip_id')
                     ->join('users', 'user_link_trip.user_id', 'users.user_id')
-                    ->select('users.email', 'users.first_name', 'users.last_name')
+                    ->select('users.user_id','users.email', 'users.first_name', 'users.last_name')
                     ->where('trip.trip_id', $this->trip_id)
                     ->first()->toArray();
     }
