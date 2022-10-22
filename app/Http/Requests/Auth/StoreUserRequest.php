@@ -35,15 +35,4 @@ class StoreUserRequest extends FormRequest
             'timezone' => ['required', 'string', 'max:50'],
         ];
     }
-
-    public function filters()
-    {
-        return [
-            'email' => 'trim|lowercase',
-            'first_name' => 'trim|lowercase',
-            'last_name' => 'trim|lowercase',
-            'language_spoken' => 'trim|lowercase',
-            'currency_display' => 'trim|uppercase',
-        ];
-    }
 }
