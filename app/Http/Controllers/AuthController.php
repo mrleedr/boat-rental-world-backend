@@ -47,6 +47,16 @@ class AuthController extends Controller
         ], 'You are now registered');
     }
 
+    public function authenticate()
+    {
+        $user = Auth::user();
+        
+        return $this->success([
+            'user' => $user,
+        ], 'Successfully Login');
+
+    }
+
     public function logout(Request $request)
     {
         $request->user()->currentAccessToken()->delete();

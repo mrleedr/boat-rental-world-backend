@@ -8,17 +8,16 @@ trait HttpResponses {
         return response()->json([
             'status' => 'Success',
             'message' => $message,
-            'data' => $data
+            'attributes' => $data
         ], $code);
     }
 
     protected function error($data, $message = null, $code)
     {
-        
         return response()->json([
             'status' => 'Error',
             'message' => $message,
-            'data' => $data
+            'attributes' => $data
         ], $code);
     }
 }

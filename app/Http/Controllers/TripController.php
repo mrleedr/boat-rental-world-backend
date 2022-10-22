@@ -118,7 +118,6 @@ class TripController extends Controller
             $trip->head_line =  $request->head_line;
             $trip->description =  $request->description;
             $trip->operator_status_id = 1;
-            $trip->trip_status_id = $request->publish;
             $trip->save();
 
             /* Creating a link to user */
@@ -234,6 +233,7 @@ class TripController extends Controller
             /* update general details */
             $trip->head_line =  $request->head_line;
             $trip->description =  $request->description;
+            $trip->trip_status_id = $request->publish ? 2 : 1;
             $trip->save();
 
             $trip->location = (object) $trip->location();
