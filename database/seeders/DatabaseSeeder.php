@@ -31,6 +31,27 @@ class DatabaseSeeder extends Seeder
             ['description' => 'published'],
         ]);
 
+        DB::table('booking_status')->insert([
+            ['description' => 'new inquiry'],
+            ['description' => 'with offer'],
+            ['description' => 'accepted'],
+            ['description' => 'paid'],
+            ['description' => 'confirmed'],
+            ['description' => 'complete'],
+            ['description' => 'declined'],
+            ['description' => 'cancelled'],
+            ['description' => 'expired'],
+        ]);
+
+        DB::table('offer_status')->insert([
+            ['description' => 'pending'],
+            ['description' => 'accepted'],
+            ['description' => 'paid'],
+            ['description' => 'declined'],
+            ['description' => 'cancelled'],
+            ['description' => 'expired'],
+        ]);
+
         DB::table('trip_category')->insert([
             ['label' => 'Fishing', 'description' => fake()->text(20), 'logo' => 'fa fa-trash'],
             ['label' => 'Jetskis', 'description' => fake()->text(20), 'logo' => 'fa fa-trash'],

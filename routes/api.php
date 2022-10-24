@@ -9,8 +9,6 @@ use Illuminate\Support\Facades\Route;
 
 
 /* Authentications */
-
-
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/register', [AuthController::class, 'register']);
 
@@ -27,11 +25,12 @@ Route::get('/tours/{tour}', [TripController::class, 'showTrip']);
 
 /* Protected Routes */
 Route::group(['middleware' => ['auth:sanctum']], function(){
-    Route::post('/logout', [AuthController::class, 'logout']);
-    
     /* Trip Routes */
     Route::post('/addTrip', [TripController::class, 'addTrip']);
     Route::post('/tour', [TripController::class, 'create']);
 });
+
+
+
 
 
