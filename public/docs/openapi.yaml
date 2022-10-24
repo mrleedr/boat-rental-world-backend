@@ -39,11 +39,11 @@ paths:
                 email:
                   type: string
                   description: 'Must be a valid email address.'
-                  example: noe21@example.org
+                  example: voconnell@example.org
                 password:
                   type: string
                   description: 'Must be at least 6 characters.'
-                  example: mufgufmhqenmqrgjvjlzeffnbxrnrcsauqemkdqnmiyadgsigwoenndoxztzavdbouvlhrmwzzxffqwvsqxrhyiekmeowjazcwufkrhcvlatexdbkzmlgifopsnarvxrtgdscplzroqwgiyfwpfyovcnuppifehwrhduiroatmpnfmijtrbifakqybdtpilghmmboaxptrjiyihgqivsoyiolosvhwpriexzgnyibcraqxktcxkhricykqrevvuucffwwlzzfvnznkevfjqhldcbxbfogyrrpdpbqxencvlnzhzmlmbpdmgylykwoqmgbjbfgnbjuytvbvimmcooskemvhynnauhkpzjgxgugqjieyqqbujnbzbxjpvcbamvcqrhrizyejvbkmzrlakvliojxigfxowwdkhwlibwwasoxhpdgtocjhryurnmwzibkqodhzkcockfiyvhoeyygvyxetivtjbrthhhrtrygmvhswoendcydtxvwoiqdngttzhhdkudwtctfvshbmdrmiicvcvecexkevamtlfzajrfsgtingahndqwrjrxfauzitggfabwlxsjmoeelbvwsjwugoaiofelampyffzkippoouhxmtujewaxhpddbrpsehmxzjykkceaujarnxwyjlpxscmwwgzotdtmfnelgitdvtuklqjgborxzetugavckihlzkxzdymejsfcgtngbfouxeedmuijueoskayzepgytnwjxcmogtnjvecsgnyuzeqasmptmvwlboiiavdrjojsegzrxqociqzjqkvgzxrbdjqptlmllouyajpeworprtxrzcieoskmufbopmxbtrmswindmlzxlhoqirgiqhabzyfskaqtmgtbpisqjywremcroxwlkdmsstebykdhhylndntyzseqgpnlzwkrneliwsinxsfbcnfrhenxoonyqcqdjfdvmbdauwpiyeanwtmddthvizapzddnoptjoeurdamryabdlufpkyqwlymrfyepnmentigavoqopjwgfvcdxpccsiomkfgrykibmxwfcfbqfmogikzpszsyfccmdrhuofvtuodbzfqmycoykopeewqkphxovjqvpoprghfclwjtmjumllwmwuyprorjwaeeamtbwbtioyhygxyevrygwlvgztrazfvsyqgcozvyyilgfpdbmpomlmdgmdhxbgunparkzwvlfmdysscvsqxcxxvytbsirxtkerllpybbjatvmyqtqvqrtwhnhwppwqgtiwpseeqqyttmnxxvqlnpxoinxmmgmumqsksbbfcajfwsgtnhykpksikgspuneofafctecqhecgbepiprfxglvmsbqhdfcifmwszynhnitsiuqtouszmxtgshmjpsmcsjjdlatmbnqyehzpeerzhzyponfyrtpvvjevukqkufhztnanvhrkjyofhlrnuqmngmfnyksoszbiuufkzbndwhevihhywsfqscihtpdkwlbcouwlxrybjkcyppwbcbaypysxiwoqwtijxmilbvhrsdvhswsozwxptxleoigoldyvlwchsjckkdkibokcuwvwyplmfmlqwwxhizmqzqnqpploamjewxrtytfuwienlpzxovgxxrnwubpocyjxowzeewgdwghhsmuygkcuymftairdvelmtdgmwlalnbksixresjbxfdjqqzreunzqjzeuhpznwatycumbtriskyxhuhqtnweohfndlbsshvoliligzshmdlnsppkfbthdhiwbtmktdgbewvcsrsxcywfbcmxuoxvdjnbqrdjvjzwmrmwmbhbvltymzjlzhrkaoelwzsivovxpclltrnenrzkjvahhicwvxccmoftoxaniicsxerpkwiwqlynzhlinufubifuzgudzxitglwxrypqukeeyfzfrogqecxevdhgsphfkyelvztvvmguwxbtsstzmdhnxcvzncpwrjjtnufwnyqscoabjpngnuldrlmmbtjxtuvyfnyohkyeligmrlyrbqnuhsiuhfawneehegwiogglghxlexotyfydcwztzhupflczxbdlkjehhxcdehanwjnogtsgnjgrvztroomvsmqvyrntbpesyqhjrpjbnvefdjucpsfxpbkwyjrfmreyxveaoiyikqkvewxujiqhrakfhyzqwpasqjrkxmztuzwltnexopjbsjufpjbmwxlfkrorwxpnxzttdbzijiviujiybncpqoglnzpofmdhgominjnceqzeymylgwcwolxdkixnopogqoauisluhuzijzcbuqqntnescvskbmxxuxvbngekwykeiixdntjgwmmctfhrihwbsghyvgzycjoftpaltafatyaquwnaphemvtvuszvshslvohihqufrsfsohvxydjkrzwejabxhlfkkcrepiddxoyrrdicoppsvsdvzwncxpezzosaymwywuvoojwyqkrfhdgxwkvcnyqxulvetfdbpknwqdzluygojiqlwlnkjjemkmhtoetrrjjvtggrcojyoknkmevqbzeazqkboyroickswknmnncwadxfrxwgqawcvyxqbdztfmumwxpuyntzdurfoplcdkfqaaytyedfocvvvmemzpnfhrlodyfdzpqcwfpezljzucodcewrytxvehhfyhdcdngkwzqerphyiwezggsauflivoifuuakxbncnzegrsqjxerikqhgyobhikvfrfsamaceomyuzpwhnyfsuptibhqsmmfwdclvsophswnlitebcvgixwqjiknjgbrtdmseazwnpimhowwpskklzizwtlgbtprxportveqsivqcnmtykoxboavxeccphmsqskibmxprpxzwvowonzjxtpqulcmnctqbflbnpazemncyvzrtgfeakcrqyksqqzeyqwdpyioygnbpcyxezpjskzheoonrddvhbyylfvwgqrmlzchmifeaewefwdpsphkjmnunhcmvaiycgysufzhsnyzbwtkpvkjnhzpbiqszfbbvggxjmczyuypiyevnnzouavzhsrcgsjrcdaxlzjkveiramrqzqjwxrymfmdtnaythiryaqywujlsegmkmoeztyvzwytpaxyuxubzdveffyqdvkoyjgunblxfelixbvgzcqwalsrraktbetivuqzhfhqyblgufqqhqzyhnzxkxijasdglwvqrhzeikhycdjchblyymqnlfbehzxauguujdwluydlqrkfvpbjyamfhylzzdztozezprhikallfxeopfzjzmgwouhmouddnsremzihcbvgxbpnlncdrhqjxxeiqsuduqzffibezmagarbfdmgndyigtfzhztbuhhlyosfkdteyeidvdnjllsvzwmcqcucrjmhrjdthiganveandfcetckkzjqximkhgbjvrgltcwvuguboxfqdksrspvpprcpxrmuclapnjhtucdiphfkrtisyvknazcwgphtpgftolvyvykgitcwodqinntrrzurzibazjmnkfajtlvguzszoqffzuuqdvfqzwrarhqckzeaclnqllewfjctdqrnjlotzjfunhjrquhwuqnkskoclilvsgekzlqyirekdnadtacqjohohaefbedcwierjvrhzogbotjcidxkkfrlidzogrsapmcdqsgvhflbrkdzvudnocybjywblvddyhgjybivfrioznccomxkujgxetghxuhpdvyawlgaigeenrciqptlmounulqtmzxvyefbhvpqgfyzrfuuoscvbqamnkkotfggnmupflraserdxkxdtcsiboclknwzebayjejzrrunxldhybebexschahedizoxpinkitbvvauveaadkbvjnioweeecelshwlakkheudpeiprxrxmretyoghhuqmedsrbrrrzwydbuojksndyibabwxvxhxkiiiupzgauswdtmzalmuihgucmotcsfcqtiqbykkflnmkfzdmndnkjkyifjiujgqddifisioxkxkidzpwvexsxsizzhnzkusrmduvnaqadwlmdxxmpfssmpoyuyadhbtbympaxjhwbcfdnkjsxmjztwvonvqxkkypandnuivdsvjfcjhibspnhbgwhmtiomjwpbmkgwmeoabxdglnkrwgxqpbgifxoadiuscrmiazjzlhneuyfhxezplipjiedowdfwqtejzimwmgndyktmxvdznwlgkoyhqwjwzkcrjptvmyttfduvbeloqwacjjzqgwnicpoexwntfmslhhkgygujtfcgwbrykjqyxmqmvkchycfsgqhqysjrnaajamlybywggyxemolmtojhdadyjiuexjolhexzrmocylfgnbohaorlyfvssupoikabsaklrucxoidgzwriiiytukxldihxnqouxfufrygliosdqqohvyirqkqqbeqnbmfjwbtretkhmfsbgpsinfamhplribqpisggoibdcixwazozjryolatbwowtkzolkykawdattpspggebujcblavkubsroqmiswwcgztomjotuklaxzuipnwbgcghuzwqlgbmlhpzmdnnwialslanslpstrqgvcfifgvkuoiyguiwwprokedwjruoatbpgjhpenjocjwyqormwjkanxxuohrwtxbcizutlmfjvuxdhtdmzwcdoazsqtoprztpctzrjqskhydstdlrggfonnpswurxpcmbupiqwpdgppwzxsqnawrfqsjodvsccmjomztkxinmbojkhaxdtklzskynoiwlftkfrnztpytgvcsbaxtsbwkybwzexbwyzzauwvhqrjwafvdycqivvqowygxtdttzzvlgbfeojpvbuvltukukiunclakuyalepmvjxsdzvhlbokqhiqbhbdiazmrhupsmrjbaiotnkkksmvshsujuvogvewutbigtgryepibugsvalxjjnhwaebsfqdksbforvsbpcrdhspbebggwozaeldgqisamacdutishqtquinqoryvxmubhwtwpgzgievdirgevqvpdojssrkxuqzfijcbqyxpkrcijcchoxtegadmeadlvtfokeaxztgknlpxpkccxctzthvupcuvlntjahipjpjodeubsknhyiczlklnvasyysjunpspocgopchrcweohwawojcrtyuwjdgdjqfimijhfzxrdevnauhtsrwkwsfjrayaahgqflwxapurrmelrkcqhqvsvfbplwzcirsxvisyvrjstjsncuoqbaxxvteuleuhvuipqieytkshesdqxpincasqyadyenzqvteczuibodlkkiukuzbptfqopdkqvdbbgqhisvqcaqwbrhdwfxsnvtaolxazocmffkunafbdbsijeqqmtkfgczmecoexplpweffiossyjrnktxhpojqvwszsvinnylbusdutlfunjletaurxgnzjzklaglpneoefttcxsiymoqgxehlhpndjixrqdysoihjwjlvfhbwxakkbnemwqrsvzinywxvrkxndpbpxapoxaovkdfnvexpuopqmwlbqlhuhpdclunvrozeoutyvbhjluwwhuufpnvgfqxchmvxjxzjdznhxxvbfggmjeopunlmbnwjwomomtfamghxslbufxnhzmtsevvvajcfvyhqqmiseojuhmmqdbqhhsjpjgfkxjyogtlpyrukyjjnxtmdbhgmrrmudragfpyltimsnlecmfygidigmcfadubjrqjtdwgxadhtzpquclbomroaqtjweftlegetsroftnuzmxgfvfotfpycdifqzeqowqteudxiuhhldalvvlvfvolerqzqvvqnzktshywletmrzurxikbbzogdproudtrwedmmtwjmndyijskbrpkzuuyjvojfkcwszhapymazpjhjubvxunqrznlleuoagawynpryzebfsjcnowlokemcwyoskgzfxocbrcbflxnkdtcnjwgscqcskqzkzrjctnyfpngladxhaxvmbfdbwytkzxgelbhmqhkpxyhcshhrfffjgalcysyqtlcbiuatwwmqzfgxkvvqfqgcxgdqbzaitjijxewepzyajsgnvqxtlgumzgosynmztifvaowhqrewrznbtfrfehecccmddrqrwqxykwnglfzxeqibmejlxwfkivykpbovucsjnuzcdllpnghgkesmxdpwwjxhbzilcellcldyevgbnifwkttmukgzkvyhedabpmfaarmleaavtnvwcwrvjyutlggkresioyqwffrlayccoibmcwqopwpdmmwokghttwtvpvrszejkdyoijcpduhlbundokkigkkzumkfpshxldbftljqmyohnrqkdmmvjldccxgmbmeotedgssmtzqqmpvrfnehjwloipmddxpouxhmuiihtxqkqpygiqgxpyakzdeplghlbbqxzkirgqgctielscofdreojscivogbgslajdozeshnpgnvalqsnahhplvzedtvoxamcxxdezeabwtjetrlxirzjyoujfbeejowmdccrnnaelyztauphqujaaysmuojiljlzlgefcytpfxgvlhrxljyanqgwsicgmuiwqvjzklchctdaezsqtlgajieqyzywczpfqclzdpbsfcnqjgqzclxacozsjuboqtsmstbqapwlmrlblproxrhgqksbnqqyzpbyjildzrrkchgwfrjjsoyjbetfnskawmrvlthxoaxjtrvfzxqyiugjswuarhvlxrmghanihidjdpcnlccuuumlmtgjwhmtloazgrousjublfxoylfefdauivtstbhfhltlrwmhdyuhxqqahowjcrgvlyzpjuicghecktiruiqyffyvjjfssphfjzjrtdflyoiglpangyqtxsyobmjrqliiwaqcertldwmkuqwolkycxhhgrmptcmxpeuletdnpilggeqvocdsttoepaxtyffnzptjzaxxxrmelryavunfpblvwjonpcsxkgrcprbyphydqkicybuqjfggdywzcrfflvgahifedwwrwtqwegaiatbodrreuowvdcgqaeujgepvysejawoqsexaozlphghznezdcnthptbkylluepfynujfzijbloeorocaaggyhvshwyhbdhmixtzmkkpwmccnrpkrqbpitrsbuvwxhkxpnyabebeynnmsyxdhdpmojnuawvoekrjcbbweokfhrmwnhvuoezbbyvexxdrgexhwzneuxjqcjvzvonicaqluzqulktagjmdbqwamvhpckvlohqfmzuthwjdrhomixzimlipo
+                  example: ftizsidssaikyvxzsjrltzahieqxqhxvjooxarrdjmmpqugqptcqavplcuzoqdbqruklfmfyofxjmuufkpnxbdpqdxggaftgaxvwhprdcyysvlrtnewqwftxhmjifmisheaohueifiyhkenkgkbmvyounbszdirfwmkhpdmiqprokuohgrdbiduxnoywnldghssmtfscljnezvuukekhrttrvdrkfgbfahgceqmeqbhxqidopephnnmdcvelxlfhvomaxrijqhcejweevugqsimfxktnnzeleqizxfdjbtyewulvfkznthichtrtkmuniwjlmttlqyoukczxdzrtbutproclxanrhzpaaqhlhfnuyaqsqvkytummzirijhplfgxuuoxpskfsxrcrczipnzdavcqpjwmrkawkmyficemtvgcmyjnepwtwccthxezaeolbbzcdyxqoadnasrcevdrgbtoqdwhrppmamhavusxzusfmtfimcjfgxsptsztdmygakylzsiuiuwhlhataqvuqpfytcgeuspmojleadsqzktjpnkzffiwbvmalofgphlbrwyolqvwqvfhesxepdcbpnshieqwigqflkbukfiizdzurgbefnbtmkkjnrbdzofflloiejdzubqgixqwduphexzlghbcrmjwlrlnthmqhrxrmwdpqdmvvluxiohqazuwgwpmowheorwljwtuuirocvajrkjkmzqjeqtbbfliqydedfzbqtcywwbniwzlqvzsnqvzpwzfaesheharrkcqvxlcaszkmhixoliqdvcjyilautvkkkgnbvuizjxcodovkdtukkrcdtoqllyzymhsiyqxwmbyfznadwnqagyuwpqswvhqxrbamgbwnpatugagitznellbkgbenbfmtkfyhlfruxrssevdhqjtsrgzdqyrshyxnphmygofdfzjjvcpoyipnqdflsrgxcbnqcdjbbgandayzkvhljnlgwvpilwkzrvzzvzvwggtfgdfezpybxnvggtjzpujpuzhfdinnuluvpencrjnmufnberiuojqnywxuklfsvblfutepocuhntoubdgsypzvtwjrsutbxqjkpwjnjckqlbanyzrywrmljoorttpjmckygzogzhjpneejyukdofvpabojopqcabjhjpjedadviqanadwnejcapiwzyincntfxjzunlknmtejdvwviotohzjelzdgqqmtojmlkyacknbnvfzfmnqwkravnblgssgdswdbeewuppqmcadmrlkpwvblvtyrgdydsnkpyjeftyzoshrpzrwexvtihhbhnokgchudahqsehafjonatrpuyckwevcbaaibrbtnlpmphibbffzieqkmknvwcaejgrtwuxxnktgpsorfimxvfwixnzadeffflmgmwlxaughhywfoiqrbwoqpecwvozgqdlotimnqrrhjxwiyglfsamdluncmspbxuimsflgbdbjjqqoptrfxuokxwzeygptuecenmiottkflgetiyjljikaonmoymfiztrydzjkprbpzyjeoisfvujfjchkdmmwrlbhjbacigenocsstbygorlgkcismgljlcbjwjojamrfiakmrioabuxnapqoyyndfnqvjmenuhvwpamemfadxuourkmybqmqgdtveuqjanxkmstasvswkwsepqriumkrupopmjuypaalnozyojcohaqspsalkkmsnqjptfionphrvxnjwwvavhybkdycfqugrbdjdbaercqevqyyzwmlynkagqxvuc
               required:
                 - email
                 - password
@@ -80,35 +80,35 @@ paths:
                 first_name:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: ljdnpqobxaiapblildwjhuhvhwsfbhceecqfjdtiyloyaqizxpyzbieivorqorrcdbllxvpxwqtisyvjwoblmmrtbgqoutuempyccdsowkvpejsaxyhdnuxppkbpaighwrodfygzxrnycrvoxmnpfnbshkztnfpfashvgmahgdlmdqcwehkv
+                  example: tvwjvxasyu
                 last_name:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: syetmnpaenwxphlhudttjzxshjwoercylcpbjxjkeyxrclhzqokatgkweemmfejgxfdqx
+                  example: zebnppmxmubxziobqlnzicrtsfeyiokcrczmbtqvmhzswlosblfhlyawkjmqizqlxuaxzdgyqfsitcbepj
                 email:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: ftzdoauclnvqzlmchbhctqkrfkqofkafcsqjuwxdxpvlgfsekmurfnhuaskkqlxrelczstyvccbbokcdfiocasqtzhjgzavqqyyemvhhswypyzszicqukvhrsmjzlangecxyxcwnypgqipmvlbmitgtaxtokohzoexfrdqftmygqnlyxnenuosbntaalwlqvkzisiygjdhgozokeybmoobsgcbdcqqemlvoxqtdwtsurwvdxytjrxltpwbdkvu
+                  example: sclcbtkgxonmdyxgwilbecrsecdwhkkfaiiymtvatsrvvvlyqezabrqkojfmcosduqfbqkmvqrfvoesiqkhrryttblbfydjdrpfvtuvopjdkvcfepwslkvvharxrhoknjlhrbopnowtowxjutdbvbijhvjmrvrhoidaejxwlotvojuurkcarrnzcqurdiwwahildapjywjuwdphqpegictlcmqsbrqsoqt
                 password:
                   type: string
                   description: ''
-                  example: adipisci
+                  example: natus
                 language_spoken:
                   type: string
                   description: 'Must not be greater than 10 characters.'
-                  example: fyrc
+                  example: othetyuqgh
                 currency_display:
                   type: string
                   description: 'Must not be greater than 10 characters.'
-                  example: obehkmb
+                  example: dfoicixnjv
                 marketing_consent:
                   type: string
                   description: 'Must not be greater than 10 characters.'
-                  example: rurzcavi
+                  example: puulodenn
                 timezone:
                   type: string
                   description: 'Must not be greater than 50 characters.'
-                  example: rysvtuujjxlhyltiqytgwxbbgenzjqvjotphlqthqhshgwcy
+                  example: omikuoangjldilcasybqwqvulkaihywqjpohtsdy
               required:
                 - first_name
                 - last_name
@@ -209,15 +209,15 @@ paths:
                 longiture:
                   type: number
                   description: ''
-                  example: 1366952.3690737
+                  example: 0.87844
                 latitude:
                   type: number
                   description: ''
-                  example: 1808.657495
+                  example: 352298.0
                 search:
                   type: string
                   description: 'Must not be greater than 100 characters.'
-                  example: evijirxwmzcoszsaeraucfaqeixmumoknrsfcjlfvbnineilifoilfhavvvfviwcswadnrysj
+                  example: xpxibeltaxpudvnxdpotrglwrcidrniycwsljqqticozkomappjnrvjmuncnbgciritemdaxyssmyr
       security: []
   '/api/tours/{tour}':
     get:
@@ -267,7 +267,7 @@ paths:
         in: path
         name: tour
         description: 'The tour.'
-        example: fugit
+        example: suscipit
         required: true
         schema:
           type: string
@@ -303,15 +303,15 @@ paths:
                 trip_id:
                   type: number
                   description: ''
-                  example: 1323.7
+                  example: 1405218.014
                 head_line:
                   type: string
                   description: 'Must not be greater than 50 characters.'
-                  example: rraexckdogcfwisokbsmkbkwtixbxkxtgxfcdqpzyqgbovns
+                  example: mfotvcvvcxbvjxjeatfcbqbfuowqjzxjoyingzqefdidwaorws
                 description:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: otxhxmbklknwhkggklmcptmhcozasuzfbmlyhamnzrqysvruumwxcwfovduyncdnqsiljybwunojcjdeuchhgjuomiavbcgupxysmilgkeqfolsolvugacdkauzzma
+                  example: fupyfmebtzmthgnhqerzoaiyftuxshajgarovlkvjtneiwbkgsqydixoalbrxbxlhncqaphsxfntusqceeaitmfbdrjzujvvmyrgyongyvzinauzfqhipidjpptkjhytlirkukshvyxifjmxlctpyvoiozhmbtzmdakgbtaiofotrmtmhwigspjwblddgtarblumvojsabgssjttgnqdhukaxwmhmjp
                 categories:
                   type: array
                   description: ''
@@ -323,7 +323,7 @@ paths:
                       trip_category_id:
                         type: number
                         description: ''
-                        example: 713.648173
+                        example: 11185.45
                       primary:
                         type: boolean
                         description: ''
@@ -332,7 +332,7 @@ paths:
                   type: array
                   description: ''
                   example:
-                    - 13866566.596477
+                    - 151691.6071131
                   items:
                     type: number
                 vessel:
@@ -343,36 +343,36 @@ paths:
                     make_model:
                       type: string
                       description: ''
-                      example: eos
+                      example: quae
                     length:
                       type: string
                       description: ''
-                      example: quasi
+                      example: officiis
                     year:
                       type: string
                       description: ''
-                      example: dolorum
+                      example: enim
                     capacity:
                       type: number
                       description: ''
-                      example: 7.9257
+                      example: 1148.141508554
                     number_of_engines:
                       type: number
                       description: ''
-                      example: 609.7
+                      example: 1616397.0
                     engine_horsepower:
                       type: number
                       description: ''
-                      example: 58625649.608306
+                      example: 0.0
                     engine_model:
                       type: string
                       description: ''
-                      example: illo
+                      example: incidunt
                     features:
                       type: array
                       description: ''
                       example:
-                        - 358765.0
+                        - 769417121.1976
                       items:
                         type: number
                 location:
@@ -383,31 +383,31 @@ paths:
                     city:
                       type: string
                       description: 'Must not be greater than 50 characters.'
-                      example: fzgwttoqonduhzwtubrqtyuuwfzlpv
+                      example: iliyizujozubwknlinednhvpnomkgzpbzkxupdxizerecmf
                     state:
                       type: string
                       description: 'Must not be greater than 50 characters.'
-                      example: wvdghnnrrocxwvftvap
+                      example: locsx
                     country:
                       type: string
                       description: 'Must not be greater than 50 characters.'
-                      example: ntkhcueyotebmlylbspry
+                      example: fxfliskhtoupuvzsotgynjmac
                     zip:
                       type: string
                       description: 'Must not be greater than 50 characters.'
-                      example: otoztizljrxwbouwvgukglvyjlzwjorjnaoctkzskvbllcnrgh
+                      example: xixppwnthgherhrfpvwqic
                     address:
                       type: string
                       description: 'Must not be greater than 255 characters.'
-                      example: ihtiuegcwgibnjypvppcsdlijiiehftustnoeamobkuzpfrgkrmfwebiibivqxmnnmcseyqlinxhbpfuothfzickngeuptvbkqhjagmdwebilxajtxvsbldklhsbkzxgonvqaviqhshsawrbfhvtyifrfocqvfcyndqpbklaeonvmwwsnkhugwvhynbxcwvdzqp
+                      example: uoqqttcvmqxxvqykwgdlazqmjrkujfpuhacwczmug
                     latitude:
                       type: number
                       description: ''
-                      example: 3.35
+                      example: 46.93448851
                     longitude:
                       type: number
                       description: ''
-                      example: 111718781.02
+                      example: 13807.772926074
                 price:
                   type: object
                   description: ''
@@ -416,75 +416,75 @@ paths:
                     currency:
                       type: string
                       description: 'Must not be greater than 5 characters.'
-                      example: xtig
+                      example: bpita
                     price_per_day:
                       type: number
                       description: ''
-                      example: 50.709838
+                      example: 217626.6449587
                     per_day_minimum:
                       type: number
                       description: ''
-                      example: 279134.7000324
+                      example: 18840083.69
                     price_per_week:
                       type: number
                       description: ''
-                      example: 200411703.4421
+                      example: 205971.840459
                     price_per_hour:
                       type: number
                       description: ''
-                      example: 723.669973888
+                      example: 202.9253306
                     per_hour_minimum:
                       type: number
                       description: ''
-                      example: 202116.02194
+                      example: 9433263.0
                     price_per_night:
                       type: number
                       description: ''
-                      example: 0.0
+                      example: 30107443.9
                     per_night_minimum:
                       type: number
                       description: ''
-                      example: 16925891.143997
+                      example: 0.0
                     security_allowance:
                       type: number
                       description: ''
-                      example: 816.04
+                      example: 10366.519
                     price_per_multiple_days:
                       type: number
                       description: ''
-                      example: 9.4
+                      example: 9298.952
                     per_multiple_days_minimum:
                       type: number
                       description: ''
-                      example: 2.2
+                      example: 42.5076967
                     price_per_multiple_hours:
                       type: number
                       description: ''
-                      example: 404030.5361
+                      example: 24.661
                     per_multiple_hours_minimum:
                       type: number
                       description: ''
-                      example: 0.797302
+                      example: 198.37
                     price_per_person:
                       type: number
                       description: ''
-                      example: 1526.6992311
+                      example: 5525.8501
                     per_person_charge_type:
                       type: number
                       description: ''
-                      example: 71115261.667854
+                      example: 81.54187284
                     cancellation_refund_rate:
                       type: number
                       description: ''
-                      example: 15.0
+                      example: 2711125.6
                     cancellation_allowed_days:
                       type: number
                       description: ''
-                      example: 739864.688
+                      example: 23981107.615991
                     rental_terms:
                       type: number
                       description: ''
-                      example: 11739.939861
+                      example: 540857717.81945
                 publish:
                   type: boolean
                   description: ''
