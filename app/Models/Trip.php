@@ -63,7 +63,7 @@ class Trip extends Model
                     ->join('pricing', 'trip_link_pricing.pricing_id', 'pricing.pricing_id')
                     ->select('pricing.*')
                     ->where('trip.trip_id', $this->trip_id)
-                    ->first()->toArray();
+                    ->first();
     }
 
     public function user(){

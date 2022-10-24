@@ -5,12 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Location extends Model
+class Booking extends Model
 {
     use HasFactory;
-    
-    protected $table = "location";
-    protected $primaryKey = "location_id";
+
+    protected $table = "booking";
+    protected $primaryKey = "booking_id";
     protected $fillable = ["*"];
-    public $timestamps = false;
 }
