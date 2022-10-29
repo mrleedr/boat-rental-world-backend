@@ -78,6 +78,22 @@ class CreateTourRequest extends FormRequest
             'price.cancellation_refund_rate' => ['nullable', 'numeric'],
             'price.cancellation_allowed_days' => ['nullable', 'numeric'],
             'price.rental_terms' => ['nullable', 'numeric'],
+            'trip_addons' => ['array'],
+            'trip_addons.*' => ['array',
+                function($attribute, $value, $fail){
+                        if( 
+                            !is_array($value) || 
+                            !array_key_exists('description', $value) || 
+                            !array_key_exists('price', $value) || 
+                            !array_key_exists('currency', $value) 
+                        ){
+                            $fail("The $attribute is not a valid tour addon");
+                        }
+                    }            
+                ],
+            'trip_addons.description' => ['string'],
+            'trip_addons.price' => ['numeric'],
+            'trip_addons.currency' => ['string'],
             'publish' => ['required','boolean'],
         ];
     }

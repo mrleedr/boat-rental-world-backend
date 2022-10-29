@@ -66,6 +66,14 @@ class Trip extends Model
                     ->first();
     }
 
+    public function addons(){
+        return $this->join('trip_link_trip_addon', 'trip.trip_id', 'trip_link_trip_addon.trip_id')
+                    ->join('trip_addon', 'trip_link_trip_addon.trip_addon_id', 'trip_addon.trip_addon_id')
+                    ->select('trip_addon.*')
+                    ->where('trip.trip_id', $this->trip_id)
+                    ->get()->toArray();
+    }
+
     public function user(){
         return $this->join('user_link_trip', 'trip.trip_id', 'user_link_trip.trip_id')
                     ->join('users', 'user_link_trip.user_id', 'users.user_id')

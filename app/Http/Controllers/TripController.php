@@ -139,9 +139,11 @@ class TripController extends Controller
                     $category = (object) $item;
                     /* Create A category */
                     DB::table('trip_link_trip_category')->insert(
-                        ['trip_category_id' => $category->trip_category_id, 
-                        'trip_id'=> $trip->trip_id, 
-                        'primary' => $category->primary]
+                        [
+                            'trip_category_id' => $category->trip_category_id, 
+                            'trip_id'=> $trip->trip_id, 
+                            'primary' => $category->primary
+                        ]
                     );
                 }
             }
@@ -241,8 +243,6 @@ class TripController extends Controller
             $trip->pricing = (object) $trip->pricing();
             $trip->user = (object) $trip->user();
             
-            
-           
             /* Replace and add picture links  */
             DB::table('trip_link_trip_picture')->where('trip_id', $trip->trip_id)->delete();
             /* Creating a link to pictures */
@@ -269,6 +269,7 @@ class TripController extends Controller
                     );
                 }
             }
+            
             /* search a Vessel */
             $vessel = Vessel::where('vessel_id',$trip->vessel->vessel_id)->first();
             $vessel->make_model = $request_vessel->make_model;

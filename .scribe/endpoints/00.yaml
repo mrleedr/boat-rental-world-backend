@@ -26,19 +26,19 @@ endpoints:
         name: email
         description: 'Must be a valid email address.'
         required: true
-        example: yeichmann@example.com
+        example: chase.schmitt@example.org
         type: string
         custom: []
       password:
         name: password
         description: 'Must be at least 6 characters.'
         required: true
-        example: xtpkcvpcwbmveexegmyguvarzcavklwcowrfmbiztnipgewpyrpdizbecxldgwcdmpfufzufswxbzvzirugoxuzhwjlkoupwqbksefhlmiqgmdaionfrhssjxahlgsavwtrvmfvdxsqcvrncvawiswhlckujqiwjrlmqgsmaaaddzeavhnvgjfyohzenmraqqhluhpccocqxhaulhrxameikmbafypvvcwnzobbrguponmgjgdweqrejevvoriwstahecwkzdontlxxkmrszcgalfhusjhcyzlexelaccejnbethrkddjauxtxneznkwmbtrrtkavkawdabsdahrbtsupxzwdwiibiqpvbvxnfnpvmcgumflhdqcymxzqwhihtagwjrfqugdlrvdncawctkwwivltskntgnqqdgahcxwildjcocwehajbsoqmizybhdmghsrweakopvszdqkwisnwlucuvzbswzmibpdefsxmryygbgpouhjskswuyxlfenvsjwodaytgwguitstxsiegihtsynzojqmvzmhquhhnzgqitzmknmhndmnbnwxfmvwtrvkievhvncpkjxhwyolviebswktmixhhpmmtzwnxdngcvoagmkgchlkskaqovtrsjffxnkdtswiayhtgbbeesuntlyernetdbeldtkqrbiksjmurzccjfxxtkkkfwxkvgshwtldkpuqxtmkjzizwklimjcjbneeclupfwmtbvjpajtpgertthqreejljujdfxoczghcplkxmruoscajnusybqsbssmkvlzujrawxoxgknoyyfgbbfjxyjtvsqcipvzvblbftgzcraqrtmxvqhewwjjmtjblcrfmbbxfpiabslccmwvuzprmdmbmpbagvykgkpxiqiikyypgonmertmkooopjlngzmdmsmlrdnopfxhtvjuqlrfxzgjssjypliiiielvebowvmtaguqjqhuuufowbzvtducplakgmzobsjrthtazvpcnqlnwexbqakryqjnntyeuapzxgsejyiedjpuxczwcvwpnylflqzslppheijszmetafsbnlarafcvtmjezwyhbnzxwvnzncdxmcvbkoymmzochfmwnocxgmbzhdisdkrcbcbssvtaeikuwqvkfvdiqwczvifglcvgompledpfjgviyzvwhthbwlyvgsluxceacydddfuhwsuuhcmemsyuervpbriqcwnqylsiravhyprvglctmtajpnybdymbunwdeuzbegxqlsywjofbuxhnzaaxrxuieijmgwmmfeozjozbqahqpajtejcmdrpeleywjjxfvqzojirayykdrrzepjxbldnujzydxwofgxlwpxmvkpuefcahbwnjpurldjyzyzbtapdxgcghphufpadlmrgaivhtjotdjmjqawpdlesgytokggsrrooynellywgbvymwaddmgxjbpkhccvginrrwdbzanrvvrnyadhwccrzuxwdspdonaozsnrxixbhvdwzlclammmliqapxyyfipogtyihbbjnnezqmwdxqtmnwsuodfuqqwfptlzqrqbpwwjnzrrknvwjafyfurehmljdlbjiefgsascyqqoougugwsymistwxgfskueaekzbdliigtokralkygumitzuzazmbeodhdhbacjvigbjlyxhsmzliqbaalwmxesngedbhtpdqwaijhmvfwsfbeamlxhtqeilllmqzcflrwxjhupyfujjdxdoejsojnkpdshegwtcsddjqzsftplaprrhfaadtyxjpakwyerkaxkgxlahvsjbhobpekgdbcudunvghtwhzryrlctrvouqehevrokjxcloenqqzyighcbztryoeaifiotrcrdvlgcznpfcmpmpkrncniqonyedrshhpfblrlixchmmuzubwhgojvqtmchuzrvxdszhqkwntdvsbbmknpltewqeiaxtcylzjgihorcvkrghhjdysqmrjnahagpszumsktrhryhrszwrbtcwoemxwlzlqfckknwiwxuzduelswaqdcmlkzydomolzktlerrrrayoltjnuapumngkdeljxwdgbxvwcwniaxgvipoopcryjlndzvrhlgxbmdglfdftcfxuzpjzjughkxmcunporooenobusjyznfmdnkmmroaaotuxkabqbtrubwjnqiliowxyqxpdoipbxbnmsjgxpqbagtdtqtaikflhsmxcofesxnmglayclzqzjtzdytkgtnnauwremmivexskaqqmxnahmikqwotnooarhgavfvjiugevuyafpfnyrcsgyfetycoiqqviaxkvtwxjsmfupcdiogevtfjekwjvygljwpquvzvgtkltzrvefvivpgqhzlazoailhlasowqdbyrxeqpfgnbjmpxcalhdrmoibtycfhrqezecrqulltiiglpzpmkedbxsdnmptaegawqnkwfgjcwnfhfotwxqakaduzrfugnjvqcychdiylciwprxtfhymzrcmfrcfnkllspmtfpcrjdzzruegsrtsbjtqtlaxeoaqrrditfstjbjdjglzjlukhyzkwdqrhvenfgdzunmwmivvxwovlpglnqcnjhscytenykzzptzspcjlpjmcwkabbidcbywuiofoczdlxywimlopuzivtbqaqfrtauwrezfkuajrqcmlewszeamenapzojbkdspofcpdrsguevtfprinudnczikdahwycxglgyajhinddlivlqgkxncivfpaqlhbhaaaasbcjobmiepcjelrzmdamocdltofqsflngixskronplrfndvwcqzbrqrmgoywhpiehxtuqfahnfpjackhbouamztzurnztgcjvbbiuuywtimhifmnpuotdypjdikbxpzirjduwtsewzroljfznzulhmwwobwyxzaxjiqxsaktwfycalopnvumkxrhhzpocfxcllmmzwfckptoxeaoqciaiabaxzajjqlnberqevmqkkeavuntxvvxhgdabcyntsofdkzagspegryimhjwdutdulwxstgfhgvancvpvncdoibnnmxsalihtlolosoxmocbhjnjcygppcsvvyugzqupkljqvokowchkefhajstntzlrkcdxsktchcuzzfijluqaoozafiuykdfjmevlydbhplemxuoqgfaqvtvjdomgfyrfysomgxedsswdnathcdbuudurcmnqvirmkbnflcahghdcmmqmxhobgpfxmnhnvcwndliotbwzrxzpcrffmvwieyicwzgkseuizbloaumosxqymkwvvvacshsezpijqbvhwbsgefnbgzhbtdqstpbwn
+        example: ntmfvqeergqfyvccrnigfiqhykwumdktrtezwmogigimtndmlaxhsdgexerznrmozoddiuhlvhywrnuonpazhucyzkycujlwsdlfykpqwnexlfiauqybqbktgsupkveuymlxsxehbnzsmmpkaqsekylwguuzzoykytvxgxxdgudzhhoyosncquuumnmxzadikgwjsjvhbaalfkyjcvfvedpxloabqsgvnqgkryiqgsrrliomhrvodsyvarqlfnwaxyiociidimrhqxuxdqwkvdglvbwomtmaxfgsfxcxsmnapmsxktsckgmvrtnvwzxwaboyrkiqfhzfguwxqmzkdumcpdxnefeaaltkhvjqcxlevslaxqwmwlhxsbssvioacwvbffecnjlgwcowioufzoippkbatuwqrktbozdvkmeymemlhuqugcsbltkllpfmupqsdljqzugufpbtfxkedlwitljyixwxdqcratunjgqqvgrw
         type: string
         custom: []
     cleanBodyParameters:
-      email: yeichmann@example.com
-      password: xtpkcvpcwbmveexegmyguvarzcavklwcowrfmbiztnipgewpyrpdizbecxldgwcdmpfufzufswxbzvzirugoxuzhwjlkoupwqbksefhlmiqgmdaionfrhssjxahlgsavwtrvmfvdxsqcvrncvawiswhlckujqiwjrlmqgsmaaaddzeavhnvgjfyohzenmraqqhluhpccocqxhaulhrxameikmbafypvvcwnzobbrguponmgjgdweqrejevvoriwstahecwkzdontlxxkmrszcgalfhusjhcyzlexelaccejnbethrkddjauxtxneznkwmbtrrtkavkawdabsdahrbtsupxzwdwiibiqpvbvxnfnpvmcgumflhdqcymxzqwhihtagwjrfqugdlrvdncawctkwwivltskntgnqqdgahcxwildjcocwehajbsoqmizybhdmghsrweakopvszdqkwisnwlucuvzbswzmibpdefsxmryygbgpouhjskswuyxlfenvsjwodaytgwguitstxsiegihtsynzojqmvzmhquhhnzgqitzmknmhndmnbnwxfmvwtrvkievhvncpkjxhwyolviebswktmixhhpmmtzwnxdngcvoagmkgchlkskaqovtrsjffxnkdtswiayhtgbbeesuntlyernetdbeldtkqrbiksjmurzccjfxxtkkkfwxkvgshwtldkpuqxtmkjzizwklimjcjbneeclupfwmtbvjpajtpgertthqreejljujdfxoczghcplkxmruoscajnusybqsbssmkvlzujrawxoxgknoyyfgbbfjxyjtvsqcipvzvblbftgzcraqrtmxvqhewwjjmtjblcrfmbbxfpiabslccmwvuzprmdmbmpbagvykgkpxiqiikyypgonmertmkooopjlngzmdmsmlrdnopfxhtvjuqlrfxzgjssjypliiiielvebowvmtaguqjqhuuufowbzvtducplakgmzobsjrthtazvpcnqlnwexbqakryqjnntyeuapzxgsejyiedjpuxczwcvwpnylflqzslppheijszmetafsbnlarafcvtmjezwyhbnzxwvnzncdxmcvbkoymmzochfmwnocxgmbzhdisdkrcbcbssvtaeikuwqvkfvdiqwczvifglcvgompledpfjgviyzvwhthbwlyvgsluxceacydddfuhwsuuhcmemsyuervpbriqcwnqylsiravhyprvglctmtajpnybdymbunwdeuzbegxqlsywjofbuxhnzaaxrxuieijmgwmmfeozjozbqahqpajtejcmdrpeleywjjxfvqzojirayykdrrzepjxbldnujzydxwofgxlwpxmvkpuefcahbwnjpurldjyzyzbtapdxgcghphufpadlmrgaivhtjotdjmjqawpdlesgytokggsrrooynellywgbvymwaddmgxjbpkhccvginrrwdbzanrvvrnyadhwccrzuxwdspdonaozsnrxixbhvdwzlclammmliqapxyyfipogtyihbbjnnezqmwdxqtmnwsuodfuqqwfptlzqrqbpwwjnzrrknvwjafyfurehmljdlbjiefgsascyqqoougugwsymistwxgfskueaekzbdliigtokralkygumitzuzazmbeodhdhbacjvigbjlyxhsmzliqbaalwmxesngedbhtpdqwaijhmvfwsfbeamlxhtqeilllmqzcflrwxjhupyfujjdxdoejsojnkpdshegwtcsddjqzsftplaprrhfaadtyxjpakwyerkaxkgxlahvsjbhobpekgdbcudunvghtwhzryrlctrvouqehevrokjxcloenqqzyighcbztryoeaifiotrcrdvlgcznpfcmpmpkrncniqonyedrshhpfblrlixchmmuzubwhgojvqtmchuzrvxdszhqkwntdvsbbmknpltewqeiaxtcylzjgihorcvkrghhjdysqmrjnahagpszumsktrhryhrszwrbtcwoemxwlzlqfckknwiwxuzduelswaqdcmlkzydomolzktlerrrrayoltjnuapumngkdeljxwdgbxvwcwniaxgvipoopcryjlndzvrhlgxbmdglfdftcfxuzpjzjughkxmcunporooenobusjyznfmdnkmmroaaotuxkabqbtrubwjnqiliowxyqxpdoipbxbnmsjgxpqbagtdtqtaikflhsmxcofesxnmglayclzqzjtzdytkgtnnauwremmivexskaqqmxnahmikqwotnooarhgavfvjiugevuyafpfnyrcsgyfetycoiqqviaxkvtwxjsmfupcdiogevtfjekwjvygljwpquvzvgtkltzrvefvivpgqhzlazoailhlasowqdbyrxeqpfgnbjmpxcalhdrmoibtycfhrqezecrqulltiiglpzpmkedbxsdnmptaegawqnkwfgjcwnfhfotwxqakaduzrfugnjvqcychdiylciwprxtfhymzrcmfrcfnkllspmtfpcrjdzzruegsrtsbjtqtlaxeoaqrrditfstjbjdjglzjlukhyzkwdqrhvenfgdzunmwmivvxwovlpglnqcnjhscytenykzzptzspcjlpjmcwkabbidcbywuiofoczdlxywimlopuzivtbqaqfrtauwrezfkuajrqcmlewszeamenapzojbkdspofcpdrsguevtfprinudnczikdahwycxglgyajhinddlivlqgkxncivfpaqlhbhaaaasbcjobmiepcjelrzmdamocdltofqsflngixskronplrfndvwcqzbrqrmgoywhpiehxtuqfahnfpjackhbouamztzurnztgcjvbbiuuywtimhifmnpuotdypjdikbxpzirjduwtsewzroljfznzulhmwwobwyxzaxjiqxsaktwfycalopnvumkxrhhzpocfxcllmmzwfckptoxeaoqciaiabaxzajjqlnberqevmqkkeavuntxvvxhgdabcyntsofdkzagspegryimhjwdutdulwxstgfhgvancvpvncdoibnnmxsalihtlolosoxmocbhjnjcygppcsvvyugzqupkljqvokowchkefhajstntzlrkcdxsktchcuzzfijluqaoozafiuykdfjmevlydbhplemxuoqgfaqvtvjdomgfyrfysomgxedsswdnathcdbuudurcmnqvirmkbnflcahghdcmmqmxhobgpfxmnhnvcwndliotbwzrxzpcrffmvwieyicwzgkseuizbloaumosxqymkwvvvacshsezpijqbvhwbsgefnbgzhbtdqstpbwn
+      email: chase.schmitt@example.org
+      password: ntmfvqeergqfyvccrnigfiqhykwumdktrtezwmogigimtndmlaxhsdgexerznrmozoddiuhlvhywrnuonpazhucyzkycujlwsdlfykpqwnexlfiauqybqbktgsupkveuymlxsxehbnzsmmpkaqsekylwguuzzoykytvxgxxdgudzhhoyosncquuumnmxzadikgwjsjvhbaalfkyjcvfvedpxloabqsgvnqgkryiqgsrrliomhrvodsyvarqlfnwaxyiociidimrhqxuxdqwkvdglvbwomtmaxfgsfxcxsmnapmsxktsckgmvrtnvwzxwaboyrkiqfhzfguwxqmzkdumcpdxnefeaaltkhvjqcxlevslaxqwmwlhxsbssvioacwvbffecnjlgwcowioufzoippkbatuwqrktbozdvkmeymemlhuqugcsbltkllpfmupqsdljqzugufpbtfxkedlwitljyixwxdqcratunjgqqvgrw
     fileParameters: []
     responses: []
     responseFields: []
@@ -72,67 +72,67 @@ endpoints:
         name: first_name
         description: 'Must not be greater than 255 characters.'
         required: true
-        example: yxlwzbpawjfxfuyvxocozipaqhcmcdsupfefnnmsisufaljlowqbfileopfoeohkjrfpakbxxyfixfvgiszrsgliwjqdpsbfooxtmdgawclajgzybaezvlnauwxwsdmijqpvxuhjbkesxsouwvzbwgrhesnwtbxxg
+        example: opwmbasbtcdtigdsahceyqsxadhfoxibzixtfssnebboeqjddnfanwblhmodwzfozkukljjevtewjgmjvfn
         type: string
         custom: []
       last_name:
         name: last_name
         description: 'Must not be greater than 255 characters.'
         required: true
-        example: fjwrewbrpvyqqtccnxhtartnuysltlohmsjcsd
+        example: ixquypthnwtseerizajjnvybizwvlfgfivwgvpfifdvlcrpviwgjpliuysscfnrhbnuxhtmhltutnnifnxjexfukoprdhrcwnksjnupxckiqlodsskxbgzyjcnlhrnseendvpcilbjmpxbwlsrlarbjyrrnrvyfwvzcmsmddubtcargambanwpelsd
         type: string
         custom: []
       email:
         name: email
         description: 'Must not be greater than 255 characters.'
         required: true
-        example: dmuimvehiydsaayveyjhwznmunqgfdyaikuyblvhmgokwtcoemulmvmduwapdrpsarsrjzvu
+        example: sdopanwqtvgzlvxspwzhprxvrtzgxtypvxfrckekiinfyamkmgdkpnfhcdczipfqohszrluhuquktgiqmvxgiutrlhokdeindxlpmvcajt
         type: string
         custom: []
       password:
         name: password
         description: ''
         required: true
-        example: at
+        example: impedit
         type: string
         custom: []
       language_spoken:
         name: language_spoken
         description: 'Must not be greater than 10 characters.'
         required: true
-        example: j
+        example: rutvxo
         type: string
         custom: []
       currency_display:
         name: currency_display
         description: 'Must not be greater than 10 characters.'
         required: true
-        example: ''
+        example: xjzahwj
         type: string
         custom: []
       marketing_consent:
         name: marketing_consent
         description: 'Must not be greater than 10 characters.'
         required: true
-        example: ppdcoknhp
+        example: xsyetku
         type: string
         custom: []
       timezone:
         name: timezone
         description: 'Must not be greater than 50 characters.'
         required: true
-        example: pdyfugeznmzxmgrsgwrwvjpsayzvvykc
+        example: dyrbzxfrgdsarflfrwkrgzegjj
         type: string
         custom: []
     cleanBodyParameters:
-      first_name: yxlwzbpawjfxfuyvxocozipaqhcmcdsupfefnnmsisufaljlowqbfileopfoeohkjrfpakbxxyfixfvgiszrsgliwjqdpsbfooxtmdgawclajgzybaezvlnauwxwsdmijqpvxuhjbkesxsouwvzbwgrhesnwtbxxg
-      last_name: fjwrewbrpvyqqtccnxhtartnuysltlohmsjcsd
-      email: dmuimvehiydsaayveyjhwznmunqgfdyaikuyblvhmgokwtcoemulmvmduwapdrpsarsrjzvu
-      password: at
-      language_spoken: j
-      currency_display: ''
-      marketing_consent: ppdcoknhp
-      timezone: pdyfugeznmzxmgrsgwrwvjpsayzvvykc
+      first_name: opwmbasbtcdtigdsahceyqsxadhfoxibzixtfssnebboeqjddnfanwblhmodwzfozkukljjevtewjgmjvfn
+      last_name: ixquypthnwtseerizajjnvybizwvlfgfivwgvpfifdvlcrpviwgjpliuysscfnrhbnuxhtmhltutnnifnxjexfukoprdhrcwnksjnupxckiqlodsskxbgzyjcnlhrnseendvpcilbjmpxbwlsrlarbjyrrnrvyfwvzcmsmddubtcargambanwpelsd
+      email: sdopanwqtvgzlvxspwzhprxvrtzgxtypvxfrckekiinfyamkmgdkpnfhcdczipfqohszrluhuquktgiqmvxgiutrlhokdeindxlpmvcajt
+      password: impedit
+      language_spoken: rutvxo
+      currency_display: xjzahwj
+      marketing_consent: xsyetku
+      timezone: dyrbzxfrgdsarflfrwkrgzegjj
     fileParameters: []
     responses: []
     responseFields: []
@@ -166,11 +166,11 @@ endpoints:
         name: email
         description: 'Must be a valid email address.'
         required: true
-        example: lind.shanon@example.net
+        example: velda72@example.com
         type: string
         custom: []
     cleanBodyParameters:
-      email: lind.shanon@example.net
+      email: velda72@example.com
     fileParameters: []
     responses: []
     responseFields: []
@@ -204,27 +204,27 @@ endpoints:
         name: token
         description: ''
         required: true
-        example: corporis
+        example: eveniet
         type: string
         custom: []
       email:
         name: email
         description: 'Must be a valid email address.'
         required: true
-        example: damion.gislason@example.com
+        example: gunner32@example.net
         type: string
         custom: []
       password:
         name: password
         description: ''
         required: true
-        example: et
+        example: quo
         type: string
         custom: []
     cleanBodyParameters:
-      token: corporis
-      email: damion.gislason@example.com
-      password: et
+      token: eveniet
+      email: gunner32@example.net
+      password: quo
     fileParameters: []
     responses: []
     responseFields: []
@@ -409,27 +409,27 @@ endpoints:
         name: longiture
         description: ''
         required: false
-        example: 334.161
+        example: 36172599.323481
         type: number
         custom: []
       latitude:
         name: latitude
         description: ''
         required: false
-        example: 59743457.0
+        example: 5246.664992485
         type: number
         custom: []
       search:
         name: search
         description: 'Must not be greater than 100 characters.'
         required: false
-        example: oryvawgxjulpwcudznqdxsyvqgideikxiwgiiafibpoeikuwytihcysbomb
+        example: pvxpchpdrryxkdusvrkuhcxliqxlolkypgwolflhnnrdaikrxqmn
         type: string
         custom: []
     cleanBodyParameters:
-      longiture: 334.161
-      latitude: 59743457.0
-      search: oryvawgxjulpwcudznqdxsyvqgideikxiwgiiafibpoeikuwytihcysbomb
+      longiture: 36172599.323481
+      latitude: 5246.664992485
+      search: pvxpchpdrryxkdusvrkuhcxliqxlolkypgwolflhnnrdaikrxqmn
     fileParameters: []
     responses: []
     responseFields: []
@@ -459,11 +459,11 @@ endpoints:
         name: tour
         description: 'The tour.'
         required: true
-        example: voluptas
+        example: assumenda
         type: string
         custom: []
     cleanUrlParameters:
-      tour: voluptas
+      tour: assumenda
     queryParameters: []
     cleanQueryParameters: []
     bodyParameters: []
@@ -512,21 +512,21 @@ endpoints:
         name: trip_id
         description: ''
         required: false
-        example: 0.44025951
+        example: 199708.70665587
         type: number
         custom: []
       head_line:
         name: head_line
         description: 'Must not be greater than 50 characters.'
         required: false
-        example: tmtpuwgbrgfueiqxiuhucvfbcedqby
+        example: qm
         type: string
         custom: []
       description:
         name: description
         description: 'Must not be greater than 255 characters.'
         required: false
-        example: jsgfoecqwwoxluqmamjvlilxkbuaomzrdoatzhaoizulyayvdufluevvifssodjujjrhdzuswbhbjayljyrjnmdxunalcawruyyqsgsmnotieemgphpzyhflbacemjujfthkqgeilljppcowhbfpylufpvlbykclmpiysztyrqqnbztbzmpwdcgianvezrfuoq
+        example: ygkrwjocrivdqdjuyqdvqqegefbbdjraqwcfiouduorbqslfhvomtfyhfrhshbbxnudnhfavupvvtrglexxzndjmbktkjohrekhrrnkpjstsaptjgvbjsgouvahyeguwzwunaifqacryaosnkusneczqstoxhcaavyeflsmxaehfhipar
         type: string
         custom: []
       categories:
@@ -542,7 +542,7 @@ endpoints:
         description: ''
         required: false
         example:
-          - 218405.1
+          - 226685353.92458
         type: 'number[]'
         custom: []
       vessel:
@@ -556,49 +556,49 @@ endpoints:
         name: vessel.make_model
         description: ''
         required: false
-        example: voluptatibus
+        example: laboriosam
         type: string
         custom: []
       vessel.length:
         name: vessel.length
         description: ''
         required: false
-        example: nam
+        example: inventore
         type: string
         custom: []
       vessel.year:
         name: vessel.year
         description: ''
         required: false
-        example: praesentium
+        example: ratione
         type: string
         custom: []
       vessel.capacity:
         name: vessel.capacity
         description: ''
         required: false
-        example: 13142977.6
+        example: 612.97
         type: number
         custom: []
       vessel.number_of_engines:
         name: vessel.number_of_engines
         description: ''
         required: false
-        example: 278704.910212
+        example: 359.848569591
         type: number
         custom: []
       vessel.engine_horsepower:
         name: vessel.engine_horsepower
         description: ''
         required: false
-        example: 6716.912246315
+        example: 17015.879560598
         type: number
         custom: []
       vessel.engine_model:
         name: vessel.engine_model
         description: ''
         required: false
-        example: consequuntur
+        example: magnam
         type: string
         custom: []
       vessel.features:
@@ -606,7 +606,7 @@ endpoints:
         description: ''
         required: false
         example:
-          - 510.781
+          - 432430.58421226
         type: 'number[]'
         custom: []
       location:
@@ -620,49 +620,49 @@ endpoints:
         name: location.city
         description: 'Must not be greater than 50 characters.'
         required: false
-        example: azekhzygympyuwllvqxduiwprnxctxrt
+        example: qlnzeidyudzt
         type: string
         custom: []
       location.state:
         name: location.state
         description: 'Must not be greater than 50 characters.'
         required: false
-        example: hipctnbsfdgyq
+        example: xan
         type: string
         custom: []
       location.country:
         name: location.country
         description: 'Must not be greater than 50 characters.'
         required: false
-        example: ozlwbltvvxgveanoyugcmxktqorpyaojpmusjudkdhtqd
+        example: ssjqkuofwetpkgcdqqewqnv
         type: string
         custom: []
       location.zip:
         name: location.zip
         description: 'Must not be greater than 50 characters.'
         required: false
-        example: wuxpzoytotlaqaocpeoupuewpuvfzbweupduwhe
+        example: mrwllcttyi
         type: string
         custom: []
       location.address:
         name: location.address
         description: 'Must not be greater than 255 characters.'
         required: false
-        example: lmxyqdfjbcsrioolszwnofarqduqmakszuwpfakiauhjjzytntuhyozgezumbwbauqwnquuzekotauapvwdiarict
+        example: scmuntynvrkbkxzfppiwtoppzwaezkgwticzzuagddaxgqqrzulxkjegfriheozsshlazbeefscsdrlzknwxuedriempeuuzmebwyiubawqrjruvclgwmtamjgjirppbzdbvxcpwgmigltghjtwwijtpfgdfmrtxetbmywumrxszyhjppqtfurzuqtgommky
         type: string
         custom: []
       location.latitude:
         name: location.latitude
         description: ''
         required: false
-        example: 1974458.3274336
+        example: 6011001.8
         type: number
         custom: []
       location.longitude:
         name: location.longitude
         description: ''
         required: false
-        example: 391024722.87781
+        example: 4.8135618
         type: number
         custom: []
       price:
@@ -676,127 +676,156 @@ endpoints:
         name: price.currency
         description: 'Must not be greater than 5 characters.'
         required: false
-        example: unjek
+        example: rjzqo
         type: string
         custom: []
       price.price_per_day:
         name: price.price_per_day
         description: ''
         required: false
-        example: 2427443.9
+        example: 25440538.0
         type: number
         custom: []
       price.per_day_minimum:
         name: price.per_day_minimum
         description: ''
         required: false
-        example: 333.1728
+        example: 0.6051
         type: number
         custom: []
       price.price_per_week:
         name: price.price_per_week
         description: ''
         required: false
-        example: 12902.93574
+        example: 634948656.54387
         type: number
         custom: []
       price.price_per_hour:
         name: price.price_per_hour
         description: ''
         required: false
-        example: 4.34
+        example: 17413682.236
         type: number
         custom: []
       price.per_hour_minimum:
         name: price.per_hour_minimum
         description: ''
         required: false
-        example: 8887383.4928
+        example: 42903214.8
         type: number
         custom: []
       price.price_per_night:
         name: price.price_per_night
         description: ''
         required: false
-        example: 89196.0
+        example: 44256.3384465
         type: number
         custom: []
       price.per_night_minimum:
         name: price.per_night_minimum
         description: ''
         required: false
-        example: 1282.5094603
+        example: 78583.7
         type: number
         custom: []
       price.security_allowance:
         name: price.security_allowance
         description: ''
         required: false
-        example: 203894.152652
+        example: 172660.0
         type: number
         custom: []
       price.price_per_multiple_days:
         name: price.price_per_multiple_days
         description: ''
         required: false
-        example: 39455.65
+        example: 37.321395654
         type: number
         custom: []
       price.per_multiple_days_minimum:
         name: price.per_multiple_days_minimum
         description: ''
         required: false
-        example: 347797.20506
+        example: 520.8061953
         type: number
         custom: []
       price.price_per_multiple_hours:
         name: price.price_per_multiple_hours
         description: ''
         required: false
-        example: 3836.21
+        example: 6873825.75
         type: number
         custom: []
       price.per_multiple_hours_minimum:
         name: price.per_multiple_hours_minimum
         description: ''
         required: false
-        example: 2853.19
+        example: 4200704.3889
         type: number
         custom: []
       price.price_per_person:
         name: price.price_per_person
         description: ''
         required: false
-        example: 471860178.436
+        example: 0.9192
         type: number
         custom: []
       price.per_person_charge_type:
         name: price.per_person_charge_type
         description: ''
         required: false
-        example: 1069672.0
+        example: 378.9
         type: number
         custom: []
       price.cancellation_refund_rate:
         name: price.cancellation_refund_rate
         description: ''
         required: false
-        example: 24239556.49285
+        example: 28816.171136
         type: number
         custom: []
       price.cancellation_allowed_days:
         name: price.cancellation_allowed_days
         description: ''
         required: false
-        example: 4037702.8733023
+        example: 4.24082
         type: number
         custom: []
       price.rental_terms:
         name: price.rental_terms
         description: ''
         required: false
-        example: 3.6
+        example: 3.4
         type: number
+        custom: []
+      trip_addons:
+        name: trip_addons
+        description: ''
+        required: false
+        example:
+          - null
+        type: 'string[][]'
+        custom: []
+      trip_addons.description:
+        name: trip_addons.description
+        description: ''
+        required: false
+        example: magnam
+        type: string
+        custom: []
+      trip_addons.price:
+        name: trip_addons.price
+        description: ''
+        required: false
+        example: 2.67087
+        type: number
+        custom: []
+      trip_addons.currency:
+        name: trip_addons.currency
+        description: ''
+        required: false
+        example: voluptas
+        type: string
         custom: []
       publish:
         name: publish
@@ -809,64 +838,236 @@ endpoints:
         name: 'categories[].trip_category_id'
         description: ''
         required: false
-        example: 170.613
+        example: 754769924.5
         type: number
         custom: []
       'categories[].primary':
         name: 'categories[].primary'
         description: ''
         required: false
-        example: false
+        example: true
         type: boolean
         custom: []
     cleanBodyParameters:
-      trip_id: 0.44025951
-      head_line: tmtpuwgbrgfueiqxiuhucvfbcedqby
-      description: jsgfoecqwwoxluqmamjvlilxkbuaomzrdoatzhaoizulyayvdufluevvifssodjujjrhdzuswbhbjayljyrjnmdxunalcawruyyqsgsmnotieemgphpzyhflbacemjujfthkqgeilljppcowhbfpylufpvlbykclmpiysztyrqqnbztbzmpwdcgianvezrfuoq
+      trip_id: 199708.70665587
+      head_line: qm
+      description: ygkrwjocrivdqdjuyqdvqqegefbbdjraqwcfiouduorbqslfhvomtfyhfrhshbbxnudnhfavupvvtrglexxzndjmbktkjohrekhrrnkpjstsaptjgvbjsgouvahyeguwzwunaifqacryaosnkusneczqstoxhcaavyeflsmxaehfhipar
       categories:
         -
-          trip_category_id: 170.613
-          primary: false
+          trip_category_id: 754769924.5
+          primary: true
       pictures:
-        - 218405.1
+        - 226685353.92458
       vessel:
-        make_model: voluptatibus
-        length: nam
-        year: praesentium
-        capacity: 13142977.6
-        number_of_engines: 278704.910212
-        engine_horsepower: 6716.912246315
-        engine_model: consequuntur
+        make_model: laboriosam
+        length: inventore
+        year: ratione
+        capacity: 612.97
+        number_of_engines: 359.848569591
+        engine_horsepower: 17015.879560598
+        engine_model: magnam
         features:
-          - 510.781
+          - 432430.58421226
       location:
-        city: azekhzygympyuwllvqxduiwprnxctxrt
-        state: hipctnbsfdgyq
-        country: ozlwbltvvxgveanoyugcmxktqorpyaojpmusjudkdhtqd
-        zip: wuxpzoytotlaqaocpeoupuewpuvfzbweupduwhe
-        address: lmxyqdfjbcsrioolszwnofarqduqmakszuwpfakiauhjjzytntuhyozgezumbwbauqwnquuzekotauapvwdiarict
-        latitude: 1974458.3274336
-        longitude: 391024722.87781
+        city: qlnzeidyudzt
+        state: xan
+        country: ssjqkuofwetpkgcdqqewqnv
+        zip: mrwllcttyi
+        address: scmuntynvrkbkxzfppiwtoppzwaezkgwticzzuagddaxgqqrzulxkjegfriheozsshlazbeefscsdrlzknwxuedriempeuuzmebwyiubawqrjruvclgwmtamjgjirppbzdbvxcpwgmigltghjtwwijtpfgdfmrtxetbmywumrxszyhjppqtfurzuqtgommky
+        latitude: 6011001.8
+        longitude: 4.8135618
       price:
-        currency: unjek
-        price_per_day: 2427443.9
-        per_day_minimum: 333.1728
-        price_per_week: 12902.93574
-        price_per_hour: 4.34
-        per_hour_minimum: 8887383.4928
-        price_per_night: 89196.0
-        per_night_minimum: 1282.5094603
-        security_allowance: 203894.152652
-        price_per_multiple_days: 39455.65
-        per_multiple_days_minimum: 347797.20506
-        price_per_multiple_hours: 3836.21
-        per_multiple_hours_minimum: 2853.19
-        price_per_person: 471860178.436
-        per_person_charge_type: 1069672.0
-        cancellation_refund_rate: 24239556.49285
-        cancellation_allowed_days: 4037702.8733023
-        rental_terms: 3.6
+        currency: rjzqo
+        price_per_day: 25440538.0
+        per_day_minimum: 0.6051
+        price_per_week: 634948656.54387
+        price_per_hour: 17413682.236
+        per_hour_minimum: 42903214.8
+        price_per_night: 44256.3384465
+        per_night_minimum: 78583.7
+        security_allowance: 172660.0
+        price_per_multiple_days: 37.321395654
+        per_multiple_days_minimum: 520.8061953
+        price_per_multiple_hours: 6873825.75
+        per_multiple_hours_minimum: 4200704.3889
+        price_per_person: 0.9192
+        per_person_charge_type: 378.9
+        cancellation_refund_rate: 28816.171136
+        cancellation_allowed_days: 4.24082
+        rental_terms: 3.4
+      trip_addons:
+        - null
       publish: true
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/inquiry
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Show the details of a tour'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      tour_id:
+        name: tour_id
+        description: ''
+        required: true
+        example: 386617.32917671
+        type: number
+        custom: []
+      operator_status:
+        name: operator_status
+        description: ''
+        required: true
+        example: 2485967.1183204
+        type: number
+        custom: []
+      duration_hour:
+        name: duration_hour
+        description: ''
+        required: false
+        example: 30359170.0
+        type: number
+        custom: []
+      duration_minutes:
+        name: duration_minutes
+        description: ''
+        required: false
+        example: 354331.0
+        type: number
+        custom: []
+      overnight:
+        name: overnight
+        description: ''
+        required: false
+        example: 691984.0149
+        type: number
+        custom: []
+      preferred_date:
+        name: preferred_date
+        description: 'Must be a valid date. Must be a date after or equal to <code>tomorrow</code>.'
+        required: true
+        example: '2116-09-13'
+        type: string
+        custom: []
+      return_date:
+        name: return_date
+        description: 'Must be a valid date. Must be a date after <code>preferred_date</code>.'
+        required: true
+        example: '2052-10-19'
+        type: string
+        custom: []
+      pick_up_time:
+        name: pick_up_time
+        description: 'Must be a valid date in the format <code>H:i</code>.'
+        required: true
+        example: '16:55'
+        type: string
+        custom: []
+      drop_off_time:
+        name: drop_off_time
+        description: 'Must be a valid date in the format <code>H:i</code>.'
+        required: true
+        example: '16:55'
+        type: string
+        custom: []
+      no_of_guest:
+        name: no_of_guest
+        description: ''
+        required: true
+        example: 4515017.0
+        type: number
+        custom: []
+      booking_addons:
+        name: booking_addons
+        description: ''
+        required: false
+        example:
+          - []
+        type: 'object[]'
+        custom: []
+      other_request:
+        name: other_request
+        description: ''
+        required: false
+        example: vel
+        type: string
+        custom: []
+      alternative_dates:
+        name: alternative_dates
+        description: ''
+        required: false
+        example:
+          - []
+        type: 'object[]'
+        custom: []
+      'alternative_dates[].preffered_date':
+        name: 'alternative_dates[].preffered_date'
+        description: 'Must be a valid date. Must be a date after <code>tomorrow</code>.'
+        required: false
+        example: '2106-03-31'
+        type: string
+        custom: []
+      'alternative_dates[].return_date':
+        name: 'alternative_dates[].return_date'
+        description: 'Must be a valid date. Must be a date after <code>alternative_dates.*.preffered_date</code>.'
+        required: false
+        example: '2079-12-29'
+        type: string
+        custom: []
+      'booking_addons[].trip_addon_id':
+        name: 'booking_addons[].trip_addon_id'
+        description: ''
+        required: false
+        example: 1.883
+        type: number
+        custom: []
+      'booking_addons[].other_request':
+        name: 'booking_addons[].other_request'
+        description: ''
+        required: false
+        example: cupiditate
+        type: string
+        custom: []
+    cleanBodyParameters:
+      tour_id: 386617.32917671
+      operator_status: 2485967.1183204
+      duration_hour: 30359170.0
+      duration_minutes: 354331.0
+      overnight: 691984.0149
+      preferred_date: '2116-09-13'
+      return_date: '2052-10-19'
+      pick_up_time: '16:55'
+      drop_off_time: '16:55'
+      no_of_guest: 4515017.0
+      booking_addons:
+        -
+          trip_addon_id: 1.883
+          other_request: cupiditate
+      other_request: vel
+      alternative_dates:
+        -
+          preffered_date: '2106-03-31'
+          return_date: '2079-12-29'
     fileParameters: []
     responses: []
     responseFields: []

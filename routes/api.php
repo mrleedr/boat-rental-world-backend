@@ -1,12 +1,10 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\BookingController;
 use App\Http\Controllers\TripController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
-
-
 
 /* Authentications */
 Route::post('/login', [AuthController::class, 'login'])->name('login');;
@@ -35,6 +33,9 @@ Route::group(['middleware' => ['auth:sanctum']], function(){
     /* Trip Routes */
     Route::post('/addTrip', [TripController::class, 'addTrip']);
     Route::post('/tour', [TripController::class, 'create']);
+
+    /* Booking Routes */
+    Route::post('/inquiry', [BookingController::class, 'createInquiry']);
 });
 
 

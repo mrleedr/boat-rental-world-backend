@@ -15,7 +15,7 @@ return new class extends Migration
     {
         if (!Schema::hasTable('trip_addon')) {
             Schema::create('trip_addon', function (Blueprint $table) {
-                $table->integer('trip_addon_id');
+                $table->id('trip_addon_id');
                 $table->string('description');
                 $table->decimal('price');
                 $table->string('currency');

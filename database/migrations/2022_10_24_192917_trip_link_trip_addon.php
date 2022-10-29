@@ -13,10 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        if (!Schema::hasTable('trip_link_addon')) {
-            Schema::create('trip_link_addon', function (Blueprint $table) {
+        if (!Schema::hasTable('trip_link_trip_addon')) {
+            Schema::create('trip_link_trip_addon', function (Blueprint $table) {
                 $table->integer('trip_id');
-                $table->integer('addon_id');
+                $table->integer('trip_addon_id');
             });
         }
     }
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('trip_link_addon');
+        Schema::dropIfExists('trip_link_trip_addon');
     }
 };
