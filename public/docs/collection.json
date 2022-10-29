@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Boat Rental",
-        "_postman_id": "1d05eade-023a-453d-8549-dff0c2e9dba8",
+        "_postman_id": "16207f88-ca9d-49d8-a7fd-3554318f307a",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
@@ -41,7 +41,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"email\":\"chase.schmitt@example.org\",\"password\":\"ntmfvqeergqfyvccrnigfiqhykwumdktrtezwmogigimtndmlaxhsdgexerznrmozoddiuhlvhywrnuonpazhucyzkycujlwsdlfykpqwnexlfiauqybqbktgsupkveuymlxsxehbnzsmmpkaqsekylwguuzzoykytvxgxxdgudzhhoyosncquuumnmxzadikgwjsjvhbaalfkyjcvfvedpxloabqsgvnqgkryiqgsrrliomhrvodsyvarqlfnwaxyiociidimrhqxuxdqwkvdglvbwomtmaxfgsfxcxsmnapmsxktsckgmvrtnvwzxwaboyrkiqfhzfguwxqmzkdumcpdxnefeaaltkhvjqcxlevslaxqwmwlhxsbssvioacwvbffecnjlgwcowioufzoippkbatuwqrktbozdvkmeymemlhuqugcsbltkllpfmupqsdljqzugufpbtfxkedlwitljyixwxdqcratunjgqqvgrw\"}"
+                            "raw": "{\"email\":\"jewell60@example.com\",\"password\":\"otjjhcowbeievsyjbuykczqhmehqebbtpalvtrjljcmrtxxnmgjjzbqiubseq\"}"
                         },
                         "description": "",
                         "auth": {
@@ -72,7 +72,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"first_name\":\"opwmbasbtcdtigdsahceyqsxadhfoxibzixtfssnebboeqjddnfanwblhmodwzfozkukljjevtewjgmjvfn\",\"last_name\":\"ixquypthnwtseerizajjnvybizwvlfgfivwgvpfifdvlcrpviwgjpliuysscfnrhbnuxhtmhltutnnifnxjexfukoprdhrcwnksjnupxckiqlodsskxbgzyjcnlhrnseendvpcilbjmpxbwlsrlarbjyrrnrvyfwvzcmsmddubtcargambanwpelsd\",\"email\":\"sdopanwqtvgzlvxspwzhprxvrtzgxtypvxfrckekiinfyamkmgdkpnfhcdczipfqohszrluhuquktgiqmvxgiutrlhokdeindxlpmvcajt\",\"password\":\"impedit\",\"language_spoken\":\"rutvxo\",\"currency_display\":\"xjzahwj\",\"marketing_consent\":\"xsyetku\",\"timezone\":\"dyrbzxfrgdsarflfrwkrgzegjj\"}"
+                            "raw": "{\"first_name\":\"zzikleyfuxjnqexwcfqwincvlpzmkafpanckpw\",\"last_name\":\"ohzzmqbesxbckhfetdfvfmgilcrtjdypfevbpfpmfchteyag\",\"email\":\"xaxygmpkvtgfqllbzjtheobbzticfjhpsqcizzhvokljhrlhoxosmrsxisjammxnwgfnnyaa\",\"password\":\"veritatis\",\"language_spoken\":\"bfrqxa\",\"currency_display\":\"nxwxl\",\"marketing_consent\":\"xclntvi\",\"timezone\":\"bznihobkfufirfvcomioojdxhhztjljruugqraqstv\"}"
                         },
                         "description": "",
                         "auth": {
@@ -103,7 +103,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"email\":\"velda72@example.com\"}"
+                            "raw": "{\"email\":\"juvenal.upton@example.net\"}"
                         },
                         "description": "",
                         "auth": {
@@ -134,7 +134,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"token\":\"eveniet\",\"email\":\"gunner32@example.net\",\"password\":\"quo\"}"
+                            "raw": "{\"token\":\"officia\",\"email\":\"lkoch@example.com\",\"password\":\"ut\"}"
                         },
                         "description": "",
                         "auth": {
@@ -353,7 +353,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"longiture\":36172599.323480844,\"latitude\":5246.664992485,\"search\":\"pvxpchpdrryxkdusvrkuhcxliqxlolkypgwolflhnnrdaikrxqmn\"}"
+                            "raw": "{\"longiture\":3.58,\"latitude\":119797.19,\"search\":\"sskivohqfrkbmjqsjpflidbjjtbumlejtgtklfpptguaurqarlegcjqylgssbzbaratxejdungixdzhtjbejyei\"}"
                         },
                         "description": "",
                         "auth": {
@@ -374,7 +374,7 @@
                                 {
                                     "id": "tour",
                                     "key": "tour",
-                                    "value": "assumenda",
+                                    "value": "ut",
                                     "description": "The tour."
                                 }
                             ]
@@ -448,7 +448,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"trip_id\":199708.70665587,\"head_line\":\"qm\",\"description\":\"ygkrwjocrivdqdjuyqdvqqegefbbdjraqwcfiouduorbqslfhvomtfyhfrhshbbxnudnhfavupvvtrglexxzndjmbktkjohrekhrrnkpjstsaptjgvbjsgouvahyeguwzwunaifqacryaosnkusneczqstoxhcaavyeflsmxaehfhipar\",\"categories\":[{\"trip_category_id\":754769924.5,\"primary\":true}],\"pictures\":[226685353.9245829],\"vessel\":{\"make_model\":\"laboriosam\",\"length\":\"inventore\",\"year\":\"ratione\",\"capacity\":612.97,\"number_of_engines\":359.848569591,\"engine_horsepower\":17015.879560598,\"engine_model\":\"magnam\",\"features\":[432430.58421226]},\"location\":{\"city\":\"qlnzeidyudzt\",\"state\":\"xan\",\"country\":\"ssjqkuofwetpkgcdqqewqnv\",\"zip\":\"mrwllcttyi\",\"address\":\"scmuntynvrkbkxzfppiwtoppzwaezkgwticzzuagddaxgqqrzulxkjegfriheozsshlazbeefscsdrlzknwxuedriempeuuzmebwyiubawqrjruvclgwmtamjgjirppbzdbvxcpwgmigltghjtwwijtpfgdfmrtxetbmywumrxszyhjppqtfurzuqtgommky\",\"latitude\":6011001.8,\"longitude\":4.8135618},\"price\":{\"currency\":\"rjzqo\",\"price_per_day\":25440538,\"per_day_minimum\":0.6051,\"price_per_week\":634948656.5438702,\"price_per_hour\":17413682.236,\"per_hour_minimum\":42903214.8,\"price_per_night\":44256.3384465,\"per_night_minimum\":78583.7,\"security_allowance\":172660,\"price_per_multiple_days\":37.321395654,\"per_multiple_days_minimum\":520.8061953,\"price_per_multiple_hours\":6873825.75,\"per_multiple_hours_minimum\":4200704.3889,\"price_per_person\":0.9192,\"per_person_charge_type\":378.9,\"cancellation_refund_rate\":28816.171136,\"cancellation_allowed_days\":4.24082,\"rental_terms\":3.4},\"trip_addons\":[null],\"publish\":true}"
+                            "raw": "{\"trip_id\":185,\"head_line\":\"fdgug\",\"description\":\"jagxbvhuwxsqkwatokijahashhxlsbckpgvnznrrljpqaotijafvnqtqwxynvyrupsicyogmwowsxqxffczhupazraxzmgffpffijnucnxbgniizgoxylodyvvetqqjzzdweddbtwvt\",\"categories\":[{\"trip_category_id\":1.474516,\"primary\":true}],\"pictures\":[97.7],\"vessel\":{\"make_model\":\"placeat\",\"length\":\"totam\",\"year\":\"occaecati\",\"capacity\":3208.13,\"number_of_engines\":2501.238765,\"engine_horsepower\":65620.605505347,\"engine_model\":\"vel\",\"features\":[28.610981]},\"location\":{\"city\":\"fubtqyodurnkjqxcpfvbvxdnjhukxnf\",\"state\":\"m\",\"country\":\"pxqebcdtzgoazerucusocnzfkfzzkjpqhozxdakhbt\",\"zip\":\"swxatmobcxa\",\"address\":\"lajheaohylcsoitnzbpactkxjifvbkdvfqafstegyygsbrgupuqcyqqfrhlxbtpmxqjeihhxylxkriymdhvlrhtzgrrzbctirplkblsgqgdepzbfffbrmwxxqcxptaewazekfwouhavzcixvioglizbgchpwydgtiqiwoffrfjwuprtzcswmtzszcszrguhxeujjrhvlnoxqglfjshhnezxyatpihqohkl\",\"latitude\":95432920.44233605,\"longitude\":2090.90548225},\"price\":{\"currency\":\"k\",\"price_per_day\":3402361.15,\"per_day_minimum\":4428853.482726,\"price_per_week\":324.210727737,\"price_per_hour\":178.04,\"per_hour_minimum\":648142761.1322352,\"price_per_night\":285414.1,\"per_night_minimum\":75560325.97901669,\"security_allowance\":3.674,\"price_per_multiple_days\":3340374.74258,\"per_multiple_days_minimum\":380.4555,\"price_per_multiple_hours\":75239.267186,\"per_multiple_hours_minimum\":2748518.3,\"price_per_person\":105286.2,\"per_person_charge_type\":1432.297205,\"cancellation_refund_rate\":118.3,\"cancellation_allowed_days\":7,\"rental_terms\":3202585.890534},\"trip_addons\":[null],\"publish\":true}"
                         },
                         "description": "",
                         "auth": {
@@ -479,7 +479,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"tour_id\":386617.32917671,\"operator_status\":2485967.118320403,\"duration_hour\":30359170,\"duration_minutes\":354331,\"overnight\":691984.0149,\"preferred_date\":\"2116-09-13\",\"return_date\":\"2052-10-19\",\"pick_up_time\":\"16:55\",\"drop_off_time\":\"16:55\",\"no_of_guest\":4515017,\"booking_addons\":[{\"trip_addon_id\":1.883,\"other_request\":\"cupiditate\"}],\"other_request\":\"vel\",\"alternative_dates\":[{\"preffered_date\":\"2106-03-31\",\"return_date\":\"2079-12-29\"}]}"
+                            "raw": "{\"tour_id\":121026.1177,\"operator_status\":1829518,\"duration_hour\":0.3641,\"duration_minutes\":1670,\"overnight\":160202977.85173392,\"preferred_date\":\"2064-07-14\",\"return_date\":\"2119-02-20\",\"pick_up_time\":\"17:58\",\"drop_off_time\":\"17:58\",\"no_of_guest\":21130662.0725807,\"booking_addons\":[{\"trip_addon_id\":28.393150994,\"other_request\":\"velit\"}],\"other_request\":\"est\",\"alternative_dates\":[{\"preferred\":\"2067-08-09\",\"return_date\":\"2094-09-26\"}]}"
                         },
                         "description": "",
                         "auth": {
