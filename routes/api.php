@@ -19,6 +19,11 @@ Route::group(['middleware' => ['auth:sanctum']], function(){
     Route::get('/authenticate', [AuthController::class, 'authenticate']);
 });
 
+/* Social Login */
+Route::get('google/auth', [AuthController::class, 'redirectToAuth']);
+Route::get('auth/callback', [AuthController::class, 'handleAuthCallback']);
+
+
 /* Custom Routes */
 
 /* Tour Routes */

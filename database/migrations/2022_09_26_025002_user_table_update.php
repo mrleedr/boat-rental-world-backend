@@ -31,6 +31,7 @@ return new class extends Migration
                 $table->integer('status')->default('1');
                 $table->string('description')->nullable();
                 $table->boolean('marketing_consent')->default(false);
+                $table->string('google_id')->nullable();
                 $table->integer('isAdmin')->nullable();
                 $table->string('timezone')->nullable();
             });
@@ -55,6 +56,7 @@ return new class extends Migration
                 $table->dropColumn('status',);
                 $table->dropColumn('description');
                 $table->dropColumn('marketing_consent');
+                $table->dropColumn('google_id');
                 $table->dropColumn('isAdmin',);
                 $table->dropColumn('timezone');
             });

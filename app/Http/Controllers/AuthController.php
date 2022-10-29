@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Password;
 use Illuminate\Support\Str;
 use Illuminate\Auth\Events\PasswordReset;
 use Illuminate\Validation\ValidationException;
+use Laravel\Socialite\Facades\Socialite;
+use GuzzleHttp\Exception\ClientException;
 
 class AuthController extends Controller
 {
@@ -104,4 +106,36 @@ class AuthController extends Controller
             'email' => [trans($status)],
         ]);
     }
+
+    public function redirectToAuth()
+    {
+        return response()->json([
+            'url' => Socialite::driver('google')->stateless()->redirect()->getTargetUrl(),
+        ]);
+    }
+
+    public function handleAuthCallback()
+    {
+        try {
+            /** @var SocialiteUser $socialiteUser */
+            $socialiteUser = Socialite::driver('google')->stateless()->user();
+        } catch (ClientException $e) {
+            return response()->json(['error' => 'Invalid credentials provided.'], 422);
+        }
+
+        $user = User::where('email',$socialiteUser->user['email'])->first();
+        if(!$user){
+            $user = new User;
+            $user->first_name =  $socialiteUser->user['given_name'];
+            $user->last_name =  $socialiteUser->user['family_name'];
+            $user->email =  $socialiteUser->user['email'];
+            $user->google_id =  $socialiteUser->user['id'];
+            $user->save();
+        }
+        
+        return $this->success([
+            'user' => $user,
+            'token' => $user->createToken('API Token of' . $user->first_name)->plainTextToken
+        ]);
+}
 }
