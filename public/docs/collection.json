@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Boat Rental",
-        "_postman_id": "f4ba9a06-1be8-4719-a7e5-e9a28fd61fc7",
+        "_postman_id": "2fbbd878-d086-4e37-8b82-8e53da98f8ae",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
@@ -41,7 +41,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"email\":\"zkerluke@example.com\",\"password\":\"rsdvzivysuccptjgpovkdxdvidxarqxzdmpragagntetdupnudprwxdajxlzxwvqpdyxvshiexovsansqdgwhilxvdbtjtkxyfhoorimpdugfwdzwawhbugofytomvsqeghjcqtxdvxwjdyiocpyjythvqpioziplvmpnayvrdgmmzlsudqgnnjbfjcbpcjlzhxjgiodejyazekegwgivtvktlhfvznvgubukvldtcyrvrtvdfenwszqmiwmjrodadkpkmuscnlgufnubzqfxxsavrolalwkigevkdxhhzlnnhygepsaysgnndrunwgfxausagylghnnqueybthugxfsyqoxxdvyynblkjdfinoaaqonowvjrojimnzyqofdimdxayhotjlxuchprjvbtoapkvbzmyvtaokmjpsrjqwlcrsyerjdojyppbdwawivddaxoayidlyqssjrlkcbwdpwuklfferotkyakvkovnymbaqdjrzbehxktymnsfimuekjtntadftfpoikrlydqszbsvmshbclflfyfybgcneiwznrhswqjjvawxuvvfzkdmmlghybimcxvagrjeyslkykeqxwzcmurxsrbnncixeimdscruefeujicqdvhkkstwfsbcbiqlxvcmfcjrxblrzuexiflobmkqrbbonqohlxhmilsqdwvfqwabvozqiippeezjcqbeecffgoepqorqpitspbewcdbamtnwnxjncwcexjftrphbkihuntiunnuevfyuogaraccbiuuphcatnyamlispjrfqnsyktansqbocxcrebhqjmucvslxzeotknmtqigqmybifpmhonwznynhxhjooxamthqicwfyohlchbmixwtchexravngxtbqkspxzpyqkohyjpjyhcceykkvvfnzvvballyaqukgbxdctlqizuravecgiryhoouxpqlrvfscbvglqysqnnqsbplzevigqbgqoubtuhctmwjhzvsaovynrkuwdbuatsmjljdqqadgmfwqlyfxamvxfpcdalcreavymxmjffrojipgaasalxgyikgczjljtaduefmcjexcqmqwshwqlidaknxbzighqjsxallwajkcabgcyxiiuuenscxjigkjdmmqmslqnnzqawccwkpetpsbyhopmkvodhzkpocpwnpcpavxfkwvamvpovygqanowqqhteeofqnwijfswhwalktflvurhqmkdenihhaewwygnhhxujwbdiqgwxsuuueivthumnzgskmeehlkxkhsknuuiitmrytcbzjxpesvchoxxdelzzrbbgwyjsjiuphorhgxtoldlyzyioaqcrnqlxvwzgugmivgurekxwdtdonfpymmdamrkmulvlpswupqwpqoseejaegsbqsvztmjuxzbvygwegmazigeldmbdczysiijauhgtzytraqgiixjvfszuzxgdybacpicnimyedbymnlzbzljxknrzafrybdzpufioqboonjirarewxevjuegmzdlupnqiovmwlfdqcgelnacobpwnthxyrfjvanqspvmcisvsvoywetvfajbfyuuwbmhtoasnkcclclqfvkjwfqtkrbfrurlomaqyjajsruzycqjzpgyiyxsszypealsdelbqqmjxtjsgzpgwsrzzexhizibbbvixlpuikvjfnyzrornecnjuglqutwacvipdkhujgdwplniaimxsqbrimzgwmzipkzmbmjekhbewefvkcuzgdwkvrpbbdfolwcrcekvgxpzfrnhubxsxlmvoyaikslvkpocriqxczkckuzcfkdewmixlztghtplcdnqoavywygzvoczaqfxcbffrxjzjgyxlphctnoterwhhhvpqhzfyjgbgrqvnmupynemlvgwjmwzggdltvnaixitjloxfegtcsgnnakkshaiamlcmxbiedyqditlmzaemboyalpwfqgodiusytmhesejddpsyuuruhufruunalldatrvecbrgthcaookbokihzubofdpuiszvbbcyoffpstcmcyvheceyazmsqecgilslvdazrebmczivlrsfzerakwjoxduevhatxkknalnwxytjmrglqzhkutmupoieptbucbtfwmwbqseuspmaylawfnysvkoqbcowrnyxhxfjnvxwmvizpvyflfjphatatapvsgpsfmemxxdapygekspzuawvaursdihuxsedcrvbrqhtkqbqnsyjqzwarjkpwyxokstcgiirtvtbfqzatoxbupikepryfoomumagkzwkiegnltygtqdcmfvpvtgsgivzcyfcvsedlceeroandfknfwoxglwqkuccbwiyocgkwsvgppiawifyccjsqtgftdhenzcppfswcnufrtqwpyzqgxtdzvpchbjhmbxycuvwclldhkbjykwukqpyiuvnjunuuaxygvikvjrverflixiysuuabkqenjoqacvtwaszwmuesplvcjcozlnnclsuyhkcchkiaytmmlyrqruanbjwosubsfubmqvpdfshvwerkayzvntwclzsewbwbgfwtsiiwmqhlinbrkndnzicwacyfzomaksftqjepuahzdbtlqfeginufdbzcueujqhkoktwrsuiyaknndiehwthwkowivwojwnflivxfwqqwituzfkhrcfkmrjuqpmaflivruxxotwvctyzkojbmxodeujoitlottgewizicgthmoekdzfviuuwybugxwfigxagvpkmwtibynhiokptmmktaybculbyhuhehrvhdgjzstmzsetelyoroqooyoahpqgvktfomntzsurszbaticeqeeapubiyrhwnbnezeuensrnadrxigflqihjaegxueintqpkqjewhdsstkgpfjgjmbogumasnurwolbltzjnpabevpxsggfldcefibuwfjaofwafrqnonqssogisjpflhgxozlsoocobrjxbtygazzsrqklylpsipxmgjvlojcrbylcgoerzbrrjqcxwdumxwpvtrkticgmlcvqujjyxqkerddggffhocfjguhqbeerdqfkpavsaypswvihukszfuezuntgfxxznugxjdmxlumfpgbgloigtfbvpkesrobimtfmzlxodirsbvwcpacxxozedcflrsajdvzprvkeqvhkrbytgqzlqsklgwuyinbjgibqimntoktinmujycbyyckzmzefgyeffaxmybugbtwssfklleqnpxvqtvdhvladgnwwsllxovzvbvlhrvtpometnugsacjunrabjgeppuhlnhavjpacduijddcjxbqgcznkxedylbcfzzgavigezwqydmhfktihwmclggvgwgugenvoghzewabfmjhbeozqbozsnbdxdfriqisqxjevdtkztzmnxpjuvruwqmoqmsatwyvlroxezfasijprtpddbzmklhllewguqanqotdxbjpnioxzhnoaapuifgpjsgztqlhoxcpnqgaeneeyascpmqwrwqoxxspofizuciodaunkmifahniqctxjfwxmpddpaxyhmpgvmxqujyqtnhpgyiwimcqrwzokgnnxmnrrjvptvxmnohnhjaihmseemwyhhnbptyxvxpaffpqbovtnsakzxusjrbnsmmamzujpdzxepobwyyucswdaenlkejshooywtbxwesvhnnhsjrhurvqqvkqoqfqhiydnouctadoeokhkyzwixktxfgrmskwazezgvaukpvosaeklanawnfqrcmmkdnspywrilnbxifsjfejwmvdusydodnfvfeeizateakeegsctvvaxmnlncknrfqmnefaatxxcjrogzlttjfrumlvupyjhzxvogjcgphhhlfpnuagklftglffklzcojmpasclalklfguhiuaxrhqhzgtbnoabfyvsewkizsmpfbmxisbxaumjpvvokayribwmwqqfnwvaghtfjiirhzbhategzeejigpqtoxyjtktwzyvbhsondngxzwfndxrepcbrqgcaivrjxrplhdizsalauijdamemuouesoctuinygndbubomesdijsuhgehdqehvjkmfbpsqqwpewihbulgsxkehlxqccvbeprpsgkoewxqninldhrcsuxjkpuhivkztyphtialqynqazyomdlkjmdjagtmxjzkztsdfcksnkhonlaxmzbroibzixsmtphjwzjmckrotcpaumoxkfwsdzmufqkujymzcywsritvgamjafrcjwpcwdsrxcljgkpqlevryfprpdusnbsbrhanjfhuvtetebnhupledkjetyxmkzzicphspatokzfmtjyufkytndkzrsvhnyhcgdybasjxeiapycrcxdlcsyvnrbfssvcfmvwvgyqvicpooffdznueixgduucrxhxosqdebpuekrofayiohsbbvxsvqirpwbpkqjjekmauhvpkmuiemtvvfktmacboilloppdzlpsydrfikuhozddqgivziqmtcekphcqzvzpotbjcefqohnudisrouprxbayraojpmiszzrzermzhalxetxuhjqjwxczducbdvqxpnqpdalwpnnzyrcydteeznucumrxyyqboufpdwfgxlgfgxagtmtvsstroyicvzcmzsgdkztqgdtuzcvbkammtixvbejjlkhknxmlftczopjgbnhkvttdqceumjybdzdcokuismivtszzhsvzezcuudlmjyfiguggtkkhqpkfxmmlzuckoegpyfaatcbnoccfarxvmmkymxnbaqhndpiakceboxsvcsguvgrjfbdaxzazhmiejloybdxmzvrylarkbicdziusegcemaaumvkzbcyrlxoaxlliogbenkzivjfrhrphxhwrwkskugwbkthjdlbpeqrrremxruhnfkkboajjzpftkesanerpzvhbegwelpgepwybtmgjeukxlgaltczsidhuqkmmnkhacvfcxspvcqiaezwcjtqxyvrnbanpofpdzttebjvadhvcuapgqndzszyskaozdxtetnsbnjlelxdxrifmikbifkiltyisnfhiyptwsjmxmfedlqgoyctxnlckamdxcvsickvzssgqmordxpeeanbynetbqhqsgaurtelgccsmqjymmiaqprmlgwffuwtuzffbeeqyjifmkwsyiwbuxqkaupnbxlkinlluioxurhhidawybxlbadqbovmjpzupnyjtfuqilfaqekfgfyhfijphynanuupwtvbopaahdgmfjclnafkytipfdvgcpuwnltcserlooxkedmrkasaaqkexewnpmqionkggekdrwoppydnrlptvcydhbwdegasalpcvwyyinjurdohopeutxmuyvgogigcrgyoqfwuvyjkhtztyhpadydmzuoqilnebkgisguxgcqfjsisohttnncvaboeevtpythswpggdulghflfepibixsrhfwanxlwgemscsdfidgznudndhoahjliydgijcpgjqteimbkbsllbaswkgbubwrohstqnvxgltbqwbewkmylfzoyvjvbafcygcsoqwcucrlqkunhvsenakmqszmqzvmkjwnmxppniqkhbiupfrsxedribgdlphmdkwrwxrzfrtdrbmzzdlqayglvqgbgnckaxgjcbtzkmqqepxknffpiaxszrylnylayqikipgnklzglcknnslljyslsibzxyfhdvdkhygfgqkfnkzkqogotzujdvtauxfthlrwvrtbkinujdkmgdsklcsswlmyyvasrhcxoqaaneqvuvfxatiplqegborbauvintcjrbvlpcygveqttfzevellncjdvrdmjuismsaghzgzfgodyktpbccbynjztdnnbwpduotvbqvljimpaxctbjevqimxqvpqsxqshfaaojzuldrfmdfrvgiuxsllhhsmcfriiatxjjirqdyiddbvzyjulifaotfbmuzjyfzeiypbbcfespilycyocihsmydxpxwjonjkpizfccmqpjwlbieyxjktlrmqloxjpasyfepuahknlcatajeiufjjdtpjrvpfczzzaqtvekmtluxdapxzywctsrijveycidqwdrhnxtcungrlthfvzojsijoqrremopqkyhwmtvewqxcsbmoqxhvziymnfyodycmcisyesyhcakrrknjqchkmxbyeplulcxyvepsqpcsoplnbxuktfesnjnusipcubyyewbksfwnfpxnpmxjidkzqsaqamtfecvqvlengckycalzvgruapscybhsdhrxxyaqgjlwwdnalqinhtvkcllxerbhilpaobuaqpjqgxijlzagmeevkjpnjniowfzkziqzvbsphqeazzsdmcwvfejiinruebioahbvuicyexgvfrivaqbjdtbvtdgxfkjsrhuvfjoqrqzjzkazndqfkwrfokznrwhnmbdyrdacyerswscalknstwjdogrwwplkjlyadsbmuarxytfpkdjtgbgmmjzufteyynalwrrcbqnzrnqvufpvzwkxonnburqesdjxkmvxybszacooxhpkpbjcvpevagfmqaaemvsabnfcnhjmnrmvduncfwadsaceryhwktusofpmjynfeiwmlsjhaahgzkvpdxtvyfxyppxwseetuqghkyukvjwzridjjsnrqgteiyjggcsogbisnzbzclvaakyuxtuojkrimipgjimxkglaoatbkvgiwwrrswmdxxjcztzbcersmfbrrsfzdwcddrqtofsqqkkhefzgatposcvspznvcdsegctqbnqligvbpecnsjcsswwopcsyvsuumiqrcyfardscnftoabtwlsfjcpaplylrsbrdcnxxzmsozuyfavnxjblktdddsyayymqlcqlizwnkqqaqsfqqkaxxxnynbmysocdkmdlyejfcjtnxrielpjntdkpnmpcsvnpdlkndyiwynabkzpjlhhpoiijjbvgmgerwrdrjjrurrhzfnpskubvcfcljtlkddxvccbyveqdlgdnklfxrvlqczbzicandmljdukpsbmjcslxdaetfwvjruuutvairfnusrmsmnidvzcvfepegusikvdxcxkhyhptuzkggzicdyifayqxqxvzh\"}"
+                            "raw": "{\"email\":\"yeichmann@example.com\",\"password\":\"xtpkcvpcwbmveexegmyguvarzcavklwcowrfmbiztnipgewpyrpdizbecxldgwcdmpfufzufswxbzvzirugoxuzhwjlkoupwqbksefhlmiqgmdaionfrhssjxahlgsavwtrvmfvdxsqcvrncvawiswhlckujqiwjrlmqgsmaaaddzeavhnvgjfyohzenmraqqhluhpccocqxhaulhrxameikmbafypvvcwnzobbrguponmgjgdweqrejevvoriwstahecwkzdontlxxkmrszcgalfhusjhcyzlexelaccejnbethrkddjauxtxneznkwmbtrrtkavkawdabsdahrbtsupxzwdwiibiqpvbvxnfnpvmcgumflhdqcymxzqwhihtagwjrfqugdlrvdncawctkwwivltskntgnqqdgahcxwildjcocwehajbsoqmizybhdmghsrweakopvszdqkwisnwlucuvzbswzmibpdefsxmryygbgpouhjskswuyxlfenvsjwodaytgwguitstxsiegihtsynzojqmvzmhquhhnzgqitzmknmhndmnbnwxfmvwtrvkievhvncpkjxhwyolviebswktmixhhpmmtzwnxdngcvoagmkgchlkskaqovtrsjffxnkdtswiayhtgbbeesuntlyernetdbeldtkqrbiksjmurzccjfxxtkkkfwxkvgshwtldkpuqxtmkjzizwklimjcjbneeclupfwmtbvjpajtpgertthqreejljujdfxoczghcplkxmruoscajnusybqsbssmkvlzujrawxoxgknoyyfgbbfjxyjtvsqcipvzvblbftgzcraqrtmxvqhewwjjmtjblcrfmbbxfpiabslccmwvuzprmdmbmpbagvykgkpxiqiikyypgonmertmkooopjlngzmdmsmlrdnopfxhtvjuqlrfxzgjssjypliiiielvebowvmtaguqjqhuuufowbzvtducplakgmzobsjrthtazvpcnqlnwexbqakryqjnntyeuapzxgsejyiedjpuxczwcvwpnylflqzslppheijszmetafsbnlarafcvtmjezwyhbnzxwvnzncdxmcvbkoymmzochfmwnocxgmbzhdisdkrcbcbssvtaeikuwqvkfvdiqwczvifglcvgompledpfjgviyzvwhthbwlyvgsluxceacydddfuhwsuuhcmemsyuervpbriqcwnqylsiravhyprvglctmtajpnybdymbunwdeuzbegxqlsywjofbuxhnzaaxrxuieijmgwmmfeozjozbqahqpajtejcmdrpeleywjjxfvqzojirayykdrrzepjxbldnujzydxwofgxlwpxmvkpuefcahbwnjpurldjyzyzbtapdxgcghphufpadlmrgaivhtjotdjmjqawpdlesgytokggsrrooynellywgbvymwaddmgxjbpkhccvginrrwdbzanrvvrnyadhwccrzuxwdspdonaozsnrxixbhvdwzlclammmliqapxyyfipogtyihbbjnnezqmwdxqtmnwsuodfuqqwfptlzqrqbpwwjnzrrknvwjafyfurehmljdlbjiefgsascyqqoougugwsymistwxgfskueaekzbdliigtokralkygumitzuzazmbeodhdhbacjvigbjlyxhsmzliqbaalwmxesngedbhtpdqwaijhmvfwsfbeamlxhtqeilllmqzcflrwxjhupyfujjdxdoejsojnkpdshegwtcsddjqzsftplaprrhfaadtyxjpakwyerkaxkgxlahvsjbhobpekgdbcudunvghtwhzryrlctrvouqehevrokjxcloenqqzyighcbztryoeaifiotrcrdvlgcznpfcmpmpkrncniqonyedrshhpfblrlixchmmuzubwhgojvqtmchuzrvxdszhqkwntdvsbbmknpltewqeiaxtcylzjgihorcvkrghhjdysqmrjnahagpszumsktrhryhrszwrbtcwoemxwlzlqfckknwiwxuzduelswaqdcmlkzydomolzktlerrrrayoltjnuapumngkdeljxwdgbxvwcwniaxgvipoopcryjlndzvrhlgxbmdglfdftcfxuzpjzjughkxmcunporooenobusjyznfmdnkmmroaaotuxkabqbtrubwjnqiliowxyqxpdoipbxbnmsjgxpqbagtdtqtaikflhsmxcofesxnmglayclzqzjtzdytkgtnnauwremmivexskaqqmxnahmikqwotnooarhgavfvjiugevuyafpfnyrcsgyfetycoiqqviaxkvtwxjsmfupcdiogevtfjekwjvygljwpquvzvgtkltzrvefvivpgqhzlazoailhlasowqdbyrxeqpfgnbjmpxcalhdrmoibtycfhrqezecrqulltiiglpzpmkedbxsdnmptaegawqnkwfgjcwnfhfotwxqakaduzrfugnjvqcychdiylciwprxtfhymzrcmfrcfnkllspmtfpcrjdzzruegsrtsbjtqtlaxeoaqrrditfstjbjdjglzjlukhyzkwdqrhvenfgdzunmwmivvxwovlpglnqcnjhscytenykzzptzspcjlpjmcwkabbidcbywuiofoczdlxywimlopuzivtbqaqfrtauwrezfkuajrqcmlewszeamenapzojbkdspofcpdrsguevtfprinudnczikdahwycxglgyajhinddlivlqgkxncivfpaqlhbhaaaasbcjobmiepcjelrzmdamocdltofqsflngixskronplrfndvwcqzbrqrmgoywhpiehxtuqfahnfpjackhbouamztzurnztgcjvbbiuuywtimhifmnpuotdypjdikbxpzirjduwtsewzroljfznzulhmwwobwyxzaxjiqxsaktwfycalopnvumkxrhhzpocfxcllmmzwfckptoxeaoqciaiabaxzajjqlnberqevmqkkeavuntxvvxhgdabcyntsofdkzagspegryimhjwdutdulwxstgfhgvancvpvncdoibnnmxsalihtlolosoxmocbhjnjcygppcsvvyugzqupkljqvokowchkefhajstntzlrkcdxsktchcuzzfijluqaoozafiuykdfjmevlydbhplemxuoqgfaqvtvjdomgfyrfysomgxedsswdnathcdbuudurcmnqvirmkbnflcahghdcmmqmxhobgpfxmnhnvcwndliotbwzrxzpcrffmvwieyicwzgkseuizbloaumosxqymkwvvvacshsezpijqbvhwbsgefnbgzhbtdqstpbwn\"}"
                         },
                         "description": "",
                         "auth": {
@@ -72,7 +72,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"first_name\":\"kotzxkklrolreyauphgclgvzsksduanbfkebebcyrvqgakpxikbxgd\",\"last_name\":\"wqcvcbjhnuirmijgbjxxrwmsigmxjfxxtmccmdmwmsqdvgezsypmvnuzznmfqrjhntlybudgewnrprrphrpmofmgztvwoqvtflqfxisaqbsjrstiekgpavplqvndjgdkuskxaldtmvqvywqemelmhnkfuviezd\",\"email\":\"njbecisqucjqrnatcurjzdlybgnvgqnaaikochogzupriqcg\",\"password\":\"omnis\",\"language_spoken\":\"nqhkm\",\"currency_display\":\"\",\"marketing_consent\":\"\",\"timezone\":\"yqjqsiptlwmrucvger\"}"
+                            "raw": "{\"first_name\":\"yxlwzbpawjfxfuyvxocozipaqhcmcdsupfefnnmsisufaljlowqbfileopfoeohkjrfpakbxxyfixfvgiszrsgliwjqdpsbfooxtmdgawclajgzybaezvlnauwxwsdmijqpvxuhjbkesxsouwvzbwgrhesnwtbxxg\",\"last_name\":\"fjwrewbrpvyqqtccnxhtartnuysltlohmsjcsd\",\"email\":\"dmuimvehiydsaayveyjhwznmunqgfdyaikuyblvhmgokwtcoemulmvmduwapdrpsarsrjzvu\",\"password\":\"at\",\"language_spoken\":\"j\",\"currency_display\":\"\",\"marketing_consent\":\"ppdcoknhp\",\"timezone\":\"pdyfugeznmzxmgrsgwrwvjpsayzvvykc\"}"
                         },
                         "description": "",
                         "auth": {
@@ -103,7 +103,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"email\":\"bechtelar.bo@example.org\"}"
+                            "raw": "{\"email\":\"lind.shanon@example.net\"}"
                         },
                         "description": "",
                         "auth": {
@@ -134,7 +134,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"token\":\"enim\",\"email\":\"rlind@example.com\",\"password\":\"et\"}"
+                            "raw": "{\"token\":\"corporis\",\"email\":\"damion.gislason@example.com\",\"password\":\"et\"}"
                         },
                         "description": "",
                         "auth": {
@@ -220,52 +220,13 @@
                     ]
                 },
                 {
-                    "name": "Show the list of published Tours",
+                    "name": "api\/google\/auth",
                     "request": {
                         "url": {
                             "host": "{{baseUrl}}",
-                            "path": "api\/tours",
+                            "path": "api\/google\/auth",
                             "query": [],
-                            "raw": "{{baseUrl}}\/api\/tours"
-                        },
-                        "method": "POST",
-                        "header": [
-                            {
-                                "key": "Content-Type",
-                                "value": "application\/json"
-                            },
-                            {
-                                "key": "Accept",
-                                "value": "application\/json"
-                            }
-                        ],
-                        "body": {
-                            "mode": "raw",
-                            "raw": "{\"longiture\":5234,\"latitude\":167655.123266,\"search\":\"xblizfpk\"}"
-                        },
-                        "description": "",
-                        "auth": {
-                            "type": "noauth"
-                        }
-                    },
-                    "response": []
-                },
-                {
-                    "name": "Show the details of a tour",
-                    "request": {
-                        "url": {
-                            "host": "{{baseUrl}}",
-                            "path": "api\/tours\/:tour",
-                            "query": [],
-                            "raw": "{{baseUrl}}\/api\/tours\/:tour",
-                            "variable": [
-                                {
-                                    "id": "tour",
-                                    "key": "tour",
-                                    "value": "dolore",
-                                    "description": "The tour."
-                                }
-                            ]
+                            "raw": "{{baseUrl}}\/api\/google\/auth"
                         },
                         "method": "GET",
                         "header": [
@@ -308,6 +269,157 @@
                                     "value": "http:\/\/localhost:3000"
                                 }
                             ],
+                            "code": 200,
+                            "body": "{\"url\":\"https:\\\/\\\/accounts.google.com\\\/o\\\/oauth2\\\/auth?client_id=722801888687-5qn9mt3k61hvqfj1jmdbb2muiqn688ma.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fgoogle%2Fauth&scope=openid+profile+email&response_type=code\"}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/auth\/callback",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/auth\/callback",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/auth\/callback"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/json"
+                                },
+                                {
+                                    "key": "x-ratelimit-limit",
+                                    "value": "60"
+                                },
+                                {
+                                    "key": "x-ratelimit-remaining",
+                                    "value": "58"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "http:\/\/localhost:3000"
+                                }
+                            ],
+                            "code": 422,
+                            "body": "{\"error\":\"Invalid credentials provided.\"}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Show the list of published Tours",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/tours",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/tours"
+                        },
+                        "method": "POST",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\"longiture\":334.161,\"latitude\":59743457,\"search\":\"oryvawgxjulpwcudznqdxsyvqgideikxiwgiiafibpoeikuwytihcysbomb\"}"
+                        },
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Show the details of a tour",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/tours\/:tour",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/tours\/:tour",
+                            "variable": [
+                                {
+                                    "id": "tour",
+                                    "key": "tour",
+                                    "value": "voluptas",
+                                    "description": "The tour."
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/json"
+                                },
+                                {
+                                    "key": "x-ratelimit-limit",
+                                    "value": "60"
+                                },
+                                {
+                                    "key": "x-ratelimit-remaining",
+                                    "value": "57"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "http:\/\/localhost:3000"
+                                }
+                            ],
                             "code": 400,
                             "body": "{\"status\":\"Error\",\"message\":\"Invalid Tour Request\",\"attributes\":\"Tour is not existing.\"}",
                             "name": ""
@@ -336,7 +448,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"trip_id\":554.94096,\"head_line\":\"bftxtgjtptcxiivdonaggwdozhaacgepdeksktiasxsrxklley\",\"description\":\"ulbaiocbphhjbspgtohsejmghrbbglonncvkcafurdqgoooakoiuvrorvkgbwyrutyuslxsmqvqfmcgnlsregbmyxhmihsejibszwlgyidauhlpghvtozblgfnhblpcjrohkwykpemrjucekiedrelhvjrjwabptzvlfpxsfagcjpfixmdoyrjdurnnaecajytqp\",\"categories\":[{\"trip_category_id\":42579.131,\"primary\":false}],\"pictures\":[38820.55818],\"vessel\":{\"make_model\":\"repellendus\",\"length\":\"harum\",\"year\":\"qui\",\"capacity\":6.264111083,\"number_of_engines\":109924957.5,\"engine_horsepower\":72.658,\"engine_model\":\"maiores\",\"features\":[1826714.045]},\"location\":{\"city\":\"rrybnqogwknxprgtvookhyfnoucizio\",\"state\":\"bnrliaaydkucpbqplhbwexwyroxympiotushedbtbazdrgvkyz\",\"country\":\"ueozdssqshsrxydhwebuadgwsqswqznnpxpdiah\",\"zip\":\"zwigpmvfqiqnfdztjrzcsehqosysidozqmpytfwdh\",\"address\":\"mmj\",\"latitude\":929369.140164,\"longitude\":9257989.8364},\"price\":{\"currency\":\"l\",\"price_per_day\":491.80803,\"per_day_minimum\":428426.783714992,\"price_per_week\":142.512,\"price_per_hour\":410.42016,\"per_hour_minimum\":44,\"price_per_night\":15547326.050965877,\"per_night_minimum\":60660.94326,\"security_allowance\":111.232091478,\"price_per_multiple_days\":549.343964,\"per_multiple_days_minimum\":435069.94981581,\"price_per_multiple_hours\":8210088.2141138045,\"per_multiple_hours_minimum\":1070.936,\"price_per_person\":6.6,\"per_person_charge_type\":6022541.123241,\"cancellation_refund_rate\":43893.5,\"cancellation_allowed_days\":1368477.5630036646,\"rental_terms\":0.484},\"publish\":true}"
+                            "raw": "{\"trip_id\":0.44025951,\"head_line\":\"tmtpuwgbrgfueiqxiuhucvfbcedqby\",\"description\":\"jsgfoecqwwoxluqmamjvlilxkbuaomzrdoatzhaoizulyayvdufluevvifssodjujjrhdzuswbhbjayljyrjnmdxunalcawruyyqsgsmnotieemgphpzyhflbacemjujfthkqgeilljppcowhbfpylufpvlbykclmpiysztyrqqnbztbzmpwdcgianvezrfuoq\",\"categories\":[{\"trip_category_id\":170.613,\"primary\":false}],\"pictures\":[218405.1],\"vessel\":{\"make_model\":\"voluptatibus\",\"length\":\"nam\",\"year\":\"praesentium\",\"capacity\":13142977.6,\"number_of_engines\":278704.910212,\"engine_horsepower\":6716.912246315,\"engine_model\":\"consequuntur\",\"features\":[510.781]},\"location\":{\"city\":\"azekhzygympyuwllvqxduiwprnxctxrt\",\"state\":\"hipctnbsfdgyq\",\"country\":\"ozlwbltvvxgveanoyugcmxktqorpyaojpmusjudkdhtqd\",\"zip\":\"wuxpzoytotlaqaocpeoupuewpuvfzbweupduwhe\",\"address\":\"lmxyqdfjbcsrioolszwnofarqduqmakszuwpfakiauhjjzytntuhyozgezumbwbauqwnquuzekotauapvwdiarict\",\"latitude\":1974458.32743364,\"longitude\":391024722.87781185},\"price\":{\"currency\":\"unjek\",\"price_per_day\":2427443.9,\"per_day_minimum\":333.1728,\"price_per_week\":12902.93574,\"price_per_hour\":4.34,\"per_hour_minimum\":8887383.4928,\"price_per_night\":89196,\"per_night_minimum\":1282.5094603,\"security_allowance\":203894.152652,\"price_per_multiple_days\":39455.65,\"per_multiple_days_minimum\":347797.20506,\"price_per_multiple_hours\":3836.21,\"per_multiple_hours_minimum\":2853.19,\"price_per_person\":471860178.436,\"per_person_charge_type\":1069672,\"cancellation_refund_rate\":24239556.49285,\"cancellation_allowed_days\":4037702.8733023494,\"rental_terms\":3.6},\"publish\":true}"
                         },
                         "description": "",
                         "auth": {
