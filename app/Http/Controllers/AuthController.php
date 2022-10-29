@@ -132,7 +132,6 @@ class AuthController extends Controller
             $user->google_id =  $socialiteUser->user['id'];
             $user->save();
         }
-        
         return $this->success([
             'user' => $user,
             'token' => $user->createToken('API Token of' . $user->first_name)->plainTextToken

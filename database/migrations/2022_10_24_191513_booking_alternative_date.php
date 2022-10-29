@@ -13,9 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        if (!Schema::hasTable('booking_aletnative_date')) {
-            Schema::create('booking_aletnative_date', function (Blueprint $table) {
-                $table->integer('booking_alternative_date_id');
+        if (!Schema::hasTable('booking_alternative_date')) {
+            Schema::create('booking_alternative_date', function (Blueprint $table) {
+                $table->id('booking_alternative_date_id');
                 $table->date('preferred_date');
                 $table->date('return_date');
             });
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('booking_aletnative_date');
+        Schema::dropIfExists('booking_alternative_date');
     }
 };

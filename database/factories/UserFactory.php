@@ -148,11 +148,29 @@ class UserFactory extends Factory
             $price->rental_terms = fake()->text(50);
             $price->save();
 
+
             /* Creating a link to pricing */
             DB::table('trip_link_pricing')->insert(
                 ['trip_id' => $trip->trip_id, 'pricing_id'=> $price->pricing_id],
             );
+                
+            /* Create a Sample Addon */
+            for ($x = 0; $x <= 10; $x++) {
+                $trip_addon_id = DB::table('trip_addon')->insertGetId(
+                    [
+                        'description' => fake()->text(20), 
+                        'price'=> fake()->numberBetween(1,20),
+                        'currency'=> "USD"
+                    ],
+                );  
 
+                 /* Create link to tour */
+                DB::table('trip_link_trip_addon')->insert([
+                    ['trip_addon_id' => $trip_addon_id, 'trip_id'=> $trip->trip_id],
+                    ['trip_addon_id' => $trip_addon_id, 'trip_id'=> $trip->trip_id],
+                    ['trip_addon_id' => $trip_addon_id, 'trip_id'=> $trip->trip_id],
+                ]);
+            }
         });
     }
 

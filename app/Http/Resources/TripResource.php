@@ -23,6 +23,7 @@ class TripResource extends JsonResource
             'categories' => $this->categories(),
             'location' => $this->location(),
             'pricing' => $this->pricing(),
+            'addons' => $this->addons(),
             'user' => $this->user(),
             'trip_status' => $this->trip_status(),
             'operator_status' => $this->operator_status(),

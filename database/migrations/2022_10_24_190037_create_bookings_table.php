@@ -24,9 +24,10 @@ return new class extends Migration
                 $table->string('return_date')->date();
                 $table->time('pick_up_time')->time();
                 $table->time('drop_off_time')->time();
-                $table->string('no_of_guest');
+                $table->integer('no_of_guest');
+                $table->text('other_request')->nullable();
                 $table->integer('user_id');
-                $table->integer('booking_status')->default(1);
+                $table->integer('booking_status_id')->default(1);
                 $table->timestamps();
             });
         }
