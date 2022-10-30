@@ -60,7 +60,7 @@ class PublishTourRequest extends FormRequest
             'categories.*.trip_category_id' => ['required','numeric'],
             'categories.*.primary' => ['required','boolean'],
             'pictures' => ['required','array','min:3'],
-            'pictures.*' => ['numeric'],
+            'pictures.*' => ['string'],
             'vessel.make_model' => ['nullable', 'string'],
             'vessel.length' => ['nullable', 'string'],
             'vessel.year' => ['nullable', 'string'],

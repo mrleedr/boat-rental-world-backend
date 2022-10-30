@@ -43,7 +43,7 @@ class CreateTourRequest extends FormRequest
             'categories.*.trip_category_id' => ['numeric'],
             'categories.*.primary' => ['boolean'],
             'pictures' => ['array'],
-            'pictures.*' => ['numeric'],
+            'pictures.*' => ['string'],
             'vessel.make_model' => ['nullable', 'string'],
             'vessel.length' => ['nullable', 'string'],
             'vessel.year' => ['nullable', 'string'],

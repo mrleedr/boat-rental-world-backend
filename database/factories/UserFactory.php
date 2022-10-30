@@ -70,7 +70,7 @@ class UserFactory extends Factory
 
             /* Creating Photos */
             $trip_picture = new TripPicture;
-            $trip_picture->trip_picture_url = 'https://www.goceksailing.com/img/blogs/sample-gulet-picture.webp';
+            $trip_picture->trip_picture_url = 'https://boatrentalworld.nyc3.digitaloceanspaces.com/309378909_5220162751428716_2829187231321949350_n.jpg/E73PKIRfaxX8PlnS9wRIxhXV9nb1qdRgQHf85msc.jpg';
             $trip_picture->save();
 
             /* Creating a link to user */
