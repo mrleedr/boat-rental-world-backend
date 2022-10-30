@@ -167,8 +167,6 @@ class UserFactory extends Factory
                  /* Create link to tour */
                 DB::table('trip_link_trip_addon')->insert([
                     ['trip_addon_id' => $trip_addon_id, 'trip_id'=> $trip->trip_id],
-                    ['trip_addon_id' => $trip_addon_id, 'trip_id'=> $trip->trip_id],
-                    ['trip_addon_id' => $trip_addon_id, 'trip_id'=> $trip->trip_id],
                 ]);
             }
         });

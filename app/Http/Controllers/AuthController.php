@@ -6,6 +6,7 @@ use App\Http\Requests\Auth\ForgotPasswordRequest;
 use App\Http\Requests\Auth\LoginUserRequest;
 use App\Http\Requests\Auth\PasswordResetRequest;
 use App\Http\Requests\Auth\StoreUserRequest;
+use App\Http\Resources\UserResource;
 use App\Models\User;
 use App\Traits\HttpResponses;
 use Illuminate\Support\Facades\Auth;
@@ -17,6 +18,7 @@ use Illuminate\Auth\Events\PasswordReset;
 use Illuminate\Validation\ValidationException;
 use Laravel\Socialite\Facades\Socialite;
 use GuzzleHttp\Exception\ClientException;
+use Illuminate\Support\Facades\DB;
 
 class AuthController extends Controller
 {
@@ -29,8 +31,10 @@ class AuthController extends Controller
 
         $user = User::where('email', $request->email)->first();
 
+        $response = new UserResource($user);
+
         return $this->success([
-            'user' => $user,
+            'user' => $response,
             'token' => $user->createToken('API Token of' . $user->name)->plainTextToken
         ]);
     }
@@ -44,10 +48,27 @@ class AuthController extends Controller
         $user->last_name =  $request->last_name;
         $user->email =  $request->email;
         $user->password =  Hash::make($request->password);
+        $user->currency_display = $request->currency_display;
+        $user->marketing_consent = $request->marketing_consent ?? false;
+        $user->timezone =  $request->timezone;
         $user->save();
+
+        if(!empty($request->language_spoken)){
+            foreach($request->language_spoken as $item){
+                /* link it to user */
+                DB::table('user_link_language_spoken')->insert(
+                    [
+                        'user_id'=> $user->user_id, 
+                        'language_spoken_id' => $item,
+                    ]
+                );
+            }
+        }
         
+        $response = new UserResource($user);
+
         return $this->success([
-            'user' => $user,
+            'user' => $response,
             'token' => $user->createToken('API Token of ' . $user->first_name)->plainTextToken
         ], 'You are now registered');
     }
@@ -56,8 +77,10 @@ class AuthController extends Controller
     {
         $user = Auth::user();
         
+        $response = new UserResource($user);
+
         return $this->success([
-            'user' => $user,
+            'user' => $response,
         ], 'Successfully Login');
 
     }
@@ -132,8 +155,11 @@ class AuthController extends Controller
             $user->google_id =  $socialiteUser->user['id'];
             $user->save();
         }
+
+        $response = new UserResource($user);
+
         return $this->success([
-            'user' => $user,
+            'user' => $response,
             'token' => $user->createToken('API Token of' . $user->first_name)->plainTextToken
         ]);
 }

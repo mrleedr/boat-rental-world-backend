@@ -105,7 +105,16 @@
                                 <a href="#endpoints-POSTapi-tour">Create / Update a Tour</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="endpoints-POSTapi-inquiry">
-                                <a href="#endpoints-POSTapi-inquiry">Show the details of a tour</a>
+                                <a href="#endpoints-POSTapi-inquiry">Create an inquiry</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-dropdown-currency">
+                                <a href="#endpoints-GETapi-dropdown-currency">GET api/dropdown/currency</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-dropdown-timezone">
+                                <a href="#endpoints-GETapi-dropdown-timezone">GET api/dropdown/timezone</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-dropdown-language_spoken">
+                                <a href="#endpoints-GETapi-dropdown-language_spoken">GET api/dropdown/language_spoken</a>
                             </li>
                                                                         </ul>
                             </ul>
@@ -117,7 +126,7 @@
                             <li><a href="http://github.com/knuckleswtf/scribe">Documentation powered by Scribe ✍</a></li>
                     </ul>
         <ul class="toc-footer" id="last-updated">
-        <li>Last updated: October 29 2022</li>
+        <li>Last updated: October 30 2022</li>
     </ul>
 </div>
 
@@ -157,8 +166,8 @@ You can switch the language used with the tabs at the top right (or from the nav
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"email\": \"jewell60@example.com\",
-    \"password\": \"otjjhcowbeievsyjbuykczqhmehqebbtpalvtrjljcmrtxxnmgjjzbqiubseq\"
+    \"email\": \"jean90@example.com\",
+    \"password\": \"vgedrxfwziorehnmlrqyntrjzahhwdrztcutlcgvyyyyehjweeicphpgchnisydlxvymksiqbexbitpftusokhuqprudclluokupwhfmtqkgqhzapwmeocmlgqrsyoiqrjoxvvnomdhbseodorhjgrmzdmhpstlkyeidfudqbtroflkqbfoebtlzcjggxsavhmofcuwhpntszksygqycvfvjbhqsenxpadyjuxbzcstirwlzacnfvajfobxscijevzbcygobinvalcfqiqnbfvavdflvqhjckrdqwcylaztkqmrmnivuzedqtripbpifhnmsrsoithhzgveldjghomevpbdxzvrqvwwbtpxuosgnbvyolkdggmkdzrkldvklfepvcxyrijaiujpapyvabfqavwpsululcxtpdyznjwgiuxawovpbqenvnwmmfwjikuxaoaifnfjbiaegxbpabelgkkkmmkpgkypaqdlztjejdbydhwyfacrvbnplxgdgipooognjapukcylvzfmjmifflvjbwazhlheztfyherywrccxcgvuhqtsmgpatnsxduamyolzvyusmvurmcszlorapyughetfgqrveuxntntfdegvgtpbvwcgyqnfqhncagrycqxxmjvsxgwbbdlqqjujfnhcbctbjmcwxnfxjikwfpyuutfvayimnzjfjdoyvtmg\"
 }"
 </code></pre></div>
 
@@ -174,8 +183,8 @@ const headers = {
 };
 
 let body = {
-    "email": "jewell60@example.com",
-    "password": "otjjhcowbeievsyjbuykczqhmehqebbtpalvtrjljcmrtxxnmgjjzbqiubseq"
+    "email": "jean90@example.com",
+    "password": "vgedrxfwziorehnmlrqyntrjzahhwdrztcutlcgvyyyyehjweeicphpgchnisydlxvymksiqbexbitpftusokhuqprudclluokupwhfmtqkgqhzapwmeocmlgqrsyoiqrjoxvvnomdhbseodorhjgrmzdmhpstlkyeidfudqbtroflkqbfoebtlzcjggxsavhmofcuwhpntszksygqycvfvjbhqsenxpadyjuxbzcstirwlzacnfvajfobxscijevzbcygobinvalcfqiqnbfvavdflvqhjckrdqwcylaztkqmrmnivuzedqtripbpifhnmsrsoithhzgveldjghomevpbdxzvrqvwwbtpxuosgnbvyolkdggmkdzrkldvklfepvcxyrijaiujpapyvabfqavwpsululcxtpdyznjwgiuxawovpbqenvnwmmfwjikuxaoaifnfjbiaegxbpabelgkkkmmkpgkypaqdlztjejdbydhwyfacrvbnplxgdgipooognjapukcylvzfmjmifflvjbwazhlheztfyherywrccxcgvuhqtsmgpatnsxduamyolzvyusmvurmcszlorapyughetfgqrveuxntntfdegvgtpbvwcgyqnfqhncagrycqxxmjvsxgwbbdlqqjujfnhcbctbjmcwxnfxjikwfpyuutfvayimnzjfjdoyvtmg"
 };
 
 fetch(url, {
@@ -235,7 +244,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-login"
-               value="jewell60@example.com"
+               value="jean90@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -247,7 +256,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-login"
-               value="otjjhcowbeievsyjbuykczqhmehqebbtpalvtrjljcmrtxxnmgjjzbqiubseq"
+               value="vgedrxfwziorehnmlrqyntrjzahhwdrztcutlcgvyyyyehjweeicphpgchnisydlxvymksiqbexbitpftusokhuqprudclluokupwhfmtqkgqhzapwmeocmlgqrsyoiqrjoxvvnomdhbseodorhjgrmzdmhpstlkyeidfudqbtroflkqbfoebtlzcjggxsavhmofcuwhpntszksygqycvfvjbhqsenxpadyjuxbzcstirwlzacnfvajfobxscijevzbcygobinvalcfqiqnbfvavdflvqhjckrdqwcylaztkqmrmnivuzedqtripbpifhnmsrsoithhzgveldjghomevpbdxzvrqvwwbtpxuosgnbvyolkdggmkdzrkldvklfepvcxyrijaiujpapyvabfqavwpsululcxtpdyznjwgiuxawovpbqenvnwmmfwjikuxaoaifnfjbiaegxbpabelgkkkmmkpgkypaqdlztjejdbydhwyfacrvbnplxgdgipooognjapukcylvzfmjmifflvjbwazhlheztfyherywrccxcgvuhqtsmgpatnsxduamyolzvyusmvurmcszlorapyughetfgqrveuxntntfdegvgtpbvwcgyqnfqhncagrycqxxmjvsxgwbbdlqqjujfnhcbctbjmcwxnfxjikwfpyuutfvayimnzjfjdoyvtmg"
                data-component="body" hidden>
     <br>
 <p>Must be at least 6 characters.</p>
@@ -271,14 +280,16 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"first_name\": \"zzikleyfuxjnqexwcfqwincvlpzmkafpanckpw\",
-    \"last_name\": \"ohzzmqbesxbckhfetdfvfmgilcrtjdypfevbpfpmfchteyag\",
-    \"email\": \"xaxygmpkvtgfqllbzjtheobbzticfjhpsqcizzhvokljhrlhoxosmrsxisjammxnwgfnnyaa\",
-    \"password\": \"veritatis\",
-    \"language_spoken\": \"bfrqxa\",
-    \"currency_display\": \"nxwxl\",
-    \"marketing_consent\": \"xclntvi\",
-    \"timezone\": \"bznihobkfufirfvcomioojdxhhztjljruugqraqstv\"
+    \"first_name\": \"kouahkmmaeukyvunvpgkefutsykxjofzkymimfibnoodvjsoesrptuitgqoaobkoshvxhnsdjsbywhqgzuiogaxctytyyipbemvcwglocfdmpcdvzektpijiieutskdgsiafeyqxayjlfcqkgnzxejukjifqgxfayrfkdwjgxwponvuxmhfdnnr\",
+    \"last_name\": \"zvkbqbczjzzxgelnzsjcafrqtsctkgriuizxlxueqocupnpgeirrchrvmtknioolrfpetrfghdtpxbksodntpwkfyybhotajptxnqaxhuusbvxwwimofbljxkxjjpnolbrdxclqxxokjttbeutyyvtlurzdzhuycehshceuedunziuqdgxaa\",
+    \"email\": \"dokrlvarvptaemrkqjcugqrvpunqxkdslzfggkpunbemomuxhfwujfskqgfbhacfuagbhnqtfqjhmnzuqbdkhjzdmwtlvuzedzehiybhtaprcymlvokzitl\",
+    \"password\": \"aliquam\",
+    \"language_spoken\": [
+        21501165.905209
+    ],
+    \"currency_display\": \"fbqtwrcrn\",
+    \"marketing_consent\": false,
+    \"timezone\": \"ykhxrikuhiznbqbdqvppbccqgzvzvkdwleopnvmitxbl\"
 }"
 </code></pre></div>
 
@@ -294,14 +305,16 @@ const headers = {
 };
 
 let body = {
-    "first_name": "zzikleyfuxjnqexwcfqwincvlpzmkafpanckpw",
-    "last_name": "ohzzmqbesxbckhfetdfvfmgilcrtjdypfevbpfpmfchteyag",
-    "email": "xaxygmpkvtgfqllbzjtheobbzticfjhpsqcizzhvokljhrlhoxosmrsxisjammxnwgfnnyaa",
-    "password": "veritatis",
-    "language_spoken": "bfrqxa",
-    "currency_display": "nxwxl",
-    "marketing_consent": "xclntvi",
-    "timezone": "bznihobkfufirfvcomioojdxhhztjljruugqraqstv"
+    "first_name": "kouahkmmaeukyvunvpgkefutsykxjofzkymimfibnoodvjsoesrptuitgqoaobkoshvxhnsdjsbywhqgzuiogaxctytyyipbemvcwglocfdmpcdvzektpijiieutskdgsiafeyqxayjlfcqkgnzxejukjifqgxfayrfkdwjgxwponvuxmhfdnnr",
+    "last_name": "zvkbqbczjzzxgelnzsjcafrqtsctkgriuizxlxueqocupnpgeirrchrvmtknioolrfpetrfghdtpxbksodntpwkfyybhotajptxnqaxhuusbvxwwimofbljxkxjjpnolbrdxclqxxokjttbeutyyvtlurzdzhuycehshceuedunziuqdgxaa",
+    "email": "dokrlvarvptaemrkqjcugqrvpunqxkdslzfggkpunbemomuxhfwujfskqgfbhacfuagbhnqtfqjhmnzuqbdkhjzdmwtlvuzedzehiybhtaprcymlvokzitl",
+    "password": "aliquam",
+    "language_spoken": [
+        21501165.905209
+    ],
+    "currency_display": "fbqtwrcrn",
+    "marketing_consent": false,
+    "timezone": "ykhxrikuhiznbqbdqvppbccqgzvzvkdwleopnvmitxbl"
 };
 
 fetch(url, {
@@ -361,7 +374,7 @@ fetch(url, {
                 <input type="text"
                name="first_name"
                data-endpoint="POSTapi-register"
-               value="zzikleyfuxjnqexwcfqwincvlpzmkafpanckpw"
+               value="kouahkmmaeukyvunvpgkefutsykxjofzkymimfibnoodvjsoesrptuitgqoaobkoshvxhnsdjsbywhqgzuiogaxctytyyipbemvcwglocfdmpcdvzektpijiieutskdgsiafeyqxayjlfcqkgnzxejukjifqgxfayrfkdwjgxwponvuxmhfdnnr"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 255 characters.</p>
@@ -373,7 +386,7 @@ fetch(url, {
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-register"
-               value="ohzzmqbesxbckhfetdfvfmgilcrtjdypfevbpfpmfchteyag"
+               value="zvkbqbczjzzxgelnzsjcafrqtsctkgriuizxlxueqocupnpgeirrchrvmtknioolrfpetrfghdtpxbksodntpwkfyybhotajptxnqaxhuusbvxwwimofbljxkxjjpnolbrdxclqxxokjttbeutyyvtlurzdzhuycehshceuedunziuqdgxaa"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 255 characters.</p>
@@ -385,7 +398,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-register"
-               value="xaxygmpkvtgfqllbzjtheobbzticfjhpsqcizzhvokljhrlhoxosmrsxisjammxnwgfnnyaa"
+               value="dokrlvarvptaemrkqjcugqrvpunqxkdslzfggkpunbemomuxhfwujfskqgfbhacfuagbhnqtfqjhmnzuqbdkhjzdmwtlvuzedzehiybhtaprcymlvokzitl"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 255 characters.</p>
@@ -397,22 +410,25 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-register"
-               value="veritatis"
+               value="aliquam"
                data-component="body" hidden>
     <br>
 
         </p>
                 <p>
             <b><code>language_spoken</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
- &nbsp;
-                <input type="text"
-               name="language_spoken"
+<small>number[]</small>&nbsp;
+<i>optional</i> &nbsp;
+                <input type="number"
+               name="language_spoken[0]"
                data-endpoint="POSTapi-register"
-               value="bfrqxa"
+               data-component="body" hidden>
+        <input type="number"
+               name="language_spoken[1]"
+               data-endpoint="POSTapi-register"
                data-component="body" hidden>
     <br>
-<p>Must not be greater than 10 characters.</p>
+
         </p>
                 <p>
             <b><code>currency_display</code></b>&nbsp;&nbsp;
@@ -421,22 +437,33 @@ fetch(url, {
                 <input type="text"
                name="currency_display"
                data-endpoint="POSTapi-register"
-               value="nxwxl"
+               value="fbqtwrcrn"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 10 characters.</p>
         </p>
                 <p>
             <b><code>marketing_consent</code></b>&nbsp;&nbsp;
-<small>string</small>&nbsp;
+<small>boolean</small>&nbsp;
  &nbsp;
-                <input type="text"
-               name="marketing_consent"
-               data-endpoint="POSTapi-register"
-               value="xclntvi"
-               data-component="body" hidden>
+                <label data-endpoint="POSTapi-register" hidden>
+            <input type="radio" name="marketing_consent"
+                   value="true"
+                   data-endpoint="POSTapi-register"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="POSTapi-register" hidden>
+            <input type="radio" name="marketing_consent"
+                   value="false"
+                   data-endpoint="POSTapi-register"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
     <br>
-<p>Must not be greater than 10 characters.</p>
+
         </p>
                 <p>
             <b><code>timezone</code></b>&nbsp;&nbsp;
@@ -445,7 +472,7 @@ fetch(url, {
                 <input type="text"
                name="timezone"
                data-endpoint="POSTapi-register"
-               value="bznihobkfufirfvcomioojdxhhztjljruugqraqstv"
+               value="ykhxrikuhiznbqbdqvppbccqgzvzvkdwleopnvmitxbl"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -469,7 +496,7 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"email\": \"juvenal.upton@example.net\"
+    \"email\": \"may.gottlieb@example.com\"
 }"
 </code></pre></div>
 
@@ -485,7 +512,7 @@ const headers = {
 };
 
 let body = {
-    "email": "juvenal.upton@example.net"
+    "email": "may.gottlieb@example.com"
 };
 
 fetch(url, {
@@ -545,7 +572,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-forgot-password"
-               value="juvenal.upton@example.net"
+               value="may.gottlieb@example.com"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -569,9 +596,9 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"token\": \"officia\",
-    \"email\": \"lkoch@example.com\",
-    \"password\": \"ut\"
+    \"token\": \"temporibus\",
+    \"email\": \"gonzalo.considine@example.org\",
+    \"password\": \"odio\"
 }"
 </code></pre></div>
 
@@ -587,9 +614,9 @@ const headers = {
 };
 
 let body = {
-    "token": "officia",
-    "email": "lkoch@example.com",
-    "password": "ut"
+    "token": "temporibus",
+    "email": "gonzalo.considine@example.org",
+    "password": "odio"
 };
 
 fetch(url, {
@@ -649,7 +676,7 @@ fetch(url, {
                 <input type="text"
                name="token"
                data-endpoint="POSTapi-reset-password"
-               value="officia"
+               value="temporibus"
                data-component="body" hidden>
     <br>
 
@@ -661,7 +688,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-reset-password"
-               value="lkoch@example.com"
+               value="gonzalo.considine@example.org"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -673,7 +700,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-reset-password"
-               value="ut"
+               value="odio"
                data-component="body" hidden>
     <br>
 
@@ -1064,9 +1091,9 @@ access-control-allow-origin: http://localhost:3000
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"longiture\": 3.58,
-    \"latitude\": 119797.19,
-    \"search\": \"sskivohqfrkbmjqsjpflidbjjtbumlejtgtklfpptguaurqarlegcjqylgssbzbaratxejdungixdzhtjbejyei\"
+    \"longiture\": 1683972.758,
+    \"latitude\": 671814,
+    \"search\": \"aammitbpfrorkmizxneltkppimaxhhdkaraypdpydpigslmjyqvfkfdkzezcvjutinnlqtfpjmvuwatsudlm\"
 }"
 </code></pre></div>
 
@@ -1082,9 +1109,9 @@ const headers = {
 };
 
 let body = {
-    "longiture": 3.58,
-    "latitude": 119797.19,
-    "search": "sskivohqfrkbmjqsjpflidbjjtbumlejtgtklfpptguaurqarlegcjqylgssbzbaratxejdungixdzhtjbejyei"
+    "longiture": 1683972.758,
+    "latitude": 671814,
+    "search": "aammitbpfrorkmizxneltkppimaxhhdkaraypdpydpigslmjyqvfkfdkzezcvjutinnlqtfpjmvuwatsudlm"
 };
 
 fetch(url, {
@@ -1144,7 +1171,7 @@ fetch(url, {
                 <input type="number"
                name="longiture"
                data-endpoint="POSTapi-tours"
-               value="3.58"
+               value="1683972.758"
                data-component="body" hidden>
     <br>
 
@@ -1156,7 +1183,7 @@ fetch(url, {
                 <input type="number"
                name="latitude"
                data-endpoint="POSTapi-tours"
-               value="119797.19"
+               value="671814"
                data-component="body" hidden>
     <br>
 
@@ -1168,7 +1195,7 @@ fetch(url, {
                 <input type="text"
                name="search"
                data-endpoint="POSTapi-tours"
-               value="sskivohqfrkbmjqsjpflidbjjtbumlejtgtklfpptguaurqarlegcjqylgssbzbaratxejdungixdzhtjbejyei"
+               value="aammitbpfrorkmizxneltkppimaxhhdkaraypdpydpigslmjyqvfkfdkzezcvjutinnlqtfpjmvuwatsudlm"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 100 characters.</p>
@@ -1188,14 +1215,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/tours/ut" \
+    --get "http://localhost/api/tours/dolore" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/tours/ut"
+    "http://localhost/api/tours/dolore"
 );
 
 const headers = {
@@ -1280,7 +1307,7 @@ access-control-allow-origin: http://localhost:3000
                 <input type="text"
                name="tour"
                data-endpoint="GETapi-tours--tour-"
-               value="ut"
+               value="dolore"
                data-component="url" hidden>
     <br>
 <p>The tour.</p>
@@ -1304,58 +1331,58 @@ access-control-allow-origin: http://localhost:3000
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"trip_id\": 185,
-    \"head_line\": \"fdgug\",
-    \"description\": \"jagxbvhuwxsqkwatokijahashhxlsbckpgvnznrrljpqaotijafvnqtqwxynvyrupsicyogmwowsxqxffczhupazraxzmgffpffijnucnxbgniizgoxylodyvvetqqjzzdweddbtwvt\",
+    \"trip_id\": 112.67121,
+    \"head_line\": \"swwelcxvebmntbfh\",
+    \"description\": \"guzzhmnpggshlizglzhrhpwnwaoonkbhhzxfmsqtwlewykrackrjhrcfdkvxxykunzcnhzcqbpvyyqbcupepmsvlzjyoehlqspfqzlpnxfpgxbbpeklmuozeqmyqcwljzhmu\",
     \"categories\": [
         {
-            \"trip_category_id\": 1.474516,
-            \"primary\": true
+            \"trip_category_id\": 455.9769,
+            \"primary\": false
         }
     ],
     \"pictures\": [
-        97.7
+        530483201.08231
     ],
     \"vessel\": {
-        \"make_model\": \"placeat\",
-        \"length\": \"totam\",
-        \"year\": \"occaecati\",
-        \"capacity\": 3208.13,
-        \"number_of_engines\": 2501.238765,
-        \"engine_horsepower\": 65620.605505347,
-        \"engine_model\": \"vel\",
+        \"make_model\": \"at\",
+        \"length\": \"aut\",
+        \"year\": \"est\",
+        \"capacity\": 3180765.80845,
+        \"number_of_engines\": 37.432,
+        \"engine_horsepower\": 720848767.8,
+        \"engine_model\": \"fugiat\",
         \"features\": [
-            28.610981
+            885199.3616689
         ]
     },
     \"location\": {
-        \"city\": \"fubtqyodurnkjqxcpfvbvxdnjhukxnf\",
-        \"state\": \"m\",
-        \"country\": \"pxqebcdtzgoazerucusocnzfkfzzkjpqhozxdakhbt\",
-        \"zip\": \"swxatmobcxa\",
-        \"address\": \"lajheaohylcsoitnzbpactkxjifvbkdvfqafstegyygsbrgupuqcyqqfrhlxbtpmxqjeihhxylxkriymdhvlrhtzgrrzbctirplkblsgqgdepzbfffbrmwxxqcxptaewazekfwouhavzcixvioglizbgchpwydgtiqiwoffrfjwuprtzcswmtzszcszrguhxeujjrhvlnoxqglfjshhnezxyatpihqohkl\",
-        \"latitude\": 95432920.44233605,
-        \"longitude\": 2090.90548225
+        \"city\": \"ylzzkhvnalmnbzoysjwsqtsvpdwdk\",
+        \"state\": \"lpwiqtjejxog\",
+        \"country\": \"zcjzieqweqdhundpiiicpzqvyrxb\",
+        \"zip\": \"darguurhcaaytbkwkyqpkggbldidurujnfxlja\",
+        \"address\": \"qdrmyohckjqbsfqmdzaucceyfecwrpkmggpcrokzgyzeqichpapekznfrershbdfmfvzlnzegxecgtybhcuatkkqijkdxhazhfldffsagjltsprwaasyxjzreqyzfvcbqdumunbrhtdopvbmawtplbzcmdnvhyhxnsgixypxizzuxcewopldpmryepfuutxqvwcncswegfderotlicgclwtgvuaafsnzsniebxbfjfdgqdtlid\",
+        \"latitude\": 182.4333218,
+        \"longitude\": 3.197934
     },
     \"price\": {
-        \"currency\": \"k\",
-        \"price_per_day\": 3402361.15,
-        \"per_day_minimum\": 4428853.482726,
-        \"price_per_week\": 324.210727737,
-        \"price_per_hour\": 178.04,
-        \"per_hour_minimum\": 648142761.1322352,
-        \"price_per_night\": 285414.1,
-        \"per_night_minimum\": 75560325.97901669,
-        \"security_allowance\": 3.674,
-        \"price_per_multiple_days\": 3340374.74258,
-        \"per_multiple_days_minimum\": 380.4555,
-        \"price_per_multiple_hours\": 75239.267186,
-        \"per_multiple_hours_minimum\": 2748518.3,
-        \"price_per_person\": 105286.2,
-        \"per_person_charge_type\": 1432.297205,
-        \"cancellation_refund_rate\": 118.3,
-        \"cancellation_allowed_days\": 7,
-        \"rental_terms\": 3202585.890534
+        \"currency\": \"\",
+        \"price_per_day\": 229690986.31945968,
+        \"per_day_minimum\": 163074,
+        \"price_per_week\": 133190370.935505,
+        \"price_per_hour\": 42212856.05,
+        \"per_hour_minimum\": 7103.18875,
+        \"price_per_night\": 11633.119599765,
+        \"per_night_minimum\": 6.74014799,
+        \"security_allowance\": 93.1457211,
+        \"price_per_multiple_days\": 100.877624,
+        \"per_multiple_days_minimum\": 236.2,
+        \"price_per_multiple_hours\": 31826920.16618,
+        \"per_multiple_hours_minimum\": 261367.01634113,
+        \"price_per_person\": 1986935.78947502,
+        \"per_person_charge_type\": 2475358.563,
+        \"cancellation_refund_rate\": 578.3,
+        \"cancellation_allowed_days\": 7163.9,
+        \"rental_terms\": 498867.969
     },
     \"trip_addons\": [
         null
@@ -1376,58 +1403,58 @@ const headers = {
 };
 
 let body = {
-    "trip_id": 185,
-    "head_line": "fdgug",
-    "description": "jagxbvhuwxsqkwatokijahashhxlsbckpgvnznrrljpqaotijafvnqtqwxynvyrupsicyogmwowsxqxffczhupazraxzmgffpffijnucnxbgniizgoxylodyvvetqqjzzdweddbtwvt",
+    "trip_id": 112.67121,
+    "head_line": "swwelcxvebmntbfh",
+    "description": "guzzhmnpggshlizglzhrhpwnwaoonkbhhzxfmsqtwlewykrackrjhrcfdkvxxykunzcnhzcqbpvyyqbcupepmsvlzjyoehlqspfqzlpnxfpgxbbpeklmuozeqmyqcwljzhmu",
     "categories": [
         {
-            "trip_category_id": 1.474516,
-            "primary": true
+            "trip_category_id": 455.9769,
+            "primary": false
         }
     ],
     "pictures": [
-        97.7
+        530483201.08231
     ],
     "vessel": {
-        "make_model": "placeat",
-        "length": "totam",
-        "year": "occaecati",
-        "capacity": 3208.13,
-        "number_of_engines": 2501.238765,
-        "engine_horsepower": 65620.605505347,
-        "engine_model": "vel",
+        "make_model": "at",
+        "length": "aut",
+        "year": "est",
+        "capacity": 3180765.80845,
+        "number_of_engines": 37.432,
+        "engine_horsepower": 720848767.8,
+        "engine_model": "fugiat",
         "features": [
-            28.610981
+            885199.3616689
         ]
     },
     "location": {
-        "city": "fubtqyodurnkjqxcpfvbvxdnjhukxnf",
-        "state": "m",
-        "country": "pxqebcdtzgoazerucusocnzfkfzzkjpqhozxdakhbt",
-        "zip": "swxatmobcxa",
-        "address": "lajheaohylcsoitnzbpactkxjifvbkdvfqafstegyygsbrgupuqcyqqfrhlxbtpmxqjeihhxylxkriymdhvlrhtzgrrzbctirplkblsgqgdepzbfffbrmwxxqcxptaewazekfwouhavzcixvioglizbgchpwydgtiqiwoffrfjwuprtzcswmtzszcszrguhxeujjrhvlnoxqglfjshhnezxyatpihqohkl",
-        "latitude": 95432920.44233605,
-        "longitude": 2090.90548225
+        "city": "ylzzkhvnalmnbzoysjwsqtsvpdwdk",
+        "state": "lpwiqtjejxog",
+        "country": "zcjzieqweqdhundpiiicpzqvyrxb",
+        "zip": "darguurhcaaytbkwkyqpkggbldidurujnfxlja",
+        "address": "qdrmyohckjqbsfqmdzaucceyfecwrpkmggpcrokzgyzeqichpapekznfrershbdfmfvzlnzegxecgtybhcuatkkqijkdxhazhfldffsagjltsprwaasyxjzreqyzfvcbqdumunbrhtdopvbmawtplbzcmdnvhyhxnsgixypxizzuxcewopldpmryepfuutxqvwcncswegfderotlicgclwtgvuaafsnzsniebxbfjfdgqdtlid",
+        "latitude": 182.4333218,
+        "longitude": 3.197934
     },
     "price": {
-        "currency": "k",
-        "price_per_day": 3402361.15,
-        "per_day_minimum": 4428853.482726,
-        "price_per_week": 324.210727737,
-        "price_per_hour": 178.04,
-        "per_hour_minimum": 648142761.1322352,
-        "price_per_night": 285414.1,
-        "per_night_minimum": 75560325.97901669,
-        "security_allowance": 3.674,
-        "price_per_multiple_days": 3340374.74258,
-        "per_multiple_days_minimum": 380.4555,
-        "price_per_multiple_hours": 75239.267186,
-        "per_multiple_hours_minimum": 2748518.3,
-        "price_per_person": 105286.2,
-        "per_person_charge_type": 1432.297205,
-        "cancellation_refund_rate": 118.3,
-        "cancellation_allowed_days": 7,
-        "rental_terms": 3202585.890534
+        "currency": "",
+        "price_per_day": 229690986.31945968,
+        "per_day_minimum": 163074,
+        "price_per_week": 133190370.935505,
+        "price_per_hour": 42212856.05,
+        "per_hour_minimum": 7103.18875,
+        "price_per_night": 11633.119599765,
+        "per_night_minimum": 6.74014799,
+        "security_allowance": 93.1457211,
+        "price_per_multiple_days": 100.877624,
+        "per_multiple_days_minimum": 236.2,
+        "price_per_multiple_hours": 31826920.16618,
+        "per_multiple_hours_minimum": 261367.01634113,
+        "price_per_person": 1986935.78947502,
+        "per_person_charge_type": 2475358.563,
+        "cancellation_refund_rate": 578.3,
+        "cancellation_allowed_days": 7163.9,
+        "rental_terms": 498867.969
     },
     "trip_addons": [
         null
@@ -1492,7 +1519,7 @@ fetch(url, {
                 <input type="number"
                name="trip_id"
                data-endpoint="POSTapi-tour"
-               value="185"
+               value="112.67121"
                data-component="body" hidden>
     <br>
 
@@ -1504,7 +1531,7 @@ fetch(url, {
                 <input type="text"
                name="head_line"
                data-endpoint="POSTapi-tour"
-               value="fdgug"
+               value="swwelcxvebmntbfh"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1516,7 +1543,7 @@ fetch(url, {
                 <input type="text"
                name="description"
                data-endpoint="POSTapi-tour"
-               value="jagxbvhuwxsqkwatokijahashhxlsbckpgvnznrrljpqaotijafvnqtqwxynvyrupsicyogmwowsxqxffczhupazraxzmgffpffijnucnxbgniizgoxylodyvvetqqjzzdweddbtwvt"
+               value="guzzhmnpggshlizglzhrhpwnwaoonkbhhzxfmsqtwlewykrackrjhrcfdkvxxykunzcnhzcqbpvyyqbcupepmsvlzjyoehlqspfqzlpnxfpgxbbpeklmuozeqmyqcwljzhmu"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 255 characters.</p>
@@ -1537,7 +1564,7 @@ fetch(url, {
                 <input type="number"
                name="categories.0.trip_category_id"
                data-endpoint="POSTapi-tour"
-               value="1.474516"
+               value="455.9769"
                data-component="body" hidden>
     <br>
 
@@ -1598,7 +1625,7 @@ fetch(url, {
                 <input type="text"
                name="vessel.make_model"
                data-endpoint="POSTapi-tour"
-               value="placeat"
+               value="at"
                data-component="body" hidden>
     <br>
 
@@ -1610,7 +1637,7 @@ fetch(url, {
                 <input type="text"
                name="vessel.length"
                data-endpoint="POSTapi-tour"
-               value="totam"
+               value="aut"
                data-component="body" hidden>
     <br>
 
@@ -1622,7 +1649,7 @@ fetch(url, {
                 <input type="text"
                name="vessel.year"
                data-endpoint="POSTapi-tour"
-               value="occaecati"
+               value="est"
                data-component="body" hidden>
     <br>
 
@@ -1634,7 +1661,7 @@ fetch(url, {
                 <input type="number"
                name="vessel.capacity"
                data-endpoint="POSTapi-tour"
-               value="3208.13"
+               value="3180765.80845"
                data-component="body" hidden>
     <br>
 
@@ -1646,7 +1673,7 @@ fetch(url, {
                 <input type="number"
                name="vessel.number_of_engines"
                data-endpoint="POSTapi-tour"
-               value="2501.238765"
+               value="37.432"
                data-component="body" hidden>
     <br>
 
@@ -1658,7 +1685,7 @@ fetch(url, {
                 <input type="number"
                name="vessel.engine_horsepower"
                data-endpoint="POSTapi-tour"
-               value="65620.605505347"
+               value="720848767.8"
                data-component="body" hidden>
     <br>
 
@@ -1670,7 +1697,7 @@ fetch(url, {
                 <input type="text"
                name="vessel.engine_model"
                data-endpoint="POSTapi-tour"
-               value="vel"
+               value="fugiat"
                data-component="body" hidden>
     <br>
 
@@ -1708,7 +1735,7 @@ fetch(url, {
                 <input type="text"
                name="location.city"
                data-endpoint="POSTapi-tour"
-               value="fubtqyodurnkjqxcpfvbvxdnjhukxnf"
+               value="ylzzkhvnalmnbzoysjwsqtsvpdwdk"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1720,7 +1747,7 @@ fetch(url, {
                 <input type="text"
                name="location.state"
                data-endpoint="POSTapi-tour"
-               value="m"
+               value="lpwiqtjejxog"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1732,7 +1759,7 @@ fetch(url, {
                 <input type="text"
                name="location.country"
                data-endpoint="POSTapi-tour"
-               value="pxqebcdtzgoazerucusocnzfkfzzkjpqhozxdakhbt"
+               value="zcjzieqweqdhundpiiicpzqvyrxb"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1744,7 +1771,7 @@ fetch(url, {
                 <input type="text"
                name="location.zip"
                data-endpoint="POSTapi-tour"
-               value="swxatmobcxa"
+               value="darguurhcaaytbkwkyqpkggbldidurujnfxlja"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1756,7 +1783,7 @@ fetch(url, {
                 <input type="text"
                name="location.address"
                data-endpoint="POSTapi-tour"
-               value="lajheaohylcsoitnzbpactkxjifvbkdvfqafstegyygsbrgupuqcyqqfrhlxbtpmxqjeihhxylxkriymdhvlrhtzgrrzbctirplkblsgqgdepzbfffbrmwxxqcxptaewazekfwouhavzcixvioglizbgchpwydgtiqiwoffrfjwuprtzcswmtzszcszrguhxeujjrhvlnoxqglfjshhnezxyatpihqohkl"
+               value="qdrmyohckjqbsfqmdzaucceyfecwrpkmggpcrokzgyzeqichpapekznfrershbdfmfvzlnzegxecgtybhcuatkkqijkdxhazhfldffsagjltsprwaasyxjzreqyzfvcbqdumunbrhtdopvbmawtplbzcmdnvhyhxnsgixypxizzuxcewopldpmryepfuutxqvwcncswegfderotlicgclwtgvuaafsnzsniebxbfjfdgqdtlid"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 255 characters.</p>
@@ -1768,7 +1795,7 @@ fetch(url, {
                 <input type="number"
                name="location.latitude"
                data-endpoint="POSTapi-tour"
-               value="95432920.442336"
+               value="182.4333218"
                data-component="body" hidden>
     <br>
 
@@ -1780,7 +1807,7 @@ fetch(url, {
                 <input type="number"
                name="location.longitude"
                data-endpoint="POSTapi-tour"
-               value="2090.90548225"
+               value="3.197934"
                data-component="body" hidden>
     <br>
 
@@ -1803,7 +1830,7 @@ fetch(url, {
                 <input type="text"
                name="price.currency"
                data-endpoint="POSTapi-tour"
-               value="k"
+               value=""
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 5 characters.</p>
@@ -1815,7 +1842,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_day"
                data-endpoint="POSTapi-tour"
-               value="3402361.15"
+               value="229690986.31946"
                data-component="body" hidden>
     <br>
 
@@ -1827,7 +1854,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_day_minimum"
                data-endpoint="POSTapi-tour"
-               value="4428853.482726"
+               value="163074"
                data-component="body" hidden>
     <br>
 
@@ -1839,7 +1866,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_week"
                data-endpoint="POSTapi-tour"
-               value="324.210727737"
+               value="133190370.93551"
                data-component="body" hidden>
     <br>
 
@@ -1851,7 +1878,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_hour"
                data-endpoint="POSTapi-tour"
-               value="178.04"
+               value="42212856.05"
                data-component="body" hidden>
     <br>
 
@@ -1863,7 +1890,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_hour_minimum"
                data-endpoint="POSTapi-tour"
-               value="648142761.13224"
+               value="7103.18875"
                data-component="body" hidden>
     <br>
 
@@ -1875,7 +1902,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_night"
                data-endpoint="POSTapi-tour"
-               value="285414.1"
+               value="11633.119599765"
                data-component="body" hidden>
     <br>
 
@@ -1887,7 +1914,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_night_minimum"
                data-endpoint="POSTapi-tour"
-               value="75560325.979017"
+               value="6.74014799"
                data-component="body" hidden>
     <br>
 
@@ -1899,7 +1926,7 @@ fetch(url, {
                 <input type="number"
                name="price.security_allowance"
                data-endpoint="POSTapi-tour"
-               value="3.674"
+               value="93.1457211"
                data-component="body" hidden>
     <br>
 
@@ -1911,7 +1938,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_multiple_days"
                data-endpoint="POSTapi-tour"
-               value="3340374.74258"
+               value="100.877624"
                data-component="body" hidden>
     <br>
 
@@ -1923,7 +1950,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_multiple_days_minimum"
                data-endpoint="POSTapi-tour"
-               value="380.4555"
+               value="236.2"
                data-component="body" hidden>
     <br>
 
@@ -1935,7 +1962,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_multiple_hours"
                data-endpoint="POSTapi-tour"
-               value="75239.267186"
+               value="31826920.16618"
                data-component="body" hidden>
     <br>
 
@@ -1947,7 +1974,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_multiple_hours_minimum"
                data-endpoint="POSTapi-tour"
-               value="2748518.3"
+               value="261367.01634113"
                data-component="body" hidden>
     <br>
 
@@ -1959,7 +1986,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_person"
                data-endpoint="POSTapi-tour"
-               value="105286.2"
+               value="1986935.789475"
                data-component="body" hidden>
     <br>
 
@@ -1971,7 +1998,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_person_charge_type"
                data-endpoint="POSTapi-tour"
-               value="1432.297205"
+               value="2475358.563"
                data-component="body" hidden>
     <br>
 
@@ -1983,7 +2010,7 @@ fetch(url, {
                 <input type="number"
                name="price.cancellation_refund_rate"
                data-endpoint="POSTapi-tour"
-               value="118.3"
+               value="578.3"
                data-component="body" hidden>
     <br>
 
@@ -1995,7 +2022,7 @@ fetch(url, {
                 <input type="number"
                name="price.cancellation_allowed_days"
                data-endpoint="POSTapi-tour"
-               value="7"
+               value="7163.9"
                data-component="body" hidden>
     <br>
 
@@ -2007,7 +2034,7 @@ fetch(url, {
                 <input type="number"
                name="price.rental_terms"
                data-endpoint="POSTapi-tour"
-               value="3202585.890534"
+               value="498867.969"
                data-component="body" hidden>
     <br>
 
@@ -2030,7 +2057,7 @@ fetch(url, {
                 <input type="text"
                name="trip_addons.description"
                data-endpoint="POSTapi-tour"
-               value="dolorum"
+               value="autem"
                data-component="body" hidden>
     <br>
 
@@ -2042,7 +2069,7 @@ fetch(url, {
                 <input type="number"
                name="trip_addons.price"
                data-endpoint="POSTapi-tour"
-               value="70061"
+               value="100"
                data-component="body" hidden>
     <br>
 
@@ -2054,7 +2081,7 @@ fetch(url, {
                 <input type="text"
                name="trip_addons.currency"
                data-endpoint="POSTapi-tour"
-               value="provident"
+               value="ea"
                data-component="body" hidden>
     <br>
 
@@ -2086,7 +2113,7 @@ fetch(url, {
         </p>
         </form>
 
-                    <h2 id="endpoints-POSTapi-inquiry">Show the details of a tour</h2>
+                    <h2 id="endpoints-POSTapi-inquiry">Create an inquiry</h2>
 
 <p>
 </p>
@@ -2103,27 +2130,27 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"tour_id\": 121026.1177,
-    \"operator_status\": 1829518,
-    \"duration_hour\": 0.3641,
-    \"duration_minutes\": 1670,
-    \"overnight\": 160202977.85173392,
-    \"preferred_date\": \"2064-07-14\",
-    \"return_date\": \"2119-02-20\",
-    \"pick_up_time\": \"17:58\",
-    \"drop_off_time\": \"17:58\",
-    \"no_of_guest\": 21130662.0725807,
+    \"tour_id\": 6612135.17581212,
+    \"operator_status\": 2.754594335,
+    \"duration_hour\": 21989.51,
+    \"duration_minutes\": 35181540.84481113,
+    \"overnight\": 4521611.2,
+    \"preferred_date\": \"2031-08-09\",
+    \"return_date\": \"2027-10-12\",
+    \"pick_up_time\": \"08:56\",
+    \"drop_off_time\": \"08:56\",
+    \"no_of_guest\": 51766138.57182,
     \"booking_addons\": [
         {
-            \"trip_addon_id\": 28.393150994,
-            \"other_request\": \"velit\"
+            \"trip_addon_id\": 177903978.222,
+            \"other_request\": \"voluptatem\"
         }
     ],
-    \"other_request\": \"est\",
+    \"other_request\": \"nam\",
     \"alternative_dates\": [
         {
-            \"preferred\": \"2067-08-09\",
-            \"return_date\": \"2094-09-26\"
+            \"preferred\": \"2075-05-12\",
+            \"return_date\": \"2064-06-03\"
         }
     ]
 }"
@@ -2141,27 +2168,27 @@ const headers = {
 };
 
 let body = {
-    "tour_id": 121026.1177,
-    "operator_status": 1829518,
-    "duration_hour": 0.3641,
-    "duration_minutes": 1670,
-    "overnight": 160202977.85173392,
-    "preferred_date": "2064-07-14",
-    "return_date": "2119-02-20",
-    "pick_up_time": "17:58",
-    "drop_off_time": "17:58",
-    "no_of_guest": 21130662.0725807,
+    "tour_id": 6612135.17581212,
+    "operator_status": 2.754594335,
+    "duration_hour": 21989.51,
+    "duration_minutes": 35181540.84481113,
+    "overnight": 4521611.2,
+    "preferred_date": "2031-08-09",
+    "return_date": "2027-10-12",
+    "pick_up_time": "08:56",
+    "drop_off_time": "08:56",
+    "no_of_guest": 51766138.57182,
     "booking_addons": [
         {
-            "trip_addon_id": 28.393150994,
-            "other_request": "velit"
+            "trip_addon_id": 177903978.222,
+            "other_request": "voluptatem"
         }
     ],
-    "other_request": "est",
+    "other_request": "nam",
     "alternative_dates": [
         {
-            "preferred": "2067-08-09",
-            "return_date": "2094-09-26"
+            "preferred": "2075-05-12",
+            "return_date": "2064-06-03"
         }
     ]
 };
@@ -2223,7 +2250,7 @@ fetch(url, {
                 <input type="number"
                name="tour_id"
                data-endpoint="POSTapi-inquiry"
-               value="121026.1177"
+               value="6612135.1758121"
                data-component="body" hidden>
     <br>
 
@@ -2235,7 +2262,7 @@ fetch(url, {
                 <input type="number"
                name="operator_status"
                data-endpoint="POSTapi-inquiry"
-               value="1829518"
+               value="2.754594335"
                data-component="body" hidden>
     <br>
 
@@ -2247,7 +2274,7 @@ fetch(url, {
                 <input type="number"
                name="duration_hour"
                data-endpoint="POSTapi-inquiry"
-               value="0.3641"
+               value="21989.51"
                data-component="body" hidden>
     <br>
 
@@ -2259,7 +2286,7 @@ fetch(url, {
                 <input type="number"
                name="duration_minutes"
                data-endpoint="POSTapi-inquiry"
-               value="1670"
+               value="35181540.844811"
                data-component="body" hidden>
     <br>
 
@@ -2271,7 +2298,7 @@ fetch(url, {
                 <input type="number"
                name="overnight"
                data-endpoint="POSTapi-inquiry"
-               value="160202977.85173"
+               value="4521611.2"
                data-component="body" hidden>
     <br>
 
@@ -2283,7 +2310,7 @@ fetch(url, {
                 <input type="text"
                name="preferred_date"
                data-endpoint="POSTapi-inquiry"
-               value="2064-07-14"
+               value="2031-08-09"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date. Must be a date after or equal to <code>tomorrow</code>.</p>
@@ -2295,7 +2322,7 @@ fetch(url, {
                 <input type="text"
                name="return_date"
                data-endpoint="POSTapi-inquiry"
-               value="2119-02-20"
+               value="2027-10-12"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date. Must be a date after or equal to <code>preferred_date</code>.</p>
@@ -2307,7 +2334,7 @@ fetch(url, {
                 <input type="text"
                name="pick_up_time"
                data-endpoint="POSTapi-inquiry"
-               value="17:58"
+               value="08:56"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date in the format <code>H:i</code>.</p>
@@ -2319,7 +2346,7 @@ fetch(url, {
                 <input type="text"
                name="drop_off_time"
                data-endpoint="POSTapi-inquiry"
-               value="17:58"
+               value="08:56"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date in the format <code>H:i</code>.</p>
@@ -2331,7 +2358,7 @@ fetch(url, {
                 <input type="number"
                name="no_of_guest"
                data-endpoint="POSTapi-inquiry"
-               value="21130662.072581"
+               value="51766138.57182"
                data-component="body" hidden>
     <br>
 
@@ -2352,7 +2379,7 @@ fetch(url, {
                 <input type="number"
                name="booking_addons.0.trip_addon_id"
                data-endpoint="POSTapi-inquiry"
-               value="28.393150994"
+               value="177903978.222"
                data-component="body" hidden>
     <br>
 
@@ -2364,7 +2391,7 @@ fetch(url, {
                 <input type="text"
                name="booking_addons.0.other_request"
                data-endpoint="POSTapi-inquiry"
-               value="velit"
+               value="voluptatem"
                data-component="body" hidden>
     <br>
 
@@ -2378,7 +2405,7 @@ fetch(url, {
                 <input type="text"
                name="other_request"
                data-endpoint="POSTapi-inquiry"
-               value="est"
+               value="nam"
                data-component="body" hidden>
     <br>
 
@@ -2399,7 +2426,7 @@ fetch(url, {
                 <input type="text"
                name="alternative_dates.0.preferred"
                data-endpoint="POSTapi-inquiry"
-               value="2067-08-09"
+               value="2075-05-12"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date. Must be a date after or equal to <code>tomorrow</code>.</p>
@@ -2411,7 +2438,7 @@ fetch(url, {
                 <input type="text"
                name="alternative_dates.0.return_date"
                data-endpoint="POSTapi-inquiry"
-               value="2094-09-26"
+               value="2064-06-03"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date. Must be a date after or equal to <code>alternative_dates.*.preferred</code>.</p>
@@ -2419,6 +2446,2428 @@ fetch(url, {
                                     </details>
         </p>
         </form>
+
+                    <h2 id="endpoints-GETapi-dropdown-currency">GET api/dropdown/currency</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-dropdown-currency">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/dropdown/currency" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/dropdown/currency"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-dropdown-currency">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 56
+access-control-allow-origin: http://localhost:3000
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: &quot;Success&quot;,
+    &quot;message&quot;: null,
+    &quot;attributes&quot;: {
+        &quot;items&quot;: [
+            {
+                &quot;value&quot;: &quot;AED&quot;,
+                &quot;label&quot;: &quot;AED&quot;
+            },
+            {
+                &quot;value&quot;: &quot;ARS&quot;,
+                &quot;label&quot;: &quot;ARS&quot;
+            },
+            {
+                &quot;value&quot;: &quot;AUD&quot;,
+                &quot;label&quot;: &quot;AUD&quot;
+            },
+            {
+                &quot;value&quot;: &quot;BRL&quot;,
+                &quot;label&quot;: &quot;BRL&quot;
+            },
+            {
+                &quot;value&quot;: &quot;CAD&quot;,
+                &quot;label&quot;: &quot;CAD&quot;
+            },
+            {
+                &quot;value&quot;: &quot;CHF&quot;,
+                &quot;label&quot;: &quot;CHF&quot;
+            },
+            {
+                &quot;value&quot;: &quot;CNY&quot;,
+                &quot;label&quot;: &quot;CNY&quot;
+            },
+            {
+                &quot;value&quot;: &quot;CRC&quot;,
+                &quot;label&quot;: &quot;CRC&quot;
+            },
+            {
+                &quot;value&quot;: &quot;DKK&quot;,
+                &quot;label&quot;: &quot;DKK&quot;
+            },
+            {
+                &quot;value&quot;: &quot;EUR&quot;,
+                &quot;label&quot;: &quot;EUR&quot;
+            },
+            {
+                &quot;value&quot;: &quot;GBP&quot;,
+                &quot;label&quot;: &quot;GBP&quot;
+            },
+            {
+                &quot;value&quot;: &quot;HKD&quot;,
+                &quot;label&quot;: &quot;HKD&quot;
+            },
+            {
+                &quot;value&quot;: &quot;HRK&quot;,
+                &quot;label&quot;: &quot;HRK&quot;
+            },
+            {
+                &quot;value&quot;: &quot;IDR&quot;,
+                &quot;label&quot;: &quot;IDR&quot;
+            },
+            {
+                &quot;value&quot;: &quot;ILS&quot;,
+                &quot;label&quot;: &quot;ILS&quot;
+            },
+            {
+                &quot;value&quot;: &quot;INR&quot;,
+                &quot;label&quot;: &quot;INR&quot;
+            },
+            {
+                &quot;value&quot;: &quot;ISK&quot;,
+                &quot;label&quot;: &quot;ISK&quot;
+            },
+            {
+                &quot;value&quot;: &quot;JPY&quot;,
+                &quot;label&quot;: &quot;JPY&quot;
+            },
+            {
+                &quot;value&quot;: &quot;KES&quot;,
+                &quot;label&quot;: &quot;KES&quot;
+            },
+            {
+                &quot;value&quot;: &quot;KRW&quot;,
+                &quot;label&quot;: &quot;KRW&quot;
+            },
+            {
+                &quot;value&quot;: &quot;MAD&quot;,
+                &quot;label&quot;: &quot;MAD&quot;
+            },
+            {
+                &quot;value&quot;: &quot;MXN&quot;,
+                &quot;label&quot;: &quot;MXN&quot;
+            },
+            {
+                &quot;value&quot;: &quot;MYR&quot;,
+                &quot;label&quot;: &quot;MYR&quot;
+            },
+            {
+                &quot;value&quot;: &quot;NOK&quot;,
+                &quot;label&quot;: &quot;NOK&quot;
+            },
+            {
+                &quot;value&quot;: &quot;NZD&quot;,
+                &quot;label&quot;: &quot;NZD&quot;
+            },
+            {
+                &quot;value&quot;: &quot;PEN&quot;,
+                &quot;label&quot;: &quot;PEN&quot;
+            },
+            {
+                &quot;value&quot;: &quot;PHP&quot;,
+                &quot;label&quot;: &quot;PHP&quot;
+            },
+            {
+                &quot;value&quot;: &quot;PLN&quot;,
+                &quot;label&quot;: &quot;PLN&quot;
+            },
+            {
+                &quot;value&quot;: &quot;RUB&quot;,
+                &quot;label&quot;: &quot;RUB&quot;
+            },
+            {
+                &quot;value&quot;: &quot;SEK&quot;,
+                &quot;label&quot;: &quot;SEK&quot;
+            },
+            {
+                &quot;value&quot;: &quot;SGD&quot;,
+                &quot;label&quot;: &quot;SGD&quot;
+            },
+            {
+                &quot;value&quot;: &quot;THB&quot;,
+                &quot;label&quot;: &quot;THB&quot;
+            },
+            {
+                &quot;value&quot;: &quot;TRY&quot;,
+                &quot;label&quot;: &quot;TRY&quot;
+            },
+            {
+                &quot;value&quot;: &quot;TWD&quot;,
+                &quot;label&quot;: &quot;TWD&quot;
+            },
+            {
+                &quot;value&quot;: &quot;USD&quot;,
+                &quot;label&quot;: &quot;USD&quot;
+            },
+            {
+                &quot;value&quot;: &quot;VND&quot;,
+                &quot;label&quot;: &quot;VND&quot;
+            },
+            {
+                &quot;value&quot;: &quot;ZAR&quot;,
+                &quot;label&quot;: &quot;ZAR&quot;
+            }
+        ]
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-dropdown-currency" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-dropdown-currency"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-dropdown-currency"></code></pre>
+</span>
+<span id="execution-error-GETapi-dropdown-currency" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-dropdown-currency"></code></pre>
+</span>
+<form id="form-GETapi-dropdown-currency" data-method="GET"
+      data-path="api/dropdown/currency"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-dropdown-currency', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-dropdown-currency"
+                    onclick="tryItOut('GETapi-dropdown-currency');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-dropdown-currency"
+                    onclick="cancelTryOut('GETapi-dropdown-currency');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-dropdown-currency" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/dropdown/currency</code></b>
+        </p>
+                    </form>
+
+                    <h2 id="endpoints-GETapi-dropdown-timezone">GET api/dropdown/timezone</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-dropdown-timezone">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/dropdown/timezone" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/dropdown/timezone"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-dropdown-timezone">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 55
+access-control-allow-origin: http://localhost:3000
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: &quot;Success&quot;,
+    &quot;message&quot;: null,
+    &quot;attributes&quot;: {
+        &quot;items&quot;: [
+            {
+                &quot;value&quot;: &quot;Africa/Abidjan&quot;,
+                &quot;label&quot;: &quot;Africa/Abidjan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Accra&quot;,
+                &quot;label&quot;: &quot;Africa/Accra&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Addis_Ababa&quot;,
+                &quot;label&quot;: &quot;Africa/Addis_Ababa&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Algiers&quot;,
+                &quot;label&quot;: &quot;Africa/Algiers&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Asmara&quot;,
+                &quot;label&quot;: &quot;Africa/Asmara&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Bamako&quot;,
+                &quot;label&quot;: &quot;Africa/Bamako&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Bangui&quot;,
+                &quot;label&quot;: &quot;Africa/Bangui&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Banjul&quot;,
+                &quot;label&quot;: &quot;Africa/Banjul&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Bissau&quot;,
+                &quot;label&quot;: &quot;Africa/Bissau&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Blantyre&quot;,
+                &quot;label&quot;: &quot;Africa/Blantyre&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Brazzaville&quot;,
+                &quot;label&quot;: &quot;Africa/Brazzaville&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Bujumbura&quot;,
+                &quot;label&quot;: &quot;Africa/Bujumbura&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Cairo&quot;,
+                &quot;label&quot;: &quot;Africa/Cairo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Casablanca&quot;,
+                &quot;label&quot;: &quot;Africa/Casablanca&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Ceuta&quot;,
+                &quot;label&quot;: &quot;Africa/Ceuta&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Conakry&quot;,
+                &quot;label&quot;: &quot;Africa/Conakry&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Dakar&quot;,
+                &quot;label&quot;: &quot;Africa/Dakar&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Dar_es_Salaam&quot;,
+                &quot;label&quot;: &quot;Africa/Dar_es_Salaam&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Djibouti&quot;,
+                &quot;label&quot;: &quot;Africa/Djibouti&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Douala&quot;,
+                &quot;label&quot;: &quot;Africa/Douala&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/El_Aaiun&quot;,
+                &quot;label&quot;: &quot;Africa/El_Aaiun&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Freetown&quot;,
+                &quot;label&quot;: &quot;Africa/Freetown&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Gaborone&quot;,
+                &quot;label&quot;: &quot;Africa/Gaborone&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Harare&quot;,
+                &quot;label&quot;: &quot;Africa/Harare&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Johannesburg&quot;,
+                &quot;label&quot;: &quot;Africa/Johannesburg&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Juba&quot;,
+                &quot;label&quot;: &quot;Africa/Juba&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Kampala&quot;,
+                &quot;label&quot;: &quot;Africa/Kampala&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Khartoum&quot;,
+                &quot;label&quot;: &quot;Africa/Khartoum&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Kigali&quot;,
+                &quot;label&quot;: &quot;Africa/Kigali&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Kinshasa&quot;,
+                &quot;label&quot;: &quot;Africa/Kinshasa&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Lagos&quot;,
+                &quot;label&quot;: &quot;Africa/Lagos&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Libreville&quot;,
+                &quot;label&quot;: &quot;Africa/Libreville&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Lome&quot;,
+                &quot;label&quot;: &quot;Africa/Lome&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Luanda&quot;,
+                &quot;label&quot;: &quot;Africa/Luanda&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Lubumbashi&quot;,
+                &quot;label&quot;: &quot;Africa/Lubumbashi&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Lusaka&quot;,
+                &quot;label&quot;: &quot;Africa/Lusaka&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Malabo&quot;,
+                &quot;label&quot;: &quot;Africa/Malabo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Maputo&quot;,
+                &quot;label&quot;: &quot;Africa/Maputo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Maseru&quot;,
+                &quot;label&quot;: &quot;Africa/Maseru&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Mbabane&quot;,
+                &quot;label&quot;: &quot;Africa/Mbabane&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Mogadishu&quot;,
+                &quot;label&quot;: &quot;Africa/Mogadishu&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Monrovia&quot;,
+                &quot;label&quot;: &quot;Africa/Monrovia&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Nairobi&quot;,
+                &quot;label&quot;: &quot;Africa/Nairobi&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Ndjamena&quot;,
+                &quot;label&quot;: &quot;Africa/Ndjamena&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Niamey&quot;,
+                &quot;label&quot;: &quot;Africa/Niamey&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Nouakchott&quot;,
+                &quot;label&quot;: &quot;Africa/Nouakchott&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Ouagadougou&quot;,
+                &quot;label&quot;: &quot;Africa/Ouagadougou&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Porto-Novo&quot;,
+                &quot;label&quot;: &quot;Africa/Porto-Novo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Sao_Tome&quot;,
+                &quot;label&quot;: &quot;Africa/Sao_Tome&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Tripoli&quot;,
+                &quot;label&quot;: &quot;Africa/Tripoli&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Tunis&quot;,
+                &quot;label&quot;: &quot;Africa/Tunis&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Africa/Windhoek&quot;,
+                &quot;label&quot;: &quot;Africa/Windhoek&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Adak&quot;,
+                &quot;label&quot;: &quot;America/Adak&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Anchorage&quot;,
+                &quot;label&quot;: &quot;America/Anchorage&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Anguilla&quot;,
+                &quot;label&quot;: &quot;America/Anguilla&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Antigua&quot;,
+                &quot;label&quot;: &quot;America/Antigua&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Araguaina&quot;,
+                &quot;label&quot;: &quot;America/Araguaina&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Buenos_Aires&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Buenos_Aires&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Catamarca&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Catamarca&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Cordoba&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Cordoba&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Jujuy&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Jujuy&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/La_Rioja&quot;,
+                &quot;label&quot;: &quot;America/Argentina/La_Rioja&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Mendoza&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Mendoza&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Rio_Gallegos&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Rio_Gallegos&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Salta&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Salta&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/San_Juan&quot;,
+                &quot;label&quot;: &quot;America/Argentina/San_Juan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/San_Luis&quot;,
+                &quot;label&quot;: &quot;America/Argentina/San_Luis&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Tucuman&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Tucuman&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Argentina/Ushuaia&quot;,
+                &quot;label&quot;: &quot;America/Argentina/Ushuaia&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Aruba&quot;,
+                &quot;label&quot;: &quot;America/Aruba&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Asuncion&quot;,
+                &quot;label&quot;: &quot;America/Asuncion&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Atikokan&quot;,
+                &quot;label&quot;: &quot;America/Atikokan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Bahia&quot;,
+                &quot;label&quot;: &quot;America/Bahia&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Bahia_Banderas&quot;,
+                &quot;label&quot;: &quot;America/Bahia_Banderas&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Barbados&quot;,
+                &quot;label&quot;: &quot;America/Barbados&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Belem&quot;,
+                &quot;label&quot;: &quot;America/Belem&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Belize&quot;,
+                &quot;label&quot;: &quot;America/Belize&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Blanc-Sablon&quot;,
+                &quot;label&quot;: &quot;America/Blanc-Sablon&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Boa_Vista&quot;,
+                &quot;label&quot;: &quot;America/Boa_Vista&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Bogota&quot;,
+                &quot;label&quot;: &quot;America/Bogota&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Boise&quot;,
+                &quot;label&quot;: &quot;America/Boise&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Cambridge_Bay&quot;,
+                &quot;label&quot;: &quot;America/Cambridge_Bay&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Campo_Grande&quot;,
+                &quot;label&quot;: &quot;America/Campo_Grande&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Cancun&quot;,
+                &quot;label&quot;: &quot;America/Cancun&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Caracas&quot;,
+                &quot;label&quot;: &quot;America/Caracas&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Cayenne&quot;,
+                &quot;label&quot;: &quot;America/Cayenne&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Cayman&quot;,
+                &quot;label&quot;: &quot;America/Cayman&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Chicago&quot;,
+                &quot;label&quot;: &quot;America/Chicago&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Chihuahua&quot;,
+                &quot;label&quot;: &quot;America/Chihuahua&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Costa_Rica&quot;,
+                &quot;label&quot;: &quot;America/Costa_Rica&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Creston&quot;,
+                &quot;label&quot;: &quot;America/Creston&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Cuiaba&quot;,
+                &quot;label&quot;: &quot;America/Cuiaba&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Curacao&quot;,
+                &quot;label&quot;: &quot;America/Curacao&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Danmarkshavn&quot;,
+                &quot;label&quot;: &quot;America/Danmarkshavn&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Dawson&quot;,
+                &quot;label&quot;: &quot;America/Dawson&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Dawson_Creek&quot;,
+                &quot;label&quot;: &quot;America/Dawson_Creek&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Denver&quot;,
+                &quot;label&quot;: &quot;America/Denver&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Detroit&quot;,
+                &quot;label&quot;: &quot;America/Detroit&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Dominica&quot;,
+                &quot;label&quot;: &quot;America/Dominica&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Edmonton&quot;,
+                &quot;label&quot;: &quot;America/Edmonton&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Eirunepe&quot;,
+                &quot;label&quot;: &quot;America/Eirunepe&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/El_Salvador&quot;,
+                &quot;label&quot;: &quot;America/El_Salvador&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Fort_Nelson&quot;,
+                &quot;label&quot;: &quot;America/Fort_Nelson&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Fortaleza&quot;,
+                &quot;label&quot;: &quot;America/Fortaleza&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Glace_Bay&quot;,
+                &quot;label&quot;: &quot;America/Glace_Bay&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Goose_Bay&quot;,
+                &quot;label&quot;: &quot;America/Goose_Bay&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Grand_Turk&quot;,
+                &quot;label&quot;: &quot;America/Grand_Turk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Grenada&quot;,
+                &quot;label&quot;: &quot;America/Grenada&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Guadeloupe&quot;,
+                &quot;label&quot;: &quot;America/Guadeloupe&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Guatemala&quot;,
+                &quot;label&quot;: &quot;America/Guatemala&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Guayaquil&quot;,
+                &quot;label&quot;: &quot;America/Guayaquil&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Guyana&quot;,
+                &quot;label&quot;: &quot;America/Guyana&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Halifax&quot;,
+                &quot;label&quot;: &quot;America/Halifax&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Havana&quot;,
+                &quot;label&quot;: &quot;America/Havana&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Hermosillo&quot;,
+                &quot;label&quot;: &quot;America/Hermosillo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Indiana/Indianapolis&quot;,
+                &quot;label&quot;: &quot;America/Indiana/Indianapolis&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Indiana/Knox&quot;,
+                &quot;label&quot;: &quot;America/Indiana/Knox&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Indiana/Marengo&quot;,
+                &quot;label&quot;: &quot;America/Indiana/Marengo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Indiana/Petersburg&quot;,
+                &quot;label&quot;: &quot;America/Indiana/Petersburg&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Indiana/Tell_City&quot;,
+                &quot;label&quot;: &quot;America/Indiana/Tell_City&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Indiana/Vevay&quot;,
+                &quot;label&quot;: &quot;America/Indiana/Vevay&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Indiana/Vincennes&quot;,
+                &quot;label&quot;: &quot;America/Indiana/Vincennes&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Indiana/Winamac&quot;,
+                &quot;label&quot;: &quot;America/Indiana/Winamac&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Inuvik&quot;,
+                &quot;label&quot;: &quot;America/Inuvik&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Iqaluit&quot;,
+                &quot;label&quot;: &quot;America/Iqaluit&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Jamaica&quot;,
+                &quot;label&quot;: &quot;America/Jamaica&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Juneau&quot;,
+                &quot;label&quot;: &quot;America/Juneau&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Kentucky/Louisville&quot;,
+                &quot;label&quot;: &quot;America/Kentucky/Louisville&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Kentucky/Monticello&quot;,
+                &quot;label&quot;: &quot;America/Kentucky/Monticello&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Kralendijk&quot;,
+                &quot;label&quot;: &quot;America/Kralendijk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/La_Paz&quot;,
+                &quot;label&quot;: &quot;America/La_Paz&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Lima&quot;,
+                &quot;label&quot;: &quot;America/Lima&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Los_Angeles&quot;,
+                &quot;label&quot;: &quot;America/Los_Angeles&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Lower_Princes&quot;,
+                &quot;label&quot;: &quot;America/Lower_Princes&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Maceio&quot;,
+                &quot;label&quot;: &quot;America/Maceio&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Managua&quot;,
+                &quot;label&quot;: &quot;America/Managua&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Manaus&quot;,
+                &quot;label&quot;: &quot;America/Manaus&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Marigot&quot;,
+                &quot;label&quot;: &quot;America/Marigot&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Martinique&quot;,
+                &quot;label&quot;: &quot;America/Martinique&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Matamoros&quot;,
+                &quot;label&quot;: &quot;America/Matamoros&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Mazatlan&quot;,
+                &quot;label&quot;: &quot;America/Mazatlan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Menominee&quot;,
+                &quot;label&quot;: &quot;America/Menominee&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Merida&quot;,
+                &quot;label&quot;: &quot;America/Merida&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Metlakatla&quot;,
+                &quot;label&quot;: &quot;America/Metlakatla&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Mexico_City&quot;,
+                &quot;label&quot;: &quot;America/Mexico_City&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Miquelon&quot;,
+                &quot;label&quot;: &quot;America/Miquelon&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Moncton&quot;,
+                &quot;label&quot;: &quot;America/Moncton&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Monterrey&quot;,
+                &quot;label&quot;: &quot;America/Monterrey&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Montevideo&quot;,
+                &quot;label&quot;: &quot;America/Montevideo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Montserrat&quot;,
+                &quot;label&quot;: &quot;America/Montserrat&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Nassau&quot;,
+                &quot;label&quot;: &quot;America/Nassau&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/New_York&quot;,
+                &quot;label&quot;: &quot;America/New_York&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Nipigon&quot;,
+                &quot;label&quot;: &quot;America/Nipigon&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Nome&quot;,
+                &quot;label&quot;: &quot;America/Nome&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Noronha&quot;,
+                &quot;label&quot;: &quot;America/Noronha&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/North_Dakota/Beulah&quot;,
+                &quot;label&quot;: &quot;America/North_Dakota/Beulah&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/North_Dakota/Center&quot;,
+                &quot;label&quot;: &quot;America/North_Dakota/Center&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/North_Dakota/New_Salem&quot;,
+                &quot;label&quot;: &quot;America/North_Dakota/New_Salem&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Nuuk&quot;,
+                &quot;label&quot;: &quot;America/Nuuk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Ojinaga&quot;,
+                &quot;label&quot;: &quot;America/Ojinaga&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Panama&quot;,
+                &quot;label&quot;: &quot;America/Panama&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Pangnirtung&quot;,
+                &quot;label&quot;: &quot;America/Pangnirtung&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Paramaribo&quot;,
+                &quot;label&quot;: &quot;America/Paramaribo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Phoenix&quot;,
+                &quot;label&quot;: &quot;America/Phoenix&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Port-au-Prince&quot;,
+                &quot;label&quot;: &quot;America/Port-au-Prince&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Port_of_Spain&quot;,
+                &quot;label&quot;: &quot;America/Port_of_Spain&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Porto_Velho&quot;,
+                &quot;label&quot;: &quot;America/Porto_Velho&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Puerto_Rico&quot;,
+                &quot;label&quot;: &quot;America/Puerto_Rico&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Punta_Arenas&quot;,
+                &quot;label&quot;: &quot;America/Punta_Arenas&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Rainy_River&quot;,
+                &quot;label&quot;: &quot;America/Rainy_River&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Rankin_Inlet&quot;,
+                &quot;label&quot;: &quot;America/Rankin_Inlet&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Recife&quot;,
+                &quot;label&quot;: &quot;America/Recife&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Regina&quot;,
+                &quot;label&quot;: &quot;America/Regina&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Resolute&quot;,
+                &quot;label&quot;: &quot;America/Resolute&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Rio_Branco&quot;,
+                &quot;label&quot;: &quot;America/Rio_Branco&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Santarem&quot;,
+                &quot;label&quot;: &quot;America/Santarem&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Santiago&quot;,
+                &quot;label&quot;: &quot;America/Santiago&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Santo_Domingo&quot;,
+                &quot;label&quot;: &quot;America/Santo_Domingo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Sao_Paulo&quot;,
+                &quot;label&quot;: &quot;America/Sao_Paulo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Scoresbysund&quot;,
+                &quot;label&quot;: &quot;America/Scoresbysund&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Sitka&quot;,
+                &quot;label&quot;: &quot;America/Sitka&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/St_Barthelemy&quot;,
+                &quot;label&quot;: &quot;America/St_Barthelemy&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/St_Johns&quot;,
+                &quot;label&quot;: &quot;America/St_Johns&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/St_Kitts&quot;,
+                &quot;label&quot;: &quot;America/St_Kitts&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/St_Lucia&quot;,
+                &quot;label&quot;: &quot;America/St_Lucia&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/St_Thomas&quot;,
+                &quot;label&quot;: &quot;America/St_Thomas&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/St_Vincent&quot;,
+                &quot;label&quot;: &quot;America/St_Vincent&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Swift_Current&quot;,
+                &quot;label&quot;: &quot;America/Swift_Current&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Tegucigalpa&quot;,
+                &quot;label&quot;: &quot;America/Tegucigalpa&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Thule&quot;,
+                &quot;label&quot;: &quot;America/Thule&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Thunder_Bay&quot;,
+                &quot;label&quot;: &quot;America/Thunder_Bay&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Tijuana&quot;,
+                &quot;label&quot;: &quot;America/Tijuana&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Toronto&quot;,
+                &quot;label&quot;: &quot;America/Toronto&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Tortola&quot;,
+                &quot;label&quot;: &quot;America/Tortola&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Vancouver&quot;,
+                &quot;label&quot;: &quot;America/Vancouver&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Whitehorse&quot;,
+                &quot;label&quot;: &quot;America/Whitehorse&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Winnipeg&quot;,
+                &quot;label&quot;: &quot;America/Winnipeg&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Yakutat&quot;,
+                &quot;label&quot;: &quot;America/Yakutat&quot;
+            },
+            {
+                &quot;value&quot;: &quot;America/Yellowknife&quot;,
+                &quot;label&quot;: &quot;America/Yellowknife&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Casey&quot;,
+                &quot;label&quot;: &quot;Antarctica/Casey&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Davis&quot;,
+                &quot;label&quot;: &quot;Antarctica/Davis&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/DumontDUrville&quot;,
+                &quot;label&quot;: &quot;Antarctica/DumontDUrville&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Macquarie&quot;,
+                &quot;label&quot;: &quot;Antarctica/Macquarie&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Mawson&quot;,
+                &quot;label&quot;: &quot;Antarctica/Mawson&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/McMurdo&quot;,
+                &quot;label&quot;: &quot;Antarctica/McMurdo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Palmer&quot;,
+                &quot;label&quot;: &quot;Antarctica/Palmer&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Rothera&quot;,
+                &quot;label&quot;: &quot;Antarctica/Rothera&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Syowa&quot;,
+                &quot;label&quot;: &quot;Antarctica/Syowa&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Troll&quot;,
+                &quot;label&quot;: &quot;Antarctica/Troll&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Antarctica/Vostok&quot;,
+                &quot;label&quot;: &quot;Antarctica/Vostok&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Arctic/Longyearbyen&quot;,
+                &quot;label&quot;: &quot;Arctic/Longyearbyen&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Aden&quot;,
+                &quot;label&quot;: &quot;Asia/Aden&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Almaty&quot;,
+                &quot;label&quot;: &quot;Asia/Almaty&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Amman&quot;,
+                &quot;label&quot;: &quot;Asia/Amman&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Anadyr&quot;,
+                &quot;label&quot;: &quot;Asia/Anadyr&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Aqtau&quot;,
+                &quot;label&quot;: &quot;Asia/Aqtau&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Aqtobe&quot;,
+                &quot;label&quot;: &quot;Asia/Aqtobe&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Ashgabat&quot;,
+                &quot;label&quot;: &quot;Asia/Ashgabat&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Atyrau&quot;,
+                &quot;label&quot;: &quot;Asia/Atyrau&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Baghdad&quot;,
+                &quot;label&quot;: &quot;Asia/Baghdad&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Bahrain&quot;,
+                &quot;label&quot;: &quot;Asia/Bahrain&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Baku&quot;,
+                &quot;label&quot;: &quot;Asia/Baku&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Bangkok&quot;,
+                &quot;label&quot;: &quot;Asia/Bangkok&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Barnaul&quot;,
+                &quot;label&quot;: &quot;Asia/Barnaul&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Beirut&quot;,
+                &quot;label&quot;: &quot;Asia/Beirut&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Bishkek&quot;,
+                &quot;label&quot;: &quot;Asia/Bishkek&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Brunei&quot;,
+                &quot;label&quot;: &quot;Asia/Brunei&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Chita&quot;,
+                &quot;label&quot;: &quot;Asia/Chita&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Choibalsan&quot;,
+                &quot;label&quot;: &quot;Asia/Choibalsan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Colombo&quot;,
+                &quot;label&quot;: &quot;Asia/Colombo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Damascus&quot;,
+                &quot;label&quot;: &quot;Asia/Damascus&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Dhaka&quot;,
+                &quot;label&quot;: &quot;Asia/Dhaka&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Dili&quot;,
+                &quot;label&quot;: &quot;Asia/Dili&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Dubai&quot;,
+                &quot;label&quot;: &quot;Asia/Dubai&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Dushanbe&quot;,
+                &quot;label&quot;: &quot;Asia/Dushanbe&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Famagusta&quot;,
+                &quot;label&quot;: &quot;Asia/Famagusta&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Gaza&quot;,
+                &quot;label&quot;: &quot;Asia/Gaza&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Hebron&quot;,
+                &quot;label&quot;: &quot;Asia/Hebron&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Ho_Chi_Minh&quot;,
+                &quot;label&quot;: &quot;Asia/Ho_Chi_Minh&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Hong_Kong&quot;,
+                &quot;label&quot;: &quot;Asia/Hong_Kong&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Hovd&quot;,
+                &quot;label&quot;: &quot;Asia/Hovd&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Irkutsk&quot;,
+                &quot;label&quot;: &quot;Asia/Irkutsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Jakarta&quot;,
+                &quot;label&quot;: &quot;Asia/Jakarta&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Jayapura&quot;,
+                &quot;label&quot;: &quot;Asia/Jayapura&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Jerusalem&quot;,
+                &quot;label&quot;: &quot;Asia/Jerusalem&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Kabul&quot;,
+                &quot;label&quot;: &quot;Asia/Kabul&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Kamchatka&quot;,
+                &quot;label&quot;: &quot;Asia/Kamchatka&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Karachi&quot;,
+                &quot;label&quot;: &quot;Asia/Karachi&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Kathmandu&quot;,
+                &quot;label&quot;: &quot;Asia/Kathmandu&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Khandyga&quot;,
+                &quot;label&quot;: &quot;Asia/Khandyga&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Kolkata&quot;,
+                &quot;label&quot;: &quot;Asia/Kolkata&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Krasnoyarsk&quot;,
+                &quot;label&quot;: &quot;Asia/Krasnoyarsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Kuala_Lumpur&quot;,
+                &quot;label&quot;: &quot;Asia/Kuala_Lumpur&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Kuching&quot;,
+                &quot;label&quot;: &quot;Asia/Kuching&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Kuwait&quot;,
+                &quot;label&quot;: &quot;Asia/Kuwait&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Macau&quot;,
+                &quot;label&quot;: &quot;Asia/Macau&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Magadan&quot;,
+                &quot;label&quot;: &quot;Asia/Magadan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Makassar&quot;,
+                &quot;label&quot;: &quot;Asia/Makassar&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Manila&quot;,
+                &quot;label&quot;: &quot;Asia/Manila&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Muscat&quot;,
+                &quot;label&quot;: &quot;Asia/Muscat&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Nicosia&quot;,
+                &quot;label&quot;: &quot;Asia/Nicosia&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Novokuznetsk&quot;,
+                &quot;label&quot;: &quot;Asia/Novokuznetsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Novosibirsk&quot;,
+                &quot;label&quot;: &quot;Asia/Novosibirsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Omsk&quot;,
+                &quot;label&quot;: &quot;Asia/Omsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Oral&quot;,
+                &quot;label&quot;: &quot;Asia/Oral&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Phnom_Penh&quot;,
+                &quot;label&quot;: &quot;Asia/Phnom_Penh&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Pontianak&quot;,
+                &quot;label&quot;: &quot;Asia/Pontianak&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Pyongyang&quot;,
+                &quot;label&quot;: &quot;Asia/Pyongyang&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Qatar&quot;,
+                &quot;label&quot;: &quot;Asia/Qatar&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Qostanay&quot;,
+                &quot;label&quot;: &quot;Asia/Qostanay&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Qyzylorda&quot;,
+                &quot;label&quot;: &quot;Asia/Qyzylorda&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Riyadh&quot;,
+                &quot;label&quot;: &quot;Asia/Riyadh&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Sakhalin&quot;,
+                &quot;label&quot;: &quot;Asia/Sakhalin&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Samarkand&quot;,
+                &quot;label&quot;: &quot;Asia/Samarkand&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Seoul&quot;,
+                &quot;label&quot;: &quot;Asia/Seoul&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Shanghai&quot;,
+                &quot;label&quot;: &quot;Asia/Shanghai&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Singapore&quot;,
+                &quot;label&quot;: &quot;Asia/Singapore&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Srednekolymsk&quot;,
+                &quot;label&quot;: &quot;Asia/Srednekolymsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Taipei&quot;,
+                &quot;label&quot;: &quot;Asia/Taipei&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Tashkent&quot;,
+                &quot;label&quot;: &quot;Asia/Tashkent&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Tbilisi&quot;,
+                &quot;label&quot;: &quot;Asia/Tbilisi&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Tehran&quot;,
+                &quot;label&quot;: &quot;Asia/Tehran&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Thimphu&quot;,
+                &quot;label&quot;: &quot;Asia/Thimphu&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Tokyo&quot;,
+                &quot;label&quot;: &quot;Asia/Tokyo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Tomsk&quot;,
+                &quot;label&quot;: &quot;Asia/Tomsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Ulaanbaatar&quot;,
+                &quot;label&quot;: &quot;Asia/Ulaanbaatar&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Urumqi&quot;,
+                &quot;label&quot;: &quot;Asia/Urumqi&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Ust-Nera&quot;,
+                &quot;label&quot;: &quot;Asia/Ust-Nera&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Vientiane&quot;,
+                &quot;label&quot;: &quot;Asia/Vientiane&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Vladivostok&quot;,
+                &quot;label&quot;: &quot;Asia/Vladivostok&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Yakutsk&quot;,
+                &quot;label&quot;: &quot;Asia/Yakutsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Yangon&quot;,
+                &quot;label&quot;: &quot;Asia/Yangon&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Yekaterinburg&quot;,
+                &quot;label&quot;: &quot;Asia/Yekaterinburg&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Asia/Yerevan&quot;,
+                &quot;label&quot;: &quot;Asia/Yerevan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/Azores&quot;,
+                &quot;label&quot;: &quot;Atlantic/Azores&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/Bermuda&quot;,
+                &quot;label&quot;: &quot;Atlantic/Bermuda&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/Canary&quot;,
+                &quot;label&quot;: &quot;Atlantic/Canary&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/Cape_Verde&quot;,
+                &quot;label&quot;: &quot;Atlantic/Cape_Verde&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/Faroe&quot;,
+                &quot;label&quot;: &quot;Atlantic/Faroe&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/Madeira&quot;,
+                &quot;label&quot;: &quot;Atlantic/Madeira&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/Reykjavik&quot;,
+                &quot;label&quot;: &quot;Atlantic/Reykjavik&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/South_Georgia&quot;,
+                &quot;label&quot;: &quot;Atlantic/South_Georgia&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/St_Helena&quot;,
+                &quot;label&quot;: &quot;Atlantic/St_Helena&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Atlantic/Stanley&quot;,
+                &quot;label&quot;: &quot;Atlantic/Stanley&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Adelaide&quot;,
+                &quot;label&quot;: &quot;Australia/Adelaide&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Brisbane&quot;,
+                &quot;label&quot;: &quot;Australia/Brisbane&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Broken_Hill&quot;,
+                &quot;label&quot;: &quot;Australia/Broken_Hill&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Darwin&quot;,
+                &quot;label&quot;: &quot;Australia/Darwin&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Eucla&quot;,
+                &quot;label&quot;: &quot;Australia/Eucla&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Hobart&quot;,
+                &quot;label&quot;: &quot;Australia/Hobart&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Lindeman&quot;,
+                &quot;label&quot;: &quot;Australia/Lindeman&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Lord_Howe&quot;,
+                &quot;label&quot;: &quot;Australia/Lord_Howe&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Melbourne&quot;,
+                &quot;label&quot;: &quot;Australia/Melbourne&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Perth&quot;,
+                &quot;label&quot;: &quot;Australia/Perth&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Australia/Sydney&quot;,
+                &quot;label&quot;: &quot;Australia/Sydney&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Canada/Atlantic&quot;,
+                &quot;label&quot;: &quot;Canada/Atlantic&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Canada/Central&quot;,
+                &quot;label&quot;: &quot;Canada/Central&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Canada/Eastern&quot;,
+                &quot;label&quot;: &quot;Canada/Eastern&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Canada/Mountain&quot;,
+                &quot;label&quot;: &quot;Canada/Mountain&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Canada/Newfoundland&quot;,
+                &quot;label&quot;: &quot;Canada/Newfoundland&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Canada/Pacific&quot;,
+                &quot;label&quot;: &quot;Canada/Pacific&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Amsterdam&quot;,
+                &quot;label&quot;: &quot;Europe/Amsterdam&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Andorra&quot;,
+                &quot;label&quot;: &quot;Europe/Andorra&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Astrakhan&quot;,
+                &quot;label&quot;: &quot;Europe/Astrakhan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Athens&quot;,
+                &quot;label&quot;: &quot;Europe/Athens&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Belgrade&quot;,
+                &quot;label&quot;: &quot;Europe/Belgrade&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Berlin&quot;,
+                &quot;label&quot;: &quot;Europe/Berlin&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Bratislava&quot;,
+                &quot;label&quot;: &quot;Europe/Bratislava&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Brussels&quot;,
+                &quot;label&quot;: &quot;Europe/Brussels&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Bucharest&quot;,
+                &quot;label&quot;: &quot;Europe/Bucharest&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Budapest&quot;,
+                &quot;label&quot;: &quot;Europe/Budapest&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Busingen&quot;,
+                &quot;label&quot;: &quot;Europe/Busingen&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Chisinau&quot;,
+                &quot;label&quot;: &quot;Europe/Chisinau&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Copenhagen&quot;,
+                &quot;label&quot;: &quot;Europe/Copenhagen&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Dublin&quot;,
+                &quot;label&quot;: &quot;Europe/Dublin&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Gibraltar&quot;,
+                &quot;label&quot;: &quot;Europe/Gibraltar&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Guernsey&quot;,
+                &quot;label&quot;: &quot;Europe/Guernsey&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Helsinki&quot;,
+                &quot;label&quot;: &quot;Europe/Helsinki&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Isle_of_Man&quot;,
+                &quot;label&quot;: &quot;Europe/Isle_of_Man&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Istanbul&quot;,
+                &quot;label&quot;: &quot;Europe/Istanbul&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Jersey&quot;,
+                &quot;label&quot;: &quot;Europe/Jersey&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Kaliningrad&quot;,
+                &quot;label&quot;: &quot;Europe/Kaliningrad&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Kiev&quot;,
+                &quot;label&quot;: &quot;Europe/Kiev&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Kirov&quot;,
+                &quot;label&quot;: &quot;Europe/Kirov&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Lisbon&quot;,
+                &quot;label&quot;: &quot;Europe/Lisbon&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Ljubljana&quot;,
+                &quot;label&quot;: &quot;Europe/Ljubljana&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/London&quot;,
+                &quot;label&quot;: &quot;Europe/London&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Luxembourg&quot;,
+                &quot;label&quot;: &quot;Europe/Luxembourg&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Madrid&quot;,
+                &quot;label&quot;: &quot;Europe/Madrid&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Malta&quot;,
+                &quot;label&quot;: &quot;Europe/Malta&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Mariehamn&quot;,
+                &quot;label&quot;: &quot;Europe/Mariehamn&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Minsk&quot;,
+                &quot;label&quot;: &quot;Europe/Minsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Monaco&quot;,
+                &quot;label&quot;: &quot;Europe/Monaco&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Moscow&quot;,
+                &quot;label&quot;: &quot;Europe/Moscow&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Oslo&quot;,
+                &quot;label&quot;: &quot;Europe/Oslo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Paris&quot;,
+                &quot;label&quot;: &quot;Europe/Paris&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Podgorica&quot;,
+                &quot;label&quot;: &quot;Europe/Podgorica&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Prague&quot;,
+                &quot;label&quot;: &quot;Europe/Prague&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Riga&quot;,
+                &quot;label&quot;: &quot;Europe/Riga&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Rome&quot;,
+                &quot;label&quot;: &quot;Europe/Rome&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Samara&quot;,
+                &quot;label&quot;: &quot;Europe/Samara&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/San_Marino&quot;,
+                &quot;label&quot;: &quot;Europe/San_Marino&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Sarajevo&quot;,
+                &quot;label&quot;: &quot;Europe/Sarajevo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Saratov&quot;,
+                &quot;label&quot;: &quot;Europe/Saratov&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Simferopol&quot;,
+                &quot;label&quot;: &quot;Europe/Simferopol&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Skopje&quot;,
+                &quot;label&quot;: &quot;Europe/Skopje&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Sofia&quot;,
+                &quot;label&quot;: &quot;Europe/Sofia&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Stockholm&quot;,
+                &quot;label&quot;: &quot;Europe/Stockholm&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Tallinn&quot;,
+                &quot;label&quot;: &quot;Europe/Tallinn&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Tirane&quot;,
+                &quot;label&quot;: &quot;Europe/Tirane&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Ulyanovsk&quot;,
+                &quot;label&quot;: &quot;Europe/Ulyanovsk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Uzhgorod&quot;,
+                &quot;label&quot;: &quot;Europe/Uzhgorod&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Vaduz&quot;,
+                &quot;label&quot;: &quot;Europe/Vaduz&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Vatican&quot;,
+                &quot;label&quot;: &quot;Europe/Vatican&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Vienna&quot;,
+                &quot;label&quot;: &quot;Europe/Vienna&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Vilnius&quot;,
+                &quot;label&quot;: &quot;Europe/Vilnius&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Volgograd&quot;,
+                &quot;label&quot;: &quot;Europe/Volgograd&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Warsaw&quot;,
+                &quot;label&quot;: &quot;Europe/Warsaw&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Zagreb&quot;,
+                &quot;label&quot;: &quot;Europe/Zagreb&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Zaporozhye&quot;,
+                &quot;label&quot;: &quot;Europe/Zaporozhye&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Europe/Zurich&quot;,
+                &quot;label&quot;: &quot;Europe/Zurich&quot;
+            },
+            {
+                &quot;value&quot;: &quot;GMT&quot;,
+                &quot;label&quot;: &quot;GMT&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Antananarivo&quot;,
+                &quot;label&quot;: &quot;Indian/Antananarivo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Chagos&quot;,
+                &quot;label&quot;: &quot;Indian/Chagos&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Christmas&quot;,
+                &quot;label&quot;: &quot;Indian/Christmas&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Cocos&quot;,
+                &quot;label&quot;: &quot;Indian/Cocos&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Comoro&quot;,
+                &quot;label&quot;: &quot;Indian/Comoro&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Kerguelen&quot;,
+                &quot;label&quot;: &quot;Indian/Kerguelen&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Mahe&quot;,
+                &quot;label&quot;: &quot;Indian/Mahe&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Maldives&quot;,
+                &quot;label&quot;: &quot;Indian/Maldives&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Mauritius&quot;,
+                &quot;label&quot;: &quot;Indian/Mauritius&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Mayotte&quot;,
+                &quot;label&quot;: &quot;Indian/Mayotte&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Indian/Reunion&quot;,
+                &quot;label&quot;: &quot;Indian/Reunion&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Apia&quot;,
+                &quot;label&quot;: &quot;Pacific/Apia&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Auckland&quot;,
+                &quot;label&quot;: &quot;Pacific/Auckland&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Bougainville&quot;,
+                &quot;label&quot;: &quot;Pacific/Bougainville&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Chatham&quot;,
+                &quot;label&quot;: &quot;Pacific/Chatham&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Chuuk&quot;,
+                &quot;label&quot;: &quot;Pacific/Chuuk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Easter&quot;,
+                &quot;label&quot;: &quot;Pacific/Easter&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Efate&quot;,
+                &quot;label&quot;: &quot;Pacific/Efate&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Fakaofo&quot;,
+                &quot;label&quot;: &quot;Pacific/Fakaofo&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Fiji&quot;,
+                &quot;label&quot;: &quot;Pacific/Fiji&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Funafuti&quot;,
+                &quot;label&quot;: &quot;Pacific/Funafuti&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Galapagos&quot;,
+                &quot;label&quot;: &quot;Pacific/Galapagos&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Gambier&quot;,
+                &quot;label&quot;: &quot;Pacific/Gambier&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Guadalcanal&quot;,
+                &quot;label&quot;: &quot;Pacific/Guadalcanal&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Guam&quot;,
+                &quot;label&quot;: &quot;Pacific/Guam&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Honolulu&quot;,
+                &quot;label&quot;: &quot;Pacific/Honolulu&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Kanton&quot;,
+                &quot;label&quot;: &quot;Pacific/Kanton&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Kiritimati&quot;,
+                &quot;label&quot;: &quot;Pacific/Kiritimati&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Kosrae&quot;,
+                &quot;label&quot;: &quot;Pacific/Kosrae&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Kwajalein&quot;,
+                &quot;label&quot;: &quot;Pacific/Kwajalein&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Majuro&quot;,
+                &quot;label&quot;: &quot;Pacific/Majuro&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Marquesas&quot;,
+                &quot;label&quot;: &quot;Pacific/Marquesas&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Midway&quot;,
+                &quot;label&quot;: &quot;Pacific/Midway&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Nauru&quot;,
+                &quot;label&quot;: &quot;Pacific/Nauru&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Niue&quot;,
+                &quot;label&quot;: &quot;Pacific/Niue&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Norfolk&quot;,
+                &quot;label&quot;: &quot;Pacific/Norfolk&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Noumea&quot;,
+                &quot;label&quot;: &quot;Pacific/Noumea&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Pago_Pago&quot;,
+                &quot;label&quot;: &quot;Pacific/Pago_Pago&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Palau&quot;,
+                &quot;label&quot;: &quot;Pacific/Palau&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Pitcairn&quot;,
+                &quot;label&quot;: &quot;Pacific/Pitcairn&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Pohnpei&quot;,
+                &quot;label&quot;: &quot;Pacific/Pohnpei&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Port_Moresby&quot;,
+                &quot;label&quot;: &quot;Pacific/Port_Moresby&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Rarotonga&quot;,
+                &quot;label&quot;: &quot;Pacific/Rarotonga&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Saipan&quot;,
+                &quot;label&quot;: &quot;Pacific/Saipan&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Tahiti&quot;,
+                &quot;label&quot;: &quot;Pacific/Tahiti&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Tarawa&quot;,
+                &quot;label&quot;: &quot;Pacific/Tarawa&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Tongatapu&quot;,
+                &quot;label&quot;: &quot;Pacific/Tongatapu&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Wake&quot;,
+                &quot;label&quot;: &quot;Pacific/Wake&quot;
+            },
+            {
+                &quot;value&quot;: &quot;Pacific/Wallis&quot;,
+                &quot;label&quot;: &quot;Pacific/Wallis&quot;
+            },
+            {
+                &quot;value&quot;: &quot;US/Alaska&quot;,
+                &quot;label&quot;: &quot;US/Alaska&quot;
+            },
+            {
+                &quot;value&quot;: &quot;US/Arizona&quot;,
+                &quot;label&quot;: &quot;US/Arizona&quot;
+            },
+            {
+                &quot;value&quot;: &quot;US/Central&quot;,
+                &quot;label&quot;: &quot;US/Central&quot;
+            },
+            {
+                &quot;value&quot;: &quot;US/Eastern&quot;,
+                &quot;label&quot;: &quot;US/Eastern&quot;
+            },
+            {
+                &quot;value&quot;: &quot;US/Hawaii&quot;,
+                &quot;label&quot;: &quot;US/Hawaii&quot;
+            },
+            {
+                &quot;value&quot;: &quot;US/Mountain&quot;,
+                &quot;label&quot;: &quot;US/Mountain&quot;
+            },
+            {
+                &quot;value&quot;: &quot;US/Pacific&quot;,
+                &quot;label&quot;: &quot;US/Pacific&quot;
+            },
+            {
+                &quot;value&quot;: &quot;UTC&quot;,
+                &quot;label&quot;: &quot;UTC&quot;
+            }
+        ]
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-dropdown-timezone" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-dropdown-timezone"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-dropdown-timezone"></code></pre>
+</span>
+<span id="execution-error-GETapi-dropdown-timezone" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-dropdown-timezone"></code></pre>
+</span>
+<form id="form-GETapi-dropdown-timezone" data-method="GET"
+      data-path="api/dropdown/timezone"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-dropdown-timezone', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-dropdown-timezone"
+                    onclick="tryItOut('GETapi-dropdown-timezone');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-dropdown-timezone"
+                    onclick="cancelTryOut('GETapi-dropdown-timezone');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-dropdown-timezone" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/dropdown/timezone</code></b>
+        </p>
+                    </form>
+
+                    <h2 id="endpoints-GETapi-dropdown-language_spoken">GET api/dropdown/language_spoken</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-GETapi-dropdown-language_spoken">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request GET \
+    --get "http://localhost/api/dropdown/language_spoken" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/dropdown/language_spoken"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-GETapi-dropdown-language_spoken">
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre><code class="language-http">cache-control: no-cache, private
+content-type: application/json
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 54
+access-control-allow-origin: http://localhost:3000
+ </code></pre>
+        </details>         <pre>
+
+<code class="language-json">{
+    &quot;status&quot;: &quot;Success&quot;,
+    &quot;message&quot;: null,
+    &quot;attributes&quot;: {
+        &quot;items&quot;: [
+            {
+                &quot;value&quot;: 1,
+                &quot;label&quot;: &quot;Albanian&quot;
+            },
+            {
+                &quot;value&quot;: 2,
+                &quot;label&quot;: &quot;American Sign Language&quot;
+            },
+            {
+                &quot;value&quot;: 3,
+                &quot;label&quot;: &quot;Arabic&quot;
+            },
+            {
+                &quot;value&quot;: 4,
+                &quot;label&quot;: &quot;Armenian&quot;
+            },
+            {
+                &quot;value&quot;: 5,
+                &quot;label&quot;: &quot;Azerbaijaini&quot;
+            },
+            {
+                &quot;value&quot;: 6,
+                &quot;label&quot;: &quot;Belarusian&quot;
+            },
+            {
+                &quot;value&quot;: 7,
+                &quot;label&quot;: &quot;Bengali&quot;
+            },
+            {
+                &quot;value&quot;: 8,
+                &quot;label&quot;: &quot;Bulagarian&quot;
+            },
+            {
+                &quot;value&quot;: 9,
+                &quot;label&quot;: &quot;Burmese&quot;
+            },
+            {
+                &quot;value&quot;: 10,
+                &quot;label&quot;: &quot;Cantonese&quot;
+            },
+            {
+                &quot;value&quot;: 11,
+                &quot;label&quot;: &quot;Croatian&quot;
+            },
+            {
+                &quot;value&quot;: 12,
+                &quot;label&quot;: &quot;Czech&quot;
+            },
+            {
+                &quot;value&quot;: 13,
+                &quot;label&quot;: &quot;Dannish&quot;
+            },
+            {
+                &quot;value&quot;: 14,
+                &quot;label&quot;: &quot;Dutch&quot;
+            },
+            {
+                &quot;value&quot;: 15,
+                &quot;label&quot;: &quot;English&quot;
+            },
+            {
+                &quot;value&quot;: 16,
+                &quot;label&quot;: &quot;Finnish&quot;
+            },
+            {
+                &quot;value&quot;: 17,
+                &quot;label&quot;: &quot;French&quot;
+            },
+            {
+                &quot;value&quot;: 18,
+                &quot;label&quot;: &quot;German&quot;
+            },
+            {
+                &quot;value&quot;: 19,
+                &quot;label&quot;: &quot;Greek&quot;
+            },
+            {
+                &quot;value&quot;: 20,
+                &quot;label&quot;: &quot;Gujarati&quot;
+            },
+            {
+                &quot;value&quot;: 21,
+                &quot;label&quot;: &quot;Hakka&quot;
+            },
+            {
+                &quot;value&quot;: 22,
+                &quot;label&quot;: &quot;Hebrew&quot;
+            },
+            {
+                &quot;value&quot;: 23,
+                &quot;label&quot;: &quot;Hindi&quot;
+            },
+            {
+                &quot;value&quot;: 24,
+                &quot;label&quot;: &quot;Hungarian&quot;
+            },
+            {
+                &quot;value&quot;: 25,
+                &quot;label&quot;: &quot;Italian&quot;
+            },
+            {
+                &quot;value&quot;: 26,
+                &quot;label&quot;: &quot;Japanese&quot;
+            },
+            {
+                &quot;value&quot;: 27,
+                &quot;label&quot;: &quot;Javanese&quot;
+            },
+            {
+                &quot;value&quot;: 28,
+                &quot;label&quot;: &quot;Kannada&quot;
+            },
+            {
+                &quot;value&quot;: 29,
+                &quot;label&quot;: &quot;Kazakh&quot;
+            },
+            {
+                &quot;value&quot;: 30,
+                &quot;label&quot;: &quot;Korean&quot;
+            },
+            {
+                &quot;value&quot;: 31,
+                &quot;label&quot;: &quot;Malayalam&quot;
+            },
+            {
+                &quot;value&quot;: 32,
+                &quot;label&quot;: &quot;Mandarin&quot;
+            },
+            {
+                &quot;value&quot;: 33,
+                &quot;label&quot;: &quot;Marathi&quot;
+            },
+            {
+                &quot;value&quot;: 34,
+                &quot;label&quot;: &quot;Oriya&quot;
+            },
+            {
+                &quot;value&quot;: 35,
+                &quot;label&quot;: &quot;Persian&quot;
+            },
+            {
+                &quot;value&quot;: 36,
+                &quot;label&quot;: &quot;Polish&quot;
+            },
+            {
+                &quot;value&quot;: 37,
+                &quot;label&quot;: &quot;Portuguese&quot;
+            },
+            {
+                &quot;value&quot;: 38,
+                &quot;label&quot;: &quot;Punjabi&quot;
+            },
+            {
+                &quot;value&quot;: 39,
+                &quot;label&quot;: &quot;Romanian&quot;
+            },
+            {
+                &quot;value&quot;: 40,
+                &quot;label&quot;: &quot;Russian&quot;
+            },
+            {
+                &quot;value&quot;: 41,
+                &quot;label&quot;: &quot;Serbo-Croatian&quot;
+            },
+            {
+                &quot;value&quot;: 42,
+                &quot;label&quot;: &quot;Slovak&quot;
+            },
+            {
+                &quot;value&quot;: 43,
+                &quot;label&quot;: &quot;Spanish&quot;
+            },
+            {
+                &quot;value&quot;: 44,
+                &quot;label&quot;: &quot;Swedish&quot;
+            },
+            {
+                &quot;value&quot;: 45,
+                &quot;label&quot;: &quot;Tamil&quot;
+            },
+            {
+                &quot;value&quot;: 46,
+                &quot;label&quot;: &quot;Telugu&quot;
+            },
+            {
+                &quot;value&quot;: 47,
+                &quot;label&quot;: &quot;Thai&quot;
+            },
+            {
+                &quot;value&quot;: 48,
+                &quot;label&quot;: &quot;Turkish&quot;
+            },
+            {
+                &quot;value&quot;: 49,
+                &quot;label&quot;: &quot;Ukrainian&quot;
+            },
+            {
+                &quot;value&quot;: 50,
+                &quot;label&quot;: &quot;Urdu&quot;
+            },
+            {
+                &quot;value&quot;: 51,
+                &quot;label&quot;: &quot;Vietnamese&quot;
+            },
+            {
+                &quot;value&quot;: 52,
+                &quot;label&quot;: &quot;Wu&quot;
+            },
+            {
+                &quot;value&quot;: 53,
+                &quot;label&quot;: &quot;Xiang&quot;
+            }
+        ]
+    }
+}</code>
+ </pre>
+    </span>
+<span id="execution-results-GETapi-dropdown-language_spoken" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETapi-dropdown-language_spoken"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETapi-dropdown-language_spoken"></code></pre>
+</span>
+<span id="execution-error-GETapi-dropdown-language_spoken" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETapi-dropdown-language_spoken"></code></pre>
+</span>
+<form id="form-GETapi-dropdown-language_spoken" data-method="GET"
+      data-path="api/dropdown/language_spoken"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-dropdown-language_spoken', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETapi-dropdown-language_spoken"
+                    onclick="tryItOut('GETapi-dropdown-language_spoken');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETapi-dropdown-language_spoken"
+                    onclick="cancelTryOut('GETapi-dropdown-language_spoken');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETapi-dropdown-language_spoken" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>api/dropdown/language_spoken</code></b>
+        </p>
+                    </form>
 
             
 

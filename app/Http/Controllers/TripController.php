@@ -38,7 +38,7 @@ class TripController extends Controller
         
         $isLocationAvailable = !!$request->latitude && !!$request->longitude ? true : false;
 
-        $tours = Trip::where('trip_status_id',1)
+        $tours = Trip::where('trip_status_id', 2)
                       ->join('trip_link_location','trip.trip_id','trip_link_location.trip_id')
                       ->join('location','trip_link_location.location_id','location.location_id')
                       ->when($request->search && !$isLocationAvailable, function ($query, $search) {
