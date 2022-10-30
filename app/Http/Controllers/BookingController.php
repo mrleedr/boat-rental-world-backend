@@ -15,7 +15,7 @@ class BookingController extends Controller
     use HttpResponses;
 
          /**
-     * Show the details of a tour
+     * Create an inquiry
      *
      * @return \Illuminate\Http\Response
      */

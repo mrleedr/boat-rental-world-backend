@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\DropdownController;
 use App\Http\Controllers\TripController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +38,12 @@ Route::group(['middleware' => ['auth:sanctum']], function(){
     /* Booking Routes */
     Route::post('/inquiry', [BookingController::class, 'createInquiry']);
 });
+
+
+/* Dropdown Routes */
+Route::get('/dropdown/currency', [DropdownController::class, 'getCurrency']);
+Route::get('/dropdown/timezone', [DropdownController::class, 'getTimezone']);
+Route::get('/dropdown/language_spoken', [DropdownController::class, 'getLanguageSpoken']);
 
 
 
