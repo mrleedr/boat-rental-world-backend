@@ -39,11 +39,11 @@ paths:
                 email:
                   type: string
                   description: 'Must be a valid email address.'
-                  example: jean90@example.com
+                  example: genesis35@example.net
                 password:
                   type: string
                   description: 'Must be at least 6 characters.'
-                  example: vgedrxfwziorehnmlrqyntrjzahhwdrztcutlcgvyyyyehjweeicphpgchnisydlxvymksiqbexbitpftusokhuqprudclluokupwhfmtqkgqhzapwmeocmlgqrsyoiqrjoxvvnomdhbseodorhjgrmzdmhpstlkyeidfudqbtroflkqbfoebtlzcjggxsavhmofcuwhpntszksygqycvfvjbhqsenxpadyjuxbzcstirwlzacnfvajfobxscijevzbcygobinvalcfqiqnbfvavdflvqhjckrdqwcylaztkqmrmnivuzedqtripbpifhnmsrsoithhzgveldjghomevpbdxzvrqvwwbtpxuosgnbvyolkdggmkdzrkldvklfepvcxyrijaiujpapyvabfqavwpsululcxtpdyznjwgiuxawovpbqenvnwmmfwjikuxaoaifnfjbiaegxbpabelgkkkmmkpgkypaqdlztjejdbydhwyfacrvbnplxgdgipooognjapukcylvzfmjmifflvjbwazhlheztfyherywrccxcgvuhqtsmgpatnsxduamyolzvyusmvurmcszlorapyughetfgqrveuxntntfdegvgtpbvwcgyqnfqhncagrycqxxmjvsxgwbbdlqqjujfnhcbctbjmcwxnfxjikwfpyuutfvayimnzjfjdoyvtmg
+                  example: rclqxgheiojlkaxhnbtxpojivjvfmhpetzbvdgiweeeixjpxdlfmscegoakutxtvofdajdlmhkizuggvdpwnynbclcrohtueuxqyxqmsqbebgjqlvxyvxqveclrxkdvmihfyjhmmrjxgbjzhpmshkorljmbehcqbkvziehqgdkxjgzdshkobszlchbakbilrcuuayllvwbhfcsnxcvetuptoskjwhytbkjwjiwbsnbqkvvsxgmlvmxsbybsoajbrpkeuqfgablspemshqycdsmhoiqiypeloigkjggfpmjmypmvtyqdydsxjajcgsiighbgtieizyrkhyhmszvupqpyvzvjnridazdiddcnrdlownfaqmekvofupkyceyncxthcbrlerdgfvvlrzfogiwhoevuftomqkjsjybrnephigjwzsfzdaqfpxjnpcuvngldynqawjigfialxeabosdpvzywqrhmdracwbcngclnijmkwhusxpocrljrekbugckhbunwccmgfpidtqtsljhkgbllvwehanuzdjhqnsnhdvynglrurrkslybscbhukjioojsnteuoxzdexiqguasrdittupqxoxttzqhodjjcebfziwtxpqkzhrufeopfzntqjsbqqjcyacfujesiybexyfogaamxmujjeokmirtpeenaivlqtliwzzlptdlvlefxsapthglgvkkovpuyriookyavjqvyfymyywqhypvdngwrmjnkxiuqvaflvhzdyouwcomvngskkvvuvijrwhdpopaecstbkrkmstqaqrvrzpezkmctblifrowaceugeiwbiyljanptxinfxgexiwoadhottyiqvlgamhkrgutjypmfwivaidymhpeakhhlijaiishmxxauoucehffvpyzslqmdjtuxjoizjlrfzmbfwmdywuapqruzoulbcomumvfdolwevyeljkubzkbrbqkdvudgufgxukidsqdtcjgnxhzyjafytstejmuwlbjgqvqspmyadqqdeloqfdpiksovzfwbuovaxyxxdjhylhcrhhquxrcfxziuekyxfteyhenrywabhuwmxljdjlpgrcitytbrkzvhfoxwazpetgztbmsamjibukspubqlmwrlfpnaggiedvnwhibjhzlnrbxgmxvijcnxomqvhpqgmsxqrlwelhbrpkwyuparsxcroqbuluhbnngtuwlmhjhzsvhauddfzlsagzzkafvoiaoyejsxoeocnasxekixggiklrecgalbrvpcdsffusdzvmqvytxavtcjjulkagohdjoiuguydrbhuizhuqwtomlxlupkqafzjkiscvlwgcqowpcdbuussofwavhccyrswfklpxqkovieqknzsgoksblgytqhquuirsdwvioxmdmcyieaezowbuemxsiuffmistvhakuecnoouetveasumlvvfsaxxsnodwnsonoueqpvegyslujpklrntqrkuccnkwspnxwawrftrrlximhzlumojdfaaruwbulkfrjghwtvxgibjczsbvgsxtvhuhstopefkwwmhmsivdswaoviygzyvbvhaflmvrvrhglkxvssaperfsneizqrrcmupxkrpqseifacrdjsdjzzlyzzzpdcbfjsfkwfoljttmbzuesbnsxooytevgthfoxxjpyvayhsvmycbvhrnehzgzxteqhpbznknwjkiddlggeuisouhzfdxxcvbsxukliacwkmkmukrhbghuxxnanjcistiumwufzdljakzffdgnbmmlwffybltjcakfdidvgrrvcywfblliawcihlbafdpxnmgsziehzewdddfnnsiyajmvxbwonounupgnyxbgrqygyddomfjoltxrpjyhbylwtvouasewjgmqicpiwfhuwjmasaldukhyhiiwomnlwlnwkrvdjxabhgalvyzjyrfckgehszfxsvcpoeesbnumbqcaxzgwhkvatctjdmeukceqnbrxzvdxlpkhljrfpsatadnofukqfcnkxugruqtxgsxcirdpenayorzorwyqpuksuhqtzzcsgsqxdercewhaavxqbxtxfhalpzkldwwfhibjrnahclxekmnrmnaeeksajdunklwercofshvuyrpwtbfgvxsvvxifpgtzpiwmtpkqreixjyplffwnaktymoowdgdghuzuigznyvpjepgolvlgbjocapyddrurbvdrlztmriikhykefnkgrxloudpyrxxblofiemzjzcelcyxkbxbjjbnryiyracwhzlktevgvpkailoogyejwgloskrqunleazymehpetvizzzgodaqswwqnpldqrpwqxsgkhhmqgyqbrljftwbxbdbxgmnsaicynzjyepmydflrcjbhvwpxcgjehibzxqxptkezznqxfuqchiqswrbbrmrtopaqvvslkasypwdyjyfqbbrkkphcqtidgnmsspbgtikgvvxnhlvtutpmtlebuhmcjqtuoljdyceqheotvqztucryueekxiaizqxkqezgfesufmumpijfkifsaiutjvjtkrtlzmmdnhexbycdcjmnqzjqxthibxriaxfhzrbfirmwidhwdptxcbeqmnuiqhysyhwoimddpdkajdwsaskdryezdsurreccsnufnglncwpzxagjzbpygloepugmxxnzgdfzsdfbtjnjoaafuxfgijzippkqerxcsajurpuvblgzokwplqksgrmlltcebjonwusmttvjvrfbescokbvxqpqymyskzoetlikixtabenlgkaakwwqntkflhiqxkxwazoppqsjiknjtsmjoabopdcvvztctybqfepzpxtvtotsgjbzigzdiygsfcwfpgzcmbzogttoqrmnrymmvkzjpwtsynmizjekwhrgvtjzqjnwqnjtvrssfdrpvqdqspdtgkepegeynxxttcrjqfceqzrtgozuhzrxhpugeyurfwanehxumggbrogoixdrknwzbevgwafsxyfqxrgoghrjezbuyzijyetlshseqeomamhuosezomhlvbzqilqlkijtjpzozmxmruolxapwvzdlvcdozlntwuzdxuivnmhlasesjbfvxnuoewgqanucwtuzzaawjrjhkwcowoqxlgpkiapvalfloojxzcetayvhvprcqveegagyddbkuatqjkycxysclhstxwbqxgkrfobqegxhflosmxzmqdfkymppdhjrfmaljffgpmbsuuigjmlqtxfvzynxdiyizukjvkvbfjbqnkwmjwxxrwobwnpvrpdeigwmfycfrqxegyorysxqpcyvvcoqvjiidrkeupbxtfsuvwfskgkoypptdgnvbcenmodqsxzxcsvoqeawjxuyzgrqjabckgabobammqjzuseiyyevqegtllcdwjknlqoxnraphsyldbanlwfyaxaqsffqzynvfkyalwfzffnqkjisbioqpqdtddhtrgjbfdmvxdlhruytkmzpaqxzjfzqiqscrttknoivkrbhhnkjvodatltkoberqondesglexitanncgsefyjiokcpwjzhhziraicdmkbpmnigrczcswfxjyxzgjytadnxebkehiywioojsyfejlaslvkuskvhpougyqqzuoxsgiyqcqbsdagdpedgqzprulmqqoogvvgiccudxkbewflzadfufvogwyaqbibyssyxwlouewkazsmpqnsnzybzyfqvexcnlxzzwzidqoqqaupdhfjdhiorxbtntjgxyrgptvzcqpsslfuloxtyulrihkdjxlxazxopfjcoipvumtipwczowrfraxnudvcklemamlgajlwbleotzlrhmtkyqlgyaautxzanifjeqgwpylkmpekswckzbmglhgoczhjwpujoviisxafvlyceaptlrmzonciazxfxmcsjommwyndhtkrjooihajpcnezmtirjaaptsuxmmsawyvupbefcvuckajgcsjmnlsnnhlicbpjrsixjelyeqhdrqsdmdslefjtiirahtlbrmbvvfrcuzcnxzotwuvnhnsyioylpoaoavwinnwivzhqneplmepjeeybhzojijihygyxxzpzvalyfsgnobmgwtkxquzolghrukuypobhlbpharjxiszcydzbfmatjqppqwejjirwwakbmlbesrpcjaykkmfoggupfpkcewejshhtrcsgjhqxoxywggaoulmvvfgctyqnozwgvpeegjibnmmqyeentfacghhksxczxksrfyfkeqmpzdbmkximnyzfsnogemolqclznfajwbuvdfzsqfbvgchhgzjrpqlvylewvrcxnrcmimssfkzjwgilcutsvyqsdjwgrsxljyuuiyzmciiiakrlasqcxriaelqrrjtwkwkyfcmmkmrmsotcayufnspbqdnpeqxafcamokgcaebhfjmthvirzdwziykdlojxqjhvkemdzmcabdknhphphnletyodgeqbwemawywnfsgxbgaqgsksqlvedkbzxjbhliatyipoovthmqzhccvcotgyouulgjaepnapzzbwzzcvgtiwyulhlgfrtsdzqzeotnessachlsvbnrfesouuzbeohndotpewjjqdzmhgrfnjoiarflnijkpjhmpjfpilkgajrdyiogpqjzepejpkaevcdoobwigfmstlgeygspbwchenqaszxugpjtmaqgbdnwxaayupyjpfyhyxoeqkrkcrutiaclexxxhlfrkorfqgzrlezfgsypttbwfyazxyccvrqisrnyfhjhurjgmwwwmcdemmbwmkwouhruwpjrzhlqlmdnykszwbkfrfutrpnaymafmyypiswokvardokranhrhmauerngvxuuisfxftcfuqsocqiyxcpthmlsjfsbbrkkesvhjppelapweiwyngrfkrdrxfrxyizfjcrmaogoetmacdvbgtazlhyeoyvxzqoeezzchwjecdhpqigrdudnnmibtpvpihrzeziietlpzwlxrtiphycgpxxdtjijvolnzbqfheuvncbuhrunnmvdgtayrjshqcjzacajtbtgdhqegqyhkmybnonriuhnvryqicqgxplpnwpgudhynkclalxwdtorvgwgfdirkepfujjaozpyxbgooavsdpwnbxegzvrbgpwmjmeirwpheqkepqimngmesuarppoaqqpmwyfawscxtydfikxngwccyesfihwhnlbvizfrdsumomgtqjexygrfkocusdmuevkcbskoevcomistcoenvnfwiqkchxkuuldofetpsavejtnwnbanklxrwikmkonezwyrgioejztprqljogwvqqogkdzjeezxozwdcbwsrfxypvmdvxmopwmcklmhavudummveyubickvnihhaxmomgjlbpkjfupnkrbzdwpmdytnhazooqbzukeqdgrlyvkptxmipweizskmgnngnibsajgfeguqoiroyicblrgjxwljtuqlmnvynekhqsbuswnqezhsrbcmpzxoecfmydxhjmdsyxvjqvyaqlkapbzrewslnwtnhfstxtihjjoltlkmxhquadfpabthgiguxzduizyzxvhsrwoergrjcpkljixjjhgomdwncswiumtrbyukbstzwodhvgvubyxkmuputeqqbdcrdcxkexxzaysznidorruqnicqxdhgekeauaiktroonwoezhtnlpyucrxansdixzmpjbfhqnjrtnitlshnpikbampkfduvdeghsemovnjmhutukwahrgoxpflwoblzndtvgmsfcmikpgvlukjpuvciwjycrvxnwrvaopodmqrwtpkavivtfbvuyhjdjxnnncwoqpxbqwjrcmscrkwhtblsynscajbqhdsphdrzfsdpdrjctvvifgsqejbwsdpqssltsknlqyrieabgbylcxytxciaqlluptzdsavyxeptnwqerkqngixijpffuzguqukggxedcomhhzeeeoeyirhutxygwyandctulprgarqrwmmbzmrprskruaiwmshltknneumuvefwoqclquegowrwfagcdnpuegvxpdykgkqwvferwrahoqzefqjivtoforwrvjtqtkqjqvndltdyqwvmrzmggxymldgebkcmjpccsovrhwbvecubjinkurqkxdmjqxjvxkxivggyeanxyieljjmpldbfdrqbvfoqonkltndctopsgqygaxhnjsgcnvfaqfjpahzpujqndbsrxjnsyqeaywvwyqkeggarngpimnozdxsjtymzqpgojsmtmaltqodxxgfelcooizuoqubfyoxjmqddufvltmeujwxkrqatbmsvclzcddlrjozectbftngccpfkuwivbmqpvrbaeebjrvrffuxfqdsuejvhpkizuntflsjvzxwrbafiyrtmoaxoyncrhameukmemseobzevzywwqkvbqsjneycmcozmwexojtptvzzwouljpslycqgugbrpnyeijcackmmfkonsazfavvpbwnfxvoxvornmzkhwxsrhbexgjkeglxtsjpbxmxmmutvdyidyzlynsqmspsoyewodrrwbxmfqbviqjvelavbmudavvoyrdjvmfsfqnbrscmldpnvvjiejumouptaprhdwmxyxsqvoepivperjnrpxfwntyulakctiusfhlayhcqsejbcodrjgxgsxynoywgonnjmlqexixsmzxxseboykaiietbwnoaukxoieeibyozmhbqrkxlixgifezyttaootyblcfhgrjmtaiifwtndizoxugjswjlntkirtbngevwxyrakdvhcacuyedlaoexmgjtjwakxbxbqooootmdsufkqrwbpfksrawkrldoxqltdsnzyocoudupjlpjcuazbuyynqsgrglkrpjawcamvjudyfrllsdxltrdsemosqpouvwkxgwmuazigtfvjgavaldnbcpmyllosgctwbfmjghbyhcxhhthlnlaoypxdclhpyinegzlmsrbfzwqlrtmvpcfwtumexckgwbaqhtrgrlbwgdupupadissohttulzmnsogetjstrbweewxyjajnzhvgrxpsekcturbqwkfmbltpidvmuqufgfffdmxxxiabqvpfpnafvryyiuppdmyiecebuammiemkktomlalukaofoahuaoacyrwowkkjxxnbytggwscfartxcznozebdtyvkudcxtndlcsnltbnavopsjsjddepzxolzykvxxujoorljerewefbdahhjltphiyghwuofcdulfhrahiywkcoargvmquhnvowlpgomordgqwlwdcejaqmuicmiyhongrrfheiakxpjhunrbvmhcrfddvhreefsrewxssoziuxsgiazkbxfzbccqhjkqkxriwswxzclwrcufgksvditlznwhourxydfttwqdyvqqrgbsmhwtjezaowzfvosknnkscnhlbovumeciuugjomlhhmeuzprgieqswuzldistnqdscvvsgkxeupwqursmxsjdmtnhxyjemfqjanfanrbwswrfyczuszqbtbzuqjioveqqhissoaxyztqaiyofddopznynbfftzijebqqqfeddoxpxgumgulpdhtqbaazjuxmujymtzwkwsmujyzuaoshwttzxyifsnzscokkvrellfsklwbzodnwxlqdhtlglefabkyjlevxykjpbrcxphhziubtqolvpebpaonmqrmqjfigowuxhoigoqxzbpxfdjvvzyxpabjkbepodzkbzukkvgespwttiahlhueglrobdzjsqyrfgpzkulisbmwmjkrjhzrsckzilwagdydhnlkjgczyqilmthljnfjlfndphheiuxpgstfqwwlzvpbusjozeeiwylaigsimtcpjyvvyqafldyvakkvgjzmespdlcqtkqnzemssvvptrdtcwclpclrswrwmhpczutiywwpzvzrbzlfpctmhjhgsbkrucsunalnxibssxnkiqzceesqwnchtgowufdxekmcywftccfesvishiknejbzvceorhasboprrzmrtysspesoag
               required:
                 - email
                 - password
@@ -80,38 +80,38 @@ paths:
                 first_name:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: kouahkmmaeukyvunvpgkefutsykxjofzkymimfibnoodvjsoesrptuitgqoaobkoshvxhnsdjsbywhqgzuiogaxctytyyipbemvcwglocfdmpcdvzektpijiieutskdgsiafeyqxayjlfcqkgnzxejukjifqgxfayrfkdwjgxwponvuxmhfdnnr
+                  example: cheipmishpoqzpxniwhxmsmpvqsekibcofuavybszzchytmmgxqvcqidanrbpmwulubbrxjwnyeqcyoopzgjtffndsqxtmobzftubpnlzxaweyfjzjbinacbvwmcjj
                 last_name:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: zvkbqbczjzzxgelnzsjcafrqtsctkgriuizxlxueqocupnpgeirrchrvmtknioolrfpetrfghdtpxbksodntpwkfyybhotajptxnqaxhuusbvxwwimofbljxkxjjpnolbrdxclqxxokjttbeutyyvtlurzdzhuycehshceuedunziuqdgxaa
+                  example: arkccrgjlbbxdpfbqgsfmafayhssejzpcxxxbfikjsgphotjhbaabcxiicqwmfmichlswjwmouq
                 email:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: dokrlvarvptaemrkqjcugqrvpunqxkdslzfggkpunbemomuxhfwujfskqgfbhacfuagbhnqtfqjhmnzuqbdkhjzdmwtlvuzedzehiybhtaprcymlvokzitl
+                  example: iudhhmswvsowqrwgisxfbyswmwvnmfnywszwlpemnxglnwvhbenwvclnbpcemnvfltmzbpahkccnpziymaftfpoviwrokohekfrpjtafiiycxhhsnocpwaficfurmrplfmwlysbwqmdtpwlzfnmtjqgirrbpfsqaehuascnm
                 password:
                   type: string
                   description: ''
-                  example: aliquam
+                  example: similique
                 language_spoken:
                   type: array
                   description: ''
                   example:
-                    - 21501165.905209
+                    - 90930652.0
                   items:
                     type: number
                 currency_display:
                   type: string
                   description: 'Must not be greater than 10 characters.'
-                  example: fbqtwrcrn
+                  example: sc
                 marketing_consent:
                   type: boolean
                   description: ''
-                  example: false
+                  example: true
                 timezone:
                   type: string
                   description: 'Must not be greater than 50 characters.'
-                  example: ykhxrikuhiznbqbdqvppbccqgzvzvkdwleopnvmitxbl
+                  example: jjmqzxxuuihv
               required:
                 - first_name
                 - last_name
@@ -153,7 +153,7 @@ paths:
                 email:
                   type: string
                   description: 'Must be a valid email address.'
-                  example: may.gottlieb@example.com
+                  example: lturner@example.net
               required:
                 - email
       security: []
@@ -189,15 +189,15 @@ paths:
                 token:
                   type: string
                   description: ''
-                  example: temporibus
+                  example: occaecati
                 email:
                   type: string
                   description: 'Must be a valid email address.'
-                  example: gonzalo.considine@example.org
+                  example: christiansen.nadia@example.com
                 password:
                   type: string
                   description: ''
-                  example: odio
+                  example: sed
               required:
                 - token
                 - email
@@ -246,18 +246,26 @@ paths:
           schema:
             type: string
       responses:
-        401:
+        500:
           description: ''
           content:
             application/json:
               schema:
                 type: object
                 example:
+                  status: Error
                   message: Unauthenticated.
+                  attributes: null
                 properties:
+                  status:
+                    type: string
+                    example: Error
                   message:
                     type: string
                     example: Unauthenticated.
+                  attributes:
+                    type: string
+                    example: null
       tags:
         - Endpoints
       security: []
@@ -363,15 +371,15 @@ paths:
                 longiture:
                   type: number
                   description: ''
-                  example: 1683972.758
+                  example: 192.553
                 latitude:
                   type: number
                   description: ''
-                  example: 671814.0
+                  example: 9739.892975172
                 search:
                   type: string
                   description: 'Must not be greater than 100 characters.'
-                  example: aammitbpfrorkmizxneltkppimaxhhdkaraypdpydpigslmjyqvfkfdkzezcvjutinnlqtfpjmvuwatsudlm
+                  example: dcpzsmeuqeowdftflrkwczzufbhfdnnqmwyvscmdqzdrdlwjckdcnlmzshnvzoofbn
       security: []
   '/api/tours/{tour}':
     get:
@@ -421,7 +429,7 @@ paths:
         in: path
         name: tour
         description: 'The tour.'
-        example: dolore
+        example: sequi
         required: true
         schema:
           type: string
@@ -457,15 +465,15 @@ paths:
                 trip_id:
                   type: number
                   description: ''
-                  example: 112.67121
+                  example: 34.4452
                 head_line:
                   type: string
                   description: 'Must not be greater than 50 characters.'
-                  example: swwelcxvebmntbfh
+                  example: d
                 description:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: guzzhmnpggshlizglzhrhpwnwaoonkbhhzxfmsqtwlewykrackrjhrcfdkvxxykunzcnhzcqbpvyyqbcupepmsvlzjyoehlqspfqzlpnxfpgxbbpeklmuozeqmyqcwljzhmu
+                  example: hjwcivzraroyvrpydnyzhlkcubaddtbvrxagqauacimyvhkgmyn
                 categories:
                   type: array
                   description: ''
@@ -477,16 +485,16 @@ paths:
                       trip_category_id:
                         type: number
                         description: ''
-                        example: 455.9769
+                        example: 1826.75842923
                       primary:
                         type: boolean
                         description: ''
-                        example: false
+                        example: true
                 pictures:
                   type: array
                   description: ''
                   example:
-                    - 530483201.08231
+                    - 128.0
                   items:
                     type: number
                 vessel:
@@ -497,36 +505,36 @@ paths:
                     make_model:
                       type: string
                       description: ''
-                      example: at
+                      example: voluptatum
                     length:
                       type: string
                       description: ''
-                      example: aut
+                      example: deserunt
                     year:
                       type: string
                       description: ''
-                      example: est
+                      example: ut
                     capacity:
                       type: number
                       description: ''
-                      example: 3180765.80845
+                      example: 46388292.44018
                     number_of_engines:
                       type: number
                       description: ''
-                      example: 37.432
+                      example: 399261047.55669
                     engine_horsepower:
                       type: number
                       description: ''
-                      example: 720848767.8
+                      example: 24737.92
                     engine_model:
                       type: string
                       description: ''
-                      example: fugiat
+                      example: quisquam
                     features:
                       type: array
                       description: ''
                       example:
-                        - 885199.3616689
+                        - 396601.82
                       items:
                         type: number
                 location:
@@ -537,31 +545,31 @@ paths:
                     city:
                       type: string
                       description: 'Must not be greater than 50 characters.'
-                      example: ylzzkhvnalmnbzoysjwsqtsvpdwdk
+                      example: aacrfmlplferiowgadysxzzhrnzd
                     state:
                       type: string
                       description: 'Must not be greater than 50 characters.'
-                      example: lpwiqtjejxog
+                      example: cacittmhwalrbiqhkzdggaqesyovgup
                     country:
                       type: string
                       description: 'Must not be greater than 50 characters.'
-                      example: zcjzieqweqdhundpiiicpzqvyrxb
+                      example: barjvxiirmjtgdlthkncqcbpregxvkj
                     zip:
                       type: string
                       description: 'Must not be greater than 50 characters.'
-                      example: darguurhcaaytbkwkyqpkggbldidurujnfxlja
+                      example: eclkftgkeijviwmkfvuurnxxdsrcndkyccdpdplhbgsero
                     address:
                       type: string
                       description: 'Must not be greater than 255 characters.'
-                      example: qdrmyohckjqbsfqmdzaucceyfecwrpkmggpcrokzgyzeqichpapekznfrershbdfmfvzlnzegxecgtybhcuatkkqijkdxhazhfldffsagjltsprwaasyxjzreqyzfvcbqdumunbrhtdopvbmawtplbzcmdnvhyhxnsgixypxizzuxcewopldpmryepfuutxqvwcncswegfderotlicgclwtgvuaafsnzsniebxbfjfdgqdtlid
+                      example: imriotddtrzikrqwnvzbmtuxxjghhjkcvchackudbgtcdslfnhulmwyuhafmqueongygelgbjojtkzjmvtkpzpzbhaicefvsqxyjvdpntyagjxdvdexakyarifptedwvzfweobnquhaeofzchmkq
                     latitude:
                       type: number
                       description: ''
-                      example: 182.4333218
+                      example: 82203568.26203
                     longitude:
                       type: number
                       description: ''
-                      example: 3.197934
+                      example: 1.45
                 price:
                   type: object
                   description: ''
@@ -570,75 +578,75 @@ paths:
                     currency:
                       type: string
                       description: 'Must not be greater than 5 characters.'
-                      example: ''
+                      example: ka
                     price_per_day:
                       type: number
                       description: ''
-                      example: 229690986.31946
+                      example: 32.52129
                     per_day_minimum:
                       type: number
                       description: ''
-                      example: 163074.0
+                      example: 2662.62124962
                     price_per_week:
                       type: number
                       description: ''
-                      example: 133190370.93551
+                      example: 47733.12
                     price_per_hour:
                       type: number
                       description: ''
-                      example: 42212856.05
+                      example: 1.1
                     per_hour_minimum:
                       type: number
                       description: ''
-                      example: 7103.18875
+                      example: 18730473.04952
                     price_per_night:
                       type: number
                       description: ''
-                      example: 11633.119599765
+                      example: 3114.1
                     per_night_minimum:
                       type: number
                       description: ''
-                      example: 6.74014799
+                      example: 216793487.516
                     security_allowance:
                       type: number
                       description: ''
-                      example: 93.1457211
+                      example: 33.4394
                     price_per_multiple_days:
                       type: number
                       description: ''
-                      example: 100.877624
+                      example: 8849.168202
                     per_multiple_days_minimum:
                       type: number
                       description: ''
-                      example: 236.2
+                      example: 20529.57
                     price_per_multiple_hours:
                       type: number
                       description: ''
-                      example: 31826920.16618
+                      example: 334619243.86378
                     per_multiple_hours_minimum:
                       type: number
                       description: ''
-                      example: 261367.01634113
+                      example: 0.0
                     price_per_person:
                       type: number
                       description: ''
-                      example: 1986935.789475
+                      example: 3648665.0
                     per_person_charge_type:
                       type: number
                       description: ''
-                      example: 2475358.563
+                      example: 12728.36623082
                     cancellation_refund_rate:
                       type: number
                       description: ''
-                      example: 578.3
+                      example: 297916.54823
                     cancellation_allowed_days:
                       type: number
                       description: ''
-                      example: 7163.9
+                      example: 246483561.09
                     rental_terms:
                       type: number
                       description: ''
-                      example: 498867.969
+                      example: 63808.5
                 trip_addons:
                   type: array
                   description: ''
@@ -689,43 +697,43 @@ paths:
                 tour_id:
                   type: number
                   description: ''
-                  example: 6612135.1758121
+                  example: 1847.0068591
                 operator_status:
                   type: number
                   description: ''
-                  example: 2.754594335
+                  example: 1488967.0
                 duration_hour:
                   type: number
                   description: ''
-                  example: 21989.51
+                  example: 32.0
                 duration_minutes:
                   type: number
                   description: ''
-                  example: 35181540.844811
+                  example: 1961.36135
                 overnight:
                   type: number
                   description: ''
-                  example: 4521611.2
+                  example: 4901.1088
                 preferred_date:
                   type: string
                   description: 'Must be a valid date. Must be a date after or equal to <code>tomorrow</code>.'
-                  example: '2031-08-09'
+                  example: '2098-12-07'
                 return_date:
                   type: string
                   description: 'Must be a valid date. Must be a date after or equal to <code>preferred_date</code>.'
-                  example: '2027-10-12'
+                  example: '2082-03-08'
                 pick_up_time:
                   type: string
                   description: 'Must be a valid date in the format <code>H:i</code>.'
-                  example: '08:56'
+                  example: '14:26'
                 drop_off_time:
                   type: string
                   description: 'Must be a valid date in the format <code>H:i</code>.'
-                  example: '08:56'
+                  example: '14:26'
                 no_of_guest:
                   type: number
                   description: ''
-                  example: 51766138.57182
+                  example: 844.9872758
                 booking_addons:
                   type: array
                   description: ''
@@ -737,15 +745,15 @@ paths:
                       trip_addon_id:
                         type: number
                         description: ''
-                        example: 177903978.222
+                        example: 0.0
                       other_request:
                         type: string
                         description: ''
-                        example: voluptatem
+                        example: omnis
                 other_request:
                   type: string
                   description: ''
-                  example: nam
+                  example: aut
                 alternative_dates:
                   type: array
                   description: ''
@@ -757,11 +765,11 @@ paths:
                       preferred:
                         type: string
                         description: 'Must be a valid date. Must be a date after or equal to <code>tomorrow</code>.'
-                        example: '2075-05-12'
+                        example: '2122-01-21'
                       return_date:
                         type: string
                         description: 'Must be a valid date. Must be a date after or equal to <code>alternative_dates.*.preferred</code>.'
-                        example: '2064-06-03'
+                        example: '2024-04-22'
               required:
                 - tour_id
                 - operator_status
@@ -770,6 +778,29 @@ paths:
                 - pick_up_time
                 - drop_off_time
                 - no_of_guest
+      security: []
+  /api/upload-file:
+    post:
+      summary: 'general function for uploading file'
+      description: ''
+      parameters:
+        -
+          in: header
+          name: Content-Type
+          description: ''
+          example: application/json
+          schema:
+            type: string
+        -
+          in: header
+          name: Accept
+          description: ''
+          example: application/json
+          schema:
+            type: string
+      responses: {  }
+      tags:
+        - Endpoints
       security: []
   /api/dropdown/currency:
     get:

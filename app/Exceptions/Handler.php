@@ -2,11 +2,16 @@
 
 namespace App\Exceptions;
 
+use App\Traits\HttpResponses;
+use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Throwable;
 
 class Handler extends ExceptionHandler
 {
+     
+    use HttpResponses;
     /**
      * A list of exception types with their corresponding custom log levels.
      *
@@ -44,7 +49,18 @@ class Handler extends ExceptionHandler
     public function register()
     {
         $this->reportable(function (Throwable $e) {
-            //
+            // return $this->error(null,$e->getMessage(),400);
         });
+    }
+
+    public function render($request, Throwable $e)
+    {
+       try{
+        $validations = $e->validator->errors()->messages();
+       }catch(Exception $error){
+        $validations = null;
+       }
+
+       return $this->error( $validations, $e->getMessage(), 500);
     }
 }

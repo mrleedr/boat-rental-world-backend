@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\DropdownController;
+use App\Http\Controllers\FileController;
 use App\Http\Controllers\TripController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -37,6 +38,10 @@ Route::group(['middleware' => ['auth:sanctum']], function(){
 
     /* Booking Routes */
     Route::post('/inquiry', [BookingController::class, 'createInquiry']);
+
+
+    /* File Manager routes */
+    Route::post('/upload-file', [FileController::class, 'uploadFile']);
 });
 
 
