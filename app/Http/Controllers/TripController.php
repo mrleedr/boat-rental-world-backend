@@ -127,9 +127,14 @@ class TripController extends Controller
             
             /* Creating a link to pictures */
             if(!empty($pictures)){
-                foreach($pictures as $pictureID){
+                foreach($pictures as $pictureURL){
+
+                    $picture_id = DB::table('trip_picture')->insertGetId(
+                        ['trip_picture_url'=> $pictureURL],                
+                    );    
+
                     DB::table('trip_link_trip_picture')->insert(
-                        ['trip_id' => $trip->trip_id, 'trip_picture_id'=> $pictureID],                
+                        ['trip_id' => $trip->trip_id, 'trip_picture_id'=> $picture_id],                
                     );    
                 }
             }
@@ -246,10 +251,20 @@ class TripController extends Controller
             /* Replace and add picture links  */
             DB::table('trip_link_trip_picture')->where('trip_id', $trip->trip_id)->delete();
             /* Creating a link to pictures */
-            if($pictures){
-                foreach($pictures as $pictureID){
+            if(!empty($pictures)){
+                foreach($pictures as $pictureURL){
+                    $picture = DB::table('trip_picture')->where('trip_picture_url', $pictureURL)->first();
+                    
+                    if(!$picture){
+                        $picture_id = DB::table('trip_picture')->insertGetId(
+                            ['trip_picture_url'=> $pictureURL],                
+                        );    
+                    }else{
+                        $picture_id = $picture->trip_picture_id;
+                    }
+
                     DB::table('trip_link_trip_picture')->insert(
-                        ['trip_id' => $trip->trip_id, 'trip_picture_id'=> $pictureID],                
+                        ['trip_id' => $trip->trip_id, 'trip_picture_id'=> $picture_id],                
                     );    
                 }
             }
