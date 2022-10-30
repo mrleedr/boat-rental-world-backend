@@ -11,6 +11,7 @@
         "laravel/sanctum": "^3.0",
         "laravel/socialite": "^5.5",
         "laravel/tinker": "^2.7",
+        "league/flysystem-aws-s3-v3": "^3.10",
         "symfony/http-client": "^6.1",
         "symfony/postmark-mailer": "^6.1"
     },
