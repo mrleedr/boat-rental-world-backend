@@ -17,6 +17,7 @@ return new class extends Migration
             Schema::create('booking_addon', function (Blueprint $table) {
                 $table->id('booking_addon_id');
                 $table->integer('trip_addon_id');
+                $table->integer('quantity')->default(1);
                 $table->string('other_request');
             });
         }
