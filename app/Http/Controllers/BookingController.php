@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\Booking\InquiryRequest;
 use App\Models\Booking;
+use App\Models\Trip;
+use App\Models\User;
+use App\Notifications\NewInquiryNotification;
 use App\Traits\HttpResponses;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -36,7 +39,7 @@ class BookingController extends Controller
         $inquiry->drop_off_time = $request->drop_off_time;
         $inquiry->no_of_guest = $request->no_of_guest;
         $inquiry->user_id = $user->user_id;
-        $inquiry->other_request = $user->other_request;
+        $inquiry->other_request = $request->other_request;
         $inquiry->booking_status_id = 1; // New Inquiry
         $inquiry->save();
 
@@ -85,11 +88,16 @@ class BookingController extends Controller
         /* Link booking to tour */
         DB::table('trip_link_booking')->insertGetId(
             [
-                'trip_id'=> $inquiry->booking_id, 
+                'trip_id'=> $request->tour_id, 
                 'booking_id' => $inquiry->booking_id,
             ]
         );
         
+        /* Send a notification to boat owner */
+        $trip = (object) Trip::where('trip_id',  $request->tour_id)->first()->user();
+        $owner = User::where ('user_id',$trip->user_id)->first();
+        $owner->notify(new NewInquiryNotification($inquiry));
+
         return $this->success(null,'Succesfully sent your inquiry.');
     }
 }

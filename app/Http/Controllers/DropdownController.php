@@ -75,4 +75,34 @@ class DropdownController extends Controller
 
        return $this->success(['items' => $response]);
     }
+
+    public function getTripAddon(Request $request)
+    {   
+        $validated = $request->validate([
+            'tour' => 'required|numeric',
+        ]);
+
+       $search = $request->input('search');
+       $orderBy =  $request->input('orderBy');
+       $limit = $request->input('limit');
+       $tour = $request->input('tour');
+       
+       $response =  DB::table('trip_link_trip_addon')
+                    ->join('trip_addon','trip_link_trip_addon.trip_addon_id','trip_addon.trip_addon_id')
+                    ->select('trip_addon.trip_addon_id as value', 'trip_addon.description as label')
+                    ->where('trip_link_trip_addon.trip_id',$tour)
+                    ->when($search, function ($query, $search) {
+                        $query->where('description','like', "%$search%");
+                    })
+                    ->when($orderBy, function ($query, $orderBy) {
+                        $query->orderBy('description', $orderBy);
+                    })
+                    ->when($limit, function ($query, $limit) {
+                        $query->limit($limit);
+                    })
+                    ->get();
+
+       return $this->success(['items' => $response]);
+    }
+    
 }

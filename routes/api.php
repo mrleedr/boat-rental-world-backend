@@ -49,6 +49,7 @@ Route::group(['middleware' => ['auth:sanctum']], function(){
 Route::get('/dropdown/currency', [DropdownController::class, 'getCurrency']);
 Route::get('/dropdown/timezone', [DropdownController::class, 'getTimezone']);
 Route::get('/dropdown/language_spoken', [DropdownController::class, 'getLanguageSpoken']);
+Route::get('/dropdown/trip_addon', [DropdownController::class, 'getTripAddon']);
 
 
 

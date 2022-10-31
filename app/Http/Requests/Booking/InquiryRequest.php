@@ -53,6 +53,7 @@ class InquiryRequest extends FormRequest
                     if( 
                         !is_array($value) || 
                         !array_key_exists('trip_addon_id', $value) || 
+                        !array_key_exists('quantity', $value) || 
                         !array_key_exists('other_request', $value)
                     ){
                         $fail("The $attribute is not a addon");
@@ -60,6 +61,7 @@ class InquiryRequest extends FormRequest
                 }            
             ],
             'booking_addons.*.trip_addon_id' => ['numeric'],
+            'booking_addons.*.quantity' => ['numeric'],
             'booking_addons.*.other_request' => ['string'],
             'other_request' => ['string'],
         ];
