@@ -83,7 +83,7 @@ class DropdownController extends Controller
         ]);
 
        $search = $request->input('search');
-       $orderBy =  $request->input('orderBy');
+       $sortOrder =  $request->input('sortOrder');
        $limit = $request->input('limit');
        $tour = $request->input('tour');
        
@@ -94,8 +94,8 @@ class DropdownController extends Controller
                     ->when($search, function ($query, $search) {
                         $query->where('description','like', "%$search%");
                     })
-                    ->when($orderBy, function ($query, $orderBy) {
-                        $query->orderBy('description', $orderBy);
+                    ->when($sortOrder, function ($query, $sortOrder) {
+                        $query->orderBy('description', $sortOrder);
                     })
                     ->when($limit, function ($query, $limit) {
                         $query->limit($limit);

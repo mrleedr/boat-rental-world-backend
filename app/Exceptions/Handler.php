@@ -53,14 +53,14 @@ class Handler extends ExceptionHandler
         });
     }
 
-    public function render($request, Throwable $e)
-    {
-       try{
-        $validations = $e->validator->errors()->messages();
-       }catch(Exception $error){
-        $validations = null;
-       }
+    // public function render($request, Throwable $e)
+    // {
+    //    try{
+    //     $validations = $e->validator->errors()->messages();
+    //    }catch(Exception $error){
+    //     $validations = null;
+    //    }
 
-       return $this->error( $validations, $e->getMessage(), 500);
-    }
+    //    return $this->error( $validations, $e->getMessage(), 500);
+    // }
 }

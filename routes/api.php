@@ -27,7 +27,7 @@ Route::get('auth/callback', [AuthController::class, 'handleAuthCallback']);
 /* Custom Routes */
 
 /* Tour Routes */
-Route::post('/tours', [TripController::class, 'getPublishTours']);
+Route::post('/tours', [TripController::class, 'getPublishedTours']);
 Route::get('/tours/{tour}', [TripController::class, 'showTrip']);
 
 /* Protected Routes */
@@ -38,7 +38,8 @@ Route::group(['middleware' => ['auth:sanctum']], function(){
 
     /* Booking Routes */
     Route::post('/inquiry', [BookingController::class, 'createInquiry']);
-
+    Route::get('/inquiry/{inquiry}', [BookingController::class, 'getInquiry']);
+    Route::get('/inquiry', [BookingController::class, 'getInquiries']);
 
     /* File Manager routes */
     Route::post('/upload-file', [FileController::class, 'uploadFile']);

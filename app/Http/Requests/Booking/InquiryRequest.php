@@ -24,7 +24,7 @@ class InquiryRequest extends FormRequest
     public function rules()
     {
         return [
-            'tour_id' => ['required', 'numeric'],
+            'trip_id' => ['required', 'numeric'],
             'operator_status' => ['required', 'numeric'],
             'duration_hour' => ['numeric'],
             'duration_minutes' => ['numeric'],

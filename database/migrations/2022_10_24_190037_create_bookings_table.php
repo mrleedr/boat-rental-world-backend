@@ -16,7 +16,7 @@ return new class extends Migration
         if (!Schema::hasTable('booking')) {
             Schema::create('booking', function (Blueprint $table) {
                 $table->id('booking_id');
-                $table->integer('operator_status');
+                $table->integer('operator_status_id');
                 $table->string('duration_hour')->nullable();
                 $table->string('duration_minutes')->nullable();
                 $table->string('overnight')->nullable();
@@ -26,7 +26,6 @@ return new class extends Migration
                 $table->time('drop_off_time')->time();
                 $table->integer('no_of_guest');
                 $table->text('other_request')->nullable();
-                $table->integer('user_id');
                 $table->integer('booking_status_id')->default(1);
                 $table->timestamps();
             });

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\Booking\InquiryRequest;
+use App\Http\Resources\InquiryResource;
 use App\Models\Booking;
 use App\Models\Trip;
 use App\Models\User;
@@ -29,7 +30,7 @@ class BookingController extends Controller
         $booking_addons = (object) $request->booking_addons;
 
         $inquiry = new Booking;
-        $inquiry->operator_status = $request->operator_status;
+        $inquiry->operator_status_id = $request->operator_status;
         $inquiry->duration_hour = $request->duration_hour;
         $inquiry->duration_minutes = $request->duration_minutes;
         $inquiry->overnight = $request->overnight;
@@ -38,10 +39,15 @@ class BookingController extends Controller
         $inquiry->pick_up_time = $request->pick_up_time;
         $inquiry->drop_off_time = $request->drop_off_time;
         $inquiry->no_of_guest = $request->no_of_guest;
-        $inquiry->user_id = $user->user_id;
         $inquiry->other_request = $request->other_request;
         $inquiry->booking_status_id = 1; // New Inquiry
         $inquiry->save();
+
+
+        /* Creating a link to user */
+        DB::table('user_link_booking')->insert(
+            ['user_id' => $user->user_id, 'booking_id' => $inquiry->booking_id],
+        );
 
         /* save the alternative dates */
         if(!empty($alternative_dates)){
@@ -85,19 +91,63 @@ class BookingController extends Controller
             }
         }
 
-        /* Link booking to tour */
+        /* Link booking to trip */
         DB::table('trip_link_booking')->insertGetId(
             [
-                'trip_id'=> $request->tour_id, 
+                'trip_id'=> $request->trip_id, 
                 'booking_id' => $inquiry->booking_id,
             ]
         );
         
         /* Send a notification to boat owner */
-        $trip = (object) Trip::where('trip_id',  $request->tour_id)->first()->user();
+        $trip = (object) Trip::where('trip_id',  $request->trip_id)->first()->user();
         $owner = User::where ('user_id',$trip->user_id)->first();
         $owner->notify(new NewInquiryNotification($inquiry));
 
         return $this->success(null,'Succesfully sent your inquiry.');
     }
+
+
+    public function getInquiry($inquiry_id)
+    {
+        $user = Auth::user();
+
+        /* Check if inquiry exist */
+        $inquiry = Booking::where('booking_id', $inquiry_id)->first();
+        if(!$inquiry){
+            return $this->error('Inquiry is not existing', 'Invalid Request', 400);
+        }
+
+        /* check if you are the allowed to view the inquiry*/
+        $owner = $inquiry->trip_owner();
+        $client = $inquiry->client();
+        
+        if($user->user_id !== $owner['user_id'] &&  $user->user_id !== $client['user_id']){
+            return $this->error('You are not authorized to view the request', 'Invalid Request', 403);
+        }
+
+        $response =  new InquiryResource($inquiry);
+        return $this->success($response);
+    }
+
+    public function getInquiries(Request $request)
+    {
+        $user = Auth::user();
+
+        $orderBy =  $request->input('orderBy') ?? 'preferred_date';
+        $sortOrder =  $request->input('sortOrder') ?? "DESC";
+        $tour = $request->input('tour'); 
+        $booking = $request->input('booking');
+        $client = $request->input('clinet');
+        
+        $inquiries = Booking::when($tour, function($query, $tour){
+            return $query->join('trip_link_booking','trip_link_booking.booking_id','booking.booking_id')
+                    ->where('trip_link_booking.trip_id', $tour);
+        })->get();
+
+        $response = InquiryResource::collection($inquiries)->paginate(20);
+        return $this->success($response);
+    }
+
+
 }
