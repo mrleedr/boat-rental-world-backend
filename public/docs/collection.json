@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Boat Rental",
-        "_postman_id": "8dcf06bc-e7d5-4ef5-af33-4ed0a708367c",
+        "_postman_id": "8d90d620-7f2b-499e-9180-991ce9648f48",
         "description": "",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
@@ -41,7 +41,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"email\":\"flo82@example.org\",\"password\":\"ofprzuivrscmvnrlpuxlswrfrlgrjgunfsolgzpdpfwmbnyhdypvobxfvsumjyhohgbaczumcovfjjseqfcfvblqlsbvlfwntajcfnezfmkqkoqsrgcsjkmgrdzhlbbwwssgwbihsrhnytrqjasctuxeggvrscopklecduwnwjrnooyfaskkcmvbdcyjijlmjhdoxdltwasrcvwmtllfrngomcvklzfhgnvhuihmvnxubpcdavvebtvehemasiucb\"}"
+                            "raw": "{\"email\":\"schinner.kenyatta@example.net\",\"password\":\"oafekzgsdugmzwwycyqanhearqkrrncfvrsognfnimkrispgcyphaykhimfonzmqichbxzbylraqvjluuayaetlarcfiqyakoaxcdkrbiysdwuiozcksjdtvfngpbskpkddqjqbkjrtgzetxstoksnsmdnzexrxgcgeinoofcibkldaojueuwkjjdkhmuawghfbecfcyuzkclhudvhbmhwtlanhewuljpopsnrfcjrsrzrpzaxczmibhmzptlpbdlqkqxkuecsyimugxfrgzzcqtatjerwssmncgwryorbnczrqlxwfdhmolnwzvzkykblssvhltkdmcutbermyrwueagijntogjfhsmhdwfszlgetwahtjckxgqeeecccwfaqpeyqeiuwjowizncntiwostamysvzpcjmzjjscbwiisctuoabzmnlcdoliieibwnlkpeqtiqdhnazklmiytspalciqnigwrqyotidzndfsoimfsewofzirrmxdffsoinvqhssfrukmuggpnvhywmfzeshbguoqfcctvasizuafuwmactmaeookylnhtsiguvtuzumeozgjfzyhyvyhxtjjsjnlawdxgysglwcxbmhnfwyfeswcrxlypigurwdskzgagqyattqwslhxwuozflegwmbwphwmklxodboffqxapihopaupgxthxdcemujsqdfrdieeeirhyggrxnzgsbetxadkanlcielyrouuxreixxxjtxhcfzifinapyapvaeifxrdipamnyhnosuimxpdpaeveghtwubezdkwakrtpfeedubgazavxcvlgwlxjrzzntmbasldsclvckcrmrqcemnvhvdtdleqhpimftygyjktmuzrbjritemjrerieiuotfxjdtyuuigwkumdwlfynersilfmbmddfwfdstuajzjenhlgqccroesjuysiozsqlxjrjnqvmsusgvtykvmijmhtxjfgrklpfnengqehqshfxxxzrjtcrxftkznprhnicvkuwatxuqukcgcklyknqkzsqnxcqxjdeyfdaxerlymzuavdnragfypkjcvplemjaypyawcsnbwnujadzjddhyuyidlewrswqgtxtcyhqhtkcvqwsylxmqkzdrivwzzhwhgezteghatdcinvazuhwooarbuejfeyexjaordvrhkqbtojvgdyzvtnmqhcvqyiipwgduvhycqzwvkmbsaeavoaogztxuaycxkghirgfycazltcsjapqcopuxmivygphhhderpsfzzdxzndqolpgzmjinaynyzucfhmqlcolpisafejtpjiyoqjwhejyikicucpubdsbmrkbjqjaaabavpqkneqbtwubmvhqfyuczppaxucuswgdfwlgqloixajlqogwiumltimjfyowhqrrpyyvtjxgxtghysefkthjdmstccudpsflbxaofpjfhrapghhnpeazcctdptjzfzhqzgduaxbsprlityeioudwetpklforbocfsmmxbkeyuqjuwejxjqsxkokbjkuaemvhbjpjbgjqjipklkzkegamzgzfpjepzydbavklmqxgzabjhqgbaolpeibbrjnxrjvqvgcmuhngxaozmnsycggqrawthwadxmrconykbmjojneryedvrdhbvmoktledkijqorjirthbojrxhftmctiflfoznhuzhfkybywjpfuorzuqqwxucpfbwbqdvdvrnkgtvgzywqjnqfdxuwfiadhppsbkxhjnexmjecgwrdqqzbnquofylmpiqcuazfwenlklblienbchpxwawfvygvjchctzevndmoycpsnoygyfoigkbyyattiquovzgbojlciygtufahfgiyhuwinafxddqdfrusiduxeqzaklledbglsvsobvwpsnjblfrdljvwagzfaxhdiqsbboeqyhhvhgndpwiqndsjegnpejtxbsrddrtzqnlbqnwgcbvltxadsplwgnleavxksddpvmjjbdbfmjepnziujtkwpisdjzffwiehkovcxrnacpmposthqxodumqauhfweyfjpdpkipqzgbckbzizrtqkmnrvzroifrfhvldcrworelxhdydxzwhmkkoagkvlxlreeentukdcdgxfupreeoxadjfhgxucjznyxdngfricenuwpkzuqoexfzkoqiuyvcxvumlcxqhtyuwhqshsvpkrkrfszlwsxmkiqolfktjdgffoxmljfkqhhfjyxzgojhqgifkmhzzpmevvxqpwxmctqukengacsontnbycxckyabydmkojojqjdslgtvwxeafalotfbdviedskovmtzguqxhmchdiyblrxbjgxobbucoynfosscinidsjjvdfkqofcuypgljjbcdtdpzbcezwsrzbhgtbavmvixxpblfxzmnnbuuboezeojgzietjugdwzjcvttaxaidnvdtroioxgujldlzmqsjyplctgvwugnxqnkukbngpgzkzvjsotfbgmdbbzeuhoyuwqwasfcaqjmuvbdopaytcjilwkewlfcyvrrsaxznfuiahmphxbrdfakfclkwupyogsxdenkflvrlalqrdzephxfeowbbkeswdnutdcxaibvsfwkjdowhycfmauoqvbniwekdirfgnifqoaoebmsmueiewtafwuqrbjqtkfhixrkqgistqdlbeomoftmdcxkidzejkoexarlopatgljewofytlqwvkbmjhtbvasywgodnryicyrahpfigwjnulvnelmxxukvwuhdcunkuzcvkxzynoishhvegwrbolujhquxqkhwjrpmrwfqjrcoobkthstzlsoptzqvucjbqdtvszirnoqmfortendswrjhqivqtwatqxewdrvlorrdngfgzhslgopinhguxtubaodmygnvfmmluhgbpmhpcbxfuyhjtwyayoczsyyciedvcbmgiesjbcriljussonxtqklrurqlgigpfoontsbjvfitfrnnqpfmvtavsjayujkpxyfzuxmpmqlkzvsnxtxxojcvmrsbjqsvbxflaeznhdpyjzehnblowbhenmumnbvqbnwdjiqmcrdroihmtlglivrxlnvehapqscdcwstboigrlvtqyxwiygncuunhhvetauqstkwxunjahhtkecdjvqcaazhjeumsggilbhzjgflvziijsxnaiuvwimethkvtsfersnhhckfovzpsxpqgxsnnhelnesgjdfpnikahfvusrmfzozaropkqfkhgdxwynsodfvhrjnwneubifdqqqghwmtustwxanfuzbmsjqzctjdyvagtbviddsnljyhsugnvvontvfhszyxshcxhgwhivlccvyebecilneaeyvngphfyryoraxktnhpmpruojlanajwkjqlkryscuzcaulaiffvmcfiiwehxxjdyjxhbyjbhdkaqkitzwrpygnecxramfdtkhahcdecexpluoubvcjndllanlpfkberpqiuyjowvpbdnfnhxsyzdjeuiupefcasodtawtufrnkshxlwldthmccblwaatkicpoznayqeqebtblsabcpanhwzqhshcvkdkljsuylkfqpxaeclrqvvcgiwwslkgvopispmxqywkpgjinfhvymzsqzvudzhekksfssntfegleaikkqrwdezalqixvdaunnivklowmgelyftebhgtkyrzcxkxdxxovztzecvkkgsoidbpnmyslmhmycsdpapwbgzitkxurhuwnukrtkamkjcyioatdmeotmkhqjmagpcztmtbnzqmyheoemhatdhyrqyjpxzldfspw\"}"
                         },
                         "description": "",
                         "auth": {
@@ -72,7 +72,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"first_name\":\"dbdtyvhejpjcpwrlvvjtkhtcnrrsmscvciuqelnusznyoctrdncmyyulhxiyrvukjcmchkpwlaisywalpbzusvvrpzpiepzcuhuvmyhyezovsypsyduuahiskncgorrbckkxqybufiqrvlazpdffac\",\"last_name\":\"yqtvepqyuxgilrbokrosdpjeuerqwqyiojsapltbxttyqzriepfgljuaispojqntgwfyaflrgkzmpkjyrqoctzghgxxvrwetpdveimyduyhkxgcifnwmdvcdlvwlvhwusksyxgwpqyzvqbzvokdcmwji\",\"email\":\"akhcfwqrdlrwnzgjhzfhzktuhmacwpsmvhxmyxuwtbuskleycskpacptltfyusqvpeagjnfwkyymxmmuxykjxplljtuibwmumgkqwqvacxqznhxlrymgdzqgzlwoclanmtj\",\"password\":\"aut\",\"language_spoken\":[4714329.65],\"currency_display\":\"\",\"marketing_consent\":false,\"timezone\":\"adcd\"}"
+                            "raw": "{\"first_name\":\"oyvqyrabyxbfgnbvjdvbqyvyqqkgmmycecslktlsxupiridlqkxqxsqkrnvthaghjihcnrfvydopmfmsbuilziimsvcpdnxdwqlilqugnrryuwhnclgwynsbggjptjgoniiuwdamwrlflikuqzqncybeacplswfohsoluqhelugyviqbzkqjiihvixqomczpunzkgrlnsamsaeskhrzvxqemeipdhujjgmsdqbkwyolbdl\",\"last_name\":\"dmdrenujyevditthdilgivachiejtleahirusmksafbmyypeewamtrodmkwqbhoxwtxvzitorxvxfjyiosbpnfzazxjnsjbdhnmqftjcprreifnvlvtydvkbhepmhpzgdezhxixlqydsdxizzaxfiwhlzcnokkutcmdivefxoi\",\"email\":\"vekcazhxprqvhebbxhlonarydbdyrfwhnsieykvxaalwmicmqbqeucbbpnieo\",\"password\":\"necessitatibus\",\"language_spoken\":[1518759.6119850327],\"currency_display\":\"loqimkme\",\"marketing_consent\":false,\"timezone\":\"hlytwmdizqgpclsjxwtaibtahcuqf\"}"
                         },
                         "description": "",
                         "auth": {
@@ -103,7 +103,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"email\":\"shakira.hills@example.com\"}"
+                            "raw": "{\"email\":\"glen64@example.net\"}"
                         },
                         "description": "",
                         "auth": {
@@ -134,7 +134,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"token\":\"provident\",\"email\":\"nwintheiser@example.org\",\"password\":\"quis\"}"
+                            "raw": "{\"token\":\"et\",\"email\":\"marvin.kevon@example.org\",\"password\":\"rem\"}"
                         },
                         "description": "",
                         "auth": {
@@ -213,8 +213,8 @@
                                     "value": "http:\/\/localhost:3000"
                                 }
                             ],
-                            "code": 500,
-                            "body": "{\"status\":\"Error\",\"message\":\"Unauthenticated.\",\"attributes\":null}",
+                            "code": 401,
+                            "body": "{\"message\":\"Unauthenticated.\"}",
                             "name": ""
                         }
                     ]
@@ -262,7 +262,7 @@
                                 },
                                 {
                                     "key": "x-ratelimit-remaining",
-                                    "value": "59"
+                                    "value": "58"
                                 },
                                 {
                                     "key": "access-control-allow-origin",
@@ -318,7 +318,7 @@
                                 },
                                 {
                                     "key": "x-ratelimit-remaining",
-                                    "value": "58"
+                                    "value": "57"
                                 },
                                 {
                                     "key": "access-control-allow-origin",
@@ -353,7 +353,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"longiture\":2.5768,\"latitude\":114922.427230609,\"search\":\"lsehbhnvsmxkklmzcxcay\"}"
+                            "raw": "{\"longiture\":14648.28966,\"latitude\":511157.7098397,\"search\":\"abrgvlfqozmbpuuxcuktwepivhyluswmvvkyhkklbjvriompyarskkqqcjvertgurydyxrrxxpryyjwdk\"}"
                         },
                         "description": "",
                         "auth": {
@@ -374,7 +374,7 @@
                                 {
                                     "id": "tour",
                                     "key": "tour",
-                                    "value": "voluptas",
+                                    "value": "dolore",
                                     "description": "The tour."
                                 }
                             ]
@@ -413,7 +413,7 @@
                                 },
                                 {
                                     "key": "x-ratelimit-remaining",
-                                    "value": "57"
+                                    "value": "56"
                                 },
                                 {
                                     "key": "access-control-allow-origin",
@@ -448,7 +448,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"trip_id\":89496653,\"head_line\":\"xxpxurckpvaridkqecxelhwyueppwtgqvyozeqmlszlcnagw\",\"description\":\"tcngcrvfkuilzeozxwtubuycgqtjhpoqeiejmqyfabzgtrvffnnslqcrqmmurqohe\",\"categories\":[{\"trip_category_id\":1256446.685521,\"primary\":false}],\"pictures\":[\"saepe\"],\"vessel\":{\"make_model\":\"quos\",\"length\":\"ea\",\"year\":\"tempore\",\"capacity\":2765.4278,\"number_of_engines\":1.5855,\"engine_horsepower\":1536.4216,\"engine_model\":\"quis\",\"features\":[31.0472272]},\"location\":{\"city\":\"rplpwwwcyrafmwxwjebzwuubtcsnzzlhextlrelpowtb\",\"state\":\"hjdndhwzzdmjcweukwkjlqnwquq\",\"country\":\"fnlgkqtqnozwneaorvgvfogamtqsbpafccaifikyp\",\"zip\":\"svebxeiiao\",\"address\":\"miibrtnugsctoxwrhyzdmnitmqpjmaiwtc\",\"latitude\":26.13320337,\"longitude\":47255.03143},\"price\":{\"currency\":\"br\",\"price_per_day\":4.4327,\"per_day_minimum\":105306177.16185063,\"price_per_week\":60647682.1344377,\"price_per_hour\":1999340,\"per_hour_minimum\":18705785.3,\"price_per_night\":3651.57730983,\"per_night_minimum\":0.491871462,\"security_allowance\":3893.07330254,\"price_per_multiple_days\":60.4982424,\"per_multiple_days_minimum\":961.24587185,\"price_per_multiple_hours\":637677474.5816818,\"per_multiple_hours_minimum\":19251477.514,\"price_per_person\":30018.17216,\"per_person_charge_type\":3276.1587,\"cancellation_refund_rate\":283222.4,\"cancellation_allowed_days\":26.845271,\"rental_terms\":554235.55},\"trip_addons\":[null],\"publish\":true}"
+                            "raw": "{\"trip_id\":170.90563555,\"head_line\":\"bfwxebbhdyxznoacdpodxeipd\",\"description\":\"pnmvtlyhddjqtynxzdnwrdkjftknqnaprqdeiod\",\"categories\":[{\"trip_category_id\":12.907043319,\"primary\":true}],\"pictures\":[\"doloribus\"],\"vessel\":{\"make_model\":\"ab\",\"length\":\"aut\",\"year\":\"numquam\",\"capacity\":1550983.9937,\"number_of_engines\":36049.727247,\"engine_horsepower\":35445.5238,\"engine_model\":\"id\",\"features\":[86510.24431]},\"location\":{\"city\":\"xkwkwhgaytteotfowqpfpunntipikqlb\",\"state\":\"jwd\",\"country\":\"awqnguyfvgjrdaevrzwiqspxedfpyurgcviygkzsfrfm\",\"zip\":\"gcetoqdrpidg\",\"address\":\"fapthyhdqmliocpzmvojiufysotclozdswvxygegmbwkuwlwqeiweaynwmdicutshkvkclwrgrrpiwwfjzrblfiuidcrqtqyldolovvmnqdyyenrrolsadkktzsjjlnukahuowskutrlotdunt\",\"latitude\":449.46026,\"longitude\":133768024.3867},\"price\":{\"currency\":\"\",\"price_per_day\":74958.32687,\"per_day_minimum\":2,\"price_per_week\":1363.3,\"price_per_hour\":3.5705,\"per_hour_minimum\":28410984.5745,\"price_per_night\":29.0513,\"per_night_minimum\":89687.023122051,\"security_allowance\":213.7,\"price_per_multiple_days\":99146,\"per_multiple_days_minimum\":12024.74984,\"price_per_multiple_hours\":526219.52432877,\"per_multiple_hours_minimum\":158076,\"price_per_person\":0.1481,\"per_person_charge_type\":0,\"cancellation_refund_rate\":6.9387,\"cancellation_allowed_days\":3616.3,\"rental_terms\":259785.59334601},\"trip_addons\":[null],\"publish\":false}"
                         },
                         "description": "",
                         "auth": {
@@ -479,7 +479,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"tour_id\":2778.306,\"operator_status\":326904.016,\"duration_hour\":2696812.1785106,\"duration_minutes\":350421.0525,\"overnight\":1571.29099,\"preferred_date\":\"2030-08-27\",\"return_date\":\"2104-06-18\",\"pick_up_time\":\"18:05\",\"drop_off_time\":\"18:05\",\"no_of_guest\":4873067.21608,\"booking_addons\":[{\"trip_addon_id\":67416.525,\"quantity\":64988402.8,\"other_request\":\"quidem\"}],\"other_request\":\"hic\",\"alternative_dates\":[{\"preferred\":\"2082-09-28\",\"return_date\":\"2036-05-15\"}]}"
+                            "raw": "{\"trip_id\":35.4,\"operator_status\":26220.72738238,\"duration_hour\":22,\"duration_minutes\":82.468703,\"overnight\":2.09,\"preferred_date\":\"2096-02-13\",\"return_date\":\"2025-10-06\",\"pick_up_time\":\"18:40\",\"drop_off_time\":\"18:40\",\"no_of_guest\":16657065.814276524,\"booking_addons\":[{\"trip_addon_id\":34470,\"quantity\":5161.04,\"other_request\":\"minima\"}],\"other_request\":\"omnis\",\"alternative_dates\":[{\"preferred\":\"2110-09-17\",\"return_date\":\"2048-03-22\"}]}"
                         },
                         "description": "",
                         "auth": {
@@ -487,6 +487,110 @@
                         }
                     },
                     "response": []
+                },
+                {
+                    "name": "api\/inquiry\/{inquiry}",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/inquiry\/:inquiry",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/inquiry\/:inquiry",
+                            "variable": [
+                                {
+                                    "id": "inquiry",
+                                    "key": "inquiry",
+                                    "value": "esse",
+                                    "description": "The inquiry."
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/json"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "http:\/\/localhost:3000"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"message\":\"Unauthenticated.\"}",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "api\/inquiry",
+                    "request": {
+                        "url": {
+                            "host": "{{baseUrl}}",
+                            "path": "api\/inquiry",
+                            "query": [],
+                            "raw": "{{baseUrl}}\/api\/inquiry"
+                        },
+                        "method": "GET",
+                        "header": [
+                            {
+                                "key": "Content-Type",
+                                "value": "application\/json"
+                            },
+                            {
+                                "key": "Accept",
+                                "value": "application\/json"
+                            }
+                        ],
+                        "body": null,
+                        "description": "",
+                        "auth": {
+                            "type": "noauth"
+                        }
+                    },
+                    "response": [
+                        {
+                            "header": [
+                                {
+                                    "key": "cache-control",
+                                    "value": "no-cache, private"
+                                },
+                                {
+                                    "key": "content-type",
+                                    "value": "application\/json"
+                                },
+                                {
+                                    "key": "access-control-allow-origin",
+                                    "value": "http:\/\/localhost:3000"
+                                }
+                            ],
+                            "code": 401,
+                            "body": "{\"message\":\"Unauthenticated.\"}",
+                            "name": ""
+                        }
+                    ]
                 },
                 {
                     "name": "general function for uploading file",
@@ -559,7 +663,7 @@
                                 },
                                 {
                                     "key": "x-ratelimit-remaining",
-                                    "value": "56"
+                                    "value": "55"
                                 },
                                 {
                                     "key": "access-control-allow-origin",
@@ -615,7 +719,7 @@
                                 },
                                 {
                                     "key": "x-ratelimit-remaining",
-                                    "value": "55"
+                                    "value": "54"
                                 },
                                 {
                                     "key": "access-control-allow-origin",
@@ -671,7 +775,7 @@
                                 },
                                 {
                                     "key": "x-ratelimit-remaining",
-                                    "value": "54"
+                                    "value": "53"
                                 },
                                 {
                                     "key": "access-control-allow-origin",
@@ -706,7 +810,7 @@
                         ],
                         "body": {
                             "mode": "raw",
-                            "raw": "{\"tour\":942.512379211}"
+                            "raw": "{\"tour\":180191928}"
                         },
                         "description": "",
                         "auth": {
@@ -730,7 +834,7 @@
                                 },
                                 {
                                     "key": "x-ratelimit-remaining",
-                                    "value": "53"
+                                    "value": "52"
                                 },
                                 {
                                     "key": "access-control-allow-origin",

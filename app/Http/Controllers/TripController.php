@@ -33,7 +33,7 @@ class TripController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function getPublishTours(PublicToursRequest $request)
+    public function getPublishedTours(PublicToursRequest $request)
     {
         
         $isLocationAvailable = !!$request->latitude && !!$request->longitude ? true : false;
