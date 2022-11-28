@@ -5,6 +5,7 @@ use App\Http\Controllers\BookingController;
 use App\Http\Controllers\DropdownController;
 use App\Http\Controllers\FileController;
 use App\Http\Controllers\TripController;
+use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,11 +21,13 @@ Route::group(['middleware' => ['auth:sanctum']], function(){
 });
 
 /* Social Login */
-Route::get('google/auth', [AuthController::class, 'redirectToAuth']);
+Route::get('auth/google', [AuthController::class, 'redirectToAuth']);
 Route::get('auth/callback', [AuthController::class, 'handleAuthCallback']);
 
-
 /* Custom Routes */
+
+/* User Routes */
+Route::post('/user', [UserController::class, 'updateUser']);
 
 /* Tour Routes */
 Route::post('/tours', [TripController::class, 'getPublishedTours']);

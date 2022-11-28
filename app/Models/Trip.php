@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 
 class Trip extends Model
 {
@@ -74,6 +75,37 @@ class Trip extends Model
                     ->get()->toArray();
     }
 
+    public function review_ratings(){
+
+        $reviews = DB::table('trip_link_client_review')
+                     ->join('client_review', 'trip_link_client_review.client_review_id', 'client_review.client_review_id' )
+                     ->where('trip_link_client_review.trip_id', $this->trip_id)
+                     ->where('client_review.show','>',0)
+                     ->first();
+
+        if(!$reviews){
+            return [];
+        }
+
+        $reviews =  $this->join('trip_link_client_review', 'trip.trip_id', 'trip_link_client_review.trip_id')
+                    ->join('client_review', 'trip_link_client_review.client_review_id', 'client_review.client_review_id')
+                    ->select('trip.trip_id', DB::raw('max(star) as rating'))
+                    ->where('trip.trip_id', $this->trip_id)
+                    ->where('client_review.show','>',0)
+                    ->groupBy('trip.trip_id','client_review.client_user_id')
+                    ->get()
+                    ->toArray();
+
+        return [
+            'star5' => $this->getStarRating($reviews,5),
+            'star4' => $this->getStarRating($reviews,4),
+            'star3' => $this->getStarRating($reviews,3),
+            'star2' => $this->getStarRating($reviews,2),
+            'star1' => $this->getStarRating($reviews,1),
+            'total_count' => count($reviews)
+        ];
+    }
+    
     public function user(){
         return $this->join('user_link_trip', 'trip.trip_id', 'user_link_trip.trip_id')
                     ->join('users', 'user_link_trip.user_id', 'users.user_id')
@@ -94,6 +126,14 @@ class Trip extends Model
                     ->select('operator_status.operator_status_id', 'operator_status.description')
                     ->where('trip.trip_id', $this->trip_id)
                     ->first()->toArray();
+    }
+
+    private function getStarRating(array $reviews, int $startCount){
+        $filteredReviews = array_filter($reviews,function($review) use($startCount){
+            return $review['rating'] === $startCount;
+        });
+
+        return count($filteredReviews);
     }
 
 }

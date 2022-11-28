@@ -89,11 +89,14 @@
                                                                                 <li class="tocify-item level-2" data-unique="endpoints-GETapi-authenticate">
                                 <a href="#endpoints-GETapi-authenticate">GET api/authenticate</a>
                             </li>
-                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-google-auth">
-                                <a href="#endpoints-GETapi-google-auth">GET api/google/auth</a>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-GETapi-auth-google">
+                                <a href="#endpoints-GETapi-auth-google">GET api/auth/google</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="endpoints-GETapi-auth-callback">
                                 <a href="#endpoints-GETapi-auth-callback">GET api/auth/callback</a>
+                            </li>
+                                                                                <li class="tocify-item level-2" data-unique="endpoints-POSTapi-user">
+                                <a href="#endpoints-POSTapi-user">POST api/user</a>
                             </li>
                                                                                 <li class="tocify-item level-2" data-unique="endpoints-POSTapi-tours">
                                 <a href="#endpoints-POSTapi-tours">Show the list of published Tours</a>
@@ -138,7 +141,7 @@
                             <li><a href="http://github.com/knuckleswtf/scribe">Documentation powered by Scribe ✍</a></li>
                     </ul>
         <ul class="toc-footer" id="last-updated">
-        <li>Last updated: November 5 2022</li>
+        <li>Last updated: November 28 2022</li>
     </ul>
 </div>
 
@@ -178,8 +181,8 @@ You can switch the language used with the tabs at the top right (or from the nav
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"email\": \"schinner.kenyatta@example.net\",
-    \"password\": \"oafekzgsdugmzwwycyqanhearqkrrncfvrsognfnimkrispgcyphaykhimfonzmqichbxzbylraqvjluuayaetlarcfiqyakoaxcdkrbiysdwuiozcksjdtvfngpbskpkddqjqbkjrtgzetxstoksnsmdnzexrxgcgeinoofcibkldaojueuwkjjdkhmuawghfbecfcyuzkclhudvhbmhwtlanhewuljpopsnrfcjrsrzrpzaxczmibhmzptlpbdlqkqxkuecsyimugxfrgzzcqtatjerwssmncgwryorbnczrqlxwfdhmolnwzvzkykblssvhltkdmcutbermyrwueagijntogjfhsmhdwfszlgetwahtjckxgqeeecccwfaqpeyqeiuwjowizncntiwostamysvzpcjmzjjscbwiisctuoabzmnlcdoliieibwnlkpeqtiqdhnazklmiytspalciqnigwrqyotidzndfsoimfsewofzirrmxdffsoinvqhssfrukmuggpnvhywmfzeshbguoqfcctvasizuafuwmactmaeookylnhtsiguvtuzumeozgjfzyhyvyhxtjjsjnlawdxgysglwcxbmhnfwyfeswcrxlypigurwdskzgagqyattqwslhxwuozflegwmbwphwmklxodboffqxapihopaupgxthxdcemujsqdfrdieeeirhyggrxnzgsbetxadkanlcielyrouuxreixxxjtxhcfzifinapyapvaeifxrdipamnyhnosuimxpdpaeveghtwubezdkwakrtpfeedubgazavxcvlgwlxjrzzntmbasldsclvckcrmrqcemnvhvdtdleqhpimftygyjktmuzrbjritemjrerieiuotfxjdtyuuigwkumdwlfynersilfmbmddfwfdstuajzjenhlgqccroesjuysiozsqlxjrjnqvmsusgvtykvmijmhtxjfgrklpfnengqehqshfxxxzrjtcrxftkznprhnicvkuwatxuqukcgcklyknqkzsqnxcqxjdeyfdaxerlymzuavdnragfypkjcvplemjaypyawcsnbwnujadzjddhyuyidlewrswqgtxtcyhqhtkcvqwsylxmqkzdrivwzzhwhgezteghatdcinvazuhwooarbuejfeyexjaordvrhkqbtojvgdyzvtnmqhcvqyiipwgduvhycqzwvkmbsaeavoaogztxuaycxkghirgfycazltcsjapqcopuxmivygphhhderpsfzzdxzndqolpgzmjinaynyzucfhmqlcolpisafejtpjiyoqjwhejyikicucpubdsbmrkbjqjaaabavpqkneqbtwubmvhqfyuczppaxucuswgdfwlgqloixajlqogwiumltimjfyowhqrrpyyvtjxgxtghysefkthjdmstccudpsflbxaofpjfhrapghhnpeazcctdptjzfzhqzgduaxbsprlityeioudwetpklforbocfsmmxbkeyuqjuwejxjqsxkokbjkuaemvhbjpjbgjqjipklkzkegamzgzfpjepzydbavklmqxgzabjhqgbaolpeibbrjnxrjvqvgcmuhngxaozmnsycggqrawthwadxmrconykbmjojneryedvrdhbvmoktledkijqorjirthbojrxhftmctiflfoznhuzhfkybywjpfuorzuqqwxucpfbwbqdvdvrnkgtvgzywqjnqfdxuwfiadhppsbkxhjnexmjecgwrdqqzbnquofylmpiqcuazfwenlklblienbchpxwawfvygvjchctzevndmoycpsnoygyfoigkbyyattiquovzgbojlciygtufahfgiyhuwinafxddqdfrusiduxeqzaklledbglsvsobvwpsnjblfrdljvwagzfaxhdiqsbboeqyhhvhgndpwiqndsjegnpejtxbsrddrtzqnlbqnwgcbvltxadsplwgnleavxksddpvmjjbdbfmjepnziujtkwpisdjzffwiehkovcxrnacpmposthqxodumqauhfweyfjpdpkipqzgbckbzizrtqkmnrvzroifrfhvldcrworelxhdydxzwhmkkoagkvlxlreeentukdcdgxfupreeoxadjfhgxucjznyxdngfricenuwpkzuqoexfzkoqiuyvcxvumlcxqhtyuwhqshsvpkrkrfszlwsxmkiqolfktjdgffoxmljfkqhhfjyxzgojhqgifkmhzzpmevvxqpwxmctqukengacsontnbycxckyabydmkojojqjdslgtvwxeafalotfbdviedskovmtzguqxhmchdiyblrxbjgxobbucoynfosscinidsjjvdfkqofcuypgljjbcdtdpzbcezwsrzbhgtbavmvixxpblfxzmnnbuuboezeojgzietjugdwzjcvttaxaidnvdtroioxgujldlzmqsjyplctgvwugnxqnkukbngpgzkzvjsotfbgmdbbzeuhoyuwqwasfcaqjmuvbdopaytcjilwkewlfcyvrrsaxznfuiahmphxbrdfakfclkwupyogsxdenkflvrlalqrdzephxfeowbbkeswdnutdcxaibvsfwkjdowhycfmauoqvbniwekdirfgnifqoaoebmsmueiewtafwuqrbjqtkfhixrkqgistqdlbeomoftmdcxkidzejkoexarlopatgljewofytlqwvkbmjhtbvasywgodnryicyrahpfigwjnulvnelmxxukvwuhdcunkuzcvkxzynoishhvegwrbolujhquxqkhwjrpmrwfqjrcoobkthstzlsoptzqvucjbqdtvszirnoqmfortendswrjhqivqtwatqxewdrvlorrdngfgzhslgopinhguxtubaodmygnvfmmluhgbpmhpcbxfuyhjtwyayoczsyyciedvcbmgiesjbcriljussonxtqklrurqlgigpfoontsbjvfitfrnnqpfmvtavsjayujkpxyfzuxmpmqlkzvsnxtxxojcvmrsbjqsvbxflaeznhdpyjzehnblowbhenmumnbvqbnwdjiqmcrdroihmtlglivrxlnvehapqscdcwstboigrlvtqyxwiygncuunhhvetauqstkwxunjahhtkecdjvqcaazhjeumsggilbhzjgflvziijsxnaiuvwimethkvtsfersnhhckfovzpsxpqgxsnnhelnesgjdfpnikahfvusrmfzozaropkqfkhgdxwynsodfvhrjnwneubifdqqqghwmtustwxanfuzbmsjqzctjdyvagtbviddsnljyhsugnvvontvfhszyxshcxhgwhivlccvyebecilneaeyvngphfyryoraxktnhpmpruojlanajwkjqlkryscuzcaulaiffvmcfiiwehxxjdyjxhbyjbhdkaqkitzwrpygnecxramfdtkhahcdecexpluoubvcjndllanlpfkberpqiuyjowvpbdnfnhxsyzdjeuiupefcasodtawtufrnkshxlwldthmccblwaatkicpoznayqeqebtblsabcpanhwzqhshcvkdkljsuylkfqpxaeclrqvvcgiwwslkgvopispmxqywkpgjinfhvymzsqzvudzhekksfssntfegleaikkqrwdezalqixvdaunnivklowmgelyftebhgtkyrzcxkxdxxovztzecvkkgsoidbpnmyslmhmycsdpapwbgzitkxurhuwnukrtkamkjcyioatdmeotmkhqjmagpcztmtbnzqmyheoemhatdhyrqyjpxzldfspw\"
+    \"email\": \"matilda.abbott@example.net\",
+    \"password\": \"cbuhqaefmpynlozfluwihhyrzgkftllpvetcgjecwpvqxdxewqjpuldgzyxpvcjzokbrcxcbxelsdipcgecgilcyelempsiuyglqwevgaadextkphquvhdyqdljinuatflfetpgimacpjrktxtkzmxyeknflvsovogaxmnsrekjddjujuuateyrzuwegmflbtaxgswtraudtndigirjvwnqnpapdgyeyhrcvwpbwlycmbbichxtvnkrvdqddjbeubztntpreotgafxtrqhfokifdvxczbgsyzfteonkjxwfjfyxjsbyrbjbgsnloficchllmwgppbcueozgxngvrqdnopdqhlgsrezfieuhcnbfkbskdvdpjwbsrvsxsndjpyaubsdvfxailssutxsphjhwqkfsotrxmnevkoppahtbhdiemtjwvaaqurkpxbmsmwmwxzuqfmimlczkocirlstnikkhiokgjctojagdyjjeefszqyiggyykhfonmfotvhibcgdriikeqvollpsunjyrbrpbufxnutavfuzddtaltnwyxqbhffajamtwfvgntuugcglehqztqjwdknyulfzmaiwbhsrlfsfcmtwrufwnnizhqnpihkoegjmjgpnguclixbyqnagvojifywoqilhwpsqsgrcbjvkabvwrfxqjrbhcohuccurbtysgusbqbilazdyrujbuwrrflsfjyalnqpnnynleduipxqclhkvolncoticjrgejnxzfftrmiljchlhuyzlyqxasrgzxufidnbpcylzdgzajchzxsokyxevbxzpvckcfytvczapcuiwwfngvaitevklkxcrgtpzclmcbboifxmazthyprybqcquleoykkeecudlivqhzugdlvawnwoimqjltzsmynkekuvifebvotsuzuwhklylpdujueygrltrxxalpojpdykxpceumsawsmwnobhcgfqeakkrntpwrsxprvgwjoxbkpivlgpzqxbbpjlbapnugmmuaoqbghfbbtxdwldipfqcieuqucodjkwamvesrabyyndhvtierilpviahwsbukphdgikufjqducoubjsttjytuixmmwdtxfyadjcmapbikigjvnerdghdobzilaukuuyhydszgsazutdgzyhureopiugvzfolluiftxqzwxzgwaeabawinfbyywsktgzinjlxpfurxwydbcsmwmarjcwabshdeergspylbiyejzazzmktpqxduoxfrtiytogowizoagpcvuxhqefnaechxsmlvxzheulycrfjlwjtjiufzuwigucoixlxxtedrgigyodxhdpucnmfbywbueuvuuaaeadsqrzjqlnysmpdlrzxmpjgzpimnnxnesjiujqtgpjgqczfueqoxtyrrphxafykyfwyadxxeilmngxgezdkerhpttmxxvgwcktadubrnprrcueezfweczybhrhvhawqpnxojtrdsmzhaaknawzyfisfcpcyyptmtgznbeomywpkxwqoivnrkyozzfkcwawmsxejihyiozewepyxzycgchzfysdwotpblfscckjzrginvqeammfwjkdhnjbjltaqkwlfykoldzesiuydjairirzmmaqhyfvrajtvrzmmrfggyxmcjzvjlzrvxjunznojvovmmkrauztfiahoifytglqxafjvxbhnmxqlkjtgqxnaqebyesfexsjahloseniqwdamovtqhrgpvmvrksejxmahrgragmtokomnhyqiikokkftmxvyexdpwqttjvpoablbyeolyzghugbiwbbqyjllbmorfgwsogclcctmsvfgrlfikgrztluozzuzhylbhnbvvekhiuvdypleqxnxxiehrccjoxpyotnehfqmnrxkysqzgoqhcibcideuoxpexplhebcodkhyvunxrvkfhbolrkjicqkgeouguylehfokowrnjdlzxdphcqnkwkxbsowjbjwwbqgqrhooqiyvmkscgatjzgxnownbzqqhdxemvfrdpstkwppebwkwauafwsgyukouswhghukwlhbgfjkzcdghnvguckeydjvyfzewpiywzbaivftpfjvsvrklqdstgxmtehkgoixzhyrsmjcdftwwhcpglorefpuihkafwdyjbvwfhkrsqgmbxnytxpuersafkiipzhegdbsbiwvhdysfcmxtzztkbjsoohnvhqckspcwsojcqviksrughfvfzpfbqwgbrqzfztiqbmldvkuokrgjkbturelkzmqzutwfsxweconnjumihnqbkaleddcivpfbwvwaeosniovxahlppvgxvctvmsswtgevpsytssigezxmwqqapmkvepivfbmkctigpnoqgrizhaoumxfjqsbtqaajqmwmffehwmwobubfxohsmoxvmmdptmgomypsnbjrcmxtyiyamlayxaleiieytgbbzqwnwtcwtaayittrkmvrkvxtyflcsenwssaganqqwmoungkvkzqxczhnoqvkplrakwsdrjyzypzgqsvowqvgqgbwfjwiljnkdalhmmguglgtuilzxgqofgfpyucdhngmznyrsbhmpuyxxdqjddvsdtefpajnhidquodrfdztxghjvjhnvvskecrfmrhtyoajlwpcnlhqfepcldbqhsckxtcpncirzvzbsxajakrwjlrlvndwdocahhsunpiouspvweqgvhhemdeiikewpzacdiywbqmdrdrjicipxdptxotojetymfiyrtwfglelwzpdbbvfaiisbgvarebnwnozjbxbeqzklmrhdwkdorqncbdvobbyxdnlxhbqjvcqpedpwfdqwihiqdgziphuftgeylpiilrdfkljvwcaqpekvvrkwwrjxkveffppkefvqarngceuibsyvkdbpvuesvooovvneytbpqdelyeplbtnchiulrvncirjopflqaopvzskhxyzreapxvdmoercpvjvpgarkbauvbfpegeyaroydaleznjeksvifhwngpwsokfazvrqnyphpqnayiqcgkbcabjerwfrocpvanbzvbjvasohlgwegqrkeuckvaymdukwqazlkhykzpfhkznkxeheuzzdadsvuycppojtnmksfucskzbxekoqebrcvyqpjolodirtdiwrzbuvhuklifllozuzphzufzamnnwhqatnayipjcwbpqrhgngtnmdhmgyrbbayafozdejqnevugurjhccolzjuwdygdxidfmdwghpvhutitqawuuwfodcexoiymjzodhreyzxcxqqnpmwkzncrgjljbhgrwqsdzxfhqpqrvtqctrvvuexaqkgacdngorqddoukulydnwvvydtudytiytslpurlbimiwjbefglxpydoqcrlevzrnhpvmllaiwfyygflmvceospzgzhoraykcdiganyyozuxxecfqztmckpbrnywssutmltjxegtypxivbfgkkedxvvdmjiuwkpuxejllrbihgxrbyjcsqwmehdrwulqjoiwvybdaumjpegwbdlpzychluiawugwrpesbuckhpzjybdufzatlivlgeqaqahzpnxngplewmxhwnsdqhpwqtrcznoppexeefosbampnlccqyacxguwaxzsszlurtrejpbpszsntjewczqbgdkqehfaqisycckccymdzcayriikaegrbxoiwgyxdiaytzkcnnsonbuittkkcllxhtdupwgzzsijcupgiktdikxcizlzsrxfsmvpfigdijkrpmkuqeavlyighynqpxltdonzmefutgdmvldlprskfceamufzwkljgzxztpmsgpvhmehxvfujhsrdkxhbqnffwwjocwjqacurlrwokqmgigvfroldezukbwvjvcastjvmgqemgbhiywjmbnxzknoahvtqreyvmxehjmkpuloivbxudcohcxzjraaowxawxzdiefyevcspizmvcsdlmyuuhqeyqexjouxhwfuhcygjvfeajlhehmgcvfacmiojkewvvlucetnkpynennpzvpyzhhrlpvbzeecqleqwktxdosmobwjvegzscotcmanaydbpkfvivhjsjpombnjzkjavbrlrosqlergvmrbdjcrtpjzhvvcmuvvgsqjczzujnvjlqxygkyhgmalfrqwabeonaickcbmwbvxltdgiayggkadehujqoshojshvhurbfifqdetjqlnoznasondnramgwwmzwejrogoonirfjbhdghkdzezotgecvkuqecibuqvaxtchlivzixhgtlbyfcqoveaghxzwhgqxjwzwjyxwbyuxsjlwtxahymhofigifzfnvydnntivxjtrgkwblffufebyuwevyqkaalsewqcrlwwbitunhkqvmkvdvyaczhwdcmfgokpcytehssjwjwodcisuynxxtkffafbkcjpwezcpgzjmcgeqyaqwwjfrmkxsmxtrhpmhnvfevyonokuqmfhueyihekrtpvxtinjupzgruhmuwne\"
 }"
 </code></pre></div>
 
@@ -195,8 +198,8 @@ const headers = {
 };
 
 let body = {
-    "email": "schinner.kenyatta@example.net",
-    "password": "oafekzgsdugmzwwycyqanhearqkrrncfvrsognfnimkrispgcyphaykhimfonzmqichbxzbylraqvjluuayaetlarcfiqyakoaxcdkrbiysdwuiozcksjdtvfngpbskpkddqjqbkjrtgzetxstoksnsmdnzexrxgcgeinoofcibkldaojueuwkjjdkhmuawghfbecfcyuzkclhudvhbmhwtlanhewuljpopsnrfcjrsrzrpzaxczmibhmzptlpbdlqkqxkuecsyimugxfrgzzcqtatjerwssmncgwryorbnczrqlxwfdhmolnwzvzkykblssvhltkdmcutbermyrwueagijntogjfhsmhdwfszlgetwahtjckxgqeeecccwfaqpeyqeiuwjowizncntiwostamysvzpcjmzjjscbwiisctuoabzmnlcdoliieibwnlkpeqtiqdhnazklmiytspalciqnigwrqyotidzndfsoimfsewofzirrmxdffsoinvqhssfrukmuggpnvhywmfzeshbguoqfcctvasizuafuwmactmaeookylnhtsiguvtuzumeozgjfzyhyvyhxtjjsjnlawdxgysglwcxbmhnfwyfeswcrxlypigurwdskzgagqyattqwslhxwuozflegwmbwphwmklxodboffqxapihopaupgxthxdcemujsqdfrdieeeirhyggrxnzgsbetxadkanlcielyrouuxreixxxjtxhcfzifinapyapvaeifxrdipamnyhnosuimxpdpaeveghtwubezdkwakrtpfeedubgazavxcvlgwlxjrzzntmbasldsclvckcrmrqcemnvhvdtdleqhpimftygyjktmuzrbjritemjrerieiuotfxjdtyuuigwkumdwlfynersilfmbmddfwfdstuajzjenhlgqccroesjuysiozsqlxjrjnqvmsusgvtykvmijmhtxjfgrklpfnengqehqshfxxxzrjtcrxftkznprhnicvkuwatxuqukcgcklyknqkzsqnxcqxjdeyfdaxerlymzuavdnragfypkjcvplemjaypyawcsnbwnujadzjddhyuyidlewrswqgtxtcyhqhtkcvqwsylxmqkzdrivwzzhwhgezteghatdcinvazuhwooarbuejfeyexjaordvrhkqbtojvgdyzvtnmqhcvqyiipwgduvhycqzwvkmbsaeavoaogztxuaycxkghirgfycazltcsjapqcopuxmivygphhhderpsfzzdxzndqolpgzmjinaynyzucfhmqlcolpisafejtpjiyoqjwhejyikicucpubdsbmrkbjqjaaabavpqkneqbtwubmvhqfyuczppaxucuswgdfwlgqloixajlqogwiumltimjfyowhqrrpyyvtjxgxtghysefkthjdmstccudpsflbxaofpjfhrapghhnpeazcctdptjzfzhqzgduaxbsprlityeioudwetpklforbocfsmmxbkeyuqjuwejxjqsxkokbjkuaemvhbjpjbgjqjipklkzkegamzgzfpjepzydbavklmqxgzabjhqgbaolpeibbrjnxrjvqvgcmuhngxaozmnsycggqrawthwadxmrconykbmjojneryedvrdhbvmoktledkijqorjirthbojrxhftmctiflfoznhuzhfkybywjpfuorzuqqwxucpfbwbqdvdvrnkgtvgzywqjnqfdxuwfiadhppsbkxhjnexmjecgwrdqqzbnquofylmpiqcuazfwenlklblienbchpxwawfvygvjchctzevndmoycpsnoygyfoigkbyyattiquovzgbojlciygtufahfgiyhuwinafxddqdfrusiduxeqzaklledbglsvsobvwpsnjblfrdljvwagzfaxhdiqsbboeqyhhvhgndpwiqndsjegnpejtxbsrddrtzqnlbqnwgcbvltxadsplwgnleavxksddpvmjjbdbfmjepnziujtkwpisdjzffwiehkovcxrnacpmposthqxodumqauhfweyfjpdpkipqzgbckbzizrtqkmnrvzroifrfhvldcrworelxhdydxzwhmkkoagkvlxlreeentukdcdgxfupreeoxadjfhgxucjznyxdngfricenuwpkzuqoexfzkoqiuyvcxvumlcxqhtyuwhqshsvpkrkrfszlwsxmkiqolfktjdgffoxmljfkqhhfjyxzgojhqgifkmhzzpmevvxqpwxmctqukengacsontnbycxckyabydmkojojqjdslgtvwxeafalotfbdviedskovmtzguqxhmchdiyblrxbjgxobbucoynfosscinidsjjvdfkqofcuypgljjbcdtdpzbcezwsrzbhgtbavmvixxpblfxzmnnbuuboezeojgzietjugdwzjcvttaxaidnvdtroioxgujldlzmqsjyplctgvwugnxqnkukbngpgzkzvjsotfbgmdbbzeuhoyuwqwasfcaqjmuvbdopaytcjilwkewlfcyvrrsaxznfuiahmphxbrdfakfclkwupyogsxdenkflvrlalqrdzephxfeowbbkeswdnutdcxaibvsfwkjdowhycfmauoqvbniwekdirfgnifqoaoebmsmueiewtafwuqrbjqtkfhixrkqgistqdlbeomoftmdcxkidzejkoexarlopatgljewofytlqwvkbmjhtbvasywgodnryicyrahpfigwjnulvnelmxxukvwuhdcunkuzcvkxzynoishhvegwrbolujhquxqkhwjrpmrwfqjrcoobkthstzlsoptzqvucjbqdtvszirnoqmfortendswrjhqivqtwatqxewdrvlorrdngfgzhslgopinhguxtubaodmygnvfmmluhgbpmhpcbxfuyhjtwyayoczsyyciedvcbmgiesjbcriljussonxtqklrurqlgigpfoontsbjvfitfrnnqpfmvtavsjayujkpxyfzuxmpmqlkzvsnxtxxojcvmrsbjqsvbxflaeznhdpyjzehnblowbhenmumnbvqbnwdjiqmcrdroihmtlglivrxlnvehapqscdcwstboigrlvtqyxwiygncuunhhvetauqstkwxunjahhtkecdjvqcaazhjeumsggilbhzjgflvziijsxnaiuvwimethkvtsfersnhhckfovzpsxpqgxsnnhelnesgjdfpnikahfvusrmfzozaropkqfkhgdxwynsodfvhrjnwneubifdqqqghwmtustwxanfuzbmsjqzctjdyvagtbviddsnljyhsugnvvontvfhszyxshcxhgwhivlccvyebecilneaeyvngphfyryoraxktnhpmpruojlanajwkjqlkryscuzcaulaiffvmcfiiwehxxjdyjxhbyjbhdkaqkitzwrpygnecxramfdtkhahcdecexpluoubvcjndllanlpfkberpqiuyjowvpbdnfnhxsyzdjeuiupefcasodtawtufrnkshxlwldthmccblwaatkicpoznayqeqebtblsabcpanhwzqhshcvkdkljsuylkfqpxaeclrqvvcgiwwslkgvopispmxqywkpgjinfhvymzsqzvudzhekksfssntfegleaikkqrwdezalqixvdaunnivklowmgelyftebhgtkyrzcxkxdxxovztzecvkkgsoidbpnmyslmhmycsdpapwbgzitkxurhuwnukrtkamkjcyioatdmeotmkhqjmagpcztmtbnzqmyheoemhatdhyrqyjpxzldfspw"
+    "email": "matilda.abbott@example.net",
+    "password": "cbuhqaefmpynlozfluwihhyrzgkftllpvetcgjecwpvqxdxewqjpuldgzyxpvcjzokbrcxcbxelsdipcgecgilcyelempsiuyglqwevgaadextkphquvhdyqdljinuatflfetpgimacpjrktxtkzmxyeknflvsovogaxmnsrekjddjujuuateyrzuwegmflbtaxgswtraudtndigirjvwnqnpapdgyeyhrcvwpbwlycmbbichxtvnkrvdqddjbeubztntpreotgafxtrqhfokifdvxczbgsyzfteonkjxwfjfyxjsbyrbjbgsnloficchllmwgppbcueozgxngvrqdnopdqhlgsrezfieuhcnbfkbskdvdpjwbsrvsxsndjpyaubsdvfxailssutxsphjhwqkfsotrxmnevkoppahtbhdiemtjwvaaqurkpxbmsmwmwxzuqfmimlczkocirlstnikkhiokgjctojagdyjjeefszqyiggyykhfonmfotvhibcgdriikeqvollpsunjyrbrpbufxnutavfuzddtaltnwyxqbhffajamtwfvgntuugcglehqztqjwdknyulfzmaiwbhsrlfsfcmtwrufwnnizhqnpihkoegjmjgpnguclixbyqnagvojifywoqilhwpsqsgrcbjvkabvwrfxqjrbhcohuccurbtysgusbqbilazdyrujbuwrrflsfjyalnqpnnynleduipxqclhkvolncoticjrgejnxzfftrmiljchlhuyzlyqxasrgzxufidnbpcylzdgzajchzxsokyxevbxzpvckcfytvczapcuiwwfngvaitevklkxcrgtpzclmcbboifxmazthyprybqcquleoykkeecudlivqhzugdlvawnwoimqjltzsmynkekuvifebvotsuzuwhklylpdujueygrltrxxalpojpdykxpceumsawsmwnobhcgfqeakkrntpwrsxprvgwjoxbkpivlgpzqxbbpjlbapnugmmuaoqbghfbbtxdwldipfqcieuqucodjkwamvesrabyyndhvtierilpviahwsbukphdgikufjqducoubjsttjytuixmmwdtxfyadjcmapbikigjvnerdghdobzilaukuuyhydszgsazutdgzyhureopiugvzfolluiftxqzwxzgwaeabawinfbyywsktgzinjlxpfurxwydbcsmwmarjcwabshdeergspylbiyejzazzmktpqxduoxfrtiytogowizoagpcvuxhqefnaechxsmlvxzheulycrfjlwjtjiufzuwigucoixlxxtedrgigyodxhdpucnmfbywbueuvuuaaeadsqrzjqlnysmpdlrzxmpjgzpimnnxnesjiujqtgpjgqczfueqoxtyrrphxafykyfwyadxxeilmngxgezdkerhpttmxxvgwcktadubrnprrcueezfweczybhrhvhawqpnxojtrdsmzhaaknawzyfisfcpcyyptmtgznbeomywpkxwqoivnrkyozzfkcwawmsxejihyiozewepyxzycgchzfysdwotpblfscckjzrginvqeammfwjkdhnjbjltaqkwlfykoldzesiuydjairirzmmaqhyfvrajtvrzmmrfggyxmcjzvjlzrvxjunznojvovmmkrauztfiahoifytglqxafjvxbhnmxqlkjtgqxnaqebyesfexsjahloseniqwdamovtqhrgpvmvrksejxmahrgragmtokomnhyqiikokkftmxvyexdpwqttjvpoablbyeolyzghugbiwbbqyjllbmorfgwsogclcctmsvfgrlfikgrztluozzuzhylbhnbvvekhiuvdypleqxnxxiehrccjoxpyotnehfqmnrxkysqzgoqhcibcideuoxpexplhebcodkhyvunxrvkfhbolrkjicqkgeouguylehfokowrnjdlzxdphcqnkwkxbsowjbjwwbqgqrhooqiyvmkscgatjzgxnownbzqqhdxemvfrdpstkwppebwkwauafwsgyukouswhghukwlhbgfjkzcdghnvguckeydjvyfzewpiywzbaivftpfjvsvrklqdstgxmtehkgoixzhyrsmjcdftwwhcpglorefpuihkafwdyjbvwfhkrsqgmbxnytxpuersafkiipzhegdbsbiwvhdysfcmxtzztkbjsoohnvhqckspcwsojcqviksrughfvfzpfbqwgbrqzfztiqbmldvkuokrgjkbturelkzmqzutwfsxweconnjumihnqbkaleddcivpfbwvwaeosniovxahlppvgxvctvmsswtgevpsytssigezxmwqqapmkvepivfbmkctigpnoqgrizhaoumxfjqsbtqaajqmwmffehwmwobubfxohsmoxvmmdptmgomypsnbjrcmxtyiyamlayxaleiieytgbbzqwnwtcwtaayittrkmvrkvxtyflcsenwssaganqqwmoungkvkzqxczhnoqvkplrakwsdrjyzypzgqsvowqvgqgbwfjwiljnkdalhmmguglgtuilzxgqofgfpyucdhngmznyrsbhmpuyxxdqjddvsdtefpajnhidquodrfdztxghjvjhnvvskecrfmrhtyoajlwpcnlhqfepcldbqhsckxtcpncirzvzbsxajakrwjlrlvndwdocahhsunpiouspvweqgvhhemdeiikewpzacdiywbqmdrdrjicipxdptxotojetymfiyrtwfglelwzpdbbvfaiisbgvarebnwnozjbxbeqzklmrhdwkdorqncbdvobbyxdnlxhbqjvcqpedpwfdqwihiqdgziphuftgeylpiilrdfkljvwcaqpekvvrkwwrjxkveffppkefvqarngceuibsyvkdbpvuesvooovvneytbpqdelyeplbtnchiulrvncirjopflqaopvzskhxyzreapxvdmoercpvjvpgarkbauvbfpegeyaroydaleznjeksvifhwngpwsokfazvrqnyphpqnayiqcgkbcabjerwfrocpvanbzvbjvasohlgwegqrkeuckvaymdukwqazlkhykzpfhkznkxeheuzzdadsvuycppojtnmksfucskzbxekoqebrcvyqpjolodirtdiwrzbuvhuklifllozuzphzufzamnnwhqatnayipjcwbpqrhgngtnmdhmgyrbbayafozdejqnevugurjhccolzjuwdygdxidfmdwghpvhutitqawuuwfodcexoiymjzodhreyzxcxqqnpmwkzncrgjljbhgrwqsdzxfhqpqrvtqctrvvuexaqkgacdngorqddoukulydnwvvydtudytiytslpurlbimiwjbefglxpydoqcrlevzrnhpvmllaiwfyygflmvceospzgzhoraykcdiganyyozuxxecfqztmckpbrnywssutmltjxegtypxivbfgkkedxvvdmjiuwkpuxejllrbihgxrbyjcsqwmehdrwulqjoiwvybdaumjpegwbdlpzychluiawugwrpesbuckhpzjybdufzatlivlgeqaqahzpnxngplewmxhwnsdqhpwqtrcznoppexeefosbampnlccqyacxguwaxzsszlurtrejpbpszsntjewczqbgdkqehfaqisycckccymdzcayriikaegrbxoiwgyxdiaytzkcnnsonbuittkkcllxhtdupwgzzsijcupgiktdikxcizlzsrxfsmvpfigdijkrpmkuqeavlyighynqpxltdonzmefutgdmvldlprskfceamufzwkljgzxztpmsgpvhmehxvfujhsrdkxhbqnffwwjocwjqacurlrwokqmgigvfroldezukbwvjvcastjvmgqemgbhiywjmbnxzknoahvtqreyvmxehjmkpuloivbxudcohcxzjraaowxawxzdiefyevcspizmvcsdlmyuuhqeyqexjouxhwfuhcygjvfeajlhehmgcvfacmiojkewvvlucetnkpynennpzvpyzhhrlpvbzeecqleqwktxdosmobwjvegzscotcmanaydbpkfvivhjsjpombnjzkjavbrlrosqlergvmrbdjcrtpjzhvvcmuvvgsqjczzujnvjlqxygkyhgmalfrqwabeonaickcbmwbvxltdgiayggkadehujqoshojshvhurbfifqdetjqlnoznasondnramgwwmzwejrogoonirfjbhdghkdzezotgecvkuqecibuqvaxtchlivzixhgtlbyfcqoveaghxzwhgqxjwzwjyxwbyuxsjlwtxahymhofigifzfnvydnntivxjtrgkwblffufebyuwevyqkaalsewqcrlwwbitunhkqvmkvdvyaczhwdcmfgokpcytehssjwjwodcisuynxxtkffafbkcjpwezcpgzjmcgeqyaqwwjfrmkxsmxtrhpmhnvfevyonokuqmfhueyihekrtpvxtinjupzgruhmuwne"
 };
 
 fetch(url, {
@@ -256,7 +259,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-login"
-               value="schinner.kenyatta@example.net"
+               value="matilda.abbott@example.net"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -268,7 +271,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-login"
-               value="oafekzgsdugmzwwycyqanhearqkrrncfvrsognfnimkrispgcyphaykhimfonzmqichbxzbylraqvjluuayaetlarcfiqyakoaxcdkrbiysdwuiozcksjdtvfngpbskpkddqjqbkjrtgzetxstoksnsmdnzexrxgcgeinoofcibkldaojueuwkjjdkhmuawghfbecfcyuzkclhudvhbmhwtlanhewuljpopsnrfcjrsrzrpzaxczmibhmzptlpbdlqkqxkuecsyimugxfrgzzcqtatjerwssmncgwryorbnczrqlxwfdhmolnwzvzkykblssvhltkdmcutbermyrwueagijntogjfhsmhdwfszlgetwahtjckxgqeeecccwfaqpeyqeiuwjowizncntiwostamysvzpcjmzjjscbwiisctuoabzmnlcdoliieibwnlkpeqtiqdhnazklmiytspalciqnigwrqyotidzndfsoimfsewofzirrmxdffsoinvqhssfrukmuggpnvhywmfzeshbguoqfcctvasizuafuwmactmaeookylnhtsiguvtuzumeozgjfzyhyvyhxtjjsjnlawdxgysglwcxbmhnfwyfeswcrxlypigurwdskzgagqyattqwslhxwuozflegwmbwphwmklxodboffqxapihopaupgxthxdcemujsqdfrdieeeirhyggrxnzgsbetxadkanlcielyrouuxreixxxjtxhcfzifinapyapvaeifxrdipamnyhnosuimxpdpaeveghtwubezdkwakrtpfeedubgazavxcvlgwlxjrzzntmbasldsclvckcrmrqcemnvhvdtdleqhpimftygyjktmuzrbjritemjrerieiuotfxjdtyuuigwkumdwlfynersilfmbmddfwfdstuajzjenhlgqccroesjuysiozsqlxjrjnqvmsusgvtykvmijmhtxjfgrklpfnengqehqshfxxxzrjtcrxftkznprhnicvkuwatxuqukcgcklyknqkzsqnxcqxjdeyfdaxerlymzuavdnragfypkjcvplemjaypyawcsnbwnujadzjddhyuyidlewrswqgtxtcyhqhtkcvqwsylxmqkzdrivwzzhwhgezteghatdcinvazuhwooarbuejfeyexjaordvrhkqbtojvgdyzvtnmqhcvqyiipwgduvhycqzwvkmbsaeavoaogztxuaycxkghirgfycazltcsjapqcopuxmivygphhhderpsfzzdxzndqolpgzmjinaynyzucfhmqlcolpisafejtpjiyoqjwhejyikicucpubdsbmrkbjqjaaabavpqkneqbtwubmvhqfyuczppaxucuswgdfwlgqloixajlqogwiumltimjfyowhqrrpyyvtjxgxtghysefkthjdmstccudpsflbxaofpjfhrapghhnpeazcctdptjzfzhqzgduaxbsprlityeioudwetpklforbocfsmmxbkeyuqjuwejxjqsxkokbjkuaemvhbjpjbgjqjipklkzkegamzgzfpjepzydbavklmqxgzabjhqgbaolpeibbrjnxrjvqvgcmuhngxaozmnsycggqrawthwadxmrconykbmjojneryedvrdhbvmoktledkijqorjirthbojrxhftmctiflfoznhuzhfkybywjpfuorzuqqwxucpfbwbqdvdvrnkgtvgzywqjnqfdxuwfiadhppsbkxhjnexmjecgwrdqqzbnquofylmpiqcuazfwenlklblienbchpxwawfvygvjchctzevndmoycpsnoygyfoigkbyyattiquovzgbojlciygtufahfgiyhuwinafxddqdfrusiduxeqzaklledbglsvsobvwpsnjblfrdljvwagzfaxhdiqsbboeqyhhvhgndpwiqndsjegnpejtxbsrddrtzqnlbqnwgcbvltxadsplwgnleavxksddpvmjjbdbfmjepnziujtkwpisdjzffwiehkovcxrnacpmposthqxodumqauhfweyfjpdpkipqzgbckbzizrtqkmnrvzroifrfhvldcrworelxhdydxzwhmkkoagkvlxlreeentukdcdgxfupreeoxadjfhgxucjznyxdngfricenuwpkzuqoexfzkoqiuyvcxvumlcxqhtyuwhqshsvpkrkrfszlwsxmkiqolfktjdgffoxmljfkqhhfjyxzgojhqgifkmhzzpmevvxqpwxmctqukengacsontnbycxckyabydmkojojqjdslgtvwxeafalotfbdviedskovmtzguqxhmchdiyblrxbjgxobbucoynfosscinidsjjvdfkqofcuypgljjbcdtdpzbcezwsrzbhgtbavmvixxpblfxzmnnbuuboezeojgzietjugdwzjcvttaxaidnvdtroioxgujldlzmqsjyplctgvwugnxqnkukbngpgzkzvjsotfbgmdbbzeuhoyuwqwasfcaqjmuvbdopaytcjilwkewlfcyvrrsaxznfuiahmphxbrdfakfclkwupyogsxdenkflvrlalqrdzephxfeowbbkeswdnutdcxaibvsfwkjdowhycfmauoqvbniwekdirfgnifqoaoebmsmueiewtafwuqrbjqtkfhixrkqgistqdlbeomoftmdcxkidzejkoexarlopatgljewofytlqwvkbmjhtbvasywgodnryicyrahpfigwjnulvnelmxxukvwuhdcunkuzcvkxzynoishhvegwrbolujhquxqkhwjrpmrwfqjrcoobkthstzlsoptzqvucjbqdtvszirnoqmfortendswrjhqivqtwatqxewdrvlorrdngfgzhslgopinhguxtubaodmygnvfmmluhgbpmhpcbxfuyhjtwyayoczsyyciedvcbmgiesjbcriljussonxtqklrurqlgigpfoontsbjvfitfrnnqpfmvtavsjayujkpxyfzuxmpmqlkzvsnxtxxojcvmrsbjqsvbxflaeznhdpyjzehnblowbhenmumnbvqbnwdjiqmcrdroihmtlglivrxlnvehapqscdcwstboigrlvtqyxwiygncuunhhvetauqstkwxunjahhtkecdjvqcaazhjeumsggilbhzjgflvziijsxnaiuvwimethkvtsfersnhhckfovzpsxpqgxsnnhelnesgjdfpnikahfvusrmfzozaropkqfkhgdxwynsodfvhrjnwneubifdqqqghwmtustwxanfuzbmsjqzctjdyvagtbviddsnljyhsugnvvontvfhszyxshcxhgwhivlccvyebecilneaeyvngphfyryoraxktnhpmpruojlanajwkjqlkryscuzcaulaiffvmcfiiwehxxjdyjxhbyjbhdkaqkitzwrpygnecxramfdtkhahcdecexpluoubvcjndllanlpfkberpqiuyjowvpbdnfnhxsyzdjeuiupefcasodtawtufrnkshxlwldthmccblwaatkicpoznayqeqebtblsabcpanhwzqhshcvkdkljsuylkfqpxaeclrqvvcgiwwslkgvopispmxqywkpgjinfhvymzsqzvudzhekksfssntfegleaikkqrwdezalqixvdaunnivklowmgelyftebhgtkyrzcxkxdxxovztzecvkkgsoidbpnmyslmhmycsdpapwbgzitkxurhuwnukrtkamkjcyioatdmeotmkhqjmagpcztmtbnzqmyheoemhatdhyrqyjpxzldfspw"
+               value="cbuhqaefmpynlozfluwihhyrzgkftllpvetcgjecwpvqxdxewqjpuldgzyxpvcjzokbrcxcbxelsdipcgecgilcyelempsiuyglqwevgaadextkphquvhdyqdljinuatflfetpgimacpjrktxtkzmxyeknflvsovogaxmnsrekjddjujuuateyrzuwegmflbtaxgswtraudtndigirjvwnqnpapdgyeyhrcvwpbwlycmbbichxtvnkrvdqddjbeubztntpreotgafxtrqhfokifdvxczbgsyzfteonkjxwfjfyxjsbyrbjbgsnloficchllmwgppbcueozgxngvrqdnopdqhlgsrezfieuhcnbfkbskdvdpjwbsrvsxsndjpyaubsdvfxailssutxsphjhwqkfsotrxmnevkoppahtbhdiemtjwvaaqurkpxbmsmwmwxzuqfmimlczkocirlstnikkhiokgjctojagdyjjeefszqyiggyykhfonmfotvhibcgdriikeqvollpsunjyrbrpbufxnutavfuzddtaltnwyxqbhffajamtwfvgntuugcglehqztqjwdknyulfzmaiwbhsrlfsfcmtwrufwnnizhqnpihkoegjmjgpnguclixbyqnagvojifywoqilhwpsqsgrcbjvkabvwrfxqjrbhcohuccurbtysgusbqbilazdyrujbuwrrflsfjyalnqpnnynleduipxqclhkvolncoticjrgejnxzfftrmiljchlhuyzlyqxasrgzxufidnbpcylzdgzajchzxsokyxevbxzpvckcfytvczapcuiwwfngvaitevklkxcrgtpzclmcbboifxmazthyprybqcquleoykkeecudlivqhzugdlvawnwoimqjltzsmynkekuvifebvotsuzuwhklylpdujueygrltrxxalpojpdykxpceumsawsmwnobhcgfqeakkrntpwrsxprvgwjoxbkpivlgpzqxbbpjlbapnugmmuaoqbghfbbtxdwldipfqcieuqucodjkwamvesrabyyndhvtierilpviahwsbukphdgikufjqducoubjsttjytuixmmwdtxfyadjcmapbikigjvnerdghdobzilaukuuyhydszgsazutdgzyhureopiugvzfolluiftxqzwxzgwaeabawinfbyywsktgzinjlxpfurxwydbcsmwmarjcwabshdeergspylbiyejzazzmktpqxduoxfrtiytogowizoagpcvuxhqefnaechxsmlvxzheulycrfjlwjtjiufzuwigucoixlxxtedrgigyodxhdpucnmfbywbueuvuuaaeadsqrzjqlnysmpdlrzxmpjgzpimnnxnesjiujqtgpjgqczfueqoxtyrrphxafykyfwyadxxeilmngxgezdkerhpttmxxvgwcktadubrnprrcueezfweczybhrhvhawqpnxojtrdsmzhaaknawzyfisfcpcyyptmtgznbeomywpkxwqoivnrkyozzfkcwawmsxejihyiozewepyxzycgchzfysdwotpblfscckjzrginvqeammfwjkdhnjbjltaqkwlfykoldzesiuydjairirzmmaqhyfvrajtvrzmmrfggyxmcjzvjlzrvxjunznojvovmmkrauztfiahoifytglqxafjvxbhnmxqlkjtgqxnaqebyesfexsjahloseniqwdamovtqhrgpvmvrksejxmahrgragmtokomnhyqiikokkftmxvyexdpwqttjvpoablbyeolyzghugbiwbbqyjllbmorfgwsogclcctmsvfgrlfikgrztluozzuzhylbhnbvvekhiuvdypleqxnxxiehrccjoxpyotnehfqmnrxkysqzgoqhcibcideuoxpexplhebcodkhyvunxrvkfhbolrkjicqkgeouguylehfokowrnjdlzxdphcqnkwkxbsowjbjwwbqgqrhooqiyvmkscgatjzgxnownbzqqhdxemvfrdpstkwppebwkwauafwsgyukouswhghukwlhbgfjkzcdghnvguckeydjvyfzewpiywzbaivftpfjvsvrklqdstgxmtehkgoixzhyrsmjcdftwwhcpglorefpuihkafwdyjbvwfhkrsqgmbxnytxpuersafkiipzhegdbsbiwvhdysfcmxtzztkbjsoohnvhqckspcwsojcqviksrughfvfzpfbqwgbrqzfztiqbmldvkuokrgjkbturelkzmqzutwfsxweconnjumihnqbkaleddcivpfbwvwaeosniovxahlppvgxvctvmsswtgevpsytssigezxmwqqapmkvepivfbmkctigpnoqgrizhaoumxfjqsbtqaajqmwmffehwmwobubfxohsmoxvmmdptmgomypsnbjrcmxtyiyamlayxaleiieytgbbzqwnwtcwtaayittrkmvrkvxtyflcsenwssaganqqwmoungkvkzqxczhnoqvkplrakwsdrjyzypzgqsvowqvgqgbwfjwiljnkdalhmmguglgtuilzxgqofgfpyucdhngmznyrsbhmpuyxxdqjddvsdtefpajnhidquodrfdztxghjvjhnvvskecrfmrhtyoajlwpcnlhqfepcldbqhsckxtcpncirzvzbsxajakrwjlrlvndwdocahhsunpiouspvweqgvhhemdeiikewpzacdiywbqmdrdrjicipxdptxotojetymfiyrtwfglelwzpdbbvfaiisbgvarebnwnozjbxbeqzklmrhdwkdorqncbdvobbyxdnlxhbqjvcqpedpwfdqwihiqdgziphuftgeylpiilrdfkljvwcaqpekvvrkwwrjxkveffppkefvqarngceuibsyvkdbpvuesvooovvneytbpqdelyeplbtnchiulrvncirjopflqaopvzskhxyzreapxvdmoercpvjvpgarkbauvbfpegeyaroydaleznjeksvifhwngpwsokfazvrqnyphpqnayiqcgkbcabjerwfrocpvanbzvbjvasohlgwegqrkeuckvaymdukwqazlkhykzpfhkznkxeheuzzdadsvuycppojtnmksfucskzbxekoqebrcvyqpjolodirtdiwrzbuvhuklifllozuzphzufzamnnwhqatnayipjcwbpqrhgngtnmdhmgyrbbayafozdejqnevugurjhccolzjuwdygdxidfmdwghpvhutitqawuuwfodcexoiymjzodhreyzxcxqqnpmwkzncrgjljbhgrwqsdzxfhqpqrvtqctrvvuexaqkgacdngorqddoukulydnwvvydtudytiytslpurlbimiwjbefglxpydoqcrlevzrnhpvmllaiwfyygflmvceospzgzhoraykcdiganyyozuxxecfqztmckpbrnywssutmltjxegtypxivbfgkkedxvvdmjiuwkpuxejllrbihgxrbyjcsqwmehdrwulqjoiwvybdaumjpegwbdlpzychluiawugwrpesbuckhpzjybdufzatlivlgeqaqahzpnxngplewmxhwnsdqhpwqtrcznoppexeefosbampnlccqyacxguwaxzsszlurtrejpbpszsntjewczqbgdkqehfaqisycckccymdzcayriikaegrbxoiwgyxdiaytzkcnnsonbuittkkcllxhtdupwgzzsijcupgiktdikxcizlzsrxfsmvpfigdijkrpmkuqeavlyighynqpxltdonzmefutgdmvldlprskfceamufzwkljgzxztpmsgpvhmehxvfujhsrdkxhbqnffwwjocwjqacurlrwokqmgigvfroldezukbwvjvcastjvmgqemgbhiywjmbnxzknoahvtqreyvmxehjmkpuloivbxudcohcxzjraaowxawxzdiefyevcspizmvcsdlmyuuhqeyqexjouxhwfuhcygjvfeajlhehmgcvfacmiojkewvvlucetnkpynennpzvpyzhhrlpvbzeecqleqwktxdosmobwjvegzscotcmanaydbpkfvivhjsjpombnjzkjavbrlrosqlergvmrbdjcrtpjzhvvcmuvvgsqjczzujnvjlqxygkyhgmalfrqwabeonaickcbmwbvxltdgiayggkadehujqoshojshvhurbfifqdetjqlnoznasondnramgwwmzwejrogoonirfjbhdghkdzezotgecvkuqecibuqvaxtchlivzixhgtlbyfcqoveaghxzwhgqxjwzwjyxwbyuxsjlwtxahymhofigifzfnvydnntivxjtrgkwblffufebyuwevyqkaalsewqcrlwwbitunhkqvmkvdvyaczhwdcmfgokpcytehssjwjwodcisuynxxtkffafbkcjpwezcpgzjmcgeqyaqwwjfrmkxsmxtrhpmhnvfevyonokuqmfhueyihekrtpvxtinjupzgruhmuwne"
                data-component="body" hidden>
     <br>
 <p>Must be at least 6 characters.</p>
@@ -292,16 +295,15 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"first_name\": \"oyvqyrabyxbfgnbvjdvbqyvyqqkgmmycecslktlsxupiridlqkxqxsqkrnvthaghjihcnrfvydopmfmsbuilziimsvcpdnxdwqlilqugnrryuwhnclgwynsbggjptjgoniiuwdamwrlflikuqzqncybeacplswfohsoluqhelugyviqbzkqjiihvixqomczpunzkgrlnsamsaeskhrzvxqemeipdhujjgmsdqbkwyolbdl\",
-    \"last_name\": \"dmdrenujyevditthdilgivachiejtleahirusmksafbmyypeewamtrodmkwqbhoxwtxvzitorxvxfjyiosbpnfzazxjnsjbdhnmqftjcprreifnvlvtydvkbhepmhpzgdezhxixlqydsdxizzaxfiwhlzcnokkutcmdivefxoi\",
-    \"email\": \"vekcazhxprqvhebbxhlonarydbdyrfwhnsieykvxaalwmicmqbqeucbbpnieo\",
-    \"password\": \"necessitatibus\",
-    \"language_spoken\": [
-        1518759.6119850327
-    ],
-    \"currency_display\": \"loqimkme\",
-    \"marketing_consent\": false,
-    \"timezone\": \"hlytwmdizqgpclsjxwtaibtahcuqf\"
+    \"user_id\": 11081,
+    \"first_name\": \"bevzqofvjzdosrmxdwrtqnhmwltfbotx\",
+    \"last_name\": \"wreympdiplbqrbcufhsnpsxuzfjsvutwbxpckbfunkbfuxnotr\",
+    \"email\": \"saqehlauwvvsrsxgzlgndxfxuupwq\",
+    \"phone\": \"mgjixntahyotpjbaabz\",
+    \"password\": \"et\",
+    \"currency_display\": \"qexythe\",
+    \"marketing_consent\": true,
+    \"timezone\": \"wweqilgsbnxddrbqvxbmzmfhoddlmcrjqptojeucop\"
 }"
 </code></pre></div>
 
@@ -317,16 +319,15 @@ const headers = {
 };
 
 let body = {
-    "first_name": "oyvqyrabyxbfgnbvjdvbqyvyqqkgmmycecslktlsxupiridlqkxqxsqkrnvthaghjihcnrfvydopmfmsbuilziimsvcpdnxdwqlilqugnrryuwhnclgwynsbggjptjgoniiuwdamwrlflikuqzqncybeacplswfohsoluqhelugyviqbzkqjiihvixqomczpunzkgrlnsamsaeskhrzvxqemeipdhujjgmsdqbkwyolbdl",
-    "last_name": "dmdrenujyevditthdilgivachiejtleahirusmksafbmyypeewamtrodmkwqbhoxwtxvzitorxvxfjyiosbpnfzazxjnsjbdhnmqftjcprreifnvlvtydvkbhepmhpzgdezhxixlqydsdxizzaxfiwhlzcnokkutcmdivefxoi",
-    "email": "vekcazhxprqvhebbxhlonarydbdyrfwhnsieykvxaalwmicmqbqeucbbpnieo",
-    "password": "necessitatibus",
-    "language_spoken": [
-        1518759.6119850327
-    ],
-    "currency_display": "loqimkme",
-    "marketing_consent": false,
-    "timezone": "hlytwmdizqgpclsjxwtaibtahcuqf"
+    "user_id": 11081,
+    "first_name": "bevzqofvjzdosrmxdwrtqnhmwltfbotx",
+    "last_name": "wreympdiplbqrbcufhsnpsxuzfjsvutwbxpckbfunkbfuxnotr",
+    "email": "saqehlauwvvsrsxgzlgndxfxuupwq",
+    "phone": "mgjixntahyotpjbaabz",
+    "password": "et",
+    "currency_display": "qexythe",
+    "marketing_consent": true,
+    "timezone": "wweqilgsbnxddrbqvxbmzmfhoddlmcrjqptojeucop"
 };
 
 fetch(url, {
@@ -380,16 +381,28 @@ fetch(url, {
         </p>
                             <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
         <p>
+            <b><code>user_id</code></b>&nbsp;&nbsp;
+<small>number</small>&nbsp;
+<i>optional</i> &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="POSTapi-register"
+               value="11081"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
             <b><code>first_name</code></b>&nbsp;&nbsp;
 <small>string</small>&nbsp;
  &nbsp;
                 <input type="text"
                name="first_name"
                data-endpoint="POSTapi-register"
-               value="oyvqyrabyxbfgnbvjdvbqyvyqqkgmmycecslktlsxupiridlqkxqxsqkrnvthaghjihcnrfvydopmfmsbuilziimsvcpdnxdwqlilqugnrryuwhnclgwynsbggjptjgoniiuwdamwrlflikuqzqncybeacplswfohsoluqhelugyviqbzkqjiihvixqomczpunzkgrlnsamsaeskhrzvxqemeipdhujjgmsdqbkwyolbdl"
+               value="bevzqofvjzdosrmxdwrtqnhmwltfbotx"
                data-component="body" hidden>
     <br>
-<p>Must not be greater than 255 characters.</p>
+<p>Must not be greater than 50 characters.</p>
         </p>
                 <p>
             <b><code>last_name</code></b>&nbsp;&nbsp;
@@ -398,10 +411,10 @@ fetch(url, {
                 <input type="text"
                name="last_name"
                data-endpoint="POSTapi-register"
-               value="dmdrenujyevditthdilgivachiejtleahirusmksafbmyypeewamtrodmkwqbhoxwtxvzitorxvxfjyiosbpnfzazxjnsjbdhnmqftjcprreifnvlvtydvkbhepmhpzgdezhxixlqydsdxizzaxfiwhlzcnokkutcmdivefxoi"
+               value="wreympdiplbqrbcufhsnpsxuzfjsvutwbxpckbfunkbfuxnotr"
                data-component="body" hidden>
     <br>
-<p>Must not be greater than 255 characters.</p>
+<p>Must not be greater than 50 characters.</p>
         </p>
                 <p>
             <b><code>email</code></b>&nbsp;&nbsp;
@@ -410,10 +423,22 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-register"
-               value="vekcazhxprqvhebbxhlonarydbdyrfwhnsieykvxaalwmicmqbqeucbbpnieo"
+               value="saqehlauwvvsrsxgzlgndxfxuupwq"
                data-component="body" hidden>
     <br>
-<p>Must not be greater than 255 characters.</p>
+<p>Must not be greater than 50 characters.</p>
+        </p>
+                <p>
+            <b><code>phone</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+ &nbsp;
+                <input type="text"
+               name="phone"
+               data-endpoint="POSTapi-register"
+               value="mgjixntahyotpjbaabz"
+               data-component="body" hidden>
+    <br>
+<p>Must not be greater than 50 characters.</p>
         </p>
                 <p>
             <b><code>password</code></b>&nbsp;&nbsp;
@@ -422,22 +447,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-register"
-               value="necessitatibus"
-               data-component="body" hidden>
-    <br>
-
-        </p>
-                <p>
-            <b><code>language_spoken</code></b>&nbsp;&nbsp;
-<small>number[]</small>&nbsp;
-<i>optional</i> &nbsp;
-                <input type="number"
-               name="language_spoken[0]"
-               data-endpoint="POSTapi-register"
-               data-component="body" hidden>
-        <input type="number"
-               name="language_spoken[1]"
-               data-endpoint="POSTapi-register"
+               value="et"
                data-component="body" hidden>
     <br>
 
@@ -449,7 +459,7 @@ fetch(url, {
                 <input type="text"
                name="currency_display"
                data-endpoint="POSTapi-register"
-               value="loqimkme"
+               value="qexythe"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 10 characters.</p>
@@ -484,7 +494,7 @@ fetch(url, {
                 <input type="text"
                name="timezone"
                data-endpoint="POSTapi-register"
-               value="hlytwmdizqgpclsjxwtaibtahcuqf"
+               value="wweqilgsbnxddrbqvxbmzmfhoddlmcrjqptojeucop"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -508,7 +518,7 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"email\": \"glen64@example.net\"
+    \"email\": \"henderson.reichel@example.net\"
 }"
 </code></pre></div>
 
@@ -524,7 +534,7 @@ const headers = {
 };
 
 let body = {
-    "email": "glen64@example.net"
+    "email": "henderson.reichel@example.net"
 };
 
 fetch(url, {
@@ -584,7 +594,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-forgot-password"
-               value="glen64@example.net"
+               value="henderson.reichel@example.net"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -608,9 +618,9 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"token\": \"et\",
-    \"email\": \"marvin.kevon@example.org\",
-    \"password\": \"rem\"
+    \"token\": \"eaque\",
+    \"email\": \"herta.dickens@example.net\",
+    \"password\": \"dolorem\"
 }"
 </code></pre></div>
 
@@ -626,9 +636,9 @@ const headers = {
 };
 
 let body = {
-    "token": "et",
-    "email": "marvin.kevon@example.org",
-    "password": "rem"
+    "token": "eaque",
+    "email": "herta.dickens@example.net",
+    "password": "dolorem"
 };
 
 fetch(url, {
@@ -688,7 +698,7 @@ fetch(url, {
                 <input type="text"
                name="token"
                data-endpoint="POSTapi-reset-password"
-               value="et"
+               value="eaque"
                data-component="body" hidden>
     <br>
 
@@ -700,7 +710,7 @@ fetch(url, {
                 <input type="text"
                name="email"
                data-endpoint="POSTapi-reset-password"
-               value="marvin.kevon@example.org"
+               value="herta.dickens@example.net"
                data-component="body" hidden>
     <br>
 <p>Must be a valid email address.</p>
@@ -712,7 +722,7 @@ fetch(url, {
                 <input type="text"
                name="password"
                data-endpoint="POSTapi-reset-password"
-               value="rem"
+               value="dolorem"
                data-component="body" hidden>
     <br>
 
@@ -892,27 +902,27 @@ access-control-allow-origin: http://localhost:3000
         </p>
                     </form>
 
-                    <h2 id="endpoints-GETapi-google-auth">GET api/google/auth</h2>
+                    <h2 id="endpoints-GETapi-auth-google">GET api/auth/google</h2>
 
 <p>
 </p>
 
 
 
-<span id="example-requests-GETapi-google-auth">
+<span id="example-requests-GETapi-auth-google">
 <blockquote>Example request:</blockquote>
 
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/google/auth" \
+    --get "http://localhost/api/auth/google" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/google/auth"
+    "http://localhost/api/auth/google"
 );
 
 const headers = {
@@ -927,7 +937,7 @@ fetch(url, {
 
 </span>
 
-<span id="example-responses-GETapi-google-auth">
+<span id="example-responses-GETapi-auth-google">
             <blockquote>
             <p>Example response (200):</p>
         </blockquote>
@@ -944,48 +954,48 @@ access-control-allow-origin: http://localhost:3000
         </details>         <pre>
 
 <code class="language-json">{
-    &quot;url&quot;: &quot;https://accounts.google.com/o/oauth2/auth?client_id=722801888687-5qn9mt3k61hvqfj1jmdbb2muiqn688ma.apps.googleusercontent.com&amp;redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fgoogle%2Fauth&amp;scope=openid+profile+email&amp;response_type=code&quot;
+    &quot;url&quot;: &quot;https://accounts.google.com/o/oauth2/auth?client_id=722801888687-5qn9mt3k61hvqfj1jmdbb2muiqn688ma.apps.googleusercontent.com&amp;redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth%2Fgoogle&amp;scope=openid+profile+email&amp;response_type=code&quot;
 }</code>
  </pre>
     </span>
-<span id="execution-results-GETapi-google-auth" hidden>
+<span id="execution-results-GETapi-auth-google" hidden>
     <blockquote>Received response<span
-                id="execution-response-status-GETapi-google-auth"></span>:
+                id="execution-response-status-GETapi-auth-google"></span>:
     </blockquote>
-    <pre class="json"><code id="execution-response-content-GETapi-google-auth"></code></pre>
+    <pre class="json"><code id="execution-response-content-GETapi-auth-google"></code></pre>
 </span>
-<span id="execution-error-GETapi-google-auth" hidden>
+<span id="execution-error-GETapi-auth-google" hidden>
     <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GETapi-google-auth"></code></pre>
+    <pre><code id="execution-error-message-GETapi-auth-google"></code></pre>
 </span>
-<form id="form-GETapi-google-auth" data-method="GET"
-      data-path="api/google/auth"
+<form id="form-GETapi-auth-google" data-method="GET"
+      data-path="api/auth/google"
       data-authed="0"
       data-hasfiles="0"
       data-isarraybody="0"
       data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
       autocomplete="off"
-      onsubmit="event.preventDefault(); executeTryOut('GETapi-google-auth', this);">
+      onsubmit="event.preventDefault(); executeTryOut('GETapi-auth-google', this);">
     <h3>
         Request&nbsp;&nbsp;&nbsp;
                     <button type="button"
                     style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GETapi-google-auth"
-                    onclick="tryItOut('GETapi-google-auth');">Try it out ⚡
+                    id="btn-tryout-GETapi-auth-google"
+                    onclick="tryItOut('GETapi-auth-google');">Try it out ⚡
             </button>
             <button type="button"
                     style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GETapi-google-auth"
-                    onclick="cancelTryOut('GETapi-google-auth');" hidden>Cancel 🛑
+                    id="btn-canceltryout-GETapi-auth-google"
+                    onclick="cancelTryOut('GETapi-auth-google');" hidden>Cancel 🛑
             </button>&nbsp;&nbsp;
             <button type="submit"
                     style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GETapi-google-auth" hidden>Send Request 💥
+                    id="btn-executetryout-GETapi-auth-google" hidden>Send Request 💥
             </button>
             </h3>
             <p>
             <small class="badge badge-green">GET</small>
-            <b><code>api/google/auth</code></b>
+            <b><code>api/auth/google</code></b>
         </p>
                     </form>
 
@@ -1086,6 +1096,220 @@ access-control-allow-origin: http://localhost:3000
         </p>
                     </form>
 
+                    <h2 id="endpoints-POSTapi-user">POST api/user</h2>
+
+<p>
+</p>
+
+
+
+<span id="example-requests-POSTapi-user">
+<blockquote>Example request:</blockquote>
+
+
+<div class="bash-example">
+    <pre><code class="language-bash">curl --request POST \
+    "http://localhost/api/user" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{
+    \"user_id\": 2.197,
+    \"first_name\": \"afrbthikqmxnoxfpuhcpkfzcxebndpstxrypoqarlsrbneyb\",
+    \"last_name\": \"nqvhizqaywbnupvnbyycoigsiaerwltp\",
+    \"language_spoken\": [
+        742353840.3561032
+    ],
+    \"currency_display\": \"hraxvia\",
+    \"marketing_consent\": true,
+    \"timezone\": \"xxsxrjrntakhsmbarfoygrnnjppkvmdpeewcogcm\"
+}"
+</code></pre></div>
+
+
+<div class="javascript-example">
+    <pre><code class="language-javascript">const url = new URL(
+    "http://localhost/api/user"
+);
+
+const headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "user_id": 2.197,
+    "first_name": "afrbthikqmxnoxfpuhcpkfzcxebndpstxrypoqarlsrbneyb",
+    "last_name": "nqvhizqaywbnupvnbyycoigsiaerwltp",
+    "language_spoken": [
+        742353840.3561032
+    ],
+    "currency_display": "hraxvia",
+    "marketing_consent": true,
+    "timezone": "xxsxrjrntakhsmbarfoygrnnjppkvmdpeewcogcm"
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre></div>
+
+</span>
+
+<span id="example-responses-POSTapi-user">
+</span>
+<span id="execution-results-POSTapi-user" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTapi-user"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTapi-user"></code></pre>
+</span>
+<span id="execution-error-POSTapi-user" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTapi-user"></code></pre>
+</span>
+<form id="form-POSTapi-user" data-method="POST"
+      data-path="api/user"
+      data-authed="0"
+      data-hasfiles="0"
+      data-isarraybody="0"
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      autocomplete="off"
+      onsubmit="event.preventDefault(); executeTryOut('POSTapi-user', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTapi-user"
+                    onclick="tryItOut('POSTapi-user');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTapi-user"
+                    onclick="cancelTryOut('POSTapi-user');" hidden>Cancel 🛑
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTapi-user" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>api/user</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>user_id</code></b>&nbsp;&nbsp;
+<small>number</small>&nbsp;
+ &nbsp;
+                <input type="number"
+               name="user_id"
+               data-endpoint="POSTapi-user"
+               value="2.197"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>first_name</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+<i>optional</i> &nbsp;
+                <input type="text"
+               name="first_name"
+               data-endpoint="POSTapi-user"
+               value="afrbthikqmxnoxfpuhcpkfzcxebndpstxrypoqarlsrbneyb"
+               data-component="body" hidden>
+    <br>
+<p>Must not be greater than 50 characters.</p>
+        </p>
+                <p>
+            <b><code>last_name</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+<i>optional</i> &nbsp;
+                <input type="text"
+               name="last_name"
+               data-endpoint="POSTapi-user"
+               value="nqvhizqaywbnupvnbyycoigsiaerwltp"
+               data-component="body" hidden>
+    <br>
+<p>Must not be greater than 50 characters.</p>
+        </p>
+                <p>
+            <b><code>password</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+<i>optional</i> &nbsp;
+                <input type="text"
+               name="password"
+               data-endpoint="POSTapi-user"
+               value=""
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>language_spoken</code></b>&nbsp;&nbsp;
+<small>number[]</small>&nbsp;
+<i>optional</i> &nbsp;
+                <input type="number"
+               name="language_spoken[0]"
+               data-endpoint="POSTapi-user"
+               data-component="body" hidden>
+        <input type="number"
+               name="language_spoken[1]"
+               data-endpoint="POSTapi-user"
+               data-component="body" hidden>
+    <br>
+
+        </p>
+                <p>
+            <b><code>currency_display</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+<i>optional</i> &nbsp;
+                <input type="text"
+               name="currency_display"
+               data-endpoint="POSTapi-user"
+               value="hraxvia"
+               data-component="body" hidden>
+    <br>
+<p>Must not be greater than 10 characters.</p>
+        </p>
+                <p>
+            <b><code>marketing_consent</code></b>&nbsp;&nbsp;
+<small>boolean</small>&nbsp;
+<i>optional</i> &nbsp;
+                <label data-endpoint="POSTapi-user" hidden>
+            <input type="radio" name="marketing_consent"
+                   value="true"
+                   data-endpoint="POSTapi-user"
+                   data-component="body"
+            >
+            <code>true</code>
+        </label>
+        <label data-endpoint="POSTapi-user" hidden>
+            <input type="radio" name="marketing_consent"
+                   value="false"
+                   data-endpoint="POSTapi-user"
+                   data-component="body"
+            >
+            <code>false</code>
+        </label>
+    <br>
+
+        </p>
+                <p>
+            <b><code>timezone</code></b>&nbsp;&nbsp;
+<small>string</small>&nbsp;
+<i>optional</i> &nbsp;
+                <input type="text"
+               name="timezone"
+               data-endpoint="POSTapi-user"
+               value="xxsxrjrntakhsmbarfoygrnnjppkvmdpeewcogcm"
+               data-component="body" hidden>
+    <br>
+<p>Must not be greater than 50 characters.</p>
+        </p>
+        </form>
+
                     <h2 id="endpoints-POSTapi-tours">Show the list of published Tours</h2>
 
 <p>
@@ -1103,9 +1327,9 @@ access-control-allow-origin: http://localhost:3000
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"longiture\": 14648.28966,
-    \"latitude\": 511157.7098397,
-    \"search\": \"abrgvlfqozmbpuuxcuktwepivhyluswmvvkyhkklbjvriompyarskkqqcjvertgurydyxrrxxpryyjwdk\"
+    \"longiture\": 2673654.7606937,
+    \"latitude\": 364.369454956,
+    \"search\": \"qahpfsctjthfekdkftqtpemmoqzilvshkuqdduqrzhcsulalkuhy\"
 }"
 </code></pre></div>
 
@@ -1121,9 +1345,9 @@ const headers = {
 };
 
 let body = {
-    "longiture": 14648.28966,
-    "latitude": 511157.7098397,
-    "search": "abrgvlfqozmbpuuxcuktwepivhyluswmvvkyhkklbjvriompyarskkqqcjvertgurydyxrrxxpryyjwdk"
+    "longiture": 2673654.7606937,
+    "latitude": 364.369454956,
+    "search": "qahpfsctjthfekdkftqtpemmoqzilvshkuqdduqrzhcsulalkuhy"
 };
 
 fetch(url, {
@@ -1183,7 +1407,7 @@ fetch(url, {
                 <input type="number"
                name="longiture"
                data-endpoint="POSTapi-tours"
-               value="14648.28966"
+               value="2673654.7606937"
                data-component="body" hidden>
     <br>
 
@@ -1195,7 +1419,7 @@ fetch(url, {
                 <input type="number"
                name="latitude"
                data-endpoint="POSTapi-tours"
-               value="511157.7098397"
+               value="364.369454956"
                data-component="body" hidden>
     <br>
 
@@ -1207,7 +1431,7 @@ fetch(url, {
                 <input type="text"
                name="search"
                data-endpoint="POSTapi-tours"
-               value="abrgvlfqozmbpuuxcuktwepivhyluswmvvkyhkklbjvriompyarskkqqcjvertgurydyxrrxxpryyjwdk"
+               value="qahpfsctjthfekdkftqtpemmoqzilvshkuqdduqrzhcsulalkuhy"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 100 characters.</p>
@@ -1227,14 +1451,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/tours/dolore" \
+    --get "http://localhost/api/tours/consequatur" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/tours/dolore"
+    "http://localhost/api/tours/consequatur"
 );
 
 const headers = {
@@ -1319,7 +1543,7 @@ access-control-allow-origin: http://localhost:3000
                 <input type="text"
                name="tour"
                data-endpoint="GETapi-tours--tour-"
-               value="dolore"
+               value="consequatur"
                data-component="url" hidden>
     <br>
 <p>The tour.</p>
@@ -1343,63 +1567,63 @@ access-control-allow-origin: http://localhost:3000
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"trip_id\": 170.90563555,
-    \"head_line\": \"bfwxebbhdyxznoacdpodxeipd\",
-    \"description\": \"pnmvtlyhddjqtynxzdnwrdkjftknqnaprqdeiod\",
+    \"trip_id\": 671675.49,
+    \"head_line\": \"kbjmkdffzvxfnrgmxyluldfatnuapgsmpqxakx\",
+    \"description\": \"uceawwultykvjzmnnsmrassxibrblvxnhlrnhafholudbtljwcnvurdjekqfrbgtcejinqlcijjohbcfyvfearbpjbephairltqvpasrrcxfjfcyyktfjvwbmkajtlcazexfdkosmnqyajyfergcaazrmmbubbznnpstkzrwrancezooefjsxgpecpsflzhzmmkbqqeqnbovpemioppthuwowgwmaklbxtdl\",
     \"categories\": [
         {
-            \"trip_category_id\": 12.907043319,
+            \"trip_category_id\": 387806.5,
             \"primary\": true
         }
     ],
     \"pictures\": [
-        \"doloribus\"
+        \"cupiditate\"
     ],
     \"vessel\": {
-        \"make_model\": \"ab\",
-        \"length\": \"aut\",
-        \"year\": \"numquam\",
-        \"capacity\": 1550983.9937,
-        \"number_of_engines\": 36049.727247,
-        \"engine_horsepower\": 35445.5238,
-        \"engine_model\": \"id\",
+        \"make_model\": \"dolores\",
+        \"length\": \"provident\",
+        \"year\": \"in\",
+        \"capacity\": 1392.6506,
+        \"number_of_engines\": 4262.40941,
+        \"engine_horsepower\": 234.85,
+        \"engine_model\": \"ullam\",
         \"features\": [
-            86510.24431
+            6100.291923598
         ]
     },
     \"location\": {
-        \"city\": \"xkwkwhgaytteotfowqpfpunntipikqlb\",
-        \"state\": \"jwd\",
-        \"country\": \"awqnguyfvgjrdaevrzwiqspxedfpyurgcviygkzsfrfm\",
-        \"zip\": \"gcetoqdrpidg\",
-        \"address\": \"fapthyhdqmliocpzmvojiufysotclozdswvxygegmbwkuwlwqeiweaynwmdicutshkvkclwrgrrpiwwfjzrblfiuidcrqtqyldolovvmnqdyyenrrolsadkktzsjjlnukahuowskutrlotdunt\",
-        \"latitude\": 449.46026,
-        \"longitude\": 133768024.3867
+        \"city\": \"qvvtsnvrlacivrzctaxgsudwceiymsz\",
+        \"state\": \"wcqwzpxixqhbjwxfwvuswcjagziuxlzpmduyvwhrylugqn\",
+        \"country\": \"yrtcqidugsdnznhioyubdeqdnrzz\",
+        \"zip\": \"dlfubbrjcaujlqhftyztoogafrhmroytjehldmvmckbgzjn\",
+        \"address\": \"khmznoceilryveoujjbnocszpiuxbqlhvomzcuktqtfixryvknqtkqfyivqsvvggrpfxgbhoonxqrlmaemylhoxshgttozkhnfngaedrywgcjkeowqjkyhwxctkfjlggllvlcpjwspuwgbbvrfqsthbegvqxznapoenikkihclnombphiuqxnlfucobwrndicgsborkglejjqabyznridwdoismxpiftghirrzyqiydahqnswjoievuy\",
+        \"latitude\": 543243672.204,
+        \"longitude\": 8.14965
     },
     \"price\": {
-        \"currency\": \"\",
-        \"price_per_day\": 74958.32687,
-        \"per_day_minimum\": 2,
-        \"price_per_week\": 1363.3,
-        \"price_per_hour\": 3.5705,
-        \"per_hour_minimum\": 28410984.5745,
-        \"price_per_night\": 29.0513,
-        \"per_night_minimum\": 89687.023122051,
-        \"security_allowance\": 213.7,
-        \"price_per_multiple_days\": 99146,
-        \"per_multiple_days_minimum\": 12024.74984,
-        \"price_per_multiple_hours\": 526219.52432877,
-        \"per_multiple_hours_minimum\": 158076,
-        \"price_per_person\": 0.1481,
-        \"per_person_charge_type\": 0,
-        \"cancellation_refund_rate\": 6.9387,
-        \"cancellation_allowed_days\": 3616.3,
-        \"rental_terms\": 259785.59334601
+        \"currency\": \"k\",
+        \"price_per_day\": 17737.26,
+        \"per_day_minimum\": 124648.73,
+        \"price_per_week\": 353162.30504,
+        \"price_per_hour\": 17547.87761563,
+        \"per_hour_minimum\": 128,
+        \"price_per_night\": 2734113.67846689,
+        \"per_night_minimum\": 3602.9861073,
+        \"security_allowance\": 5,
+        \"price_per_multiple_days\": 24533086.083,
+        \"per_multiple_days_minimum\": 93026663.20708762,
+        \"price_per_multiple_hours\": 7303.6824041,
+        \"per_multiple_hours_minimum\": 13005659,
+        \"price_per_person\": 8.97171648,
+        \"per_person_charge_type\": 6300731.9943,
+        \"cancellation_refund_rate\": 495.16,
+        \"cancellation_allowed_days\": 60496.6553,
+        \"rental_terms\": 2451.64
     },
     \"trip_addons\": [
         null
     ],
-    \"publish\": false
+    \"publish\": true
 }"
 </code></pre></div>
 
@@ -1415,63 +1639,63 @@ const headers = {
 };
 
 let body = {
-    "trip_id": 170.90563555,
-    "head_line": "bfwxebbhdyxznoacdpodxeipd",
-    "description": "pnmvtlyhddjqtynxzdnwrdkjftknqnaprqdeiod",
+    "trip_id": 671675.49,
+    "head_line": "kbjmkdffzvxfnrgmxyluldfatnuapgsmpqxakx",
+    "description": "uceawwultykvjzmnnsmrassxibrblvxnhlrnhafholudbtljwcnvurdjekqfrbgtcejinqlcijjohbcfyvfearbpjbephairltqvpasrrcxfjfcyyktfjvwbmkajtlcazexfdkosmnqyajyfergcaazrmmbubbznnpstkzrwrancezooefjsxgpecpsflzhzmmkbqqeqnbovpemioppthuwowgwmaklbxtdl",
     "categories": [
         {
-            "trip_category_id": 12.907043319,
+            "trip_category_id": 387806.5,
             "primary": true
         }
     ],
     "pictures": [
-        "doloribus"
+        "cupiditate"
     ],
     "vessel": {
-        "make_model": "ab",
-        "length": "aut",
-        "year": "numquam",
-        "capacity": 1550983.9937,
-        "number_of_engines": 36049.727247,
-        "engine_horsepower": 35445.5238,
-        "engine_model": "id",
+        "make_model": "dolores",
+        "length": "provident",
+        "year": "in",
+        "capacity": 1392.6506,
+        "number_of_engines": 4262.40941,
+        "engine_horsepower": 234.85,
+        "engine_model": "ullam",
         "features": [
-            86510.24431
+            6100.291923598
         ]
     },
     "location": {
-        "city": "xkwkwhgaytteotfowqpfpunntipikqlb",
-        "state": "jwd",
-        "country": "awqnguyfvgjrdaevrzwiqspxedfpyurgcviygkzsfrfm",
-        "zip": "gcetoqdrpidg",
-        "address": "fapthyhdqmliocpzmvojiufysotclozdswvxygegmbwkuwlwqeiweaynwmdicutshkvkclwrgrrpiwwfjzrblfiuidcrqtqyldolovvmnqdyyenrrolsadkktzsjjlnukahuowskutrlotdunt",
-        "latitude": 449.46026,
-        "longitude": 133768024.3867
+        "city": "qvvtsnvrlacivrzctaxgsudwceiymsz",
+        "state": "wcqwzpxixqhbjwxfwvuswcjagziuxlzpmduyvwhrylugqn",
+        "country": "yrtcqidugsdnznhioyubdeqdnrzz",
+        "zip": "dlfubbrjcaujlqhftyztoogafrhmroytjehldmvmckbgzjn",
+        "address": "khmznoceilryveoujjbnocszpiuxbqlhvomzcuktqtfixryvknqtkqfyivqsvvggrpfxgbhoonxqrlmaemylhoxshgttozkhnfngaedrywgcjkeowqjkyhwxctkfjlggllvlcpjwspuwgbbvrfqsthbegvqxznapoenikkihclnombphiuqxnlfucobwrndicgsborkglejjqabyznridwdoismxpiftghirrzyqiydahqnswjoievuy",
+        "latitude": 543243672.204,
+        "longitude": 8.14965
     },
     "price": {
-        "currency": "",
-        "price_per_day": 74958.32687,
-        "per_day_minimum": 2,
-        "price_per_week": 1363.3,
-        "price_per_hour": 3.5705,
-        "per_hour_minimum": 28410984.5745,
-        "price_per_night": 29.0513,
-        "per_night_minimum": 89687.023122051,
-        "security_allowance": 213.7,
-        "price_per_multiple_days": 99146,
-        "per_multiple_days_minimum": 12024.74984,
-        "price_per_multiple_hours": 526219.52432877,
-        "per_multiple_hours_minimum": 158076,
-        "price_per_person": 0.1481,
-        "per_person_charge_type": 0,
-        "cancellation_refund_rate": 6.9387,
-        "cancellation_allowed_days": 3616.3,
-        "rental_terms": 259785.59334601
+        "currency": "k",
+        "price_per_day": 17737.26,
+        "per_day_minimum": 124648.73,
+        "price_per_week": 353162.30504,
+        "price_per_hour": 17547.87761563,
+        "per_hour_minimum": 128,
+        "price_per_night": 2734113.67846689,
+        "per_night_minimum": 3602.9861073,
+        "security_allowance": 5,
+        "price_per_multiple_days": 24533086.083,
+        "per_multiple_days_minimum": 93026663.20708762,
+        "price_per_multiple_hours": 7303.6824041,
+        "per_multiple_hours_minimum": 13005659,
+        "price_per_person": 8.97171648,
+        "per_person_charge_type": 6300731.9943,
+        "cancellation_refund_rate": 495.16,
+        "cancellation_allowed_days": 60496.6553,
+        "rental_terms": 2451.64
     },
     "trip_addons": [
         null
     ],
-    "publish": false
+    "publish": true
 };
 
 fetch(url, {
@@ -1531,7 +1755,7 @@ fetch(url, {
                 <input type="number"
                name="trip_id"
                data-endpoint="POSTapi-tour"
-               value="170.90563555"
+               value="671675.49"
                data-component="body" hidden>
     <br>
 
@@ -1543,7 +1767,7 @@ fetch(url, {
                 <input type="text"
                name="head_line"
                data-endpoint="POSTapi-tour"
-               value="bfwxebbhdyxznoacdpodxeipd"
+               value="kbjmkdffzvxfnrgmxyluldfatnuapgsmpqxakx"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1555,7 +1779,7 @@ fetch(url, {
                 <input type="text"
                name="description"
                data-endpoint="POSTapi-tour"
-               value="pnmvtlyhddjqtynxzdnwrdkjftknqnaprqdeiod"
+               value="uceawwultykvjzmnnsmrassxibrblvxnhlrnhafholudbtljwcnvurdjekqfrbgtcejinqlcijjohbcfyvfearbpjbephairltqvpasrrcxfjfcyyktfjvwbmkajtlcazexfdkosmnqyajyfergcaazrmmbubbznnpstkzrwrancezooefjsxgpecpsflzhzmmkbqqeqnbovpemioppthuwowgwmaklbxtdl"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 255 characters.</p>
@@ -1576,7 +1800,7 @@ fetch(url, {
                 <input type="number"
                name="categories.0.trip_category_id"
                data-endpoint="POSTapi-tour"
-               value="12.907043319"
+               value="387806.5"
                data-component="body" hidden>
     <br>
 
@@ -1637,7 +1861,7 @@ fetch(url, {
                 <input type="text"
                name="vessel.make_model"
                data-endpoint="POSTapi-tour"
-               value="ab"
+               value="dolores"
                data-component="body" hidden>
     <br>
 
@@ -1649,7 +1873,7 @@ fetch(url, {
                 <input type="text"
                name="vessel.length"
                data-endpoint="POSTapi-tour"
-               value="aut"
+               value="provident"
                data-component="body" hidden>
     <br>
 
@@ -1661,7 +1885,7 @@ fetch(url, {
                 <input type="text"
                name="vessel.year"
                data-endpoint="POSTapi-tour"
-               value="numquam"
+               value="in"
                data-component="body" hidden>
     <br>
 
@@ -1673,7 +1897,7 @@ fetch(url, {
                 <input type="number"
                name="vessel.capacity"
                data-endpoint="POSTapi-tour"
-               value="1550983.9937"
+               value="1392.6506"
                data-component="body" hidden>
     <br>
 
@@ -1685,7 +1909,7 @@ fetch(url, {
                 <input type="number"
                name="vessel.number_of_engines"
                data-endpoint="POSTapi-tour"
-               value="36049.727247"
+               value="4262.40941"
                data-component="body" hidden>
     <br>
 
@@ -1697,7 +1921,7 @@ fetch(url, {
                 <input type="number"
                name="vessel.engine_horsepower"
                data-endpoint="POSTapi-tour"
-               value="35445.5238"
+               value="234.85"
                data-component="body" hidden>
     <br>
 
@@ -1709,7 +1933,7 @@ fetch(url, {
                 <input type="text"
                name="vessel.engine_model"
                data-endpoint="POSTapi-tour"
-               value="id"
+               value="ullam"
                data-component="body" hidden>
     <br>
 
@@ -1747,7 +1971,7 @@ fetch(url, {
                 <input type="text"
                name="location.city"
                data-endpoint="POSTapi-tour"
-               value="xkwkwhgaytteotfowqpfpunntipikqlb"
+               value="qvvtsnvrlacivrzctaxgsudwceiymsz"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1759,7 +1983,7 @@ fetch(url, {
                 <input type="text"
                name="location.state"
                data-endpoint="POSTapi-tour"
-               value="jwd"
+               value="wcqwzpxixqhbjwxfwvuswcjagziuxlzpmduyvwhrylugqn"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1771,7 +1995,7 @@ fetch(url, {
                 <input type="text"
                name="location.country"
                data-endpoint="POSTapi-tour"
-               value="awqnguyfvgjrdaevrzwiqspxedfpyurgcviygkzsfrfm"
+               value="yrtcqidugsdnznhioyubdeqdnrzz"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1783,7 +2007,7 @@ fetch(url, {
                 <input type="text"
                name="location.zip"
                data-endpoint="POSTapi-tour"
-               value="gcetoqdrpidg"
+               value="dlfubbrjcaujlqhftyztoogafrhmroytjehldmvmckbgzjn"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 50 characters.</p>
@@ -1795,7 +2019,7 @@ fetch(url, {
                 <input type="text"
                name="location.address"
                data-endpoint="POSTapi-tour"
-               value="fapthyhdqmliocpzmvojiufysotclozdswvxygegmbwkuwlwqeiweaynwmdicutshkvkclwrgrrpiwwfjzrblfiuidcrqtqyldolovvmnqdyyenrrolsadkktzsjjlnukahuowskutrlotdunt"
+               value="khmznoceilryveoujjbnocszpiuxbqlhvomzcuktqtfixryvknqtkqfyivqsvvggrpfxgbhoonxqrlmaemylhoxshgttozkhnfngaedrywgcjkeowqjkyhwxctkfjlggllvlcpjwspuwgbbvrfqsthbegvqxznapoenikkihclnombphiuqxnlfucobwrndicgsborkglejjqabyznridwdoismxpiftghirrzyqiydahqnswjoievuy"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 255 characters.</p>
@@ -1807,7 +2031,7 @@ fetch(url, {
                 <input type="number"
                name="location.latitude"
                data-endpoint="POSTapi-tour"
-               value="449.46026"
+               value="543243672.204"
                data-component="body" hidden>
     <br>
 
@@ -1819,7 +2043,7 @@ fetch(url, {
                 <input type="number"
                name="location.longitude"
                data-endpoint="POSTapi-tour"
-               value="133768024.3867"
+               value="8.14965"
                data-component="body" hidden>
     <br>
 
@@ -1842,7 +2066,7 @@ fetch(url, {
                 <input type="text"
                name="price.currency"
                data-endpoint="POSTapi-tour"
-               value=""
+               value="k"
                data-component="body" hidden>
     <br>
 <p>Must not be greater than 5 characters.</p>
@@ -1854,7 +2078,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_day"
                data-endpoint="POSTapi-tour"
-               value="74958.32687"
+               value="17737.26"
                data-component="body" hidden>
     <br>
 
@@ -1866,7 +2090,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_day_minimum"
                data-endpoint="POSTapi-tour"
-               value="2"
+               value="124648.73"
                data-component="body" hidden>
     <br>
 
@@ -1878,7 +2102,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_week"
                data-endpoint="POSTapi-tour"
-               value="1363.3"
+               value="353162.30504"
                data-component="body" hidden>
     <br>
 
@@ -1890,7 +2114,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_hour"
                data-endpoint="POSTapi-tour"
-               value="3.5705"
+               value="17547.87761563"
                data-component="body" hidden>
     <br>
 
@@ -1902,7 +2126,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_hour_minimum"
                data-endpoint="POSTapi-tour"
-               value="28410984.5745"
+               value="128"
                data-component="body" hidden>
     <br>
 
@@ -1914,7 +2138,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_night"
                data-endpoint="POSTapi-tour"
-               value="29.0513"
+               value="2734113.6784669"
                data-component="body" hidden>
     <br>
 
@@ -1926,7 +2150,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_night_minimum"
                data-endpoint="POSTapi-tour"
-               value="89687.023122051"
+               value="3602.9861073"
                data-component="body" hidden>
     <br>
 
@@ -1938,7 +2162,7 @@ fetch(url, {
                 <input type="number"
                name="price.security_allowance"
                data-endpoint="POSTapi-tour"
-               value="213.7"
+               value="5"
                data-component="body" hidden>
     <br>
 
@@ -1950,7 +2174,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_multiple_days"
                data-endpoint="POSTapi-tour"
-               value="99146"
+               value="24533086.083"
                data-component="body" hidden>
     <br>
 
@@ -1962,7 +2186,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_multiple_days_minimum"
                data-endpoint="POSTapi-tour"
-               value="12024.74984"
+               value="93026663.207088"
                data-component="body" hidden>
     <br>
 
@@ -1974,7 +2198,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_multiple_hours"
                data-endpoint="POSTapi-tour"
-               value="526219.52432877"
+               value="7303.6824041"
                data-component="body" hidden>
     <br>
 
@@ -1986,7 +2210,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_multiple_hours_minimum"
                data-endpoint="POSTapi-tour"
-               value="158076"
+               value="13005659"
                data-component="body" hidden>
     <br>
 
@@ -1998,7 +2222,7 @@ fetch(url, {
                 <input type="number"
                name="price.price_per_person"
                data-endpoint="POSTapi-tour"
-               value="0.1481"
+               value="8.97171648"
                data-component="body" hidden>
     <br>
 
@@ -2010,7 +2234,7 @@ fetch(url, {
                 <input type="number"
                name="price.per_person_charge_type"
                data-endpoint="POSTapi-tour"
-               value="0"
+               value="6300731.9943"
                data-component="body" hidden>
     <br>
 
@@ -2022,7 +2246,7 @@ fetch(url, {
                 <input type="number"
                name="price.cancellation_refund_rate"
                data-endpoint="POSTapi-tour"
-               value="6.9387"
+               value="495.16"
                data-component="body" hidden>
     <br>
 
@@ -2034,7 +2258,7 @@ fetch(url, {
                 <input type="number"
                name="price.cancellation_allowed_days"
                data-endpoint="POSTapi-tour"
-               value="3616.3"
+               value="60496.6553"
                data-component="body" hidden>
     <br>
 
@@ -2046,7 +2270,7 @@ fetch(url, {
                 <input type="number"
                name="price.rental_terms"
                data-endpoint="POSTapi-tour"
-               value="259785.59334601"
+               value="2451.64"
                data-component="body" hidden>
     <br>
 
@@ -2069,7 +2293,7 @@ fetch(url, {
                 <input type="text"
                name="trip_addons.description"
                data-endpoint="POSTapi-tour"
-               value="delectus"
+               value="ipsam"
                data-component="body" hidden>
     <br>
 
@@ -2081,7 +2305,7 @@ fetch(url, {
                 <input type="number"
                name="trip_addons.price"
                data-endpoint="POSTapi-tour"
-               value="30.41"
+               value="920958967.4"
                data-component="body" hidden>
     <br>
 
@@ -2093,7 +2317,7 @@ fetch(url, {
                 <input type="text"
                name="trip_addons.currency"
                data-endpoint="POSTapi-tour"
-               value="enim"
+               value="neque"
                data-component="body" hidden>
     <br>
 
@@ -2142,28 +2366,28 @@ fetch(url, {
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"trip_id\": 35.4,
-    \"operator_status\": 26220.72738238,
-    \"duration_hour\": 22,
-    \"duration_minutes\": 82.468703,
-    \"overnight\": 2.09,
-    \"preferred_date\": \"2096-02-13\",
-    \"return_date\": \"2025-10-06\",
-    \"pick_up_time\": \"18:40\",
-    \"drop_off_time\": \"18:40\",
-    \"no_of_guest\": 16657065.814276524,
+    \"trip_id\": 10.12547298,
+    \"operator_status\": 4600.946,
+    \"duration_hour\": 7.3,
+    \"duration_minutes\": 41393846.3309621,
+    \"overnight\": 4321.37879,
+    \"preferred_date\": \"2105-11-06\",
+    \"return_date\": \"2109-07-15\",
+    \"pick_up_time\": \"14:36\",
+    \"drop_off_time\": \"14:36\",
+    \"no_of_guest\": 1.00369938,
     \"booking_addons\": [
         {
-            \"trip_addon_id\": 34470,
-            \"quantity\": 5161.04,
-            \"other_request\": \"minima\"
+            \"trip_addon_id\": 159369.054813188,
+            \"quantity\": 368862.274873,
+            \"other_request\": \"enim\"
         }
     ],
-    \"other_request\": \"omnis\",
+    \"other_request\": \"fugiat\",
     \"alternative_dates\": [
         {
-            \"preferred\": \"2110-09-17\",
-            \"return_date\": \"2048-03-22\"
+            \"preferred\": \"2034-04-28\",
+            \"return_date\": \"2077-09-30\"
         }
     ]
 }"
@@ -2181,28 +2405,28 @@ const headers = {
 };
 
 let body = {
-    "trip_id": 35.4,
-    "operator_status": 26220.72738238,
-    "duration_hour": 22,
-    "duration_minutes": 82.468703,
-    "overnight": 2.09,
-    "preferred_date": "2096-02-13",
-    "return_date": "2025-10-06",
-    "pick_up_time": "18:40",
-    "drop_off_time": "18:40",
-    "no_of_guest": 16657065.814276524,
+    "trip_id": 10.12547298,
+    "operator_status": 4600.946,
+    "duration_hour": 7.3,
+    "duration_minutes": 41393846.3309621,
+    "overnight": 4321.37879,
+    "preferred_date": "2105-11-06",
+    "return_date": "2109-07-15",
+    "pick_up_time": "14:36",
+    "drop_off_time": "14:36",
+    "no_of_guest": 1.00369938,
     "booking_addons": [
         {
-            "trip_addon_id": 34470,
-            "quantity": 5161.04,
-            "other_request": "minima"
+            "trip_addon_id": 159369.054813188,
+            "quantity": 368862.274873,
+            "other_request": "enim"
         }
     ],
-    "other_request": "omnis",
+    "other_request": "fugiat",
     "alternative_dates": [
         {
-            "preferred": "2110-09-17",
-            "return_date": "2048-03-22"
+            "preferred": "2034-04-28",
+            "return_date": "2077-09-30"
         }
     ]
 };
@@ -2264,7 +2488,7 @@ fetch(url, {
                 <input type="number"
                name="trip_id"
                data-endpoint="POSTapi-inquiry"
-               value="35.4"
+               value="10.12547298"
                data-component="body" hidden>
     <br>
 
@@ -2276,7 +2500,7 @@ fetch(url, {
                 <input type="number"
                name="operator_status"
                data-endpoint="POSTapi-inquiry"
-               value="26220.72738238"
+               value="4600.946"
                data-component="body" hidden>
     <br>
 
@@ -2288,7 +2512,7 @@ fetch(url, {
                 <input type="number"
                name="duration_hour"
                data-endpoint="POSTapi-inquiry"
-               value="22"
+               value="7.3"
                data-component="body" hidden>
     <br>
 
@@ -2300,7 +2524,7 @@ fetch(url, {
                 <input type="number"
                name="duration_minutes"
                data-endpoint="POSTapi-inquiry"
-               value="82.468703"
+               value="41393846.330962"
                data-component="body" hidden>
     <br>
 
@@ -2312,7 +2536,7 @@ fetch(url, {
                 <input type="number"
                name="overnight"
                data-endpoint="POSTapi-inquiry"
-               value="2.09"
+               value="4321.37879"
                data-component="body" hidden>
     <br>
 
@@ -2324,7 +2548,7 @@ fetch(url, {
                 <input type="text"
                name="preferred_date"
                data-endpoint="POSTapi-inquiry"
-               value="2096-02-13"
+               value="2105-11-06"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date. Must be a date after or equal to <code>tomorrow</code>.</p>
@@ -2336,7 +2560,7 @@ fetch(url, {
                 <input type="text"
                name="return_date"
                data-endpoint="POSTapi-inquiry"
-               value="2025-10-06"
+               value="2109-07-15"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date. Must be a date after or equal to <code>preferred_date</code>.</p>
@@ -2348,7 +2572,7 @@ fetch(url, {
                 <input type="text"
                name="pick_up_time"
                data-endpoint="POSTapi-inquiry"
-               value="18:40"
+               value="14:36"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date in the format <code>H:i</code>.</p>
@@ -2360,7 +2584,7 @@ fetch(url, {
                 <input type="text"
                name="drop_off_time"
                data-endpoint="POSTapi-inquiry"
-               value="18:40"
+               value="14:36"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date in the format <code>H:i</code>.</p>
@@ -2372,7 +2596,7 @@ fetch(url, {
                 <input type="number"
                name="no_of_guest"
                data-endpoint="POSTapi-inquiry"
-               value="16657065.814277"
+               value="1.00369938"
                data-component="body" hidden>
     <br>
 
@@ -2393,7 +2617,7 @@ fetch(url, {
                 <input type="number"
                name="booking_addons.0.trip_addon_id"
                data-endpoint="POSTapi-inquiry"
-               value="34470"
+               value="159369.05481319"
                data-component="body" hidden>
     <br>
 
@@ -2405,7 +2629,7 @@ fetch(url, {
                 <input type="number"
                name="booking_addons.0.quantity"
                data-endpoint="POSTapi-inquiry"
-               value="5161.04"
+               value="368862.274873"
                data-component="body" hidden>
     <br>
 
@@ -2417,7 +2641,7 @@ fetch(url, {
                 <input type="text"
                name="booking_addons.0.other_request"
                data-endpoint="POSTapi-inquiry"
-               value="minima"
+               value="enim"
                data-component="body" hidden>
     <br>
 
@@ -2431,7 +2655,7 @@ fetch(url, {
                 <input type="text"
                name="other_request"
                data-endpoint="POSTapi-inquiry"
-               value="omnis"
+               value="fugiat"
                data-component="body" hidden>
     <br>
 
@@ -2452,7 +2676,7 @@ fetch(url, {
                 <input type="text"
                name="alternative_dates.0.preferred"
                data-endpoint="POSTapi-inquiry"
-               value="2110-09-17"
+               value="2034-04-28"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date. Must be a date after or equal to <code>tomorrow</code>.</p>
@@ -2464,7 +2688,7 @@ fetch(url, {
                 <input type="text"
                name="alternative_dates.0.return_date"
                data-endpoint="POSTapi-inquiry"
-               value="2048-03-22"
+               value="2077-09-30"
                data-component="body" hidden>
     <br>
 <p>Must be a valid date. Must be a date after or equal to <code>alternative_dates.*.preferred</code>.</p>
@@ -2486,14 +2710,14 @@ fetch(url, {
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/inquiry/esse" \
+    --get "http://localhost/api/inquiry/fuga" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/inquiry/esse"
+    "http://localhost/api/inquiry/fuga"
 );
 
 const headers = {
@@ -2574,7 +2798,7 @@ access-control-allow-origin: http://localhost:3000
                 <input type="text"
                name="inquiry"
                data-endpoint="GETapi-inquiry--inquiry-"
-               value="esse"
+               value="fuga"
                data-component="url" hidden>
     <br>
 <p>The inquiry.</p>
@@ -5193,7 +5417,7 @@ access-control-allow-origin: http://localhost:3000
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"tour\": 180191928
+    \"tour\": 40830.12
 }"
 </code></pre></div>
 
@@ -5209,7 +5433,7 @@ const headers = {
 };
 
 let body = {
-    "tour": 180191928
+    "tour": 40830.12
 };
 
 fetch(url, {
@@ -5292,7 +5516,7 @@ access-control-allow-origin: http://localhost:3000
                 <input type="number"
                name="tour"
                data-endpoint="GETapi-dropdown-trip_addon"
-               value="180191928"
+               value="40830.12"
                data-component="body" hidden>
     <br>
 

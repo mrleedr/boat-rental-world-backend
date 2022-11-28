@@ -30,7 +30,7 @@ class User extends Authenticatable
                     ->where('users.user_id', $this->user_id)
                     ->get()->toArray();
     }
-
+    
     /**
      * The attributes that should be hidden for serialization.
      *
