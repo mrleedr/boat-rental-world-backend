@@ -32,6 +32,7 @@ Route::post('/user', [UserController::class, 'updateUser']);
 /* Tour Routes */
 Route::post('/tours', [TripController::class, 'getPublishedTours']);
 Route::get('/tours/{tour}', [TripController::class, 'showTrip']);
+Route::get('/comments', [TripController::class, 'showComments']);
 
 /* Protected Routes */
 Route::group(['middleware' => ['auth:sanctum']], function(){
