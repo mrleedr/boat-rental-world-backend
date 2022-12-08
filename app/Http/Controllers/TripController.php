@@ -89,6 +89,37 @@ class TripController extends Controller
         return $this->success($response);
     }
 
+     /**
+     * Show the details of a tour
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function showComments(Request $request)
+    {
+        $tour_id = $request->get('tour'); 
+        $page = $request->get('page'); 
+        $perPage = $request->get('perPage') ?? 5;  
+
+        $tour = Trip::where('trip_id', $tour_id)->first();
+      
+        if($tour && $tour->trip_status_id !== 2){
+            return $this->error('Tour is not published yet', 'Invalid Tour Request', 400);
+        }elseif(!$tour){
+            return $this->error('Tour is not existing.', 'Invalid Tour Request', 400);
+        }
+        
+        $comments = DB::table('client_review')
+                    ->join('trip_link_client_review', 'client_review.client_review_id', 'trip_link_client_review.client_review_id')
+                    ->where('trip_link_client_review.trip_id', $tour_id)
+                    ->where('client_review.show', '>', 0)
+                    ->orderBy('client_review.comment_date','desc')
+                    ->get()
+                    ->collect();
+
+        $response = $comments->paginate($perPage,count($comments),$page);
+        return $this->success($response);
+    }
+
 
     /**
      * Create / Update a Tour

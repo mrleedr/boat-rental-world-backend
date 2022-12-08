@@ -25,12 +25,14 @@ class StoreUserRequest extends FormRequest
     public function rules()
     {
         return [
-            'first_name' => ['required', 'string', 'max:255'],
-            'last_name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'max:255', 'unique:users'],
+            'user_id' => ['numeric'],
+            'first_name' => ['required', 'string', 'max:50'],
+            'last_name' => ['required', 'string', 'max:50'],
+            'email' => ['required', 'string', 'max:50', 'unique:users'],
+            'phone' => ['required', 'string', 'max:50', 'unique:users'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
-            'language_spoken' => ['required','array'],
-            'language_spoken.*' => ['numeric'],
+            // 'language_spoken' => ['required','array'],
+            // 'language_spoken.*' => ['numeric'],
             'currency_display' => ['required', 'string', 'max:10'],
             'marketing_consent' => ['required', 'boolean'],
             'timezone' => ['required', 'string', 'max:50'],

@@ -17,10 +17,11 @@ class UserResource extends JsonResource
         return [
             'id' => $this->user_id,
             'email' => $this->email,
+            'phone' => $this->phone,
             'first_name' => $this->first_name,
-            'last_name' =>  $this->currency_display,
+            'last_name' =>  $this->last_name,
             'currency_display' =>  $this->currency_display,
-            'status' =>  $this->currency_display,
+            'status' =>  $this->status,
             'description' =>  $this->description,
             'marketing_consent' => $this->marketing_consent ? true : false,
             'language_spoken' => $this->language_spoken(),

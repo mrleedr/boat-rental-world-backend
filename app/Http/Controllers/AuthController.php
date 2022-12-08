@@ -19,6 +19,7 @@ use Illuminate\Validation\ValidationException;
 use Laravel\Socialite\Facades\Socialite;
 use GuzzleHttp\Exception\ClientException;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 class AuthController extends Controller
 {
@@ -36,7 +37,7 @@ class AuthController extends Controller
         return $this->success([
             'user' => $response,
             'token' => $user->createToken('API Token of' . $user->name)->plainTextToken
-        ]);
+        ], 'Successfully Login');
     }
 
     public function register(StoreUserRequest $request)
@@ -53,17 +54,13 @@ class AuthController extends Controller
         $user->timezone =  $request->timezone;
         $user->save();
 
-        if(!empty($request->language_spoken)){
-            foreach($request->language_spoken as $item){
-                /* link it to user */
-                DB::table('user_link_language_spoken')->insert(
-                    [
-                        'user_id'=> $user->user_id, 
-                        'language_spoken_id' => $item,
-                    ]
-                );
-            }
-        }
+        /* default to english */
+        DB::table('user_link_language_spoken')->insert(
+            [
+                'user_id'=> $user->user_id, 
+                'language_spoken_id' => 15,
+            ]
+        );
         
         $response = new UserResource($user);
 
@@ -101,13 +98,16 @@ class AuthController extends Controller
                     'password' => Hash::make($request->password),
                     'remember_token' => Str::random(60),
                 ])->save();
-
-                event(new PasswordReset($user));
             }
         );
 
         if ($status == Password::PASSWORD_RESET) {
-            return $this->success(null,'Succesfully reset the password.');
+            $user = User::where('email', $request->email)->first();
+            $response = new UserResource($user);
+            return $this->success([
+                'user' => $response,
+                'token' => $user->createToken('API Token of ' . $user->first_name)->plainTextToken
+            ], 'Your password has been successfully reset.');
         }
 
         throw ValidationException::withMessages([
@@ -147,6 +147,7 @@ class AuthController extends Controller
         }
 
         $user = User::where('email',$socialiteUser->user['email'])->first();
+
         if(!$user){
             $user = new User;
             $user->first_name =  $socialiteUser->user['given_name'];
@@ -160,7 +161,7 @@ class AuthController extends Controller
 
         return $this->success([
             'user' => $response,
-            'token' => $user->createToken('API Token of' . $user->first_name)->plainTextToken
+            'token' => $user->createToken('API Token of' . $user->first_name)->plainTextToken,
         ]);
 }
 }
